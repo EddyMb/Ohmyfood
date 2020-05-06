@@ -1,0 +1,37 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: rgb(255, 255, 254);
+
+}
+
+header 
+{
+    height: 100px;
+    background-color:rgb(118, 209, 164);
+}
+
+header h1
+{
+    color: #ecba14;
+    font-size: 50px;
+    text-align: center;
+    margin-top:30px ;
+}
+
+#container{
+
+    display: flex;
+}
+
+.firts-menu
+{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(230, 197, 202);
+}
