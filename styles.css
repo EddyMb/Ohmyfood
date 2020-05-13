@@ -1,26 +1,144 @@
 * {
-  margin: 0;
-  padding: 0; }
+  padding: 0;
+  margin: 0; }
 
 body {
-  background: #fffffe; }
+  background-color: #fff; }
 
+/* HEADER */
 header {
   height: 100px;
-  background-color: #76d1a4; }
+  background-color: #579c87; }
 
 header h1 {
-  color: #ecba14;
-  font-size: 50px;
   text-align: center;
-  margin-top: 30px; }
+  font-size: 45px;
+  padding-top: 25px;
+  color: #fdcb46; }
 
-#container {
-  display: flex; }
+/* MAIN BLOC */
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%; }
 
-.firts-menu {
-  height: 400px;
-  width: 300px;
-  background-color: #e6c5ca; }
+/* MENU */
+.note {
+  height: 635px;
+  width: 450px;
+  background-color: #fcdfdb;
+  margin-right: 60px; }
+
+.note-title {
+  text-align: center;
+  margin-top: 170px; }
+
+.note-title .fa-music {
+  color: red;
+  font-size: 60px; }
+
+.note-title h3 a {
+  font-size: 45px;
+  text-decoration: none; }
+
+.note-title h4 {
+  font-size: 30px;
+  margin-bottom: 20px; }
+
+.chic {
+  height: 635px;
+  width: 450px;
+  background-color: #fff5fe; }
+
+.chic-title {
+  text-align: center;
+  margin-top: 200px; }
+
+.chic-title h4 {
+  font-size: 25px;
+  margin-bottom: 20px; }
+
+.chic-title h3 a {
+  font-size: 45px;
+  text-decoration: none; }
+
+.delice {
+  height: 635px;
+  width: 450px;
+  background-color: #f9f9f9;
+  margin-right: 30px;
+  margin-top: 15px; }
+
+.delice-title {
+  text-align: center;
+  margin-top: 220px; }
+
+.delice-title h4 {
+  font-size: 40px;
+  margin-bottom: 35px; }
+
+.delice-title h3 a {
+  font-size: 45px;
+  text-decoration: none; }
+
+.palette {
+  height: 635px;
+  width: 450px;
+  background-color: #fdfffd;
+  margin-left: 30px;
+  margin-top: 15px; }
+
+.palette-title {
+  text-align: center;
+  margin-top: 225px; }
+
+.palette-title h4 {
+  font-size: 35px;
+  margin-bottom: 32px; }
+
+.palette-title h3 a {
+  font-size: 45px;
+  text-decoration: none; }
+
+.prochainement {
+  text-align: center;
+  margin-top: 50px; }
+
+.prochainement h3 a {
+  color: #fdcb46;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 300; }
+
+.btn {
+  background-color: #579c87;
+  padding: 12px;
+  border-radius: 10px; }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+  height: 70px;
+  background-color: #579c87; }
+
+footer .legale {
+  padding: 15px; }
+
+footer .legale a {
+  text-decoration: none;
+  color: #fdcb46;
+  margin: 25px;
+  font-size: 25px; }
+
+footer .contact {
+  font-size: 25px;
+  margin-right: 10px;
+  padding: 15px; }
+
+footer .contact a {
+  text-decoration: none;
+  color: #fdcb46; }
 
 /*# sourceMappingURL=styles.css.map */
