@@ -1,3 +1,14 @@
+/*
+font-family: 'Croissant One', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Devonshire', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Ma Shan Zheng', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sriracha', cursive;
+*/
 * {
   padding: 0;
   margin: 0; }
@@ -14,7 +25,8 @@ header h1 {
   text-align: center;
   font-size: 45px;
   padding-top: 25px;
-  color: #fdcb46; }
+  color: #fdcb46;
+  font-family: 'Roboto', sans-serif; }
 
 /* MAIN BLOC */
 .container {
@@ -43,8 +55,9 @@ header h1 {
   text-decoration: none; }
 
 .note-title h4 {
-  font-size: 30px;
-  margin-bottom: 20px; }
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-family: 'Ma Shan Zheng', cursive; }
 
 .chic {
   height: 635px;
@@ -57,7 +70,8 @@ header h1 {
 
 .chic-title h4 {
   font-size: 25px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  font-family: 'Croissant One', cursive; }
 
 .chic-title h3 a {
   font-size: 45px;
@@ -76,7 +90,8 @@ header h1 {
 
 .delice-title h4 {
   font-size: 40px;
-  margin-bottom: 35px; }
+  margin-bottom: 35px;
+  font-family: 'Dancing Script', cursive; }
 
 .delice-title h3 a {
   font-size: 45px;
@@ -95,7 +110,8 @@ header h1 {
 
 .palette-title h4 {
   font-size: 35px;
-  margin-bottom: 32px; }
+  margin-bottom: 32px;
+  font-family: 'Kaushan Script', cursive; }
 
 .palette-title h3 a {
   font-size: 45px;
