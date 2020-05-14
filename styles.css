@@ -8,6 +8,11 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Noto Serif', serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Sriracha', cursive;
+#3c1219
+#c77412
+#0887fb
+#72bf56
+#f15861 music
 */
 * {
   padding: 0;
@@ -20,13 +25,13 @@ body {
 header {
   height: 100px;
   background-color: #579c87; }
-
-header h1 {
-  text-align: center;
-  font-size: 45px;
-  padding-top: 25px;
-  color: #fdcb46;
-  font-family: 'Roboto', sans-serif; }
+  header h1 {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 25px;
+    color: #fdcb46;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: -3px; }
 
 /* MAIN BLOC */
 .container {
@@ -37,124 +42,129 @@ header h1 {
 
 /* MENU */
 .note {
-  height: 635px;
-  width: 450px;
+  height: 710px;
+  width: 500px;
   background-color: #fcdfdb;
-  margin-right: 60px; }
-
-.note-title {
-  text-align: center;
-  margin-top: 170px; }
-
-.note-title .fa-music {
-  color: red;
-  font-size: 60px; }
-
-.note-title h3 a {
-  font-size: 45px;
-  text-decoration: none; }
-
-.note-title h4 {
-  font-size: 35px;
-  margin-bottom: 20px;
-  font-family: 'Ma Shan Zheng', cursive; }
+  margin-right: 60px;
+  box-shadow: 4px 4px 13px gray; }
+  .note .note-title {
+    text-align: center;
+    margin-top: 250px; }
+  .note .fa-music {
+    color: red;
+    font-size: 60px; }
+  .note h3 a {
+    font-size: 45px;
+    text-decoration: none;
+    color: #3c1219; }
+  .note h4 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    font-family: 'Ma Shan Zheng', cursive;
+    color: #3c1219; }
 
 .chic {
-  height: 635px;
-  width: 450px;
-  background-color: #fff5fe; }
-
-.chic-title {
-  text-align: center;
-  margin-top: 200px; }
-
-.chic-title h4 {
-  font-size: 25px;
-  margin-bottom: 20px;
-  font-family: 'Croissant One', cursive; }
-
-.chic-title h3 a {
-  font-size: 45px;
-  text-decoration: none; }
+  height: 710px;
+  width: 500px;
+  background-color: #fff5fe;
+  box-shadow: 4px 4px 13px gray; }
+  .chic .chic-title {
+    text-align: center;
+    margin-top: 280px; }
+  .chic h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Croissant One', cursive;
+    background: linear-gradient(to right, #c77412, #964b6e, #470979, #490b7d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; }
+  .chic h3 a {
+    font-size: 45px;
+    text-decoration: none;
+    color: #c77412; }
 
 .delice {
-  height: 635px;
-  width: 450px;
+  height: 710px;
+  width: 500px;
   background-color: #f9f9f9;
   margin-right: 30px;
-  margin-top: 15px; }
-
-.delice-title {
-  text-align: center;
-  margin-top: 220px; }
-
-.delice-title h4 {
-  font-size: 40px;
-  margin-bottom: 35px;
-  font-family: 'Dancing Script', cursive; }
-
-.delice-title h3 a {
-  font-size: 45px;
-  text-decoration: none; }
+  margin-top: 15px;
+  box-shadow: 4px 4px 13px gray; }
+  .delice .delice-title {
+    text-align: center;
+    margin-top: 270px; }
+  .delice h4 {
+    font-size: 40px;
+    margin-bottom: 35px;
+    font-family: 'Dancing Script', cursive; }
+  .delice h3 a {
+    font-size: 45px;
+    text-decoration: none;
+    color: #0887fb; }
 
 .palette {
-  height: 635px;
-  width: 450px;
+  height: 710px;
+  width: 500px;
   background-color: #fdfffd;
   margin-left: 30px;
-  margin-top: 15px; }
+  margin-top: 15px;
+  box-shadow: 4px 4px 13px  gray; }
+  .palette .palette-title {
+    text-align: center;
+    margin-top: 270px; }
+  .palette h4 {
+    font-size: 35px;
+    margin-bottom: 32px;
+    font-family: 'Kaushan Script', cursive;
+    background: linear-gradient(to right, #48c650, #48c650, #8ad78f);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; }
+  .palette h3 a {
+    font-size: 45px;
+    text-decoration: none;
+    color: #72bf56; }
 
-.palette-title {
-  text-align: center;
-  margin-top: 225px; }
-
-.palette-title h4 {
-  font-size: 35px;
-  margin-bottom: 32px;
-  font-family: 'Kaushan Script', cursive; }
-
-.palette-title h3 a {
-  font-size: 45px;
-  text-decoration: none; }
-
+/* PROCHAINEMENT BUTTON*/
 .prochainement {
   text-align: center;
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-bottom: 100px; }
+  .prochainement h3 a {
+    color: #fdcb46;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 2px; }
+  .prochainement .btn {
+    background-color: #579c87;
+    padding: 12px;
+    border-radius: 10px; }
 
-.prochainement h3 a {
-  color: #fdcb46;
-  text-decoration: none;
-  font-size: 25px;
-  font-weight: 300; }
-
-.btn {
-  background-color: #579c87;
-  padding: 12px;
-  border-radius: 10px; }
-
+/* FOOTER*/
 footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 45px;
-  height: 70px;
-  background-color: #579c87; }
-
-footer .legale {
-  padding: 15px; }
-
-footer .legale a {
-  text-decoration: none;
-  color: #fdcb46;
-  margin: 25px;
-  font-size: 25px; }
-
-footer .contact {
-  font-size: 25px;
-  margin-right: 10px;
-  padding: 15px; }
-
-footer .contact a {
-  text-decoration: none;
-  color: #fdcb46; }
+  margin-top: 60px;
+  height: 60px;
+  background-color: #579c87;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+  footer .legale {
+    padding: 15px; }
+  footer .legale a {
+    text-decoration: none;
+    color: #fdcb46;
+    margin: 25px;
+    font-size: 25px; }
+  footer .contact {
+    font-size: 25px;
+    margin-right: 10px;
+    padding: 15px; }
+  footer .contact a {
+    text-decoration: none;
+    color: #fdcb46; }
 
 /*# sourceMappingURL=styles.css.map */
