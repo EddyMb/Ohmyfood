@@ -19,7 +19,7 @@ font-family: 'Sriracha', cursive;
   margin: 0; }
 
 body {
-  background-color: #fff; }
+  background-color: white; }
 
 /* HEADER */
 header {
@@ -74,10 +74,7 @@ header {
   .chic h4 {
     font-size: 30px;
     margin-bottom: 20px;
-    font-family: 'Croissant One', cursive;
-    background: linear-gradient(to right, #c77412, #964b6e, #470979, #490b7d);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text; }
+    font-family: 'Croissant One', cursive; }
   .chic h3 a {
     font-size: 45px;
     text-decoration: none;
@@ -115,10 +112,7 @@ header {
   .palette h4 {
     font-size: 35px;
     margin-bottom: 32px;
-    font-family: 'Kaushan Script', cursive;
-    background: linear-gradient(to right, #48c650, #48c650, #8ad78f);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text; }
+    font-family: 'Kaushan Script', cursive; }
   .palette h3 a {
     font-size: 45px;
     text-decoration: none;
@@ -166,9 +160,5 @@ footer {
   footer .contact a {
     text-decoration: none;
     color: #fdcb46; }
-
-.note-menu1 {
-  color: red;
-  font-size: 50px; }
 
 /*# sourceMappingURL=styles.css.map */
