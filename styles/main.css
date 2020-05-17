@@ -1,0 +1,154 @@
+/* HEADER */
+header {
+  height: 70px; }
+  header h1, header a {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 10px;
+    color: #fdcb46;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: -3px;
+    text-decoration: none; }
+
+/* FOOTER*/
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+  footer .legale {
+    padding: 15px; }
+  footer .legale a {
+    text-decoration: none;
+    color: #fdcb46;
+    margin: 25px;
+    font-size: 25px; }
+  footer .contact {
+    font-size: 25px;
+    margin-right: 10px;
+    padding: 15px; }
+  footer a {
+    text-decoration: none;
+    color: #fdcb46; }
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%; }
+
+.note {
+  background-color: #fcdfdb;
+  margin-right: 60px; }
+  .note .note-title {
+    text-align: center;
+    margin-top: 130px; }
+  .note .fa-music {
+    color: red;
+    font-size: 60px; }
+  .note h3 a {
+    font-size: 40px;
+    text-decoration: none; }
+  .note h4 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family: 'Ma Shan Zheng', cursive; }
+
+.chic {
+  background-color: #fff5fe; }
+  .chic .chic-title {
+    text-align: center;
+    margin-top: 200px; }
+  .chic h4 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: 'Croissant One', cursive; }
+  .chic h3 a {
+    font-size: 40px;
+    text-decoration: none; }
+
+.delice {
+  background-color: #f9f9f9;
+  margin-right: 30px;
+  margin-top: 15px; }
+  .delice .delice-title {
+    text-align: center;
+    margin-top: 180px; }
+  .delice h4 {
+    font-size: 35px;
+    margin-bottom: 35px;
+    font-family: 'Dancing Script', cursive; }
+  .delice h3 a {
+    font-size: 40px;
+    text-decoration: none; }
+
+.palette {
+  background-color: #fdfffd;
+  margin-left: 30px;
+  margin-top: 15px; }
+  .palette .palette-title {
+    text-align: center;
+    margin-top: 180px; }
+  .palette h4 {
+    font-size: 30px;
+    margin-bottom: 32px;
+    font-family: 'Kaushan Script', cursive; }
+  .palette h3 a {
+    font-size: 40px;
+    text-decoration: none; }
+
+.prochainement {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px; }
+  .prochainement h3 a {
+    color: #fdcb46;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 300; }
+  .prochainement .btn {
+    padding: 12px;
+    border-radius: 10px; }
+
+footer {
+  background-color: #579c87; }
+
+header {
+  background-color: #579c87; }
+
+.btn {
+  background-color: #579c87; }
+
+.note {
+  width: 350px;
+  height: 500px;
+  box-shadow: 3px 3px 14px gray; }
+
+.chic {
+  width: 350px;
+  height: 500px;
+  box-shadow: 3px 3px 14px gray; }
+
+.delice {
+  width: 350px;
+  height: 500px;
+  box-shadow: 3px 3px 14px gray; }
+
+.palette {
+  width: 350px;
+  height: 500px;
+  box-shadow: 3px 3px 14px gray; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #fff; }
+
+/*# sourceMappingURL=main.css.map */

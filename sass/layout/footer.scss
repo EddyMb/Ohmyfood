@@ -1,0 +1,36 @@
+/* FOOTER*/
+footer 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+
+  .legale 
+  {
+    padding: 15px; 
+  }
+  .legale a
+  {
+    text-decoration: none;
+    color: #fdcb46;
+    margin: 25px;
+    font-size: 25px;
+  }
+  .contact 
+  {
+    font-size: 25px;
+    margin-right: 10px;
+    padding: 15px; 
+  }
+  a 
+  {
+    text-decoration: none;
+    color: #fdcb46; 
+  }
+}

@@ -1,0 +1,106 @@
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.note
+{  
+    background-color: #fcdfdb;
+    margin-right: 60px;
+
+    .note-title
+   {
+    text-align: center;
+    margin-top:130px;
+   }
+    .fa-music
+   {
+    color:red;
+    font-size: 60px;
+   }
+    h3 a
+   {
+    font-size: 40px;
+    text-decoration: none; 
+   }
+    h4
+   {
+    font-size: 35px;
+    margin-bottom: 20px; 
+    font-family: 'Ma Shan Zheng', cursive; 
+   }
+}
+
+.chic
+{  
+    background-color:#fff5fe; 
+   
+    .chic-title
+   {
+    text-align: center;
+    margin-top:200px;
+   }
+    h4
+   {
+    font-size: 25px;
+    margin-bottom: 20px; 
+    font-family: 'Croissant One', cursive;
+   }
+    h3 a
+   {
+    font-size: 40px;
+    text-decoration: none;
+   }
+}
+
+.delice
+{
+    background-color:#f9f9f9;
+    margin-right: 30px;
+    margin-top: 15px;   
+
+    .delice-title
+   {
+    text-align: center;
+    margin-top:180px; 
+   }
+    h4
+   {
+    font-size: 35px;
+    margin-bottom: 35px;
+    font-family: 'Dancing Script', cursive;  
+   }
+    h3 a
+   {
+    font-size: 40px;
+    text-decoration: none;  
+   }
+}
+
+.palette
+{
+    background-color: #fdfffd;
+    margin-left: 30px;
+    margin-top: 15px;  
+   
+    .palette-title
+   {
+    text-align: center;
+    margin-top:180px;
+   }
+    h4
+   {
+    font-size: 30px;
+    margin-bottom: 32px;
+    font-family: 'Kaushan Script', cursive;
+   }
+    h3 a
+   {
+    font-size: 40px; 
+    text-decoration: none;  
+   }
+}
