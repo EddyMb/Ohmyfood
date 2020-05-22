@@ -1,12 +1,29 @@
+
+@mixin linear-gradient($degrees, $color-one:#72bf56, $color-two:rgb(133, 187, 144)) {
+    color: $color-one;
+    color: $color-two;
+    background: -webkit-linear-gradient($degrees, $color-one 0%, $color-two 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+  }
+
+  @mixin linear-gradient($degrees, $color-one:#0887fb, $color-two:rgb(115, 168, 211)) {
+    color: $color-one;
+    color: $color-two;
+    background: -webkit-linear-gradient($degrees, $color-one 0%, $color-two 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+  }
+  
+
+
 @mixin responsive($breakpoint) {
     @if $breakpoint == phone {
         @media only screen and (max-width:768px) {@content};
     }
     
-    @if $breakpoint == tab-port {
-        @media only screen and (max-width:768px) {@content};
-    }
-
     @if $breakpoint == lap-top {
         @media only screen and (max-width:992px) {@content};
     }
@@ -15,3 +32,9 @@
         @media only screen and (max-width:1200px) {@content}
     }
 }
+
+
+
+
+
+

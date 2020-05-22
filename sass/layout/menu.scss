@@ -1,16 +1,15 @@
 
 
-
-
 *
 {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body
 {
-  background-color: #fff;
+    background-color: #fff;
 }
 .container
 {
@@ -28,6 +27,9 @@ body
 {  
     background-color: #fcdfdb;
     margin-right: 30px;
+    width:$widthMenu;
+    height:$heightMenu;
+    box-shadow:$shadow;
 
     @include responsive(phone){
      margin-left: 40px;   
@@ -50,12 +52,14 @@ body
    {
     font-size: 40px;
     text-decoration: none; 
+    color:#3d1319;
    }
     h4
    {
     font-size: 35px;
     margin-bottom: 20px; 
-    font-family: 'Ma Shan Zheng', cursive; 
+    font-family: 'Devonshire', cursive; 
+    color:#3d1319;
    }
 }
 
@@ -63,6 +67,9 @@ body
 {  
     background-color:#fff5fe; 
     margin-left: 30px;
+    width:$widthMenu;
+    height:$heightMenu;
+    box-shadow:$shadow;
 
     @include responsive(phone){
         margin-left: 40px;   
@@ -85,6 +92,7 @@ body
    {
     font-size: 40px;
     text-decoration: none;
+    color: #c77412;
    }
 }
 
@@ -92,7 +100,10 @@ body
 {
     background-color:#f9f9f9;
     margin-right: 30px;
-    margin-top: 15px;  
+    margin-top: 15px;
+    width:$widthMenu;
+    height:$heightMenu;
+    box-shadow:$shadow;  
     
     @include responsive(phone){
         margin-left: 40px;   
@@ -110,12 +121,18 @@ body
    {
     font-size: 35px;
     margin-bottom: 35px;
-    font-family: 'Dancing Script', cursive;  
+    font-family: 'Dancing Script', cursive;
+    @include linear-gradient(145deg, $color-one:#0887fb, $color-two:rgb(115, 168, 211));
+
+  
    }
+
     h3 a
    {
     font-size: 40px;
-    text-decoration: none;  
+    text-decoration: none;
+    color: #0887fb;  
+    font-family: 'sriracha';
    }
 }
 
@@ -123,14 +140,16 @@ body
 {
     background-color: #fdfffd;
     margin-left: 30px;
-    margin-top: 15px;  
+    margin-top: 15px;
+    width:$widthMenu;
+    height:$heightMenu;
+    box-shadow:$shadow;  
 
     @include responsive(phone){
         margin-left: 40px;   
         margin-right: 40px;
        }
        
-   
     .palette-title
    {
     text-align: center;
@@ -140,11 +159,17 @@ body
    {
     font-size: 30px;
     margin-bottom: 32px;
-    font-family: 'Kaushan Script', cursive;
+    font-family:'kaushan script', cursive;
+
+    @include linear-gradient( 145deg, $color-one:#72bf56, $color-two:rgb(133, 187, 144));
+
+    
    }
     h3 a
    {
     font-size: 40px; 
-    text-decoration: none;  
+    text-decoration: none; 
+    color: #72bf56; 
+    font-family: 'sriracha';
    }
 }

@@ -1,11 +1,12 @@
 
+@import 'utils/variables';
 @import 'utils/mixins';
 @import 'layout/header';
 @import 'layout/footer';
-@import 'layout/container';
+@import 'layout/menu';
 @import 'composants/button';
-@import 'utils/variables';
 @import 'pages/mention';
+@import 'layout/lanote';
 
 
 

@@ -1,13 +1,14 @@
 /* HEADER */
 header {
-  height: 70px; }
+  height: 90px;
+  background-color: #579c87; }
   header h1, header a {
     text-align: center;
-    font-size: 45px;
+    font-size: 53px;
     padding-top: 10px;
     color: #fdcb46;
     font-family: 'Roboto', sans-serif;
-    letter-spacing: -3px;
+    letter-spacing: -2px;
     text-decoration: none; }
 
 /* FOOTER*/
@@ -20,7 +21,8 @@ footer {
   position: fixed;
   bottom: 0;
   left: 0;
-  right: 0; }
+  right: 0;
+  background-color: #579c87; }
   footer .legale {
     padding: 15px; }
   footer .legale a {
@@ -38,7 +40,8 @@ footer {
 
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  box-sizing: border-box; }
 
 body {
   background-color: #fff; }
@@ -54,7 +57,10 @@ body {
 
 .note {
   background-color: #fcdfdb;
-  margin-right: 30px; }
+  margin-right: 30px;
+  width: 350px;
+  height: 500px;
+  box-shadow: 3px 3px 14px gray; }
   @media only screen and (max-width: 768px) {
     .note {
       margin-left: 40px;
@@ -68,15 +74,20 @@ body {
     font-size: 30px; }
   .note h3 a {
     font-size: 40px;
-    text-decoration: none; }
+    text-decoration: none;
+    color: #3d1319; }
   .note h4 {
     font-size: 35px;
     margin-bottom: 20px;
-    font-family: 'Ma Shan Zheng', cursive; }
+    font-family: 'Devonshire', cursive;
+    color: #3d1319; }
 
 .chic {
   background-color: #fff5fe;
-  margin-left: 30px; }
+  margin-left: 30px;
+  width: 350px;
+  height: 500px;
+  box-shadow: 3px 3px 14px gray; }
   @media only screen and (max-width: 768px) {
     .chic {
       margin-left: 40px;
@@ -90,12 +101,16 @@ body {
     font-family: 'Croissant One', cursive; }
   .chic h3 a {
     font-size: 40px;
-    text-decoration: none; }
+    text-decoration: none;
+    color: #c77412; }
 
 .delice {
   background-color: #f9f9f9;
   margin-right: 30px;
-  margin-top: 15px; }
+  margin-top: 15px;
+  width: 350px;
+  height: 500px;
+  box-shadow: 3px 3px 14px gray; }
   @media only screen and (max-width: 768px) {
     .delice {
       margin-left: 40px;
@@ -107,15 +122,25 @@ body {
   .delice h4 {
     font-size: 35px;
     margin-bottom: 35px;
-    font-family: 'Dancing Script', cursive; }
+    font-family: 'Dancing Script', cursive;
+    color: #0887fb;
+    color: #73a8d3;
+    background: -webkit-linear-gradient(145deg, #0887fb 0%, #73a8d3 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; }
   .delice h3 a {
     font-size: 40px;
-    text-decoration: none; }
+    text-decoration: none;
+    color: #0887fb;
+    font-family: 'sriracha'; }
 
 .palette {
   background-color: #fdfffd;
   margin-left: 30px;
-  margin-top: 15px; }
+  margin-top: 15px;
+  width: 350px;
+  height: 500px;
+  box-shadow: 3px 3px 14px gray; }
   @media only screen and (max-width: 768px) {
     .palette {
       margin-left: 40px;
@@ -126,10 +151,17 @@ body {
   .palette h4 {
     font-size: 30px;
     margin-bottom: 32px;
-    font-family: 'Kaushan Script', cursive; }
+    font-family: 'kaushan script', cursive;
+    color: #72bf56;
+    color: #85bb90;
+    background: -webkit-linear-gradient(145deg, #72bf56 0%, #85bb90 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; }
   .palette h3 a {
     font-size: 40px;
-    text-decoration: none; }
+    text-decoration: none;
+    color: #72bf56;
+    font-family: 'sriracha'; }
 
 .prochainement {
   text-align: center;
@@ -138,40 +170,15 @@ body {
   .prochainement h3 a {
     color: #fdcb46;
     text-decoration: none;
-    font-size: 25px;
-    font-weight: 300; }
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding: 9px; }
   .prochainement .btn {
-    padding: 12px;
-    border-radius: 10px; }
-
-footer {
-  background-color: #579c87; }
-
-header {
-  background-color: #579c87; }
-
-.btn {
-  background-color: #579c87; }
-
-.note {
-  width: 350px;
-  height: 500px;
-  box-shadow: 3px 3px 14px gray; }
-
-.chic {
-  width: 350px;
-  height: 500px;
-  box-shadow: 3px 3px 14px gray; }
-
-.delice {
-  width: 350px;
-  height: 500px;
-  box-shadow: 3px 3px 14px gray; }
-
-.palette {
-  width: 350px;
-  height: 500px;
-  box-shadow: 3px 3px 14px gray; }
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    background-color: #579c87; }
 
 .editeur {
   text-align: center;
@@ -203,5 +210,39 @@ header {
     margin-bottom: 10px; }
   .conditions p {
     font-size: 16px; }
+
+.main-bloc {
+  background-color: white; }
+
+.note-menu1 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 35px; }
+
+.note-container {
+  background-color: #fcdfdb;
+  margin-left: 50px;
+  margin-right: 50px; }
+
+.note-title {
+  text-align: center; }
+
+.note-title .fa-music {
+  color: red;
+  font-size: 60px; }
+
+.note-title h3 .principal {
+  font-size: 40px;
+  font-family: 'Kaushan Script'; }
+
+.prelude-trait {
+  display: flex;
+  justify-content: space-around; }
+
+.traitD {
+  height: 25px; }
+
+.traitG {
+  height: 45px; }
 
 /*# sourceMappingURL=main.css.map */
