@@ -1,5 +1,5 @@
 
-@mixin linear-gradient($degrees, $color-one:#72bf56, $color-two:rgb(133, 187, 144)) {
+@mixin linear-gradient($degrees, $color-one:#4ea043, $color-two:#beff7f) {
     color: $color-one;
     color: $color-two;
     background: -webkit-linear-gradient($degrees, $color-one 0%, $color-two 100%);
@@ -8,7 +8,16 @@
     
   }
 
-  @mixin linear-gradient($degrees, $color-one:#0887fb, $color-two:rgb(115, 168, 211)) {
+  @mixin linear-gradient($degrees, $color-one:#0b73f4, $color-two:#0229dd) {
+    color: $color-one;
+    color: $color-two;
+    background: -webkit-linear-gradient($degrees, $color-one 0%, $color-two 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+  }
+
+  @mixin linear-gradient($degrees, $color-one:#8f5aff, $color-two:#dc8527) {
     color: $color-one;
     color: $color-two;
     background: -webkit-linear-gradient($degrees, $color-one 0%, $color-two 100%);

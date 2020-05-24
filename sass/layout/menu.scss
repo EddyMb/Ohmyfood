@@ -53,12 +53,12 @@ body
     font-size: 40px;
     text-decoration: none; 
     color:#3d1319;
+    
    }
     h4
    {
     font-size: 35px;
-    margin-bottom: 20px; 
-    font-family: 'Devonshire', cursive; 
+    margin-bottom: 20px;  
     color:#3d1319;
    }
 }
@@ -87,6 +87,7 @@ body
     font-size: 25px;
     margin-bottom: 20px; 
     font-family: 'Croissant One', cursive;
+    @include linear-gradient(145deg, $color-one:#8f5aff, $color-two:#dc8527);
    }
     h3 a
    {
@@ -122,9 +123,7 @@ body
     font-size: 35px;
     margin-bottom: 35px;
     font-family: 'Dancing Script', cursive;
-    @include linear-gradient(145deg, $color-one:#0887fb, $color-two:rgb(115, 168, 211));
-
-  
+    @include linear-gradient(160deg, $color-one:#0886fbbb, $color-two:#0229dd);
    }
 
     h3 a
@@ -161,7 +160,7 @@ body
     margin-bottom: 32px;
     font-family:'kaushan script', cursive;
 
-    @include linear-gradient( 145deg, $color-one:#72bf56, $color-two:rgb(133, 187, 144));
+    @include linear-gradient( 145deg, $color-one:#beff7f, $color-two:#4ea043);
 
     
    }

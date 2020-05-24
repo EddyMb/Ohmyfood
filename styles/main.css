@@ -79,7 +79,6 @@ body {
   .note h4 {
     font-size: 35px;
     margin-bottom: 20px;
-    font-family: 'Devonshire', cursive;
     color: #3d1319; }
 
 .chic {
@@ -98,7 +97,12 @@ body {
   .chic h4 {
     font-size: 25px;
     margin-bottom: 20px;
-    font-family: 'Croissant One', cursive; }
+    font-family: 'Croissant One', cursive;
+    color: #8f5aff;
+    color: #dc8527;
+    background: -webkit-linear-gradient(145deg, #8f5aff 0%, #dc8527 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; }
   .chic h3 a {
     font-size: 40px;
     text-decoration: none;
@@ -123,9 +127,9 @@ body {
     font-size: 35px;
     margin-bottom: 35px;
     font-family: 'Dancing Script', cursive;
-    color: #0887fb;
-    color: #73a8d3;
-    background: -webkit-linear-gradient(145deg, #0887fb 0%, #73a8d3 100%);
+    color: #0886fbbb;
+    color: #0229dd;
+    background: -webkit-linear-gradient(160deg, #0886fbbb 0%, #0229dd 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; }
   .delice h3 a {
@@ -152,9 +156,9 @@ body {
     font-size: 30px;
     margin-bottom: 32px;
     font-family: 'kaushan script', cursive;
-    color: #72bf56;
-    color: #85bb90;
-    background: -webkit-linear-gradient(145deg, #72bf56 0%, #85bb90 100%);
+    color: #beff7f;
+    color: #4ea043;
+    background: -webkit-linear-gradient(145deg, #beff7f 0%, #4ea043 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; }
   .palette h3 a {
@@ -212,12 +216,15 @@ body {
     font-size: 16px; }
 
 .main-bloc {
-  background-color: white; }
+  background-color: white;
+  width: 100%; }
 
 .note-menu1 {
   font-size: 30px;
   text-align: center;
-  margin-top: 35px; }
+  margin-top: 35px;
+  margin-bottom: 25px;
+  letter-spacing: 2px; }
 
 .note-container {
   background-color: #fcdfdb;
@@ -229,20 +236,118 @@ body {
 
 .note-title .fa-music {
   color: red;
-  font-size: 60px; }
+  font-size: 60px;
+  margin-top: 40px; }
 
-.note-title h3 .principal {
+.note-title .principal {
   font-size: 40px;
-  font-family: 'Kaushan Script'; }
+  font-family: 'Devonshire', cursive;
+  font-weight: lighter;
+  margin-bottom: 35px; }
+
+.prelude-title {
+  font-family: 'montserra', cursive;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 15px; }
 
 .prelude-trait {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-between; }
 
 .traitD {
-  height: 25px; }
+  height: 30px;
+  margin-left: 40px; }
 
 .traitG {
-  height: 45px; }
+  height: 48px;
+  margin-right: 35px; }
+
+.repas-raviole {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.food {
+  font-family: 'montserra', cursive;
+  font-size: 20px;
+  margin-left: 50px; }
+
+.price {
+  font-family: 'montserra', cursive;
+  font-size: 20px;
+  margin-right: 60px; }
+
+.caviar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; }
+
+.homard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; }
+
+.foie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; }
+
+.pont-orgue {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px; }
+
+.orgue-sub {
+  font-family: 'montserra', cursive;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 15px; }
+
+.repas-noix {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; }
+
+.langouste {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; }
+
+.mijote {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; }
+
+.mouvement-main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px; }
+
+.mouvement-title {
+  font-family: 'montserra', cursive;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 15px; }
+
+.repas-macaron {
+  margin-top: 10px; }
+
+.baba {
+  margin-top: 10px; }
+
+.tarte {
+  margin-top: 10px;
+  margin-bottom: 70px; }
+
+.note-fin {
+  display: flex;
+  margin-bottom: 100px; }
 
 /*# sourceMappingURL=main.css.map */
