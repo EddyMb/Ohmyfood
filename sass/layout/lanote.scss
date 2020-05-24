@@ -57,16 +57,19 @@
 {
   display: flex;
   justify-content: space-between;
+  text-align: center;
 }
 .traitD
 {
   height: 30px;
   margin-left: 40px;
+  margin: 5px;
 }
 .traitG
 {
   height: 48px;
   margin-right: 35px;
+  margin: 5px;
 }
 .repas-raviole
 {
@@ -180,11 +183,11 @@
 .tarte
 {
   margin-top: 10px;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 .note-fin
 {
   display: flex;
-  margin-bottom: 100px;
+  
 }
