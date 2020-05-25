@@ -25,6 +25,15 @@
     -webkit-background-clip: text;
     
   }
+
+  @mixin linear-gradient($degrees, $color-one:#f6916a, $color-two:#f13639) {
+    color: $color-one;
+    color: $color-two;
+    background: -webkit-linear-gradient($degrees, $color-one 0%, $color-two 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+  }
   
 
 

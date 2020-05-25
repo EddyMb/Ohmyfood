@@ -45,8 +45,9 @@ body
    }
     .fa-music
    {
-    color:red;
+    
     font-size: 30px;
+    @include linear-gradient(145deg, $color-one:#f6916a, $color-two:#f13639);
    }
     h3 a
    {
