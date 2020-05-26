@@ -1,6 +1,4 @@
 
-
-
 .main-bloc
 {
   background-color: white;
@@ -8,59 +6,41 @@
  
 }
 
-.note-menu1
+.chic-container
 {
-  font-size: 30px;
-  text-align: center;
-  margin-top: 35px;
-  margin-bottom:25px;
-  letter-spacing: 2px;
-}
-
-.note-container
-{
-  background-color:#fcdfdb;
+  background-color:#fff5fe;
   margin-left: 50px;
   margin-right: 50px; 
+  margin-top: 50px;
   margin-bottom: 120px;
 }
 
-.note-title
+.chic-title2 
 {
-  text-align: center;
-  
-}
-
-.note-title .fa-music
-{
-  color:red;
-  font-size: 60px;
-  margin-top: 40px;
-  
-}
-.note-title .principal
-{
-  font-size:40px;
-  font-family: 'Devonshire', cursive;
+  font-size:30px;
+  font-family: 'Croissant One', cursive;
   font-weight: lighter;
   margin-bottom: 35px;
+  padding: 50px;
+  text-align: center;
+  @include linear-gradient(145deg, $color-one:#8f5aff, $color-two:#dc8527);
   
 }
 
-#prelude
+#appetit
 {
-  width: 100%;
+   width: 100%;
   align-items: center;
 }
 
-.prelude-trait
+.chic-trait
 {
   display: flex;
   justify-content: space-around;
   text-align: center;
 }
 
-.prelude-title
+.appetit-sub
 {
   font-family: 'Kalam', cursive;
   font-weight: 400;
@@ -68,39 +48,41 @@
   text-align: center;
   margin-right: 15px; 
 }
-.traitD
+
+.chictraitD
 {
   height: 20px;
   margin: 8px;  
 }
-.traitG
+.chictraitG
 {
-  height: 30px;
+  height: 20px;
   margin: 8px;
   
 }
-.repas-raviole
+
+.repas-tartare
 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
 }
-.food
+.food-chic
 {
  font-family: 'Kalam', cursive;
  font-weight: 300;
  font-size:20px ;
  margin-left: 80px;
 }
-.price
+.price-chic
 {
   font-family: 'Kalam', cursive;
   font-size:20px ;
   margin-right: 90px;
 }
 
-.caviar
+.veloute
 {
   display: flex;
   justify-content: space-between;
@@ -108,7 +90,7 @@
   margin-top: 10px;
 }
 
-.homard
+.soupe
 {
   display: flex;
   justify-content: space-between;
@@ -116,21 +98,13 @@
   margin-top: 10px;
 }
 
-.foie
-{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-}
-
-#orgue
+#plaisir
 {
   width: 100%;
   align-items: center;
 }
 
-.pont-orgue
+.plaisir-trait
 {
   display: flex;
   justify-content: space-around;
@@ -138,7 +112,7 @@
   text-align: center;
 }
 
-.orgue-sub
+.plaisir-sub
 {
   font-family: 'Kalam', cursive;
   font-weight: 400;
@@ -147,7 +121,7 @@
   margin-right: 15px;
 }
 
-.repas-noix
+.repas-coquille
 {
   display: flex;
   justify-content: space-between;
@@ -155,7 +129,7 @@
   margin-top: 20px;
 }
 
-.langouste
+.magret
 {
   display: flex;
   justify-content: space-between;
@@ -163,7 +137,7 @@
   margin-top: 10px;
 }
 
-.mijote
+.pigeon
 {
   display: flex;
   justify-content: space-between;
@@ -171,20 +145,20 @@
   margin-top: 10px;
 }
 
-#mouvement
+#gourmandise
 {
   width: 100%;
   align-items: center;
-  
+   
 }
 
-.mouvement-main
+.gourmandise-trait
 {
   display: flex;
   justify-content: space-around;
   margin-top: 70px;
 }
-.mouvement-title
+.gourmandise-sub
 {
 
   font-family: 'Kalam', cursive;
@@ -194,43 +168,19 @@
   margin-right: 15px;
 }
 
-.repas-macaron
+.repas-petale
 {
   margin-top: 20px;
 }
 
-.baba
+.fondant
 {
   margin-top: 10px;
 }
 
-.tarte
+.millefeuille
 {
   margin-top: 10px;
-  margin-bottom: 50px;
-}
-
-#return
-{
-  margin-bottom: 90px;
-  padding: 40px;
-  display: flex;
- justify-content: center;
+  margin-bottom: 40px;
   
 }
-
-.fa-music
-{
-  color: red;
-  font-size: 50px;
-  margin-left: 15px;
-}
-
-.principal1
-{
- font-size: 35px;
- font-family: 'Devonshire', cursive;
- margin-left: 13px;
-}
-
-

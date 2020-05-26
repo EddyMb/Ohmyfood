@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* HEADER */
 header {
   height: 90px;
@@ -269,11 +270,11 @@ body {
 
 .traitD {
   height: 20px;
-  margin: 5px; }
+  margin: 8px; }
 
 .traitG {
   height: 30px;
-  margin: 5px; }
+  margin: 8px; }
 
 .repas-raviole {
   display: flex;
@@ -288,7 +289,7 @@ body {
   margin-left: 80px; }
 
 .price {
-  font-family: 'montserra', cursive;
+  font-family: 'Kalam', cursive;
   font-size: 20px;
   margin-right: 90px; }
 
@@ -321,8 +322,9 @@ body {
   text-align: center; }
 
 .orgue-sub {
-  font-family: 'montserra', cursive;
-  font-size: 25px;
+  font-family: 'Kalam', cursive;
+  font-weight: 400;
+  font-size: 30px;
   text-align: center;
   margin-right: 15px; }
 
@@ -330,7 +332,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px; }
+  margin-top: 20px; }
 
 .langouste {
   display: flex;
@@ -354,13 +356,14 @@ body {
   margin-top: 70px; }
 
 .mouvement-title {
-  font-family: 'montserra', cursive;
-  font-size: 25px;
+  font-family: 'Kalam', cursive;
+  font-weight: 400;
+  font-size: 30px;
   text-align: center;
   margin-right: 15px; }
 
 .repas-macaron {
-  margin-top: 10px; }
+  margin-top: 20px; }
 
 .baba {
   margin-top: 10px; }
@@ -370,7 +373,7 @@ body {
   margin-bottom: 50px; }
 
 #return {
-  margin-bottom: 70px;
+  margin-bottom: 90px;
   padding: 40px;
   display: flex;
   justify-content: center; }
@@ -384,5 +387,419 @@ body {
   font-size: 35px;
   font-family: 'Devonshire', cursive;
   margin-left: 13px; }
+
+.main-bloc {
+  background-color: white;
+  width: 100%; }
+
+.chic-container {
+  background-color: #fff5fe;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 120px; }
+
+.chic-title2 {
+  font-size: 30px;
+  font-family: 'Croissant One', cursive;
+  font-weight: lighter;
+  margin-bottom: 35px;
+  padding: 50px;
+  text-align: center;
+  color: #8f5aff;
+  color: #dc8527;
+  background: -webkit-linear-gradient(145deg, #8f5aff 0%, #dc8527 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; }
+
+#appetit {
+  width: 100%;
+  align-items: center; }
+
+.chic-trait {
+  display: flex;
+  justify-content: space-around;
+  text-align: center; }
+
+.appetit-sub {
+  font-family: 'Kalam', cursive;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 15px; }
+
+.chictraitD {
+  height: 20px;
+  margin: 8px; }
+
+.chictraitG {
+  height: 20px;
+  margin: 8px; }
+
+.repas-tartare {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; }
+
+.food-chic {
+  font-family: 'Kalam', cursive;
+  font-weight: 300;
+  font-size: 20px;
+  margin-left: 80px; }
+
+.price-chic {
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+  margin-right: 90px; }
+
+.veloute {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; }
+
+.soupe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; }
+
+#plaisir {
+  width: 100%;
+  align-items: center; }
+
+.plaisir-trait {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  text-align: center; }
+
+.plaisir-sub {
+  font-family: 'Kalam', cursive;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 15px; }
+
+.repas-coquille {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px; }
+
+.magret {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; }
+
+.pigeon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; }
+
+#gourmandise {
+  width: 100%;
+  align-items: center; }
+
+.gourmandise-trait {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px; }
+
+.gourmandise-sub {
+  font-family: 'Kalam', cursive;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 15px; }
+
+.repas-petale {
+  margin-top: 20px; }
+
+.fondant {
+  margin-top: 10px; }
+
+.millefeuille {
+  margin-top: 10px;
+  margin-bottom: 40px; }
+
+.main-bloc {
+  background-color: white;
+  width: 100%; }
+
+.delice-container {
+  background-color: #f9f9f9;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 120px; }
+
+.delice-title2 {
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 35px;
+  padding: 50px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  color: #0886fbbb;
+  color: #0229dd;
+  background: -webkit-linear-gradient(160deg, #0886fbbb 0%, #0229dd 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; }
+
+#commencer {
+  width: 100%;
+  align-items: center; }
+
+.delice-trait {
+  display: flex;
+  justify-content: space-around;
+  text-align: center; }
+
+.delice-sub {
+  font-family: 'Kalam', cursive;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 15px; }
+
+.delicetraitG {
+  height: 20px;
+  margin: 8px; }
+
+.delicetraitD {
+  height: 20px;
+  margin: 8px; }
+
+.repas-thon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; }
+
+.food-delice {
+  font-family: 'Kalam', cursive;
+  font-weight: 300;
+  font-size: 20px;
+  margin-left: 80px; }
+
+.price-delice {
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+  margin-right: 90px; }
+
+.bouchee {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; }
+
+.cepes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; }
+
+#continuer {
+  width: 100%;
+  align-items: center; }
+
+.continuer-trait {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  text-align: center; }
+
+.continuer-sub {
+  font-family: 'Kalam', cursive;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 15px; }
+
+.repas-poulet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px; }
+
+.roti {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; }
+
+.boeuf {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; }
+
+#terminer {
+  width: 100%;
+  align-items: center; }
+
+.terminer-trait {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px; }
+
+.terminer-sub {
+  font-family: 'Kalam', cursive;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 15px; }
+
+.repas-desserts {
+  margin-top: 20px; }
+
+.créme {
+  margin-top: 10px; }
+
+.tiramisu {
+  margin-top: 10px;
+  margin-bottom: 40px; }
+
+.main-bloc {
+  background-color: white;
+  width: 100%; }
+
+.delice-container {
+  background-color: #f9f9f9;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 120px; }
+
+.delice-title2 {
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 35px;
+  padding: 50px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  color: #0886fbbb;
+  color: #0229dd;
+  background: -webkit-linear-gradient(160deg, #0886fbbb 0%, #0229dd 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; }
+
+#commencer {
+  width: 100%;
+  align-items: center; }
+
+.delice-trait {
+  display: flex;
+  justify-content: space-around;
+  text-align: center; }
+
+.delice-sub {
+  font-family: 'Kalam', cursive;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 15px; }
+
+.delicetraitG {
+  height: 20px;
+  margin: 8px; }
+
+.delicetraitD {
+  height: 20px;
+  margin: 8px; }
+
+.repas-thon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; }
+
+.food-delice {
+  font-family: 'Kalam', cursive;
+  font-weight: 300;
+  font-size: 20px;
+  margin-left: 80px; }
+
+.price-delice {
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+  margin-right: 90px; }
+
+.bouchee {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; }
+
+.cepes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; }
+
+#continuer {
+  width: 100%;
+  align-items: center; }
+
+.continuer-trait {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  text-align: center; }
+
+.continuer-sub {
+  font-family: 'Kalam', cursive;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 15px; }
+
+.repas-poulet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px; }
+
+.roti {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; }
+
+.boeuf {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; }
+
+#terminer {
+  width: 100%;
+  align-items: center; }
+
+.terminer-trait {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px; }
+
+.terminer-sub {
+  font-family: 'Kalam', cursive;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 15px; }
+
+.repas-desserts {
+  margin-top: 20px; }
+
+.créme {
+  margin-top: 10px; }
+
+.tiramisu {
+  margin-top: 10px;
+  margin-bottom: 40px; }
 
 /*# sourceMappingURL=main.css.map */
