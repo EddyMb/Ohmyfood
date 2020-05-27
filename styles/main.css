@@ -106,7 +106,7 @@ body {
     font-family: 'Croissant One', cursive;
     color: #8f5aff;
     color: #dc8527;
-    background: -webkit-linear-gradient(145deg, #8f5aff 0%, #dc8527 100%);
+    background: -webkit-linear-gradient(190deg, #8f5aff 0%, #dc8527 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; }
   .chic h3 a {
@@ -236,7 +236,8 @@ body {
   background-color: #fcdfdb;
   margin-left: 50px;
   margin-right: 50px;
-  margin-bottom: 120px; }
+  margin-bottom: 120px;
+  box-shadow: 3px 3px 14px gray; }
 
 .note-title {
   text-align: center; }
@@ -328,6 +329,16 @@ body {
   text-align: center;
   margin-right: 15px; }
 
+.orgue-traitG {
+  height: 20px;
+  margin: 8px;
+  margin-left: 20px; }
+
+.orgue-traitD {
+  height: 30px;
+  margin: 8px;
+  margin-right: 25px; }
+
 .repas-noix {
   display: flex;
   justify-content: space-between;
@@ -361,6 +372,16 @@ body {
   font-size: 30px;
   text-align: center;
   margin-right: 15px; }
+
+.mouvement-traitG {
+  height: 20px;
+  margin: 8px;
+  margin-left: 30px; }
+
+.mouvement-traitD {
+  height: 30px;
+  margin: 8px;
+  margin-right: 40px; }
 
 .repas-macaron {
   margin-top: 20px; }
@@ -397,12 +418,12 @@ body {
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 50px;
-  margin-bottom: 120px; }
+  margin-bottom: 120px;
+  box-shadow: 3px 3px 14px gray; }
 
 .chic-title2 {
-  font-size: 30px;
+  font-size: 35px;
   font-family: 'Croissant One', cursive;
-  font-weight: lighter;
   margin-bottom: 35px;
   padding: 50px;
   text-align: center;
@@ -422,48 +443,53 @@ body {
   text-align: center; }
 
 .appetit-sub {
-  font-family: 'Kalam', cursive;
+  font-family: 'Merriweather', cursive;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 26px;
   text-align: center;
-  margin-right: 15px; }
+  margin-right: 20px;
+  color: #c77412; }
 
 .chictraitD {
-  height: 20px;
+  height: 25px;
   margin: 8px; }
 
 .chictraitG {
-  height: 20px;
+  height: 25px;
   margin: 8px; }
 
 .repas-tartare {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px; }
+  margin-top: 29px; }
 
 .food-chic {
-  font-family: 'Kalam', cursive;
-  font-weight: 300;
-  font-size: 20px;
-  margin-left: 80px; }
+  font-family: 'Merriweather', cursive;
+  font-weight: 200;
+  font-size: 17px;
+  margin-left: 80px;
+  color: #c77412; }
 
 .price-chic {
-  font-family: 'Kalam', cursive;
-  font-size: 20px;
-  margin-right: 90px; }
+  font-family: 'Merriweather', cursive;
+  font-size: 17px;
+  margin-right: 90px;
+  color: #c77412; }
 
 .veloute {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px; }
+  margin-top: 20px;
+  color: #c77412; }
 
 .soupe {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px; }
+  margin-top: 20px;
+  color: #c77412; }
 
 #plaisir {
   width: 100%;
@@ -475,34 +501,60 @@ body {
   margin-top: 70px;
   text-align: center; }
 
+.plaisir-chictraitG {
+  height: 22px;
+  margin: 8px; }
+
+.plaisir-chictraitD {
+  height: 32px;
+  margin: 3px;
+  margin-left: 30px; }
+
 .plaisir-sub {
-  font-family: 'Kalam', cursive;
+  font-family: 'Merriweather', cursive;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 26px;
   text-align: center;
-  margin-right: 15px; }
+  color: #a56799; }
+
+.food-plaisir {
+  font-family: 'Merriweather', cursive;
+  font-weight: 200;
+  font-size: 17px;
+  margin-left: 80px;
+  color: #a56799; }
+
+.price-plaisir {
+  font-family: 'Merriweather', cursive;
+  font-size: 17px;
+  margin-right: 90px;
+  color: #a56799; }
 
 .repas-coquille {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px; }
+  margin-top: 20px;
+  color: #a56799; }
 
 .magret {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px; }
+  margin-top: 20px;
+  color: #a56799; }
 
 .pigeon {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px; }
+  margin-top: 20px;
+  color: #a56799; }
 
 #gourmandise {
   width: 100%;
-  align-items: center; }
+  align-items: center;
+  padding-bottom: 3px; }
 
 .gourmandise-trait {
   display: flex;
@@ -510,21 +562,39 @@ body {
   margin-top: 70px; }
 
 .gourmandise-sub {
-  font-family: 'Kalam', cursive;
+  font-family: 'Merriweather', cursive;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 26px;
   text-align: center;
-  margin-right: 15px; }
+  color: #6e4ccc; }
+
+.gourmandise-chictraitG {
+  height: 32px;
+  margin: 8px; }
+
+.gourmandise-chictraitD {
+  height: 36px;
+  margin: 3px; }
 
 .repas-petale {
-  margin-top: 20px; }
+  margin-top: 20px;
+  color: #6e4ccc; }
+
+.food-petale {
+  font-family: 'Merriweather', cursive;
+  font-weight: 200;
+  font-size: 17px;
+  margin-left: 80px; }
 
 .fondant {
-  margin-top: 10px; }
+  margin-top: 20px;
+  color: #6e4ccc;
+  font-family: 'Merriweather', cursive; }
 
 .millefeuille {
-  margin-top: 10px;
-  margin-bottom: 40px; }
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #6e4ccc; }
 
 .main-bloc {
   background-color: white;
@@ -538,8 +608,7 @@ body {
   margin-bottom: 120px; }
 
 .delice-title2 {
-  font-size: 30px;
-  font-weight: lighter;
+  font-size: 50px;
   margin-bottom: 35px;
   padding: 50px;
   text-align: center;
@@ -561,18 +630,17 @@ body {
 
 .delice-sub {
   font-family: 'Kalam', cursive;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 30px;
-  text-align: center;
-  margin-right: 15px; }
+  text-align: center; }
 
 .delicetraitG {
-  height: 20px;
+  height: 30px;
   margin: 8px; }
 
 .delicetraitD {
   height: 20px;
-  margin: 8px; }
+  margin: 15px; }
 
 .repas-thon {
   display: flex;
@@ -615,10 +683,17 @@ body {
 
 .continuer-sub {
   font-family: 'Kalam', cursive;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 30px;
-  text-align: center;
-  margin-right: 15px; }
+  text-align: center; }
+
+.light-traitG {
+  height: 35px;
+  margin: 8px; }
+
+.light-traitD {
+  height: 25px;
+  margin: 16px; }
 
 .repas-poulet {
   display: flex;
@@ -640,7 +715,8 @@ body {
 
 #terminer {
   width: 100%;
-  align-items: center; }
+  align-items: center;
+  padding-bottom: 3px; }
 
 .terminer-trait {
   display: flex;
@@ -649,156 +725,179 @@ body {
 
 .terminer-sub {
   font-family: 'Kalam', cursive;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 30px;
-  text-align: center;
-  margin-right: 15px; }
+  text-align: center; }
+
+.blue-traitG {
+  height: 30px;
+  margin: 8px; }
+
+.blue-traitD {
+  height: 25px;
+  margin: 13px; }
 
 .repas-desserts {
-  margin-top: 20px; }
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
 
 .créme {
-  margin-top: 10px; }
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
 
 .tiramisu {
   margin-top: 10px;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
 
 .main-bloc {
   background-color: white;
   width: 100%; }
 
-.delice-container {
-  background-color: #f9f9f9;
+.palette-container {
+  background-color: #fdfffd;
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 50px;
-  margin-bottom: 120px; }
+  margin-bottom: 120px;
+  box-shadow: 3px 3px 14px gray; }
 
-.delice-title2 {
-  font-size: 30px;
-  font-weight: lighter;
+.palette-title2 {
+  font-size: 45px;
   margin-bottom: 35px;
   padding: 50px;
   text-align: center;
-  font-family: 'Dancing Script', cursive;
-  color: #0886fbbb;
-  color: #0229dd;
-  background: -webkit-linear-gradient(160deg, #0886fbbb 0%, #0229dd 100%);
+  font-family: 'kaushan script', cursive;
+  color: #beff7f;
+  color: #4ea043;
+  background: -webkit-linear-gradient(190deg, #beff7f 0%, #4ea043 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text; }
 
-#commencer {
+#esquisse {
   width: 100%;
   align-items: center; }
 
-.delice-trait {
+.esquisse-trait {
   display: flex;
   justify-content: space-around;
   text-align: center; }
 
-.delice-sub {
+.esquisse-sub {
   font-family: 'Kalam', cursive;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 30px;
-  text-align: center;
-  margin-right: 15px; }
+  text-align: center; }
 
-.delicetraitG {
-  height: 20px;
+.paletteraitG {
+  height: 30px;
   margin: 8px; }
 
-.delicetraitD {
-  height: 20px;
+.palettetraitD {
+  height: 35px;
   margin: 8px; }
 
-.repas-thon {
+.repas-fricasse {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 10px; }
 
-.food-delice {
+.food-palette {
   font-family: 'Kalam', cursive;
   font-weight: 300;
   font-size: 20px;
   margin-left: 80px; }
 
-.price-delice {
+.price-palette {
   font-family: 'Kalam', cursive;
   font-size: 20px;
   margin-right: 90px; }
 
-.bouchee {
+.oeuf {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 10px; }
 
-.cepes {
+.canard {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 10px; }
 
-#continuer {
+#maitre {
   width: 100%;
   align-items: center; }
 
-.continuer-trait {
+.maitre-trait {
   display: flex;
   justify-content: space-around;
   margin-top: 70px;
   text-align: center; }
 
-.continuer-sub {
+.maitre-sub {
   font-family: 'Kalam', cursive;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 30px;
-  text-align: center;
-  margin-right: 15px; }
+  text-align: center; }
 
-.repas-poulet {
+.repas-filet {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 20px; }
 
-.roti {
+.parmentier {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 10px; }
 
-.boeuf {
+.turbot {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 10px; }
 
-#terminer {
+#sommet {
   width: 100%;
-  align-items: center; }
+  align-items: center;
+  padding-bottom: 3px; }
 
-.terminer-trait {
+.sommet-trait {
   display: flex;
   justify-content: space-around;
   margin-top: 70px; }
 
-.terminer-sub {
+.sommet-sub {
   font-family: 'Kalam', cursive;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 30px;
-  text-align: center;
-  margin-right: 15px; }
+  text-align: center; }
 
-.repas-desserts {
+.repas-paris {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 20px; }
 
-.créme {
+.chocolat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 10px; }
 
-.tiramisu {
+.mousse {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 10px;
   margin-bottom: 40px; }
 

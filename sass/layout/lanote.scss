@@ -23,6 +23,7 @@
   margin-left: 50px;
   margin-right: 50px; 
   margin-bottom: 120px;
+  box-shadow:$shadow;
 }
 
 .note-title
@@ -147,6 +148,19 @@
   margin-right: 15px;
 }
 
+.orgue-traitG
+{
+  height: 20px;
+  margin: 8px;
+  margin-left: 20px;
+}
+
+.orgue-traitD
+{
+  height: 30px;
+  margin: 8px;
+  margin-right: 25px;
+}
 .repas-noix
 {
   display: flex;
@@ -192,6 +206,20 @@
   font-size: 30px;
   text-align: center;
   margin-right: 15px;
+}
+
+.mouvement-traitG
+{
+  height: 20px;
+  margin: 8px;
+  margin-left: 30px;
+}
+
+.mouvement-traitD
+{
+  height: 30px;
+  margin: 8px;
+  margin-right: 40px;
 }
 
 .repas-macaron

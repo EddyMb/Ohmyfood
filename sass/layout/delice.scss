@@ -18,8 +18,7 @@
 
 .delice-title2
 {
-  font-size:30px;
-  font-weight: lighter;
+  font-size:50px;
   margin-bottom: 35px;
   padding: 50px;
   text-align: center;
@@ -43,21 +42,21 @@
 .delice-sub
 {
   font-family: 'Kalam', cursive;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 30px;
   text-align: center;
-  margin-right: 15px; 
+   
 }
 
 .delicetraitG
 {
-  height: 20px;
+  height: 30px;
   margin: 8px;  
 }
 .delicetraitD
 {
   height: 20px;
-  margin: 8px;
+  margin: 15px;
   
 }
 
@@ -115,10 +114,21 @@
 .continuer-sub
 {
   font-family: 'Kalam', cursive;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 30px;
   text-align: center;
-  margin-right: 15px;
+  
+}
+
+.light-traitG
+{
+  height: 35px;
+  margin: 8px
+}
+.light-traitD
+{
+  height: 25px;
+  margin: 16px;
 }
 
 .repas-poulet
@@ -149,6 +159,7 @@
 {
   width: 100%;
   align-items: center;
+  padding-bottom: 3px;
    
 }
 
@@ -162,25 +173,46 @@
 {
 
   font-family: 'Kalam', cursive;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 30px;
   text-align: center;
-  margin-right: 15px;
+ 
+}
+
+.blue-traitG
+{
+  height: 30px;
+  margin: 8px
+}
+
+.blue-traitD
+{
+  height: 25px;
+  margin: 13px
 }
 
 .repas-desserts
 {
   margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .créme
 {
   margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .tiramisu
 {
   margin-top: 10px;
   margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   
 }
