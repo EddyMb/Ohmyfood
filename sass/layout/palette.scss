@@ -4,8 +4,7 @@
 .main-bloc
 {
   background-color: white;
-  width: 100%;
- 
+  width: 100%; 
 }
 
 .palette-container
@@ -61,8 +60,7 @@
 .palettetraitD
 {
   height: 35px;
-  margin: 8px;
-  
+  margin: 8px;  
 }
 
 .repas-fricasse
@@ -121,8 +119,7 @@
   font-family: 'Kalam', cursive;
   font-weight: 300;
   font-size: 30px;
-  text-align: center;
-  
+  text-align: center;  
 }
 
 .repas-filet
@@ -169,8 +166,7 @@
   font-family: 'Kalam', cursive;
   font-weight: 300;
   font-size: 30px;
-  text-align: center;
-  
+  text-align: center;  
 }
 
 .repas-paris
@@ -183,7 +179,7 @@
 
 .chocolat
 {
-   display: flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
@@ -195,6 +191,5 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
-  margin-bottom: 40px;
-  
+  margin-bottom: 40px;  
 }

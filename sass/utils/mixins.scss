@@ -1,11 +1,36 @@
 
+
+@mixin cadremenu($colorValue) {
+  width:$widthMenu;
+  height:$heightMenu;
+  box-shadow:$shadow;  
+  background-color: $colorValue; 
+}
+
+@mixin lien {
+text-decoration: $texteDecoration;
+}
+
+@mixin policemenu{
+  font-family: $fontChic;
+}
+
+@mixin zoomeffect {
+  transform:scale(1);
+  transition: transform 400ms;
+  opacity:1;
+  &:hover{
+    transform:scale(1.15);
+    opacity: 0.4;
+  }
+}
+
 @mixin linear-gradient($degrees, $color-one:#4ea043, $color-two:#beff7f) {
     color: $color-one;
     color: $color-two;
     background: -webkit-linear-gradient($degrees, $color-one 0%, $color-two 100%);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    
+    -webkit-background-clip: text;  
   }
 
   @mixin linear-gradient($degrees, $color-one:#0b73f4, $color-two:#0229dd) {
@@ -13,8 +38,7 @@
     color: $color-two;
     background: -webkit-linear-gradient($degrees, $color-one 0%, $color-two 100%);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    
+    -webkit-background-clip: text;  
   }
 
   @mixin linear-gradient($degrees, $color-one:#8f5aff, $color-two:#dc8527) {
@@ -22,8 +46,7 @@
     color: $color-two;
     background: -webkit-linear-gradient($degrees, $color-one 0%, $color-two 100%);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    
+    -webkit-background-clip: text;  
   }
 
   @mixin linear-gradient($degrees, $color-one:#f6916a, $color-two:#f13639) {
@@ -31,11 +54,9 @@
     color: $color-two;
     background: -webkit-linear-gradient($degrees, $color-one 0%, $color-two 100%);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    
+    -webkit-background-clip: text;  
   }
   
-
 
 @mixin responsive($breakpoint) {
     @if $breakpoint == phone {

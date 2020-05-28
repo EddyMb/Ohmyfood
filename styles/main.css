@@ -30,7 +30,10 @@ footer {
     text-decoration: none;
     color: #fdcb46;
     margin: 25px;
-    font-size: 25px; }
+    font-size: 25px;
+    cursor: pointer; }
+  footer .legale:hover {
+    animation: shake 0.8s; }
   footer .contact {
     font-size: 25px;
     margin-right: 10px;
@@ -38,7 +41,32 @@ footer {
   footer a {
     text-decoration: none;
     color: #fdcb46; }
+  footer .contact:hover {
+    animation: shake 0.8s; }
 
+@keyframes shake {
+  0% {
+    transform: translate(2px, 2px); }
+  10% {
+    transform: translate(-2px, -2px); }
+  20% {
+    transform: translate(2px, 2px); }
+  30% {
+    transform: translate(-2px, -2px); }
+  40% {
+    transform: translate(2px, 2px); }
+  50% {
+    transform: translate(-2px, -2px); }
+  60% {
+    transform: translate(2px, 2px); }
+  70% {
+    transform: translate(-2px, -2px); }
+  80% {
+    transform: translate(2px, 2px); }
+  90% {
+    transform: translate(-2px, -2px); }
+  100% {
+    transform: translate(2px, 2px); } }
 * {
   margin: 0;
   padding: 0;
@@ -61,7 +89,8 @@ body {
   margin-right: 30px;
   width: 350px;
   height: 500px;
-  box-shadow: 3px 3px 14px gray; }
+  box-shadow: 3px 3px 14px gray;
+  background-color: #fcdfdb; }
   @media only screen and (max-width: 768px) {
     .note {
       margin-left: 40px;
@@ -69,7 +98,13 @@ body {
       margin-bottom: 70px; } }
   .note .note-title {
     text-align: center;
-    margin-top: 130px; }
+    margin-top: 130px;
+    transform: scale(1);
+    transition: transform 400ms;
+    opacity: 1; }
+    .note .note-title:hover {
+      transform: scale(1.15);
+      opacity: 0.4; }
   .note .fa-music {
     font-size: 30px;
     color: #f6916a;
@@ -78,14 +113,13 @@ body {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; }
   .note h3 a {
-    font-size: 40px;
-    text-decoration: none;
-    color: #3d1319; }
+    font-size: 35px;
+    color: #3d1319;
+    text-decoration: none; }
   .note h4 {
     font-size: 35px;
-    margin-bottom: 20px;
     color: #3d1319;
-    font-family: 'devonshire'; }
+    font-family: 'devonshire', cursive; }
 
 .chic {
   background-color: #fff5fe;
@@ -99,10 +133,16 @@ body {
       margin-right: 40px; } }
   .chic .chic-title {
     text-align: center;
-    margin-top: 200px; }
+    margin-top: 200px;
+    transform: scale(1);
+    transition: transform 400ms;
+    opacity: 1; }
+    .chic .chic-title:hover {
+      transform: scale(1.15);
+      opacity: 0.4; }
   .chic h4 {
     font-size: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-family: 'Croissant One', cursive;
     color: #8f5aff;
     color: #dc8527;
@@ -111,8 +151,8 @@ body {
     -webkit-background-clip: text; }
   .chic h3 a {
     font-size: 40px;
-    text-decoration: none;
-    color: #c77412; }
+    color: #c77412;
+    text-decoration: none; }
 
 .delice {
   background-color: #f9f9f9;
@@ -120,7 +160,8 @@ body {
   margin-top: 15px;
   width: 350px;
   height: 500px;
-  box-shadow: 3px 3px 14px gray; }
+  box-shadow: 3px 3px 14px gray;
+  background-color: #f9f9f9; }
   @media only screen and (max-width: 768px) {
     .delice {
       margin-left: 40px;
@@ -128,10 +169,15 @@ body {
       margin-bottom: 60px; } }
   .delice .delice-title {
     text-align: center;
-    margin-top: 180px; }
+    margin-top: 180px;
+    transform: scale(1);
+    transition: transform 400ms;
+    opacity: 1; }
+    .delice .delice-title:hover {
+      transform: scale(1.15);
+      opacity: 0.4; }
   .delice h4 {
     font-size: 35px;
-    margin-bottom: 35px;
     font-family: 'Dancing Script', cursive;
     color: #0886fbbb;
     color: #0229dd;
@@ -140,9 +186,9 @@ body {
     -webkit-background-clip: text; }
   .delice h3 a {
     font-size: 40px;
-    text-decoration: none;
     color: #0887fb;
-    font-family: 'sriracha'; }
+    font-family: 'sriracha', sans-serif;
+    text-decoration: none; }
 
 .palette {
   background-color: #fdfffd;
@@ -150,17 +196,23 @@ body {
   margin-top: 15px;
   width: 350px;
   height: 500px;
-  box-shadow: 3px 3px 14px gray; }
+  box-shadow: 3px 3px 14px gray;
+  background-color: #f9f9f9; }
   @media only screen and (max-width: 768px) {
     .palette {
       margin-left: 40px;
       margin-right: 40px; } }
   .palette .palette-title {
     text-align: center;
-    margin-top: 180px; }
+    margin-top: 180px;
+    transform: scale(1);
+    transition: transform 400ms;
+    opacity: 1; }
+    .palette .palette-title:hover {
+      transform: scale(1.15);
+      opacity: 0.4; }
   .palette h4 {
     font-size: 30px;
-    margin-bottom: 32px;
     font-family: 'kaushan script', cursive;
     color: #beff7f;
     color: #4ea043;
@@ -169,9 +221,9 @@ body {
     -webkit-background-clip: text; }
   .palette h3 a {
     font-size: 40px;
-    text-decoration: none;
     color: #72bf56;
-    font-family: 'sriracha'; }
+    font-family: 'sriracha', sans-serif;
+    text-decoration: none; }
 
 .prochainement {
   text-align: center;
@@ -184,12 +236,28 @@ body {
     font-weight: 300;
     letter-spacing: 2px;
     padding: 9px; }
+  .prochainement h3 a span {
+    height: 10px;
+    width: 10px;
+    background: #fdcb46;
+    border-radius: 100%;
+    display: inline-block;
+    animation: dots 1s linear infinite alternate; }
+  .prochainement h3 a span:nth-child(2) {
+    animation-delay: .2s; }
+  .prochainement h3 a span:nth-child(3) {
+    animation-delay: .4s; }
   .prochainement .btn {
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 10px;
     background-color: #579c87; }
 
+@keyframes dots {
+  from {
+    transform: scale(0); }
+  to {
+    transform: scale(1); } }
 .editeur {
   text-align: center;
   margin-top: 100px; }
@@ -267,7 +335,24 @@ body {
   font-weight: 400;
   font-size: 30px;
   text-align: center;
-  margin-right: 15px; }
+  margin-right: 15px;
+  position: relative;
+  text-decoration: none; }
+
+.prelude-title::after {
+  content: "";
+  display: flex;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  background: black;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 250ms ease-in; }
+
+.prelude-title:hover::after {
+  transform: scaleX(1); }
 
 .traitD {
   height: 20px;
@@ -441,22 +526,19 @@ body {
   display: flex;
   justify-content: space-around;
   text-align: center; }
-
-.appetit-sub {
-  font-family: 'Merriweather', cursive;
-  font-weight: 400;
-  font-size: 26px;
-  text-align: center;
-  margin-right: 20px;
-  color: #c77412; }
-
-.chictraitD {
-  height: 25px;
-  margin: 8px; }
-
-.chictraitG {
-  height: 25px;
-  margin: 8px; }
+  .chic-trait .appetit-sub {
+    font-family: 'Merriweather', cursive;
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+    margin-right: 20px;
+    color: #c77412; }
+  .chic-trait .chictraitD {
+    height: 25px;
+    margin: 8px; }
+  .chic-trait .chictraitG {
+    height: 25px;
+    margin: 8px; }
 
 .repas-tartare {
   display: flex;
@@ -500,22 +582,19 @@ body {
   justify-content: space-around;
   margin-top: 70px;
   text-align: center; }
-
-.plaisir-chictraitG {
-  height: 22px;
-  margin: 8px; }
-
-.plaisir-chictraitD {
-  height: 32px;
-  margin: 3px;
-  margin-left: 30px; }
-
-.plaisir-sub {
-  font-family: 'Merriweather', cursive;
-  font-weight: 400;
-  font-size: 26px;
-  text-align: center;
-  color: #a56799; }
+  .plaisir-trait .plaisir-chictraitG {
+    height: 22px;
+    margin: 8px; }
+  .plaisir-trait .plaisir-chictraitD {
+    height: 32px;
+    margin: 3px;
+    margin-left: 30px; }
+  .plaisir-trait .plaisir-sub {
+    font-family: 'Merriweather', cursive;
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+    color: #a56799; }
 
 .food-plaisir {
   font-family: 'Merriweather', cursive;
@@ -560,21 +639,18 @@ body {
   display: flex;
   justify-content: space-around;
   margin-top: 70px; }
-
-.gourmandise-sub {
-  font-family: 'Merriweather', cursive;
-  font-weight: 400;
-  font-size: 26px;
-  text-align: center;
-  color: #6e4ccc; }
-
-.gourmandise-chictraitG {
-  height: 32px;
-  margin: 8px; }
-
-.gourmandise-chictraitD {
-  height: 36px;
-  margin: 3px; }
+  .gourmandise-trait .gourmandise-sub {
+    font-family: 'Merriweather', cursive;
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+    color: #6e4ccc; }
+  .gourmandise-trait .gourmandise-chictraitG {
+    height: 32px;
+    margin: 8px; }
+  .gourmandise-trait .gourmandise-chictraitD {
+    height: 36px;
+    margin: 3px; }
 
 .repas-petale {
   margin-top: 20px;

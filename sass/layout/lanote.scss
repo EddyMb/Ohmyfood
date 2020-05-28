@@ -61,13 +61,34 @@
   text-align: center;
 }
 
-.prelude-title
+  .prelude-title 
 {
   font-family: 'Kalam', cursive;
   font-weight: 400;
   font-size: 30px;
   text-align: center;
   margin-right: 15px; 
+  position: relative;
+  text-decoration: none;
+}
+
+  .prelude-title::after
+{
+  content: "";
+  display: flex;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  background: black;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 250ms ease-in;
+}
+
+ .prelude-title:hover::after
+{
+  transform:scaleX(1);
 }
 .traitD
 {

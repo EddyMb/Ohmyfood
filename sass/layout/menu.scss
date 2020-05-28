@@ -27,9 +27,7 @@ body
 {  
     background-color: #fcdfdb;
     margin-right: 30px;
-    width:$widthMenu;
-    height:$heightMenu;
-    box-shadow:$shadow;
+    @include cadremenu($colorNote);
 
     @include responsive(phone){
      margin-left: 40px;   
@@ -37,11 +35,11 @@ body
      margin-bottom: 70px;
     }
     
-
     .note-title
    {
     text-align: center;
     margin-top:130px;
+    @include zoomeffect;
    }
     .fa-music
    {
@@ -51,17 +49,16 @@ body
    }
     h3 a
    {
-    font-size: 40px;
-    text-decoration: none; 
+    font-size: 35px;
     color:#3d1319;
+    @include lien;
     
    }
     h4
    {
-    font-size: 35px;
-    margin-bottom: 20px;  
+    font-size: 35px; 
     color:#3d1319;
-    font-family: 'devonshire';
+    font-family: 'devonshire', cursive;
    }
 }
 
@@ -78,24 +75,24 @@ body
         margin-right: 40px;
        }
        
-   
     .chic-title
    {
     text-align: center;
     margin-top:200px;
+    @include zoomeffect;
    }
     h4
    {
     font-size: 25px;
-    margin-bottom: 20px; 
+    margin-bottom: 10px; 
     font-family: 'Croissant One', cursive;
     @include linear-gradient(190deg, $color-one:#8f5aff, $color-two:#dc8527);
    }
     h3 a
    {
     font-size: 40px;
-    text-decoration: none;
     color: #c77412;
+    @include lien;
    }
 }
 
@@ -104,9 +101,7 @@ body
     background-color:#f9f9f9;
     margin-right: 30px;
     margin-top: 15px;
-    width:$widthMenu;
-    height:$heightMenu;
-    box-shadow:$shadow;  
+    @include cadremenu($colorDelice);  
     
     @include responsive(phone){
         margin-left: 40px;   
@@ -114,26 +109,24 @@ body
         margin-bottom: 60px;
        }
        
-
     .delice-title
    {
     text-align: center;
     margin-top:180px; 
+    @include zoomeffect;
    }
     h4
    {
     font-size: 35px;
-    margin-bottom: 35px;
     font-family: 'Dancing Script', cursive;
     @include linear-gradient(160deg, $color-one:#0886fbbb, $color-two:#0229dd);
    }
-
     h3 a
    {
     font-size: 40px;
-    text-decoration: none;
     color: #0887fb;  
-    font-family: 'sriracha';
+    font-family: 'sriracha', sans-serif;
+    @include lien;
    }
 }
 
@@ -142,9 +135,7 @@ body
     background-color: #fdfffd;
     margin-left: 30px;
     margin-top: 15px;
-    width:$widthMenu;
-    height:$heightMenu;
-    box-shadow:$shadow;  
+    @include cadremenu($colorDelice); 
 
     @include responsive(phone){
         margin-left: 40px;   
@@ -155,22 +146,21 @@ body
    {
     text-align: center;
     margin-top:180px;
+    @include zoomeffect;
    }
     h4
    {
     font-size: 30px;
-    margin-bottom: 32px;
     font-family:'kaushan script', cursive;
 
     @include linear-gradient( 145deg, $color-one:#beff7f, $color-two:#4ea043);
-
-    
+   
    }
     h3 a
    {
     font-size: 40px; 
-    text-decoration: none; 
     color: #72bf56; 
-    font-family: 'sriracha';
+    font-family: 'sriracha', sans-serif;
+    @include lien;
    }
 }

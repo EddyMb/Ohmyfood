@@ -22,6 +22,11 @@ footer
     color: #fdcb46;
     margin: 25px;
     font-size: 25px;
+    cursor: pointer;  
+  }
+  .legale:hover
+  {
+    animation: shake 0.8s;
   }
   .contact 
   {
@@ -34,4 +39,44 @@ footer
     text-decoration: none;
     color: #fdcb46; 
   }
+  .contact:hover{
+    animation: shake 0.8s;
+  }
 }
+
+@keyframes shake{
+  0%{
+    transform:translate(2px, 2px);
+  }
+  10%{
+    transform:translate(-2px, -2px);
+  }
+  20%{
+    transform:translate(2px, 2px);
+  }
+  30%{
+    transform:translate(-2px, -2px);
+  }
+  40%{
+    transform:translate(2px, 2px);
+  }
+  50%{
+    transform:translate(-2px, -2px);
+  }
+  60%{
+    transform:translate(2px, 2px);
+  }
+  70%{
+    transform:translate(-2px, -2px);
+  }
+  80%{
+    transform:translate(2px, 2px);
+  }
+  90%{
+    transform:translate(-2px, -2px);
+  }
+  100%{
+    transform:translate(2px, 2px);
+  }
+}
+

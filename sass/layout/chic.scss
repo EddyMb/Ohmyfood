@@ -2,8 +2,7 @@
 .main-bloc
 {
   background-color: white;
-  width: 100%;
- 
+  width: 100%; 
 }
 
 .chic-container
@@ -23,13 +22,12 @@
   margin-bottom: 35px;
   padding: 50px;
   text-align: center;
-  @include linear-gradient(145deg, $color-one:#8f5aff, $color-two:#dc8527);
-  
+  @include linear-gradient(145deg, $color-one:#8f5aff, $color-two:#dc8527);  
 }
 
 #appetit
 {
-   width: 100%;
+  width: 100%;
   align-items: center;
 }
 
@@ -38,29 +36,28 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
+
+     .appetit-sub
+    {
+      font-family: 'Merriweather', cursive;
+      font-weight: 400;
+      font-size: 26px;
+      text-align: center;
+      margin-right: 20px; 
+      color:#c77412;
+    }
+     .chictraitD
+   {
+      height: 25px;
+      margin: 8px;  
+   }
+    .chictraitG
+   {
+      height: 25px;
+      margin: 8px; 
+   }
 }
 
-.appetit-sub
-{
-  font-family: 'Merriweather', cursive;
-  font-weight: 400;
-  font-size: 26px;
-  text-align: center;
-  margin-right: 20px; 
-  color:#c77412;
-}
-
-.chictraitD
-{
-  height: 25px;
-  margin: 8px;  
-}
-.chictraitG
-{
-  height: 25px;
-  margin: 8px;
-  
-}
 
 .repas-tartare
 {
@@ -72,10 +69,10 @@
 .food-chic
 {
   font-family: 'Merriweather', cursive;
- font-weight: 200;
- font-size:17px ;
- margin-left: 80px;
- color:#c77412;
+  font-weight: 200;
+  font-size:17px ;
+  margin-left: 80px;
+  color:#c77412;
 }
 .price-chic
 {
@@ -117,39 +114,36 @@
   margin-top: 70px;
   text-align: center;
   
-}
+    .plaisir-chictraitG
+   {
+     height: 22px;
+     margin: 8px;        
+   }
+    
+    .plaisir-chictraitD
+   {
+     height: 32px;
+     margin: 3px;
+     margin-left: 30px;
+   }
 
-.plaisir-chictraitG
-{
-  height: 22px;
-  margin: 8px;
-   
-}
-
-
-.plaisir-chictraitD
-{
-  height: 32px;
-  margin: 3px;
-  margin-left: 30px;
-}
-
-.plaisir-sub
-{
-  font-family: 'Merriweather', cursive;
-  font-weight: 400;
-  font-size: 26px;
-  text-align: center;
-  color:#a56799;
+    .plaisir-sub
+   {
+    font-family: 'Merriweather', cursive;
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+    color:#a56799;
+   }
 }
 
 .food-plaisir
 {
   font-family: 'Merriweather', cursive;
- font-weight: 200;
- font-size:17px ;
- margin-left: 80px;
- color:#a56799;
+  font-weight: 200;
+  font-size:17px ;
+  margin-left: 80px;
+  color:#a56799;
 }
 .price-plaisir
 {
@@ -200,27 +194,28 @@
   display: flex;
   justify-content: space-around;
   margin-top: 70px;
-}
-.gourmandise-sub
-{
 
-  font-family: 'Merriweather', cursive;
-  font-weight: 400;
-  font-size: 26px;
-  text-align: center;
-  color:#6e4ccc;
-}
+      .gourmandise-sub
+     {
+       font-family: 'Merriweather', cursive;
+       font-weight: 400;
+       font-size: 26px;
+       text-align: center;
+       color:#6e4ccc;
+    }
 
-.gourmandise-chictraitG
-{
-  height: 32px;
-  margin: 8px;
-}
+      .gourmandise-chictraitG
+    {
+       height: 32px;
+       margin: 8px;
+    }
 
-.gourmandise-chictraitD
-{
-  height: 36px;
-  margin: 3px;
+      .gourmandise-chictraitD
+    {
+       height: 36px;
+       margin: 3px;
+    }
+
 }
 
 .repas-petale
@@ -230,12 +225,12 @@
   
 }
 
-.food-petale
+ .food-petale
 {
   font-family: 'Merriweather', cursive;
- font-weight: 200;
- font-size:17px ;
- margin-left: 80px;
+  font-weight: 200;
+  font-size:17px ;
+  margin-left: 80px;
 }
 
 .fondant
