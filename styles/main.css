@@ -28,45 +28,55 @@ footer {
     padding: 15px; }
   footer .legale a {
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
     color: #fdcb46;
     margin: 25px;
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer; }
+    @media only screen and (max-width: 463px) {
+      footer .legale a {
+        font-size: 15px; } }
   footer .legale:hover {
-    animation: shake 0.8s; }
+    animation: shake 1s; }
   footer .contact {
-    font-size: 25px;
+    font-size: 20px;
     margin-right: 10px;
     padding: 15px; }
   footer a {
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
     color: #fdcb46; }
+    @media only screen and (max-width: 463px) {
+      footer a {
+        font-size: 15px; } }
   footer .contact:hover {
-    animation: shake 0.8s; }
+    animation: shake 1s; }
 
 @keyframes shake {
   0% {
-    transform: translate(2px, 2px); }
+    transform: translate(5px, 5px); }
   10% {
-    transform: translate(-2px, -2px); }
+    transform: translate(-5px, -5px); }
   20% {
-    transform: translate(2px, 2px); }
+    transform: translate(5px, 5px); }
   30% {
-    transform: translate(-2px, -2px); }
+    transform: translate(-5px, -5px); }
   40% {
-    transform: translate(2px, 2px); }
+    transform: translate(5px, 5px); }
   50% {
-    transform: translate(-2px, -2px); }
+    transform: translate(-5px, -5px); }
   60% {
-    transform: translate(2px, 2px); }
+    transform: translate(5px, 5px); }
   70% {
-    transform: translate(-2px, -2px); }
+    transform: translate(-5px, -5px); }
   80% {
-    transform: translate(2px, 2px); }
+    transform: translate(5px, 5px); }
   90% {
-    transform: translate(-2px, -2px); }
+    transform: translate(-5px, -5px); }
   100% {
-    transform: translate(2px, 2px); } }
+    transform: translate(5px, 5px); } }
 * {
   margin: 0;
   padding: 0;
@@ -103,8 +113,8 @@ body {
     transition: transform 400ms;
     opacity: 1; }
     .note .note-title:hover {
-      transform: scale(1.15);
-      opacity: 0.4; }
+      transform: scale(1.12);
+      opacity: 0.6; }
   .note .fa-music {
     font-size: 30px;
     color: #f6916a;
@@ -115,11 +125,14 @@ body {
   .note h3 a {
     font-size: 35px;
     color: #3d1319;
+    font-family: 'Itim', cursive;
+    font-weight: 300;
     text-decoration: none; }
   .note h4 {
     font-size: 35px;
     color: #3d1319;
-    font-family: 'devonshire', cursive; }
+    font-family: 'devonshire', cursive;
+    font-weight: 300; }
 
 .chic {
   background-color: #fff5fe;
@@ -138,10 +151,10 @@ body {
     transition: transform 400ms;
     opacity: 1; }
     .chic .chic-title:hover {
-      transform: scale(1.15);
-      opacity: 0.4; }
+      transform: scale(1.12);
+      opacity: 0.6; }
   .chic h4 {
-    font-size: 25px;
+    font-size: 24px;
     margin-bottom: 10px;
     font-family: 'Croissant One', cursive;
     color: #8f5aff;
@@ -150,7 +163,8 @@ body {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; }
   .chic h3 a {
-    font-size: 40px;
+    font-size: 38px;
+    font-weight: 600;
     color: #c77412;
     text-decoration: none; }
 
@@ -174,20 +188,23 @@ body {
     transition: transform 400ms;
     opacity: 1; }
     .delice .delice-title:hover {
-      transform: scale(1.15);
-      opacity: 0.4; }
+      transform: scale(1.12);
+      opacity: 0.6; }
   .delice h4 {
     font-size: 35px;
     font-family: 'Dancing Script', cursive;
+    margin-bottom: 10px;
     color: #0886fbbb;
     color: #0229dd;
     background: -webkit-linear-gradient(160deg, #0886fbbb 0%, #0229dd 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; }
   .delice h3 a {
-    font-size: 40px;
+    font-size: 45px;
+    margin-top: 30px;
     color: #0887fb;
-    font-family: 'sriracha', sans-serif;
+    font-family: 'Caveat', cursive;
+    font-weight: 300;
     text-decoration: none; }
 
 .palette {
@@ -209,20 +226,23 @@ body {
     transition: transform 400ms;
     opacity: 1; }
     .palette .palette-title:hover {
-      transform: scale(1.15);
-      opacity: 0.4; }
+      transform: scale(1.12);
+      opacity: 0.6; }
   .palette h4 {
     font-size: 30px;
     font-family: 'kaushan script', cursive;
+    margin-bottom: 10px;
     color: #beff7f;
     color: #4ea043;
     background: -webkit-linear-gradient(145deg, #beff7f 0%, #4ea043 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; }
   .palette h3 a {
-    font-size: 40px;
+    font-size: 45px;
+    font-weight: 300;
     color: #72bf56;
-    font-family: 'sriracha', sans-serif;
+    font-family: 'Caveat', cursive;
+    margin-top: 30px;
     text-decoration: none; }
 
 .prochainement {
@@ -294,7 +314,7 @@ body {
   width: 100%; }
 
 .note-menu1 {
-  font-size: 30px;
+  font-size: 35px;
   text-align: center;
   margin-top: 35px;
   margin-bottom: 25px;
@@ -318,8 +338,9 @@ body {
 .note-title .principal {
   font-size: 40px;
   font-family: 'Devonshire', cursive;
-  font-weight: lighter;
-  margin-bottom: 35px; }
+  font-weight: 300;
+  margin-bottom: 35px;
+  color: #3d1319; }
 
 #prelude {
   width: 100%;
@@ -333,7 +354,7 @@ body {
 .prelude-title {
   font-family: 'Kalam', cursive;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 28px;
   text-align: center;
   margin-right: 15px;
   position: relative;
@@ -346,6 +367,7 @@ body {
   left: 0;
   bottom: 0;
   height: 2px;
+  width: 100%;
   background: black;
   transform: scaleX(0);
   transform-origin: left;
@@ -355,12 +377,14 @@ body {
   transform: scaleX(1); }
 
 .traitD {
-  height: 20px;
-  margin: 8px; }
+  height: 27px;
+  margin: 8px;
+  margin-left: 20px; }
 
 .traitG {
-  height: 30px;
-  margin: 8px; }
+  height: 45px;
+  margin: 8px;
+  margin-right: 20px; }
 
 .repas-raviole {
   display: flex;
@@ -372,12 +396,12 @@ body {
   font-family: 'Kalam', cursive;
   font-weight: 300;
   font-size: 20px;
-  margin-left: 80px; }
+  margin-left: 60px; }
 
 .price {
   font-family: 'Kalam', cursive;
   font-size: 20px;
-  margin-right: 90px; }
+  margin-right: 75px; }
 
 .caviar {
   display: flex;
@@ -410,19 +434,19 @@ body {
 .orgue-sub {
   font-family: 'Kalam', cursive;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 28px;
   text-align: center;
   margin-right: 15px; }
 
 .orgue-traitG {
-  height: 20px;
+  height: 27px;
   margin: 8px;
-  margin-left: 20px; }
+  margin-left: 35px; }
 
 .orgue-traitD {
-  height: 30px;
+  height: 45px;
   margin: 8px;
-  margin-right: 25px; }
+  margin-right: 35px; }
 
 .repas-noix {
   display: flex;
@@ -454,19 +478,19 @@ body {
 .mouvement-title {
   font-family: 'Kalam', cursive;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 28px;
   text-align: center;
   margin-right: 15px; }
 
 .mouvement-traitG {
-  height: 20px;
+  height: 27px;
   margin: 8px;
-  margin-left: 30px; }
+  margin-left: 49px; }
 
 .mouvement-traitD {
-  height: 30px;
+  height: 45px;
   margin: 8px;
-  margin-right: 40px; }
+  margin-right: 50px; }
 
 .repas-macaron {
   margin-top: 20px; }
@@ -492,11 +516,20 @@ body {
 .principal1 {
   font-size: 35px;
   font-family: 'Devonshire', cursive;
-  margin-left: 13px; }
+  margin-left: 13px;
+  font-weight: 300;
+  color: #3d1319; }
 
 .main-bloc {
   background-color: white;
   width: 100%; }
+
+.chic-menu1 {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  letter-spacing: 2px; }
 
 .chic-container {
   background-color: #fff5fe;
@@ -507,14 +540,14 @@ body {
   box-shadow: 3px 3px 14px gray; }
 
 .chic-title2 {
-  font-size: 35px;
+  font-size: 28px;
   font-family: 'Croissant One', cursive;
   margin-bottom: 35px;
   padding: 50px;
   text-align: center;
   color: #8f5aff;
   color: #dc8527;
-  background: -webkit-linear-gradient(145deg, #8f5aff 0%, #dc8527 100%);
+  background: -webkit-linear-gradient(190deg, #8f5aff 0%, #dc8527 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text; }
 
@@ -528,8 +561,9 @@ body {
   text-align: center; }
   .chic-trait .appetit-sub {
     font-family: 'Merriweather', cursive;
-    font-weight: 400;
-    font-size: 26px;
+    font-weight: 600;
+    font-size: 21px;
+    letter-spacing: 1px;
     text-align: center;
     margin-right: 20px;
     color: #c77412; }
@@ -591,8 +625,9 @@ body {
     margin-left: 30px; }
   .plaisir-trait .plaisir-sub {
     font-family: 'Merriweather', cursive;
-    font-weight: 400;
-    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 21px;
     text-align: center;
     color: #a56799; }
 
@@ -641,8 +676,9 @@ body {
   margin-top: 70px; }
   .gourmandise-trait .gourmandise-sub {
     font-family: 'Merriweather', cursive;
-    font-weight: 400;
-    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 21px;
     text-align: center;
     color: #6e4ccc; }
   .gourmandise-trait .gourmandise-chictraitG {
@@ -676,6 +712,13 @@ body {
   background-color: white;
   width: 100%; }
 
+.delice-menu1 {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  letter-spacing: 2px; }
+
 .delice-container {
   background-color: #f9f9f9;
   margin-left: 50px;
@@ -684,7 +727,7 @@ body {
   margin-bottom: 120px; }
 
 .delice-title2 {
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 35px;
   padding: 50px;
   text-align: center;
@@ -707,15 +750,15 @@ body {
 .delice-sub {
   font-family: 'Kalam', cursive;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center; }
 
 .delicetraitG {
-  height: 30px;
+  height: 40px;
   margin: 8px; }
 
 .delicetraitD {
-  height: 20px;
+  height: 26px;
   margin: 15px; }
 
 .repas-thon {
@@ -733,7 +776,8 @@ body {
 .price-delice {
   font-family: 'Kalam', cursive;
   font-size: 20px;
-  margin-right: 90px; }
+  margin-right: 90px;
+  font-weight: 400; }
 
 .bouchee {
   display: flex;
@@ -760,15 +804,15 @@ body {
 .continuer-sub {
   font-family: 'Kalam', cursive;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center; }
 
 .light-traitG {
-  height: 35px;
+  height: 44px;
   margin: 8px; }
 
 .light-traitD {
-  height: 25px;
+  height: 32px;
   margin: 16px; }
 
 .repas-poulet {
@@ -802,15 +846,15 @@ body {
 .terminer-sub {
   font-family: 'Kalam', cursive;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 26px;
   text-align: center; }
 
 .blue-traitG {
-  height: 30px;
+  height: 38px;
   margin: 8px; }
 
 .blue-traitD {
-  height: 25px;
+  height: 30px;
   margin: 13px; }
 
 .repas-desserts {

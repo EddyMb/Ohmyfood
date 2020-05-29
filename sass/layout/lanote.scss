@@ -10,11 +10,12 @@
 
 .note-menu1
 {
-  font-size: 30px;
+  font-size: 35px;
   text-align: center;
   margin-top: 35px;
   margin-bottom:25px;
   letter-spacing: 2px;
+  
 }
 
 .note-container
@@ -43,8 +44,9 @@
 {
   font-size:40px;
   font-family: 'Devonshire', cursive;
-  font-weight: lighter;
+  font-weight: 300;
   margin-bottom: 35px;
+  color:#3d1319;
   
 }
 
@@ -65,7 +67,7 @@
 {
   font-family: 'Kalam', cursive;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 28px;
   text-align: center;
   margin-right: 15px; 
   position: relative;
@@ -80,6 +82,7 @@
   left: 0;
   bottom: 0;
   height: 2px;
+  width:100%;
   background: black;
   transform: scaleX(0);
   transform-origin: left;
@@ -89,16 +92,19 @@
  .prelude-title:hover::after
 {
   transform:scaleX(1);
+  
 }
 .traitD
 {
-  height: 20px;
+  height: 27px;
   margin: 8px;  
+  margin-left: 20px;
 }
 .traitG
 {
-  height: 30px;
+  height: 45px;
   margin: 8px;
+  margin-right: 20px;
   
 }
 .repas-raviole
@@ -113,13 +119,13 @@
  font-family: 'Kalam', cursive;
  font-weight: 300;
  font-size:20px ;
- margin-left: 80px;
+ margin-left: 60px;
 }
 .price
 {
   font-family: 'Kalam', cursive;
   font-size:20px ;
-  margin-right: 90px;
+  margin-right: 75px;
 }
 
 .caviar
@@ -164,23 +170,24 @@
 {
   font-family: 'Kalam', cursive;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 28px;
   text-align: center;
   margin-right: 15px;
 }
 
 .orgue-traitG
 {
-  height: 20px;
+  height: 27px;
   margin: 8px;
-  margin-left: 20px;
+  margin-left: 35px;
+
 }
 
 .orgue-traitD
 {
-  height: 30px;
+  height: 45px;
   margin: 8px;
-  margin-right: 25px;
+  margin-right: 35px;
 }
 .repas-noix
 {
@@ -224,23 +231,23 @@
 
   font-family: 'Kalam', cursive;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 28px;
   text-align: center;
   margin-right: 15px;
 }
 
 .mouvement-traitG
 {
-  height: 20px;
+  height: 27px;
   margin: 8px;
-  margin-left: 30px;
+  margin-left: 49px;
 }
 
 .mouvement-traitD
 {
-  height: 30px;
+  height: 45px;
   margin: 8px;
-  margin-right: 40px;
+  margin-right: 50px;
 }
 
 .repas-macaron
@@ -280,6 +287,8 @@
  font-size: 35px;
  font-family: 'Devonshire', cursive;
  margin-left: 13px;
+ font-weight: 300;
+ color:#3d1319;
 }
 
 

@@ -51,6 +51,8 @@ body
    {
     font-size: 35px;
     color:#3d1319;
+    font-family: 'Itim', cursive;
+    font-weight: 300;
     @include lien;
     
    }
@@ -59,6 +61,7 @@ body
     font-size: 35px; 
     color:#3d1319;
     font-family: 'devonshire', cursive;
+    font-weight: 300;
    }
 }
 
@@ -70,7 +73,8 @@ body
     height:$heightMenu;
     box-shadow:$shadow;
 
-    @include responsive(phone){
+   
+   @include responsive(phone){
         margin-left: 40px;   
         margin-right: 40px;
        }
@@ -83,14 +87,15 @@ body
    }
     h4
    {
-    font-size: 25px;
+    font-size: 24px;
     margin-bottom: 10px; 
     font-family: 'Croissant One', cursive;
     @include linear-gradient(190deg, $color-one:#8f5aff, $color-two:#dc8527);
    }
     h3 a
    {
-    font-size: 40px;
+    font-size: 38px;
+    font-weight: 600;
     color: #c77412;
     @include lien;
    }
@@ -119,13 +124,16 @@ body
    {
     font-size: 35px;
     font-family: 'Dancing Script', cursive;
+    margin-bottom: 10px;
     @include linear-gradient(160deg, $color-one:#0886fbbb, $color-two:#0229dd);
    }
     h3 a
    {
-    font-size: 40px;
+    font-size: 45px;
+    margin-top: 30px;
     color: #0887fb;  
-    font-family: 'sriracha', sans-serif;
+    font-family: 'Caveat', cursive;
+    font-weight: 300;
     @include lien;
    }
 }
@@ -152,15 +160,18 @@ body
    {
     font-size: 30px;
     font-family:'kaushan script', cursive;
+    margin-bottom: 10px;
 
     @include linear-gradient( 145deg, $color-one:#beff7f, $color-two:#4ea043);
    
    }
     h3 a
    {
-    font-size: 40px; 
+    font-size: 45px; 
+    font-weight: 300;
     color: #72bf56; 
-    font-family: 'sriracha', sans-serif;
+    font-family: 'Caveat', cursive;
+    margin-top: 30px;
     @include lien;
    }
 }

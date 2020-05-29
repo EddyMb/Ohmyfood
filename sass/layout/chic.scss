@@ -5,6 +5,16 @@
   width: 100%; 
 }
 
+.chic-menu1
+{
+  font-size: 35px;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom:25px;
+  letter-spacing: 2px;
+  
+}
+
 .chic-container
 {
   background-color:#fff5fe;
@@ -17,12 +27,13 @@
 
 .chic-title2 
 {
-  font-size:35px;
+  font-size:28px;
   font-family: 'Croissant One', cursive;
   margin-bottom: 35px;
   padding: 50px;
   text-align: center;
-  @include linear-gradient(145deg, $color-one:#8f5aff, $color-two:#dc8527);  
+  @include linear-gradient(190deg, $color-one:#8f5aff, $color-two:#dc8527);
+ 
 }
 
 #appetit
@@ -40,8 +51,9 @@
      .appetit-sub
     {
       font-family: 'Merriweather', cursive;
-      font-weight: 400;
-      font-size: 26px;
+      font-weight: 600;
+      font-size: 21px;
+      letter-spacing: 1px;
       text-align: center;
       margin-right: 20px; 
       color:#c77412;
@@ -130,8 +142,9 @@
     .plaisir-sub
    {
     font-family: 'Merriweather', cursive;
-    font-weight: 400;
-    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 21px;
     text-align: center;
     color:#a56799;
    }
@@ -198,8 +211,9 @@
       .gourmandise-sub
      {
        font-family: 'Merriweather', cursive;
-       font-weight: 400;
-       font-size: 26px;
+       font-weight: 600;
+       letter-spacing: 1px;
+       font-size: 21px;
        text-align: center;
        color:#6e4ccc;
     }

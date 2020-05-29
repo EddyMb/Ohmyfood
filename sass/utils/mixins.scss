@@ -20,8 +20,8 @@ text-decoration: $texteDecoration;
   transition: transform 400ms;
   opacity:1;
   &:hover{
-    transform:scale(1.15);
-    opacity: 0.4;
+    transform:scale(1.12);
+    opacity: 0.6;
   }
 }
 
@@ -59,6 +59,11 @@ text-decoration: $texteDecoration;
   
 
 @mixin responsive($breakpoint) {
+
+    @if $breakpoint == little-phone {
+         @media only screen and (max-width:463px) {@content};
+}
+
     @if $breakpoint == phone {
         @media only screen and (max-width:768px) {@content};
     }
