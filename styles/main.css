@@ -90,7 +90,7 @@ body {
   justify-content: center;
   margin-top: 50px;
   width: 100%; }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 600px) {
     .container {
       flex-wrap: wrap; } }
 
@@ -101,11 +101,14 @@ body {
   height: 500px;
   box-shadow: 3px 3px 14px gray;
   background-color: #fcdfdb; }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 600px) {
     .note {
       margin-left: 40px;
       margin-right: 40px;
       margin-bottom: 70px; } }
+  @media only screen and (max-width: 768px) {
+    .note {
+      margin-left: 40px; } }
   .note .note-title {
     text-align: center;
     margin-top: 130px;
@@ -140,9 +143,12 @@ body {
   width: 350px;
   height: 500px;
   box-shadow: 3px 3px 14px gray; }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 600px) {
     .chic {
       margin-left: 40px;
+      margin-right: 40px; } }
+  @media only screen and (max-width: 768px) {
+    .chic {
       margin-right: 40px; } }
   .chic .chic-title {
     text-align: center;
@@ -176,11 +182,14 @@ body {
   height: 500px;
   box-shadow: 3px 3px 14px gray;
   background-color: #f9f9f9; }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 600px) {
     .delice {
       margin-left: 40px;
       margin-right: 40px;
       margin-bottom: 60px; } }
+  @media only screen and (max-width: 768px) {
+    .delice {
+      margin-left: 40px; } }
   .delice .delice-title {
     text-align: center;
     margin-top: 180px;
@@ -215,9 +224,12 @@ body {
   height: 500px;
   box-shadow: 3px 3px 14px gray;
   background-color: #f9f9f9; }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 600px) {
     .palette {
       margin-left: 40px;
+      margin-right: 40px; } }
+  @media only screen and (max-width: 768px) {
+    .palette {
       margin-right: 40px; } }
   .palette .palette-title {
     text-align: center;
@@ -257,16 +269,19 @@ body {
     letter-spacing: 2px;
     padding: 9px; }
   .prochainement h3 a span {
-    height: 10px;
-    width: 10px;
+    height: 8px;
+    width: 8px;
     background: #fdcb46;
+    margin-left: 5px;
     border-radius: 100%;
     display: inline-block;
     animation: dots 1s linear infinite alternate; }
   .prochainement h3 a span:nth-child(2) {
-    animation-delay: .2s; }
+    animation-delay: .2s;
+    margin-left: 5px; }
   .prochainement h3 a span:nth-child(3) {
-    animation-delay: .4s; }
+    animation-delay: .4s;
+    margin-left: 5px; }
   .prochainement .btn {
     padding-left: 40px;
     padding-right: 40px;
@@ -880,6 +895,13 @@ body {
   background-color: white;
   width: 100%; }
 
+.palette-menu1 {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  letter-spacing: 2px; }
+
 .palette-container {
   background-color: #fdfffd;
   margin-left: 50px;
@@ -889,7 +911,7 @@ body {
   box-shadow: 3px 3px 14px gray; }
 
 .palette-title2 {
-  font-size: 45px;
+  font-size: 35px;
   margin-bottom: 35px;
   padding: 50px;
   text-align: center;
@@ -912,15 +934,15 @@ body {
 .esquisse-sub {
   font-family: 'Kalam', cursive;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center; }
 
 .paletteraitG {
-  height: 30px;
+  height: 42px;
   margin: 8px; }
 
 .palettetraitD {
-  height: 35px;
+  height: 50px;
   margin: 8px; }
 
 .repas-fricasse {
@@ -965,8 +987,18 @@ body {
 .maitre-sub {
   font-family: 'Kalam', cursive;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center; }
+
+.mtraitG {
+  height: 42px;
+  margin: 8px;
+  margin-left: 30px; }
+
+.mtraitD {
+  height: 50px;
+  margin: 8px;
+  margin-right: 30px; }
 
 .repas-filet {
   display: flex;
@@ -999,8 +1031,18 @@ body {
 .sommet-sub {
   font-family: 'Kalam', cursive;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center; }
+
+.arttraitG {
+  height: 42px;
+  margin: 8px;
+  margin-left: 30px; }
+
+.arttraitD {
+  height: 50px;
+  margin: 8px;
+  margin-right: 30px; }
 
 .repas-paris {
   display: flex;

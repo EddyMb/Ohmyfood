@@ -65,15 +65,15 @@ text-decoration: $texteDecoration;
 }
 
     @if $breakpoint == phone {
-        @media only screen and (max-width:768px) {@content};
+        @media only screen and (max-width:600px) {@content};
     }
     
-    @if $breakpoint == lap-top {
-        @media only screen and (max-width:992px) {@content};
+    @if $breakpoint == tablette{
+        @media only screen and (max-width:768px) {@content};
     }
 
-    @if $breakpoint == big-screen {
-        @media only screen and (max-width:1200px) {@content}
+    @if $breakpoint == lap-top {
+        @media only screen and (max-width:992px) {@content}
     }
 }
 
