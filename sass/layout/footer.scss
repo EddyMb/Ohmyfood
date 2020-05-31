@@ -14,7 +14,8 @@ footer
 
   .legale 
   {
-    padding: 15px; 
+    margin-top: 20px; 
+   
   }
   .legale a
   {
@@ -24,7 +25,9 @@ footer
     color: #fdcb46;
     margin: 25px;
     font-size: 20px;
-    cursor: pointer;  
+    cursor: pointer; 
+
+  
     @include responsive(little-phone){
         font-size: 15px;
     }
@@ -35,16 +38,21 @@ footer
   }
   .contact 
   {
-    font-size: 20px;
-    margin-right: 10px;
-    padding: 15px; 
+    
+    margin-right: 25px;
+    margin-top: 20px;
+   
+  
   }
   a 
   {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
     font-weight: 200;
     color: #fdcb46; 
+  
+  
     @include responsive(little-phone){
       font-size: 15px;
   }
