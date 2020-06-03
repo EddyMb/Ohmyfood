@@ -18,17 +18,20 @@ body
     margin-top: 50px;
     width: 100%;
 
+    /* RESPONSIVE*/
     @include responsive(phone){
         flex-wrap: wrap;
     }
 }
 
+ /* LA NOTE ENCHANTEE*/
 .note
 {  
     background-color: #fcdfdb;
     margin-right: 30px;
     @include cadremenu($colorNote);
 
+    /* RESPONSIVE*/
     @include responsive(phone){
      margin-left: 40px;   
      margin-right: 40px;
@@ -37,9 +40,7 @@ body
     @include responsive(tablette){
         margin-left: 40px;
     }
-
-    
-    
+ 
     .note-title
    {
     text-align: center;
@@ -48,7 +49,6 @@ body
    }
     .fa-music
    {
-    
     font-size: 30px;
     @include linear-gradient(145deg, $color-one:#f6916a, $color-two:#f13639);
    }
@@ -67,10 +67,10 @@ body
     color:#3d1319;
     font-family: 'devonshire', cursive;
     font-weight: 300;
-
    }
 }
 
+/* LE CHIC A LA FRANCAISE*/
 .chic
 {  
     background-color:#fff5fe; 
@@ -79,17 +79,15 @@ body
     height:$heightMenu;
     box-shadow:$shadow;
 
-   
+    /* RESPONSIVE*/
    @include responsive(phone){
         margin-left: 40px;   
         margin-right: 30px;
        }
        @include responsive(tablette){
-        margin-right: 40px;
-        
+        margin-right: 40px;    
     }
 
-   
     .chic-title
    {
     text-align: center;
@@ -103,12 +101,10 @@ body
     font-family: 'Croissant One', cursive;
     @include linear-gradient(190deg, $color-one:#8f5aff, $color-two:#dc8527);
     @include responsive(tablette){
-        font-size: 21px;
-        
-    }
-    
-
+        font-size: 21px;    
+    } 
    }
+
     h3 a
    {
     font-size: 38px;
@@ -118,6 +114,7 @@ body
    }
 }
 
+/* DELICE DES PAPILLES*/
 .delice
 {
     background-color:#f9f9f9;
@@ -125,6 +122,7 @@ body
     margin-top: 15px;
     @include cadremenu($colorDelice);  
     
+    /* RESPONSIVE*/
     @include responsive(phone){
         margin-left: 40px;   
         margin-right: 40px;
@@ -135,7 +133,6 @@ body
         margin-left: 40px;
     }
 
-   
     .delice-title
    {
     text-align: center;
@@ -160,6 +157,7 @@ body
    }
 }
 
+/* LA PALETTE DU GOUT*/
 .palette
 {
     background-color: #fdfffd;
@@ -167,18 +165,16 @@ body
     margin-top: 15px;
     @include cadremenu($colorDelice); 
 
+    /* RESPONSIVE*/
     @include responsive(phone){
         margin-left: 40px;   
         margin-right: 30px;
        }
 
- @include responsive(tablette){
-        margin-right: 40px;
-        
+    @include responsive(tablette){
+        margin-right: 40px;    
     }
-
-    
-       
+   
     .palette-title
    {
     text-align: center;
@@ -192,9 +188,10 @@ body
     margin-bottom: 10px;
 
     @include linear-gradient( 145deg, $color-one:#beff7f, $color-two:#4ea043);
+
+    /* RESPONSIVE*/
     @include responsive(tablette){
-        font-size: 21px;
-        
+        font-size: 21px;    
     }
    
    }

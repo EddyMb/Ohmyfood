@@ -23,7 +23,9 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #579c87; }
+  background-color: #579c87;
+  /* MENTION LEGALE*/
+  /* CONTACT*/ }
   footer .legale {
     margin-top: 20px; }
   footer .legale a {
@@ -33,7 +35,8 @@ footer {
     color: #fdcb46;
     margin: 25px;
     font-size: 20px;
-    cursor: pointer; }
+    cursor: pointer;
+    /* RESPONSIVE MOBILE*/ }
     @media only screen and (max-width: 480px) {
       footer .legale a {
         font-size: 15px; } }
@@ -47,13 +50,15 @@ footer {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 200;
-    color: #fdcb46; }
+    color: #fdcb46;
+    /* RESPONSIVE MOBILE*/ }
     @media only screen and (max-width: 480px) {
       footer a {
         font-size: 15px; } }
   footer .contact:hover {
     animation: shake 1s; }
 
+/* ANIMATION*/
 @keyframes shake {
   0% {
     transform: translate(5px, 5px); }
@@ -89,18 +94,21 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  width: 100%; }
+  width: 100%;
+  /* RESPONSIVE*/ }
   @media only screen and (max-width: 670px) {
     .container {
       flex-wrap: wrap; } }
 
+/* LA NOTE ENCHANTEE*/
 .note {
   background-color: #fcdfdb;
   margin-right: 30px;
   width: 350px;
   height: 500px;
   box-shadow: 3px 3px 14px gray;
-  background-color: #fcdfdb; }
+  background-color: #fcdfdb;
+  /* RESPONSIVE*/ }
   @media only screen and (max-width: 670px) {
     .note {
       margin-left: 40px;
@@ -137,12 +145,14 @@ body {
     font-family: 'devonshire', cursive;
     font-weight: 300; }
 
+/* LE CHIC A LA FRANCAISE*/
 .chic {
   background-color: #fff5fe;
   margin-left: 30px;
   width: 350px;
   height: 500px;
-  box-shadow: 3px 3px 14px gray; }
+  box-shadow: 3px 3px 14px gray;
+  /* RESPONSIVE*/ }
   @media only screen and (max-width: 670px) {
     .chic {
       margin-left: 40px;
@@ -177,6 +187,7 @@ body {
     color: #c77412;
     text-decoration: none; }
 
+/* DELICE DES PAPILLES*/
 .delice {
   background-color: #f9f9f9;
   margin-right: 30px;
@@ -184,7 +195,8 @@ body {
   width: 350px;
   height: 500px;
   box-shadow: 3px 3px 14px gray;
-  background-color: #f9f9f9; }
+  background-color: #f9f9f9;
+  /* RESPONSIVE*/ }
   @media only screen and (max-width: 670px) {
     .delice {
       margin-left: 40px;
@@ -219,6 +231,7 @@ body {
     font-weight: 300;
     text-decoration: none; }
 
+/* LA PALETTE DU GOUT*/
 .palette {
   background-color: #fdfffd;
   margin-left: 30px;
@@ -226,7 +239,8 @@ body {
   width: 350px;
   height: 500px;
   box-shadow: 3px 3px 14px gray;
-  background-color: #f9f9f9; }
+  background-color: #f9f9f9;
+  /* RESPONSIVE*/ }
   @media only screen and (max-width: 670px) {
     .palette {
       margin-left: 40px;
@@ -251,7 +265,8 @@ body {
     color: #4ea043;
     background: -webkit-linear-gradient(145deg, #beff7f 0%, #4ea043 100%);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text; }
+    -webkit-background-clip: text;
+    /* RESPONSIVE*/ }
     @media only screen and (max-width: 800px) {
       .palette h4 {
         font-size: 21px; } }
@@ -304,11 +319,21 @@ body {
   margin-top: 100px; }
   .editeur h3 {
     font-size: 30px;
-    margin-bottom: 10px; }
-  .editeur h4 {
+    margin-bottom: 10px;
     font-size: 20px;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    font-size: 20px; }
+  .editeur h4 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-size: 20px; }
   .editeur ul li {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 15px;
     font-size: 20px; }
 
 .hebergement {
@@ -316,8 +341,15 @@ body {
   margin-top: 100px; }
   .hebergement h3 {
     font-size: 30px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-size: 20px; }
   .hebergement ul li {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 15px;
     font-size: 20px; }
 
 .conditions {
@@ -326,9 +358,16 @@ body {
   margin-bottom: 100px; }
   .conditions h3 {
     font-size: 30px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-size: 20px; }
   .conditions p {
-    font-size: 16px; }
+    font-size: 16px;
+    /* RESPONSIVE MOBILE*/ }
+    @media only screen and (max-width: 670px) {
+      .conditions p {
+        margin: 20px; } }
 
 .main-bloc {
   background-color: white;
@@ -346,22 +385,33 @@ body {
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 120px;
-  box-shadow: 3px 3px 14px gray; }
+  box-shadow: 3px 3px 14px gray;
+  /* RESPONSIVE*/ }
+  @media only screen and (max-width: 600px) {
+    .note-container {
+      margin-right: 20px;
+      margin-left: 20px; } }
+  @media only screen and (min-width: 601px) and (max-width: 700px) {
+    .note-container {
+      margin-right: 30px;
+      margin-left: 30px; } }
+  @media only screen and (max-width: 780px) {
+    .note-container {
+      margin-right: 26px;
+      margin-left: 26px; } }
 
 .note-title {
   text-align: center; }
-
-.note-title .fa-music {
-  color: red;
-  font-size: 60px;
-  margin-top: 40px; }
-
-.note-title .principal {
-  font-size: 40px;
-  font-family: 'Devonshire', cursive;
-  font-weight: 300;
-  margin-bottom: 35px;
-  color: #3d1319; }
+  .note-title .fa-music {
+    color: red;
+    font-size: 60px;
+    margin-top: 40px; }
+  .note-title .principal {
+    font-size: 40px;
+    font-family: 'Devonshire', cursive;
+    font-weight: 300;
+    margin-bottom: 35px;
+    color: #3d1319; }
 
 #prelude {
   width: 100%;
@@ -380,6 +430,9 @@ body {
   margin-right: 15px;
   position: relative;
   text-decoration: none; }
+  @media only screen and (max-width: 600px) {
+    .prelude-title {
+      font-size: 22px; } }
 
 .prelude-title::after {
   content: "";
@@ -401,46 +454,95 @@ body {
   height: 27px;
   margin: 8px;
   margin-left: 20px; }
+  @media only screen and (max-width: 600px) {
+    .traitD {
+      height: 10px;
+      margin: 18px; } }
+  @media only screen and (min-width: 601px) and (max-width: 700px) {
+    .traitD {
+      height: 19px;
+      margin: 8px; } }
 
 .traitG {
   height: 45px;
   margin: 8px;
   margin-right: 20px; }
+  @media only screen and (max-width: 600px) {
+    .traitG {
+      height: 16px;
+      margin: 16px; } }
+  @media only screen and (min-width: 601px) and (max-width: 700px) {
+    .traitG {
+      height: 31px;
+      margin: 8px; } }
 
 .repas-raviole {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 10px; }
+  @media only screen and (max-width: 600px) {
+    .repas-raviole {
+      display: block; } }
 
 .food {
   font-family: 'Kalam', cursive;
   font-weight: 300;
   font-size: 20px;
   margin-left: 60px; }
+  @media only screen and (max-width: 600px) {
+    .food {
+      text-align: center;
+      margin-left: 4px;
+      margin-right: 4px; } }
+  @media only screen and (min-width: 601px) and (max-width: 700px) {
+    .food {
+      margin-left: 22px; } }
+  @media only screen and (max-width: 780px) {
+    .food {
+      margin-left: 28px; } }
 
 .price {
   font-family: 'Kalam', cursive;
   font-size: 20px;
   margin-right: 75px; }
+  @media only screen and (max-width: 600px) {
+    .price {
+      text-align: center;
+      margin-right: 6px; } }
+  @media only screen and (min-width: 601px) and (max-width: 700px) {
+    .price {
+      margin-right: 35px; } }
+  @media only screen and (max-width: 780px) {
+    .price {
+      margin-right: 49px; } }
 
 .caviar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 10px; }
+  @media only screen and (max-width: 600px) {
+    .caviar {
+      display: block; } }
 
 .homard {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 10px; }
+  @media only screen and (max-width: 600px) {
+    .homard {
+      display: block; } }
 
 .foie {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 10px; }
+  @media only screen and (max-width: 600px) {
+    .foie {
+      display: block; } }
 
 #orgue {
   width: 100%;
@@ -458,34 +560,62 @@ body {
   font-size: 28px;
   text-align: center;
   margin-right: 15px; }
+  @media only screen and (max-width: 600px) {
+    .orgue-sub {
+      font-size: 22px; } }
 
 .orgue-traitG {
   height: 27px;
   margin: 8px;
   margin-left: 35px; }
+  @media only screen and (max-width: 600px) {
+    .orgue-traitG {
+      height: 10px;
+      margin: 18px; } }
+  @media only screen and (min-width: 601px) and (max-width: 700px) {
+    .orgue-traitG {
+      height: 19px;
+      margin: 8px; } }
 
 .orgue-traitD {
   height: 45px;
   margin: 8px;
   margin-right: 35px; }
+  @media only screen and (max-width: 600px) {
+    .orgue-traitD {
+      height: 16px;
+      margin: 16px; } }
+  @media only screen and (min-width: 601px) and (max-width: 700px) {
+    .orgue-traitD {
+      height: 31px;
+      margin: 8px; } }
 
 .repas-noix {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 20px; }
+  @media only screen and (max-width: 600px) {
+    .repas-noix {
+      display: block; } }
 
 .langouste {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 10px; }
+  @media only screen and (max-width: 600px) {
+    .langouste {
+      display: block; } }
 
 .mijote {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 10px; }
+  @media only screen and (max-width: 600px) {
+    .mijote {
+      display: block; } }
 
 #mouvement {
   width: 100%;
@@ -502,16 +632,38 @@ body {
   font-size: 28px;
   text-align: center;
   margin-right: 15px; }
+  @media only screen and (max-width: 600px) {
+    .mouvement-title {
+      font-size: 22px;
+      margin-right: 0; } }
 
 .mouvement-traitG {
   height: 27px;
   margin: 8px;
   margin-left: 49px; }
+  @media only screen and (max-width: 600px) {
+    .mouvement-traitG {
+      height: 10px;
+      margin: 18px;
+      margin-left: 20px; } }
+  @media only screen and (min-width: 601px) and (max-width: 700px) {
+    .mouvement-traitG {
+      height: 19px;
+      margin: 8px; } }
 
 .mouvement-traitD {
   height: 45px;
   margin: 8px;
   margin-right: 50px; }
+  @media only screen and (max-width: 600px) {
+    .mouvement-traitD {
+      height: 16px;
+      margin: 16px;
+      margin-right: 20px; } }
+  @media only screen and (min-width: 601px) and (max-width: 700px) {
+    .mouvement-traitD {
+      height: 31px;
+      margin: 8px; } }
 
 .repas-macaron {
   margin-top: 20px; }
@@ -528,18 +680,26 @@ body {
   padding: 40px;
   display: flex;
   justify-content: center; }
+  @media only screen and (max-width: 600px) {
+    #return {
+      display: inline-block; } }
+  @media only screen and (max-width: 600px) and (max-width: 600px) {
+    #return {
+      display: flex; } }
 
-.fa-music {
-  color: red;
-  font-size: 50px;
-  margin-left: 15px; }
-
-.principal1 {
-  font-size: 35px;
-  font-family: 'Devonshire', cursive;
-  margin-left: 13px;
-  font-weight: 300;
-  color: #3d1319; }
+  #return .fa-music {
+    color: red;
+    font-size: 50px;
+    margin-left: 15px; }
+  #return .principal1 {
+    font-size: 35px;
+    font-family: 'Devonshire', cursive;
+    margin-left: 13px;
+    font-weight: 300;
+    color: #3d1319; }
+    @media only screen and (max-width: 600px) {
+      #return .principal1 {
+        font-size: 30px; } }
 
 .main-bloc {
   background-color: white;

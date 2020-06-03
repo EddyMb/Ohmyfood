@@ -1,4 +1,12 @@
-
+@mixin texteMention {
+ 
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-size:20px ;
+  margin-bottom: 15px;
+  font-size: 20px;
+  
+}
 
 @mixin cadremenu($colorValue) {
   width:$widthMenu;
@@ -60,16 +68,28 @@ text-decoration: $texteDecoration;
 
 @mixin responsive($breakpoint) {
     
-    
-
 
     @if $breakpoint == little-phone {
          @media only screen and (max-width:480px) {@content};
+         
+}
+
+@if $breakpoint == mini-phone {
+  @media only screen and (max-width:600px) {@content};
+}
+
+@if $breakpoint == big-phone {
+  @media only screen and (min-width:601px) and (max-width:700px) {@content};
 }
 
     @if $breakpoint == phone {
         @media only screen and (max-width:670px) {@content};
     }
+
+    @if $breakpoint == chic-tablette {
+      @media only screen and (max-width:780px) {@content};
+    }
+
     
     @if $breakpoint == tablette{
         @media only screen and (max-width:800px) {@content};

@@ -12,6 +12,7 @@ footer
     right: 0; 
     background-color: $fondVert;
 
+/* MENTION LEGALE*/
   .legale 
   {
     margin-top: 20px; 
@@ -27,23 +28,25 @@ footer
     font-size: 20px;
     cursor: pointer; 
 
-  
+  /* RESPONSIVE MOBILE*/
     @include responsive(little-phone){
         font-size: 15px;
     }
   }
+
   .legale:hover
   {
     animation: shake 1s;
   }
+
+  /* CONTACT*/
   .contact 
   {
     
     margin-right: 25px;
     margin-top: 20px;
-   
-  
   }
+
   a 
   {
     text-decoration: none;
@@ -52,15 +55,18 @@ footer
     font-weight: 200;
     color: #fdcb46; 
   
-  
+  /* RESPONSIVE MOBILE*/
     @include responsive(little-phone){
       font-size: 15px;
   }
+
   }
   .contact:hover{
     animation: shake 1s;
   }
 }
+
+/* ANIMATION*/
 
 @keyframes shake{
   0%{
