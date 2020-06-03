@@ -23,6 +23,14 @@
   margin-right: 50px; 
   margin-top: 50px;
   margin-bottom: 120px;
+  @include responsive(mini-phone){
+    margin-right: 20px;
+    margin-left: 20px;    
+  }
+  @include responsive(big-phone){
+    margin-right: 26px;
+    margin-left: 26px;
+  }
 }
 
 .delice-title2
@@ -60,11 +68,25 @@
 {
   height: 40px;
   margin: 8px;  
+
+  @include responsive(mini-phone){
+    height: 21px;    
+   } 
+   @include responsive(big-phone){
+    height: 21px;  
+   }
 }
 .delicetraitD
 {
   height: 26px;
-  margin: 15px;  
+  margin: 15px; 
+  @include responsive(mini-phone){
+    height: 15px;    
+   }  
+   @include responsive(big-phone){
+    height: 15px;  
+   }
+
 }
 
 .repas-thon
@@ -80,6 +102,9 @@
   font-weight: 300;
   font-size:20px ;
   margin-left: 80px;
+  @include responsive(mini-phone){
+    margin-left: 22px;    
+   } 
 }
 .price-delice
 {
@@ -87,6 +112,9 @@
   font-size:20px ;
   margin-right: 90px;
   font-weight: 400;
+  @include responsive(mini-phone){
+    margin-right: 33px;    
+   } 
 }
 
 .bouchee
@@ -130,12 +158,25 @@
 .light-traitG
 {
   height: 44px;
-  margin: 8px
+  margin: 8px;
+  @include responsive(mini-phone){
+    height: 25px;    
+   } 
+   @include responsive(big-phone){
+    height: 25px;  
+   }
+  
 }
 .light-traitD
 {
   height: 32px;
   margin: 16px;
+  @include responsive(mini-phone){
+    height: 19px;    
+   } 
+   @include responsive(big-phone){
+    height: 19px;  
+   }
 }
 
 .repas-poulet
@@ -187,13 +228,25 @@
 .blue-traitG
 {
   height: 38px;
-  margin: 8px
+  margin: 8px;
+  @include responsive(mini-phone){
+    height: 24px;    
+   } 
+   @include responsive(big-phone){
+    height: 24px;  
+   }
 }
 
 .blue-traitD
 {
   height: 30px;
-  margin: 13px
+  margin: 13px;
+  @include responsive(mini-phone){
+    height: 18px;    
+   } 
+   @include responsive(big-phone){
+    height: 18px;  
+   }
 }
 
 .repas-desserts

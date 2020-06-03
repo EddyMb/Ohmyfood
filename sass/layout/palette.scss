@@ -27,6 +27,14 @@
   margin-top: 50px;
   margin-bottom: 120px;
   box-shadow:$shadow;
+  @include responsive(mini-phone){
+    margin-right: 20px;
+    margin-left: 20px;    
+  }
+  @include responsive(big-phone){
+    margin-right: 26px;
+    margin-left: 26px;
+  }
   
 }
 
@@ -68,11 +76,23 @@
 {
   height: 42px;
   margin: 8px;  
+  @include responsive(mini-phone){
+    height: 21px;    
+   } 
+   @include responsive(big-phone){
+    height: 21px; 
+  }
 }
 .palettetraitD
 {
   height: 50px;
-  margin: 8px;  
+  margin: 8px; 
+  @include responsive(mini-phone){
+    height: 25px;    
+   }  
+   @include responsive(big-phone){
+    height: 25px; 
+  }
 }
 
 .repas-fricasse
@@ -88,12 +108,18 @@
  font-weight: 300;
  font-size:20px ;
  margin-left: 80px;
+ @include responsive(mini-phone){
+  margin-left: 20px;    
+ } 
 }
 .price-palette
 {
   font-family: 'Kalam', cursive;
   font-size:20px ;
   margin-right: 90px;
+  @include responsive(mini-phone){
+    margin-right: 13px;    
+   } 
 }
 
 .oeuf
@@ -139,6 +165,12 @@
   height: 42px;
   margin: 8px; 
   margin-left: 30px;
+  @include responsive(mini-phone){
+    height: 21px;    
+   } 
+   @include responsive(big-phone){
+    height: 21px; 
+  }
 }
 
 .mtraitD
@@ -146,6 +178,12 @@
   height: 50px;
   margin: 8px; 
   margin-right: 30px;
+  @include responsive(mini-phone){
+    height: 25px;    
+   } 
+   @include responsive(big-phone){
+    height: 25px; 
+  }
 }
 
 .repas-filet
@@ -199,12 +237,24 @@
   height: 42px;
   margin: 8px; 
   margin-left: 30px;
+  @include responsive(mini-phone){
+    height: 21px;    
+   } 
+   @include responsive(big-phone){
+    height: 21px; 
+  }
 }
 .arttraitD
 {
   height: 50px;
   margin: 8px; 
   margin-right: 30px;
+  @include responsive(mini-phone){
+    height: 25px;    
+   } 
+   @include responsive(big-phone){
+    height: 25px; 
+  }
 }
 
 .repas-paris
