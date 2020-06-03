@@ -27,6 +27,10 @@
     margin-right: 20px;
     margin-left: 20px;    
   }
+  @include responsive(big-phone){
+    margin-right: 26px;
+    margin-left: 26px;
+  }
 }
 
 .chic-title2 
@@ -59,19 +63,36 @@
       font-size: 21px;
       letter-spacing: 1px;
       text-align: center;
-      margin-right: 20px; 
       color:#c77412;
+      @include responsive(mini-phone){
+        margin-right: 0;    
+       } 
     }
      .chictraitD
    {
       height: 25px;
-      margin: 8px;  
+      margin: 8px; 
+      @include responsive(mini-phone){
+       height: 11px;    
+      } 
+
+      @include responsive(big-phone){
+        height: 11px;
+      }
+      
    }
     .chictraitG
    {
       height: 25px;
       margin: 8px; 
+      @include responsive(mini-phone){
+        height: 11px;    
+       } 
+       @include responsive(big-phone){
+        height: 11px;
+      }
    }
+  
 }
 
 
@@ -89,6 +110,9 @@
   font-size:17px ;
   margin-left: 80px;
   color:#c77412;
+  @include responsive(mini-phone){
+    margin-left: 34px;    
+   } 
 }
 .price-chic
 {
@@ -96,6 +120,9 @@
   font-size:17px ;
   margin-right: 90px;
   color:#c77412;
+  @include responsive(mini-phone){
+    margin-right: 37px;    
+   } 
 }
 
 .veloute
@@ -133,7 +160,13 @@
     .plaisir-chictraitG
    {
      height: 22px;
-     margin: 8px;        
+     margin: 8px; 
+     @include responsive(mini-phone){
+      height: 11px;    
+     }  
+     @include responsive(big-phone){
+      height: 11px;
+    }      
    }
     
     .plaisir-chictraitD
@@ -141,6 +174,12 @@
      height: 32px;
      margin: 3px;
      margin-left: 30px;
+     @include responsive(mini-phone){
+      height: 15px;    
+     } 
+     @include responsive(big-phone){
+      height: 15px;
+    }
    }
 
     .plaisir-sub
@@ -161,6 +200,9 @@
   font-size:17px ;
   margin-left: 80px;
   color:#a56799;
+  @include responsive(mini-phone){
+    margin-left: 34px;    
+   } 
 }
 .price-plaisir
 {
@@ -168,6 +210,9 @@
   font-size:17px ;
   margin-right: 90px;
   color:#a56799;
+  @include responsive(mini-phone){
+    margin-right: 37px;    
+   } 
 }
 
 .repas-coquille
@@ -226,12 +271,24 @@
     {
        height: 32px;
        margin: 8px;
+       @include responsive(mini-phone){
+        height: 14px;    
+       } 
+       @include responsive(big-phone){
+        height: 14px;
+      }
     }
 
       .gourmandise-chictraitD
     {
        height: 36px;
        margin: 3px;
+       @include responsive(mini-phone){
+        height: 16px;    
+       } 
+       @include responsive(big-phone){
+        height: 16px;
+      }
     }
 
 }
@@ -249,6 +306,9 @@
   font-weight: 200;
   font-size:17px ;
   margin-left: 80px;
+  @include responsive(mini-phone){
+    margin-left: 34px;    
+   } 
 }
 
 .fondant

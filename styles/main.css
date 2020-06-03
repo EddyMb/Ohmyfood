@@ -723,6 +723,10 @@ body {
     .chic-container {
       margin-right: 20px;
       margin-left: 20px; } }
+  @media only screen and (min-width: 601px) and (max-width: 700px) {
+    .chic-container {
+      margin-right: 26px;
+      margin-left: 26px; } }
 
 .chic-title2 {
   font-size: 28px;
@@ -750,14 +754,28 @@ body {
     font-size: 21px;
     letter-spacing: 1px;
     text-align: center;
-    margin-right: 20px;
     color: #c77412; }
+    @media only screen and (max-width: 600px) {
+      .chic-trait .appetit-sub {
+        margin-right: 0; } }
   .chic-trait .chictraitD {
     height: 25px;
     margin: 8px; }
+    @media only screen and (max-width: 600px) {
+      .chic-trait .chictraitD {
+        height: 11px; } }
+    @media only screen and (min-width: 601px) and (max-width: 700px) {
+      .chic-trait .chictraitD {
+        height: 11px; } }
   .chic-trait .chictraitG {
     height: 25px;
     margin: 8px; }
+    @media only screen and (max-width: 600px) {
+      .chic-trait .chictraitG {
+        height: 11px; } }
+    @media only screen and (min-width: 601px) and (max-width: 700px) {
+      .chic-trait .chictraitG {
+        height: 11px; } }
 
 .repas-tartare {
   display: flex;
@@ -771,12 +789,18 @@ body {
   font-size: 17px;
   margin-left: 80px;
   color: #c77412; }
+  @media only screen and (max-width: 600px) {
+    .food-chic {
+      margin-left: 34px; } }
 
 .price-chic {
   font-family: 'Merriweather', cursive;
   font-size: 17px;
   margin-right: 90px;
   color: #c77412; }
+  @media only screen and (max-width: 600px) {
+    .price-chic {
+      margin-right: 37px; } }
 
 .veloute {
   display: flex;
@@ -804,10 +828,22 @@ body {
   .plaisir-trait .plaisir-chictraitG {
     height: 22px;
     margin: 8px; }
+    @media only screen and (max-width: 600px) {
+      .plaisir-trait .plaisir-chictraitG {
+        height: 11px; } }
+    @media only screen and (min-width: 601px) and (max-width: 700px) {
+      .plaisir-trait .plaisir-chictraitG {
+        height: 11px; } }
   .plaisir-trait .plaisir-chictraitD {
     height: 32px;
     margin: 3px;
     margin-left: 30px; }
+    @media only screen and (max-width: 600px) {
+      .plaisir-trait .plaisir-chictraitD {
+        height: 15px; } }
+    @media only screen and (min-width: 601px) and (max-width: 700px) {
+      .plaisir-trait .plaisir-chictraitD {
+        height: 15px; } }
   .plaisir-trait .plaisir-sub {
     font-family: 'Merriweather', cursive;
     font-weight: 600;
@@ -822,12 +858,18 @@ body {
   font-size: 17px;
   margin-left: 80px;
   color: #a56799; }
+  @media only screen and (max-width: 600px) {
+    .food-plaisir {
+      margin-left: 34px; } }
 
 .price-plaisir {
   font-family: 'Merriweather', cursive;
   font-size: 17px;
   margin-right: 90px;
   color: #a56799; }
+  @media only screen and (max-width: 600px) {
+    .price-plaisir {
+      margin-right: 37px; } }
 
 .repas-coquille {
   display: flex;
@@ -869,9 +911,21 @@ body {
   .gourmandise-trait .gourmandise-chictraitG {
     height: 32px;
     margin: 8px; }
+    @media only screen and (max-width: 600px) {
+      .gourmandise-trait .gourmandise-chictraitG {
+        height: 14px; } }
+    @media only screen and (min-width: 601px) and (max-width: 700px) {
+      .gourmandise-trait .gourmandise-chictraitG {
+        height: 14px; } }
   .gourmandise-trait .gourmandise-chictraitD {
     height: 36px;
     margin: 3px; }
+    @media only screen and (max-width: 600px) {
+      .gourmandise-trait .gourmandise-chictraitD {
+        height: 16px; } }
+    @media only screen and (min-width: 601px) and (max-width: 700px) {
+      .gourmandise-trait .gourmandise-chictraitD {
+        height: 16px; } }
 
 .repas-petale {
   margin-top: 20px;
@@ -882,6 +936,9 @@ body {
   font-weight: 200;
   font-size: 17px;
   margin-left: 80px; }
+  @media only screen and (max-width: 600px) {
+    .food-petale {
+      margin-left: 34px; } }
 
 .fondant {
   margin-top: 20px;
