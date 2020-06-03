@@ -719,6 +719,10 @@ body {
   margin-top: 50px;
   margin-bottom: 120px;
   box-shadow: 3px 3px 14px gray; }
+  @media only screen and (max-width: 600px) {
+    .chic-container {
+      margin-right: 20px;
+      margin-left: 20px; } }
 
 .chic-title2 {
   font-size: 28px;
