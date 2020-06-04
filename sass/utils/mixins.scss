@@ -1,11 +1,91 @@
-@mixin texteMention {
- 
+
+@mixin chicSecondTitle{
+  font-family: 'Merriweather', cursive;
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+}
+
+
+@mixin noteSecondTitle{
+  font-family: 'Kalam', cursive;
+  font-weight: 400;
+  font-size: 28px;
+  text-align: center;
+  margin-right: 15px; 
+  position: relative;
+  text-decoration: none;
+}
+@mixin paletteSecondTitle{
+  font-family: 'Kalam', cursive;
+  font-weight: 300;
+  text-align: center;
+  font-size: 25px;
+  position: relative;
+  text-decoration: none;
+}
+
+
+@mixin menuSecondTitle{
+  font-size: 35px;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom:25px;
+  letter-spacing: 2px;
+}
+
+
+@mixin underline {
+  &::after
+{
+  content: "";
+  display: flex;
+  position: absolute;
+  left: 5;
+  bottom: 5;
+  height: 2px;
+  width:100%;
+  background: black;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 250ms ease-in;
+}
+&:hover{
+  &::after {
+      transform:scaleX(1);   
+  }
+}
+  
+}
+
+@mixin container {
+  margin-left: 50px;
+  margin-right: 50px; 
+  margin-top: 50px;
+  margin-bottom: 120px;
+  box-shadow:$shadow;  
+}
+
+@mixin mentionCenter{
+  text-align: center;
+  margin-top: 100px;
+}
+
+@mixin mentionTitle {
   font-size: 30px;
   margin-bottom: 10px;
-  font-size:20px ;
-  margin-bottom: 15px;
-  font-size: 20px;
-  
+}
+
+@mixin mainBloc {
+  background-color: white;
+  width: 100%;
+}
+
+@mixin mentionList {
+  font-size: 20px; 
 }
 
 @mixin cadremenu($colorValue) {

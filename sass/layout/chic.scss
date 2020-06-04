@@ -1,28 +1,18 @@
 
 .main-bloc
 {
-  background-color: white;
-  width: 100%; 
+  @include mainBloc;
 }
 
 .chic-menu1
 {
-  font-size: 35px;
-  text-align: center;
-  margin-top: 35px;
-  margin-bottom:25px;
-  letter-spacing: 2px;
-  
+  @include menuSecondTitle;   
 }
 
 .chic-container
 {
   background-color:#fff5fe;
-  margin-left: 50px;
-  margin-right: 50px; 
-  margin-top: 50px;
-  margin-bottom: 120px;
-  box-shadow:$shadow;
+  @include container;
   @include responsive(mini-phone){
     margin-right: 20px;
     margin-left: 20px;    
@@ -58,12 +48,10 @@
 
      .appetit-sub
     {
-      font-family: 'Merriweather', cursive;
-      font-weight: 600;
-      font-size: 21px;
-      letter-spacing: 1px;
-      text-align: center;
       color:#c77412;
+
+      @include chicSecondTitle;
+      @include underline;
       @include responsive(mini-phone){
         margin-right: 0;    
        } 
@@ -184,12 +172,9 @@
 
     .plaisir-sub
    {
-    font-family: 'Merriweather', cursive;
-    font-weight: 600;
-    letter-spacing: 1px;
-    font-size: 21px;
-    text-align: center;
     color:#a56799;
+    @include chicSecondTitle;
+    @include underline;
    }
 }
 
@@ -259,12 +244,9 @@
 
       .gourmandise-sub
      {
-       font-family: 'Merriweather', cursive;
-       font-weight: 600;
-       letter-spacing: 1px;
-       font-size: 21px;
-       text-align: center;
        color:#6e4ccc;
+       @include chicSecondTitle; 
+       @include underline;
     }
 
       .gourmandise-chictraitG

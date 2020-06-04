@@ -145,14 +145,14 @@ body {
     font-family: 'devonshire', cursive;
     font-weight: 300; }
 
-/* LE CHIC A LA FRANCAISE*/
+/* LE CHIC A LA FRANCAISE */
 .chic {
   background-color: #fff5fe;
   margin-left: 30px;
   width: 350px;
   height: 500px;
   box-shadow: 3px 3px 14px gray;
-  /* RESPONSIVE*/ }
+  /* RESPONSIVE */ }
   @media only screen and (max-width: 670px) {
     .chic {
       margin-left: 40px;
@@ -187,7 +187,7 @@ body {
     color: #c77412;
     text-decoration: none; }
 
-/* DELICE DES PAPILLES*/
+/* DELICE DES PAPILLES */
 .delice {
   background-color: #f9f9f9;
   margin-right: 30px;
@@ -196,7 +196,7 @@ body {
   height: 500px;
   box-shadow: 3px 3px 14px gray;
   background-color: #f9f9f9;
-  /* RESPONSIVE*/ }
+  /* RESPONSIVE */ }
   @media only screen and (max-width: 670px) {
     .delice {
       margin-left: 40px;
@@ -319,21 +319,11 @@ body {
   margin-top: 100px; }
   .editeur h3 {
     font-size: 30px;
-    margin-bottom: 10px;
-    font-size: 20px;
-    margin-bottom: 15px;
-    font-size: 20px; }
+    margin-bottom: 10px; }
   .editeur h4 {
-    font-size: 30px;
-    margin-bottom: 10px;
     font-size: 20px;
-    margin-bottom: 15px;
-    font-size: 20px; }
+    margin-bottom: 15px; }
   .editeur ul li {
-    font-size: 30px;
-    margin-bottom: 10px;
-    font-size: 20px;
-    margin-bottom: 15px;
     font-size: 20px; }
 
 .hebergement {
@@ -341,15 +331,8 @@ body {
   margin-top: 100px; }
   .hebergement h3 {
     font-size: 30px;
-    margin-bottom: 10px;
-    font-size: 20px;
-    margin-bottom: 15px;
-    font-size: 20px; }
+    margin-bottom: 10px; }
   .hebergement ul li {
-    font-size: 30px;
-    margin-bottom: 10px;
-    font-size: 20px;
-    margin-bottom: 15px;
     font-size: 20px; }
 
 .conditions {
@@ -358,10 +341,7 @@ body {
   margin-bottom: 100px; }
   .conditions h3 {
     font-size: 30px;
-    margin-bottom: 10px;
-    font-size: 20px;
-    margin-bottom: 15px;
-    font-size: 20px; }
+    margin-bottom: 10px; }
   .conditions p {
     font-size: 16px;
     /* RESPONSIVE MOBILE*/ }
@@ -384,6 +364,7 @@ body {
   background-color: #fcdfdb;
   margin-left: 50px;
   margin-right: 50px;
+  margin-top: 50px;
   margin-bottom: 120px;
   box-shadow: 3px 3px 14px gray;
   /* RESPONSIVE*/ }
@@ -433,22 +414,20 @@ body {
   @media only screen and (max-width: 600px) {
     .prelude-title {
       font-size: 22px; } }
-
-.prelude-title::after {
-  content: "";
-  display: flex;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 2px;
-  width: 100%;
-  background: black;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 250ms ease-in; }
-
-.prelude-title:hover::after {
-  transform: scaleX(1); }
+  .prelude-title::after {
+    content: "";
+    display: flex;
+    position: absolute;
+    left: 5;
+    bottom: 5;
+    height: 2px;
+    width: 100%;
+    background: black;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 250ms ease-in; }
+  .prelude-title:hover::after {
+    transform: scaleX(1); }
 
 .traitD {
   height: 27px;
@@ -559,10 +538,26 @@ body {
   font-weight: 400;
   font-size: 28px;
   text-align: center;
-  margin-right: 15px; }
+  margin-right: 15px;
+  position: relative;
+  text-decoration: none; }
   @media only screen and (max-width: 600px) {
     .orgue-sub {
       font-size: 22px; } }
+  .orgue-sub::after {
+    content: "";
+    display: flex;
+    position: absolute;
+    left: 5;
+    bottom: 5;
+    height: 2px;
+    width: 100%;
+    background: black;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 250ms ease-in; }
+  .orgue-sub:hover::after {
+    transform: scaleX(1); }
 
 .orgue-traitG {
   height: 27px;
@@ -631,11 +626,27 @@ body {
   font-weight: 400;
   font-size: 28px;
   text-align: center;
-  margin-right: 15px; }
+  margin-right: 15px;
+  position: relative;
+  text-decoration: none; }
   @media only screen and (max-width: 600px) {
     .mouvement-title {
       font-size: 22px;
       margin-right: 0; } }
+  .mouvement-title::after {
+    content: "";
+    display: flex;
+    position: absolute;
+    left: 5;
+    bottom: 5;
+    height: 2px;
+    width: 100%;
+    background: black;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 250ms ease-in; }
+  .mouvement-title:hover::after {
+    transform: scaleX(1); }
 
 .mouvement-traitG {
   height: 27px;
@@ -749,12 +760,28 @@ body {
   justify-content: space-around;
   text-align: center; }
   .chic-trait .appetit-sub {
+    color: #c77412;
     font-family: 'Merriweather', cursive;
-    font-weight: 600;
     font-size: 21px;
+    font-weight: 600;
     letter-spacing: 1px;
     text-align: center;
-    color: #c77412; }
+    position: relative;
+    text-decoration: none; }
+    .chic-trait .appetit-sub::after {
+      content: "";
+      display: flex;
+      position: absolute;
+      left: 5;
+      bottom: 5;
+      height: 2px;
+      width: 100%;
+      background: black;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 250ms ease-in; }
+    .chic-trait .appetit-sub:hover::after {
+      transform: scaleX(1); }
     @media only screen and (max-width: 600px) {
       .chic-trait .appetit-sub {
         margin-right: 0; } }
@@ -845,12 +872,28 @@ body {
       .plaisir-trait .plaisir-chictraitD {
         height: 15px; } }
   .plaisir-trait .plaisir-sub {
+    color: #a56799;
     font-family: 'Merriweather', cursive;
+    font-size: 21px;
     font-weight: 600;
     letter-spacing: 1px;
-    font-size: 21px;
     text-align: center;
-    color: #a56799; }
+    position: relative;
+    text-decoration: none; }
+    .plaisir-trait .plaisir-sub::after {
+      content: "";
+      display: flex;
+      position: absolute;
+      left: 5;
+      bottom: 5;
+      height: 2px;
+      width: 100%;
+      background: black;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 250ms ease-in; }
+    .plaisir-trait .plaisir-sub:hover::after {
+      transform: scaleX(1); }
 
 .food-plaisir {
   font-family: 'Merriweather', cursive;
@@ -902,12 +945,28 @@ body {
   justify-content: space-around;
   margin-top: 70px; }
   .gourmandise-trait .gourmandise-sub {
+    color: #6e4ccc;
     font-family: 'Merriweather', cursive;
+    font-size: 21px;
     font-weight: 600;
     letter-spacing: 1px;
-    font-size: 21px;
     text-align: center;
-    color: #6e4ccc; }
+    position: relative;
+    text-decoration: none; }
+    .gourmandise-trait .gourmandise-sub::after {
+      content: "";
+      display: flex;
+      position: absolute;
+      left: 5;
+      bottom: 5;
+      height: 2px;
+      width: 100%;
+      background: black;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 250ms ease-in; }
+    .gourmandise-trait .gourmandise-sub:hover::after {
+      transform: scaleX(1); }
   .gourmandise-trait .gourmandise-chictraitG {
     height: 32px;
     margin: 8px; }
@@ -966,7 +1025,8 @@ body {
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 50px;
-  margin-bottom: 120px; }
+  margin-bottom: 120px;
+  box-shadow: 3px 3px 14px gray; }
   @media only screen and (max-width: 600px) {
     .delice-container {
       margin-right: 20px;
@@ -996,32 +1056,46 @@ body {
   display: flex;
   justify-content: space-around;
   text-align: center; }
-
-.delice-sub {
-  font-family: 'Kalam', cursive;
-  font-weight: 300;
-  font-size: 25px;
-  text-align: center; }
-
-.delicetraitG {
-  height: 40px;
-  margin: 8px; }
-  @media only screen and (max-width: 600px) {
-    .delicetraitG {
-      height: 21px; } }
-  @media only screen and (min-width: 601px) and (max-width: 768px) {
-    .delicetraitG {
-      height: 21px; } }
-
-.delicetraitD {
-  height: 26px;
-  margin: 15px; }
-  @media only screen and (max-width: 600px) {
-    .delicetraitD {
-      height: 15px; } }
-  @media only screen and (min-width: 601px) and (max-width: 768px) {
-    .delicetraitD {
-      height: 15px; } }
+  .delice-trait .delice-sub {
+    font-family: 'Kalam', cursive;
+    font-family: 'Kalam', cursive;
+    font-weight: 300;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    text-decoration: none; }
+    .delice-trait .delice-sub::after {
+      content: "";
+      display: flex;
+      position: absolute;
+      left: 5;
+      bottom: 5;
+      height: 2px;
+      width: 100%;
+      background: black;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 250ms ease-in; }
+    .delice-trait .delice-sub:hover::after {
+      transform: scaleX(1); }
+  .delice-trait .delicetraitG {
+    height: 40px;
+    margin: 8px; }
+    @media only screen and (max-width: 600px) {
+      .delice-trait .delicetraitG {
+        height: 21px; } }
+    @media only screen and (min-width: 601px) and (max-width: 768px) {
+      .delice-trait .delicetraitG {
+        height: 21px; } }
+  .delice-trait .delicetraitD {
+    height: 26px;
+    margin: 15px; }
+    @media only screen and (max-width: 600px) {
+      .delice-trait .delicetraitD {
+        height: 15px; } }
+    @media only screen and (min-width: 601px) and (max-width: 768px) {
+      .delice-trait .delicetraitD {
+        height: 15px; } }
 
 .repas-thon {
   display: flex;
@@ -1068,32 +1142,46 @@ body {
   justify-content: space-around;
   margin-top: 70px;
   text-align: center; }
-
-.continuer-sub {
-  font-family: 'Kalam', cursive;
-  font-weight: 300;
-  font-size: 25px;
-  text-align: center; }
-
-.light-traitG {
-  height: 44px;
-  margin: 8px; }
-  @media only screen and (max-width: 600px) {
-    .light-traitG {
-      height: 25px; } }
-  @media only screen and (min-width: 601px) and (max-width: 768px) {
-    .light-traitG {
-      height: 25px; } }
-
-.light-traitD {
-  height: 32px;
-  margin: 16px; }
-  @media only screen and (max-width: 600px) {
-    .light-traitD {
-      height: 19px; } }
-  @media only screen and (min-width: 601px) and (max-width: 768px) {
-    .light-traitD {
-      height: 19px; } }
+  .continuer-trait .continuer-sub {
+    font-family: 'Kalam', cursive;
+    font-family: 'Kalam', cursive;
+    font-weight: 300;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    text-decoration: none; }
+    .continuer-trait .continuer-sub::after {
+      content: "";
+      display: flex;
+      position: absolute;
+      left: 5;
+      bottom: 5;
+      height: 2px;
+      width: 100%;
+      background: black;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 250ms ease-in; }
+    .continuer-trait .continuer-sub:hover::after {
+      transform: scaleX(1); }
+  .continuer-trait .light-traitG {
+    height: 44px;
+    margin: 8px; }
+    @media only screen and (max-width: 600px) {
+      .continuer-trait .light-traitG {
+        height: 25px; } }
+    @media only screen and (min-width: 601px) and (max-width: 768px) {
+      .continuer-trait .light-traitG {
+        height: 25px; } }
+  .continuer-trait .light-traitD {
+    height: 32px;
+    margin: 16px; }
+    @media only screen and (max-width: 600px) {
+      .continuer-trait .light-traitD {
+        height: 19px; } }
+    @media only screen and (min-width: 601px) and (max-width: 768px) {
+      .continuer-trait .light-traitD {
+        height: 19px; } }
 
 .repas-poulet {
   display: flex;
@@ -1122,32 +1210,46 @@ body {
   display: flex;
   justify-content: space-around;
   margin-top: 70px; }
-
-.terminer-sub {
-  font-family: 'Kalam', cursive;
-  font-weight: 300;
-  font-size: 26px;
-  text-align: center; }
-
-.blue-traitG {
-  height: 38px;
-  margin: 8px; }
-  @media only screen and (max-width: 600px) {
-    .blue-traitG {
-      height: 24px; } }
-  @media only screen and (min-width: 601px) and (max-width: 768px) {
-    .blue-traitG {
-      height: 24px; } }
-
-.blue-traitD {
-  height: 30px;
-  margin: 13px; }
-  @media only screen and (max-width: 600px) {
-    .blue-traitD {
-      height: 18px; } }
-  @media only screen and (min-width: 601px) and (max-width: 768px) {
-    .blue-traitD {
-      height: 18px; } }
+  .terminer-trait .terminer-sub {
+    font-family: 'Kalam', cursive;
+    font-family: 'Kalam', cursive;
+    font-weight: 300;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    text-decoration: none; }
+    .terminer-trait .terminer-sub::after {
+      content: "";
+      display: flex;
+      position: absolute;
+      left: 5;
+      bottom: 5;
+      height: 2px;
+      width: 100%;
+      background: black;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 250ms ease-in; }
+    .terminer-trait .terminer-sub:hover::after {
+      transform: scaleX(1); }
+  .terminer-trait .blue-traitG {
+    height: 38px;
+    margin: 8px; }
+    @media only screen and (max-width: 600px) {
+      .terminer-trait .blue-traitG {
+        height: 24px; } }
+    @media only screen and (min-width: 601px) and (max-width: 768px) {
+      .terminer-trait .blue-traitG {
+        height: 24px; } }
+  .terminer-trait .blue-traitD {
+    height: 30px;
+    margin: 13px; }
+    @media only screen and (max-width: 600px) {
+      .terminer-trait .blue-traitD {
+        height: 18px; } }
+    @media only screen and (min-width: 601px) and (max-width: 768px) {
+      .terminer-trait .blue-traitD {
+        height: 18px; } }
 
 .repas-desserts {
   margin-top: 20px;
@@ -1215,32 +1317,45 @@ body {
   display: flex;
   justify-content: space-around;
   text-align: center; }
-
-.esquisse-sub {
-  font-family: 'Kalam', cursive;
-  font-weight: 300;
-  font-size: 25px;
-  text-align: center; }
-
-.paletteraitG {
-  height: 42px;
-  margin: 8px; }
-  @media only screen and (max-width: 600px) {
-    .paletteraitG {
-      height: 21px; } }
-  @media only screen and (min-width: 601px) and (max-width: 768px) {
-    .paletteraitG {
-      height: 21px; } }
-
-.palettetraitD {
-  height: 50px;
-  margin: 8px; }
-  @media only screen and (max-width: 600px) {
-    .palettetraitD {
-      height: 25px; } }
-  @media only screen and (min-width: 601px) and (max-width: 768px) {
-    .palettetraitD {
-      height: 25px; } }
+  .esquisse-trait .esquisse-sub {
+    font-family: 'Kalam', cursive;
+    font-weight: 300;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    text-decoration: none; }
+    .esquisse-trait .esquisse-sub::after {
+      content: "";
+      display: flex;
+      position: absolute;
+      left: 5;
+      bottom: 5;
+      height: 2px;
+      width: 100%;
+      background: black;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 250ms ease-in; }
+    .esquisse-trait .esquisse-sub:hover::after {
+      transform: scaleX(1); }
+  .esquisse-trait .paletteraitG {
+    height: 42px;
+    margin: 8px; }
+    @media only screen and (max-width: 600px) {
+      .esquisse-trait .paletteraitG {
+        height: 21px; } }
+    @media only screen and (min-width: 601px) and (max-width: 768px) {
+      .esquisse-trait .paletteraitG {
+        height: 21px; } }
+  .esquisse-trait .palettetraitD {
+    height: 50px;
+    margin: 8px; }
+    @media only screen and (max-width: 600px) {
+      .esquisse-trait .palettetraitD {
+        height: 25px; } }
+    @media only screen and (min-width: 601px) and (max-width: 768px) {
+      .esquisse-trait .palettetraitD {
+        height: 25px; } }
 
 .repas-fricasse {
   display: flex;
@@ -1286,34 +1401,47 @@ body {
   justify-content: space-around;
   margin-top: 70px;
   text-align: center; }
-
-.maitre-sub {
-  font-family: 'Kalam', cursive;
-  font-weight: 300;
-  font-size: 25px;
-  text-align: center; }
-
-.mtraitG {
-  height: 42px;
-  margin: 8px;
-  margin-left: 30px; }
-  @media only screen and (max-width: 600px) {
-    .mtraitG {
-      height: 21px; } }
-  @media only screen and (min-width: 601px) and (max-width: 768px) {
-    .mtraitG {
-      height: 21px; } }
-
-.mtraitD {
-  height: 50px;
-  margin: 8px;
-  margin-right: 30px; }
-  @media only screen and (max-width: 600px) {
-    .mtraitD {
-      height: 25px; } }
-  @media only screen and (min-width: 601px) and (max-width: 768px) {
-    .mtraitD {
-      height: 25px; } }
+  .maitre-trait .maitre-sub {
+    font-family: 'Kalam', cursive;
+    font-weight: 300;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    text-decoration: none; }
+    .maitre-trait .maitre-sub::after {
+      content: "";
+      display: flex;
+      position: absolute;
+      left: 5;
+      bottom: 5;
+      height: 2px;
+      width: 100%;
+      background: black;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 250ms ease-in; }
+    .maitre-trait .maitre-sub:hover::after {
+      transform: scaleX(1); }
+  .maitre-trait .mtraitG {
+    height: 42px;
+    margin: 8px;
+    margin-left: 30px; }
+    @media only screen and (max-width: 600px) {
+      .maitre-trait .mtraitG {
+        height: 21px; } }
+    @media only screen and (min-width: 601px) and (max-width: 768px) {
+      .maitre-trait .mtraitG {
+        height: 21px; } }
+  .maitre-trait .mtraitD {
+    height: 50px;
+    margin: 8px;
+    margin-right: 30px; }
+    @media only screen and (max-width: 600px) {
+      .maitre-trait .mtraitD {
+        height: 25px; } }
+    @media only screen and (min-width: 601px) and (max-width: 768px) {
+      .maitre-trait .mtraitD {
+        height: 25px; } }
 
 .repas-filet {
   display: flex;
@@ -1342,34 +1470,47 @@ body {
   display: flex;
   justify-content: space-around;
   margin-top: 70px; }
-
-.sommet-sub {
-  font-family: 'Kalam', cursive;
-  font-weight: 300;
-  font-size: 25px;
-  text-align: center; }
-
-.arttraitG {
-  height: 42px;
-  margin: 8px;
-  margin-left: 30px; }
-  @media only screen and (max-width: 600px) {
-    .arttraitG {
-      height: 21px; } }
-  @media only screen and (min-width: 601px) and (max-width: 768px) {
-    .arttraitG {
-      height: 21px; } }
-
-.arttraitD {
-  height: 50px;
-  margin: 8px;
-  margin-right: 30px; }
-  @media only screen and (max-width: 600px) {
-    .arttraitD {
-      height: 25px; } }
-  @media only screen and (min-width: 601px) and (max-width: 768px) {
-    .arttraitD {
-      height: 25px; } }
+  .sommet-trait .sommet-sub {
+    font-family: 'Kalam', cursive;
+    font-weight: 300;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    text-decoration: none; }
+    .sommet-trait .sommet-sub::after {
+      content: "";
+      display: flex;
+      position: absolute;
+      left: 5;
+      bottom: 5;
+      height: 2px;
+      width: 100%;
+      background: black;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 250ms ease-in; }
+    .sommet-trait .sommet-sub:hover::after {
+      transform: scaleX(1); }
+  .sommet-trait .arttraitG {
+    height: 42px;
+    margin: 8px;
+    margin-left: 30px; }
+    @media only screen and (max-width: 600px) {
+      .sommet-trait .arttraitG {
+        height: 21px; } }
+    @media only screen and (min-width: 601px) and (max-width: 768px) {
+      .sommet-trait .arttraitG {
+        height: 21px; } }
+  .sommet-trait .arttraitD {
+    height: 50px;
+    margin: 8px;
+    margin-right: 30px; }
+    @media only screen and (max-width: 600px) {
+      .sommet-trait .arttraitD {
+        height: 25px; } }
+    @media only screen and (min-width: 601px) and (max-width: 768px) {
+      .sommet-trait .arttraitD {
+        height: 25px; } }
 
 .repas-paris {
   display: flex;

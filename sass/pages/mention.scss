@@ -1,48 +1,46 @@
 .editeur
 {
-    text-align: center;
-    margin-top: 100px;
+    @include mentionCenter;
 
     h3
     {
-        @include texteMention;  
+        @include mentionTitle; 
     }
     h4
     {   
-        @include texteMention;
+        font-size:20px ;
+        margin-bottom: 15px;
     }
     ul li
     {
-        @include texteMention;
+        @include mentionList;
     }
     
 }
 
 .hebergement
 {
-    text-align: center;
-    margin-top: 100px;
+    @include mentionCenter;
 
     h3
     {
-        @include texteMention;
+        @include mentionTitle;
     }
 
     ul li
     {
-        @include texteMention;
+        @include mentionList;
     }
 }
 
 .conditions
 {
-    text-align: center;
-    margin-top: 100px;
+    @include mentionCenter;
     margin-bottom: 100px;
 
     h3
     {
-        @include texteMention;   
+        @include mentionTitle;  
     }
 
     p

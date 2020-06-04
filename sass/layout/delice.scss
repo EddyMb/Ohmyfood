@@ -2,27 +2,18 @@
 
 .main-bloc
 {
-  background-color: white;
-  width: 100%; 
+  @include mainBloc;
 }
 
 .delice-menu1
 {
-  font-size: 35px;
-  text-align: center;
-  margin-top: 35px;
-  margin-bottom:25px;
-  letter-spacing: 2px;
-  
+  @include menuSecondTitle;   
 }
 
 .delice-container
 {
   background-color:#f9f9f9;
-  margin-left: 50px;
-  margin-right: 50px; 
-  margin-top: 50px;
-  margin-bottom: 120px;
+  @include container;
   @include responsive(mini-phone){
     margin-right: 20px;
     margin-left: 20px;    
@@ -54,39 +45,38 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
-}
-
-.delice-sub
-{
-  font-family: 'Kalam', cursive;
-  font-weight: 300;
-  font-size: 25px;
-  text-align: center;  
-}
-
-.delicetraitG
-{
-  height: 40px;
-  margin: 8px;  
-
-  @include responsive(mini-phone){
-    height: 21px;    
-   } 
-   @include responsive(big-phone){
-    height: 21px;  
-   }
-}
-.delicetraitD
-{
-  height: 26px;
-  margin: 15px; 
-  @include responsive(mini-phone){
-    height: 15px;    
-   }  
-   @include responsive(big-phone){
-    height: 15px;  
+   
+    .delice-sub
+   {
+     font-family: 'Kalam', cursive;
+     @include paletteSecondTitle;
+     @include underline;
    }
 
+    .delicetraitG
+   {
+     height: 40px;
+     margin: 8px;  
+
+     @include responsive(mini-phone){
+      height: 21px;    
+     } 
+     @include responsive(big-phone){
+      height: 21px;  
+     }
+   }
+
+    .delicetraitD
+   {
+     height: 26px;
+     margin: 15px; 
+     @include responsive(mini-phone){
+      height: 15px;    
+     }  
+     @include responsive(big-phone){
+      height: 15px;  
+     }
+   }
 }
 
 .repas-thon
@@ -96,6 +86,7 @@
   align-items: center;
   margin-top: 10px;
 }
+
 .food-delice
 {
   font-family: 'Kalam', cursive;
@@ -145,37 +136,36 @@
   justify-content: space-around;
   margin-top: 70px;
   text-align: center;
-}
 
-.continuer-sub
-{
-  font-family: 'Kalam', cursive;
-  font-weight: 300;
-  font-size: 25px;
-  text-align: center;  
-}
-
-.light-traitG
-{
-  height: 44px;
-  margin: 8px;
-  @include responsive(mini-phone){
-    height: 25px;    
-   } 
-   @include responsive(big-phone){
-    height: 25px;  
+    .continuer-sub
+   {
+     font-family: 'Kalam', cursive;
+     @include paletteSecondTitle;
+     @include underline;
    }
-  
-}
-.light-traitD
-{
-  height: 32px;
-  margin: 16px;
-  @include responsive(mini-phone){
-    height: 19px;    
-   } 
-   @include responsive(big-phone){
-    height: 19px;  
+
+    .light-traitG
+   {
+     height: 44px;
+     margin: 8px;
+     @include responsive(mini-phone){
+      height: 25px;    
+     } 
+     @include responsive(big-phone){
+      height: 25px;  
+     }
+   }
+
+    .light-traitD
+   {
+     height: 32px;
+     margin: 16px;
+     @include responsive(mini-phone){
+      height: 19px;    
+     } 
+     @include responsive(big-phone){
+      height: 19px;  
+     }
    }
 }
 
@@ -215,37 +205,36 @@
   display: flex;
   justify-content: space-around;
   margin-top: 70px;
-}
-.terminer-sub
-{
 
-  font-family: 'Kalam', cursive;
-  font-weight: 300;
-  font-size: 26px;
-  text-align: center; 
-}
-
-.blue-traitG
-{
-  height: 38px;
-  margin: 8px;
-  @include responsive(mini-phone){
-    height: 24px;    
-   } 
-   @include responsive(big-phone){
-    height: 24px;  
+    .terminer-sub
+   {
+     font-family: 'Kalam', cursive;
+     @include paletteSecondTitle;
+     @include underline;
    }
-}
 
-.blue-traitD
-{
-  height: 30px;
-  margin: 13px;
-  @include responsive(mini-phone){
-    height: 18px;    
-   } 
-   @include responsive(big-phone){
-    height: 18px;  
+    .blue-traitG
+   {
+     height: 38px;
+     margin: 8px;
+     @include responsive(mini-phone){
+      height: 24px;    
+     } 
+     @include responsive(big-phone){
+      height: 24px;  
+     }
+   }
+
+    .blue-traitD
+   {
+     height: 30px;
+     margin: 13px;
+     @include responsive(mini-phone){
+      height: 18px;    
+     } 
+     @include responsive(big-phone){
+      height: 18px;  
+     }
    }
 }
 

@@ -3,28 +3,18 @@
 
 .main-bloc
 {
-  background-color: white;
-  width: 100%;
- 
+  @include mainBloc;
 }
 
 .note-menu1
 {
-  font-size: 35px;
-  text-align: center;
-  margin-top: 35px;
-  margin-bottom:25px;
-  letter-spacing: 2px;
-  
+  @include menuSecondTitle;  
 }
 
 .note-container
 {
   background-color:#fcdfdb;
-  margin-left: 50px;
-  margin-right: 50px; 
-  margin-bottom: 120px;
-  box-shadow:$shadow;
+  @include container;
 
   /* RESPONSIVE*/
   @include responsive(mini-phone){
@@ -79,43 +69,20 @@
 
   .prelude-title 
 {
-  font-family: 'Kalam', cursive;
-  font-weight: 400;
-  font-size: 28px;
-  text-align: center;
-  margin-right: 15px; 
-  position: relative;
-  text-decoration: none;
+  @include noteSecondTitle;
   @include responsive(mini-phone){
     font-size: 22px;    
+   }
+  @include underline;
  }
-}
 
-  .prelude-title::after
-{
-  content: "";
-  display: flex;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 2px;
-  width:100%;
-  background: black;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 250ms ease-in;
-}
 
- .prelude-title:hover::after
-{
-  transform:scaleX(1);
-  
-}
 .traitD
 {
   height: 27px;
   margin: 8px;  
   margin-left: 20px;
+
   @include responsive(mini-phone){
     height: 10px;
     margin: 18px;  
@@ -124,11 +91,8 @@
    @include responsive(big-phone){
     height: 19px;
     margin: 8px;  
-   } 
-   
- 
+   }  
 }
-
 
 .traitG
 {
@@ -138,13 +102,11 @@
   @include responsive(mini-phone){
     height: 16px;
     margin: 16px;    
-}
-@include responsive(big-phone){
+  }
+  @include responsive(big-phone){
   height: 31px;
   margin: 8px;  
- } 
-
-
+  } 
 
   
 }
@@ -154,17 +116,20 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+
   @include responsive(mini-phone){
    display: block;  
    } 
   
 }
+
 .food
 {
  font-family: 'Kalam', cursive;
  font-weight: 300;
  font-size:20px ;
  margin-left: 60px;
+
  @include responsive(mini-phone){
   text-align: center;  
   margin-left: 4px;
@@ -183,10 +148,10 @@
   font-family: 'Kalam', cursive;
   font-size:20px ;
   margin-right: 75px;
+
   @include responsive(mini-phone){
     text-align: center;  
-    margin-right: 6px;
-    
+    margin-right: 6px;  
    } 
    @include responsive(big-phone){
     margin-right: 35px;
@@ -202,6 +167,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+
   @include responsive(mini-phone){
     display: block;  
     } 
@@ -213,6 +179,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+
   @include responsive(mini-phone){
     display: block;  
     } 
@@ -224,6 +191,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+
   @include responsive(mini-phone){
     display: block;  
     } 
@@ -245,14 +213,12 @@
 
 .orgue-sub
 {
-  font-family: 'Kalam', cursive;
-  font-weight: 400;
-  font-size: 28px;
-  text-align: center;
-  margin-right: 15px;
+  
+  @include noteSecondTitle;
   @include responsive(mini-phone){
    font-size: 22px;    
-}
+  }
+  @include underline;
 }
 
 .orgue-traitG
@@ -260,6 +226,7 @@
   height: 27px;
   margin: 8px;
   margin-left: 35px;
+
   @include responsive(mini-phone){
     height: 10px;
     margin: 18px;  
@@ -267,8 +234,7 @@
    @include responsive(big-phone){
     height: 19px;
     margin: 8px;  
-   } 
-   
+   }    
 }
 
 .orgue-traitD
@@ -276,13 +242,14 @@
   height: 45px;
   margin: 8px;
   margin-right: 35px;
+
   @include responsive(mini-phone){
     height: 16px;
     margin: 16px;    
 }
-@include responsive(big-phone){
-  height: 31px;
-  margin: 8px;  
+  @include responsive(big-phone){
+    height: 31px;
+    margin: 8px;  
  } 
  
 }
@@ -292,6 +259,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
+
   @include responsive(mini-phone){
     display: block;  
     } 
@@ -303,6 +271,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+
   @include responsive(mini-phone){
     display: block;  
     } 
@@ -322,8 +291,7 @@
 #mouvement
 {
   width: 100%;
-  align-items: center;
-  
+  align-items: center;  
 }
 
 .mouvement-main
@@ -334,16 +302,12 @@
 }
 .mouvement-title
 {
-
-  font-family: 'Kalam', cursive;
-  font-weight: 400;
-  font-size: 28px;
-  text-align: center;
-  margin-right: 15px;
+  @include noteSecondTitle;
   @include responsive(mini-phone){
    font-size: 22px;  
    margin-right: 0;  
-}
+  }
+  @include underline;
 }
 
 .mouvement-traitG
@@ -399,7 +363,8 @@
   margin-bottom: 90px;
   padding: 40px;
   display: flex;
- justify-content: center;
+  justify-content: center;
+
  @include responsive(mini-phone){
  display: inline-block;
  @include responsive(mini-phone){
@@ -407,7 +372,6 @@
   }     
 }
   
-
 .fa-music
 {
   color: red;
@@ -417,11 +381,12 @@
 
 .principal1
 {
- font-size: 35px;
- font-family: 'Devonshire', cursive;
- margin-left: 13px;
- font-weight: 300;
- color:#3d1319;
+  font-size: 35px;
+  font-family: 'Devonshire', cursive;
+  margin-left: 13px;
+  font-weight: 300;
+  color:#3d1319;
+
  @include responsive(mini-phone){
   font-size: 30px; 
   } 
