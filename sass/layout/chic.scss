@@ -12,6 +12,7 @@
 .chic-container
 {
   background-color:#fff5fe;
+
   @include container;
   @include responsive(mini-phone){
     margin-right: 20px;
@@ -52,6 +53,7 @@
 
       @include chicSecondTitle;
       @include underline;
+      
       @include responsive(mini-phone){
         margin-right: 0;    
        } 
@@ -66,8 +68,7 @@
 
       @include responsive(big-phone){
         height: 11px;
-      }
-      
+      }  
    }
     .chictraitG
    {
@@ -78,9 +79,8 @@
        } 
        @include responsive(big-phone){
         height: 11px;
-      }
-   }
-  
+     }
+   }  
 }
 
 
@@ -206,8 +206,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
-  color:#a56799;
-  
+  color:#a56799;  
 }
 
 .magret
@@ -232,8 +231,7 @@
 {
   width: 100%;
   align-items: center;
-  padding-bottom: 3px;
-   
+  padding-bottom: 3px;   
 }
 
 .gourmandise-trait
@@ -278,8 +276,7 @@
 .repas-petale
 {
   margin-top: 20px;
-  color:#6e4ccc;
-  
+  color:#6e4ccc;  
 }
 
  .food-petale
@@ -288,6 +285,7 @@
   font-weight: 200;
   font-size:17px ;
   margin-left: 80px;
+
   @include responsive(mini-phone){
     margin-left: 34px;    
    } 
@@ -304,6 +302,5 @@
 {
   margin-top: 20px;
   margin-bottom: 40px;
-  color:#6e4ccc;
-  
+  color:#6e4ccc;  
 }

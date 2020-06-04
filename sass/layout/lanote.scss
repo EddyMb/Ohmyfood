@@ -38,9 +38,9 @@
   
    .fa-music
    {
-     color:red;
      font-size: 60px;
      margin-top: 40px; 
+     @include linear-gradient(190deg, $color-one:#f6916a, $color-two:#f13639);
    } 
 
   .principal
@@ -88,7 +88,7 @@
     margin: 18px;  
    } 
    
-   @include responsive(big-phone){
+  @include responsive(big-phone){
     height: 19px;
     margin: 8px;  
    }  
@@ -99,6 +99,7 @@
   height: 45px;
   margin: 8px;
   margin-right: 20px;
+
   @include responsive(mini-phone){
     height: 16px;
     margin: 16px;    
@@ -107,8 +108,7 @@
   height: 31px;
   margin: 8px;  
   } 
-
-  
+ 
 }
 .repas-raviole
 {
@@ -119,8 +119,7 @@
 
   @include responsive(mini-phone){
    display: block;  
-   } 
-  
+   }   
 }
 
 .food
@@ -143,6 +142,7 @@
    margin-left: 28px;
  }
 }
+
 .price
 {
   font-family: 'Kalam', cursive;
@@ -374,9 +374,9 @@
   
 .fa-music
 {
-  color: red;
   font-size: 50px;
   margin-left: 15px;
+  @include linear-gradient(190deg, $color-one:#f6916a, $color-two:#f13639);
 }
 
 .principal1
@@ -387,7 +387,7 @@
   font-weight: 300;
   color:#3d1319;
 
- @include responsive(mini-phone){
+  @include responsive(mini-phone){
   font-size: 30px; 
   } 
 }
