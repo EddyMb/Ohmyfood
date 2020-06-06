@@ -17,19 +17,11 @@
   @include container;
 
   /* RESPONSIVE*/
-  @include responsive(mini-phone){
+  @include responsive(mobile){
     margin-right: 20px;
     margin-left: 20px;    
   }
 
-  @include responsive(big-phone){
-    margin-right: 30px;
-    margin-left: 30px; 
-    } 
-    @include responsive(chic-tablette){
-    margin-right: 26px;
-    margin-left: 26px;
-    }
 }
 
 .note-title
@@ -65,15 +57,20 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
+  @include responsive(mobile){
+    align-items:center ;
+   }
 }
 
   .prelude-title 
 {
   @include noteSecondTitle;
-  @include responsive(mini-phone){
-    font-size: 22px;    
-   }
-  @include underline;
+  
+  @include responsive(mobile){
+   font-size:20px ;
+  }
+
+ 
  }
 
 
@@ -81,33 +78,45 @@
 {
   height: 27px;
   margin: 8px;  
-  margin-left: 20px;
+ 
 
-  @include responsive(mini-phone){
-    height: 10px;
-    margin: 18px;  
-   } 
-   
-  @include responsive(big-phone){
-    height: 19px;
-    margin: 8px;  
-   }  
+  @include responsive(smart-mobile){
+    height: 14px;
+  }
+  @include responsive(mobile){
+    height: 7px;
+    margin: 12px;
+  }
+  @include responsive(big-mobile){
+    height: 23px;
+  }
+  
+
+ 
+
+ 
 }
 
 .traitG
 {
-  height: 45px;
-  margin: 8px;
-  margin-right: 20px;
-
-  @include responsive(mini-phone){
-    height: 16px;
-    margin: 16px;    
+  height: 27px;
+  margin: 8px; 
+  
+  @include responsive(smart-mobile){
+    height: 14px;
   }
-  @include responsive(big-phone){
-  height: 31px;
-  margin: 8px;  
-  } 
+  @include responsive(mobile){
+    height: 7px;
+    margin: 12px;
+  }
+  @include responsive(big-mobile){
+    height: 23px;
+  }
+   
+  
+ 
+
+ 
  
 }
 .repas-raviole
@@ -117,9 +126,14 @@
   align-items: center;
   margin-top: 10px;
 
-  @include responsive(mini-phone){
-   display: block;  
-   }   
+  @include responsive(mobile){
+    flex-wrap: wrap;
+  }
+
+  
+
+
+   
 }
 
 .food
@@ -129,36 +143,48 @@
  font-size:20px ;
  margin-left: 60px;
 
- @include responsive(mini-phone){
-  text-align: center;  
-  margin-left: 4px;
-  margin-right: 4px;
- } 
-
- @include responsive(big-phone){
-   margin-left: 22px;
- }
- @include responsive(chic-tablette){
-   margin-left: 28px;
- }
+ @include responsive(mobile){
+  width: 100%;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 20px;
 }
+@include responsive(big-mobile){
+  margin-left: 28px;
+}
+
+  
+
+
+}
+
+
+
+ 
+
 
 .price
 {
   font-family: 'Kalam', cursive;
   font-size:20px ;
   margin-right: 75px;
+  
+  
+  @include responsive(mobile){
+    width: 100%;
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 6px;
+  }
+  @include responsive(big-mobile){
+    margin-right: 43px;
+  }
+  
+  
+  
 
-  @include responsive(mini-phone){
-    text-align: center;  
-    margin-right: 6px;  
-   } 
-   @include responsive(big-phone){
-    margin-right: 35px;
-  }
-  @include responsive(chic-tablette){
-    margin-right: 49px;
-  }
+  
 }
 
 .caviar
@@ -168,9 +194,13 @@
   align-items: center;
   margin-top: 10px;
 
-  @include responsive(mini-phone){
-    display: block;  
-    } 
+  @include responsive(mobile){
+    flex-wrap: wrap;
+  }
+  
+
+
+  
 }
 
 .homard
@@ -179,10 +209,12 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  @include responsive(mobile){
+    flex-wrap: wrap;
+  }
+ 
 
-  @include responsive(mini-phone){
-    display: block;  
-    } 
+   
 }
 
 .foie
@@ -191,10 +223,12 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  @include responsive(mobile){
+    flex-wrap: wrap;
+  }
 
-  @include responsive(mini-phone){
-    display: block;  
-    } 
+
+ 
 }
 
 #orgue
@@ -209,48 +243,53 @@
   justify-content: space-around;
   margin-top: 70px;
   text-align: center;
+  
 }
 
 .orgue-sub
 {
   
   @include noteSecondTitle;
-  @include responsive(mini-phone){
-   font-size: 22px;    
-  }
+
   @include underline;
+  @include responsive(mobile){
+    font-size:20px ;
+   }
 }
 
 .orgue-traitG
 {
   height: 27px;
-  margin: 8px;
-  margin-left: 35px;
-
-  @include responsive(mini-phone){
-    height: 10px;
-    margin: 18px;  
-   } 
-   @include responsive(big-phone){
-    height: 19px;
-    margin: 8px;  
-   }    
+  @include responsive(mobile){
+    height: 7px;
+    margin: 12px;
+  }
+  @include responsive(big-mobile){
+    height: 23px;
+    margin-left: 15px;
+  }
+  
+ 
+ 
+    
 }
 
 .orgue-traitD
 {
-  height: 45px;
-  margin: 8px;
-  margin-right: 35px;
+  height: 27px;
+  @include responsive(mobile){
+    height: 7px;
+    margin: 12px;
+  }
+  @include responsive(big-mobile){
+    height: 23px;
+    margin-right: 15px;
+  }
+  
+ 
+  
 
-  @include responsive(mini-phone){
-    height: 16px;
-    margin: 16px;    
-}
-  @include responsive(big-phone){
-    height: 31px;
-    margin: 8px;  
- } 
+
  
 }
 .repas-noix
@@ -259,10 +298,12 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
+  @include responsive(mobile){
+    flex-wrap: wrap;
+  }
+ 
 
-  @include responsive(mini-phone){
-    display: block;  
-    } 
+  
 }
 
 .langouste
@@ -271,10 +312,12 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  @include responsive(mobile){
+    flex-wrap: wrap;
+  }
 
-  @include responsive(mini-phone){
-    display: block;  
-    } 
+
+ 
 }
 
 .mijote
@@ -283,9 +326,11 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
-  @include responsive(mini-phone){
-    display: block;  
-    } 
+  @include responsive(mobile){
+    flex-wrap: wrap;
+  }
+
+ 
 }
 
 #mouvement
@@ -303,59 +348,64 @@
 .mouvement-title
 {
   @include noteSecondTitle;
-  @include responsive(mini-phone){
-   font-size: 22px;  
-   margin-right: 0;  
-  }
+  
   @include underline;
+  @include responsive(mobile){
+    font-size:20px ;
+   }
 }
 
 .mouvement-traitG
 {
   height: 27px;
-  margin: 8px;
-  margin-left: 49px;
-  @include responsive(mini-phone){
-    height: 10px;
-    margin: 18px;
-    margin-left: 20px;  
-   } 
-   @include responsive(big-phone){
-    height: 19px;
-    margin: 8px;  
-   } 
+  @include responsive(mobile){
+    height: 7px;
+    margin: 28px;
+  }
+  @include responsive(big-mobile){
+    height: 23px;
+    margin-left: 17px;
+  }
+  
+ 
+ 
+
 }
 
 .mouvement-traitD
 {
-  height: 45px;
-  margin: 8px;
-  margin-right: 50px;
-  @include responsive(mini-phone){
-    height: 16px;
-    margin: 16px;  
-    margin-right: 20px;  
-}
-@include responsive(big-phone){
-  height: 31px;
-  margin: 8px;  
- } 
+  height: 27px;
+  @include responsive(mobile){
+    height: 7px;
+    margin: 28px;
+  }
+  @include responsive(big-mobile){
+    height: 23px;
+    margin-right: 17px;
+  }
+  
+  
+ 
+
 }
 
 .repas-macaron
 {
   margin-top: 20px;
+  
 }
 
 .baba
 {
   margin-top: 10px;
+ 
 }
 
 .tarte
 {
   margin-top: 10px;
   margin-bottom: 50px;
+  
 }
 
 #return
@@ -365,11 +415,7 @@
   display: flex;
   justify-content: center;
 
- @include responsive(mini-phone){
- display: inline-block;
- @include responsive(mini-phone){
-  display: flex;  
-  }     
+    
 }
   
 .fa-music
@@ -377,6 +423,10 @@
   font-size: 50px;
   margin-left: 15px;
   @include linear-gradient(190deg, $color-one:#f6916a, $color-two:#f13639);
+  @include responsive(mobile){
+    font-size: 40px;
+  }
+ 
 }
 
 .principal1
@@ -386,12 +436,13 @@
   margin-left: 13px;
   font-weight: 300;
   color:#3d1319;
+  @include responsive(mobile){
+    font-size: 25px;
+  }
 
-  @include responsive(mini-phone){
-  font-size: 30px; 
-  } 
+ 
 }
 
-}
+
 
 

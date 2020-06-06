@@ -146,20 +146,42 @@ text-decoration: $texteDecoration;
   }
   
 
+  
 @mixin responsive($breakpoint) {
-    
 
-    @if $breakpoint == little-phone {
+    /* PALETTE RESPONSIVE */
+    @if $breakpoint == mobile {
+    @media only screen and (max-width:600px) {@content};
+  }
+
+  @if $breakpoint == smart-tablette {
+    @media only screen and (max-width:768px) {@content};
+  }
+
+  @if $breakpoint == laptope {
+    @media only screen and (max-width:1040px) {@content};
+  }
+
+  @if $breakpoint == big-screen {
+    @media only screen and (max-width:1200px) {@content};
+  }
+
+  @if $breakpoint == mini-phone {
+    @media only screen and (max-width:600px) {@content};
+  }
+
+/*
+
+
+ @if $breakpoint == little-phone {
          @media only screen and (max-width:480px) {@content};
          
 }
 
-@if $breakpoint == mini-phone {
-  @media only screen and (max-width:600px) {@content};
-}
+
 
 @if $breakpoint == big-phone {
-  @media only screen and (min-width:601px) and (max-width:768px) {@content};
+  @media only screen and (min-width:588px) and (max-width:768px) {@content};
 }
 
     @if $breakpoint == phone {
@@ -177,11 +199,9 @@ text-decoration: $texteDecoration;
 
     @if $breakpoint == lap-top {
         @media only screen and (max-width:992px) {@content}
-    }
+    
 }
+*/
 
-
-
-
-
+}
 

@@ -20,10 +20,7 @@
     margin-right: 20px;
     margin-left: 20px;    
   }
-  @include responsive(big-phone){
-    margin-right: 26px;
-    margin-left: 26px;
-  }  
+   
 }
 
 .palette-title2
@@ -35,6 +32,9 @@
   font-family:'kaushan script', cursive;
 
     @include linear-gradient( 190deg, $color-one:#beff7f, $color-two:#4ea043);
+    @include responsive(mobile){
+      font-size: 29px;
+      }
     
 }
 
@@ -49,6 +49,16 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
+  align-items: center;
+  @include responsive(laptope){
+    align-items: center;
+   } 
+  @include responsive(smart-tablette){
+    align-items:center ;
+   }
+  @include responsive(mobile){
+    align-items:center ;
+   }
 
     .esquisse-sub
     {
@@ -59,25 +69,47 @@
     .paletteraitG
     {
       height: 42px;
-      margin: 8px;  
+      margin: 8px;
+      @include responsive(laptope){
+        height: 30px;
+       }  
+
+      @include responsive(smart-tablette){
+        height: 23px;
+       }
       @include responsive(mini-phone){
       height: 21px;    
       } 
-      @include responsive(big-phone){
-      height: 21px; 
-      }
+      @include responsive(mobile){
+        height: 12px;
+       }
+
+       
+
+      
     }
 
-    .palettetraitD
+    .paletteraitD
     {
-      height: 50px;
-      margin: 8px; 
+      height: 42px;
+      margin: 8px;
+
+      transform: rotateY(180deg);
+      @include responsive(laptope){
+        height: 30px;
+       } 
+     
+      @include responsive(smart-tablette){
+        height: 23px;
+       }
       @include responsive(mini-phone){
       height: 25px;    
       }  
-      @include responsive(big-phone){
-      height: 25px; 
-      }
+      @include responsive(mobile){
+        height: 12px;
+       }
+      
+      
     }
 }
 
@@ -87,6 +119,9 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  @include responsive(mobile){
+   flex-wrap: wrap;
+   }
 }
 .food-palette
 {
@@ -94,18 +129,44 @@
  font-weight: 300;
  font-size:20px ;
  margin-left: 80px;
+
+ 
+ @include responsive(smart-tablette){
+  margin-left:43px ;
+ }
  @include responsive(mini-phone){
   margin-left: 20px;    
  } 
+ @include responsive(mobile){
+  width: 100%;
+  text-align: center;
+  margin-right: 30px;
+  }
+
+  @include responsive(mobile){
+    align-items:center ;
+   }
 }
 .price-palette
 {
   font-family: 'Kalam', cursive;
   font-size:20px ;
   margin-right: 90px;
+ 
+  @include responsive(smart-tablette){
+    margin-right: 42px;
+   }
   @include responsive(mini-phone){
     margin-right: 13px;    
    } 
+   @include responsive(mobile){
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    }
+    @include responsive(mobile){
+    align-items:center ;
+   }
 }
 
 .oeuf
@@ -114,6 +175,9 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  @include responsive(mobile){
+    flex-wrap: wrap;
+    }
 }
 
 .canard
@@ -122,6 +186,9 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  @include responsive(mobile){
+    flex-wrap: wrap;
+    }
 }
 
 #maitre
@@ -136,6 +203,16 @@
   justify-content: space-around;
   margin-top: 70px;
   text-align: center;
+  align-items: center;
+  @include responsive(laptope){
+    align-items: center;
+   } 
+  @include responsive(smart-tablette){
+    align-items:center ;
+   }
+  @include responsive(mobile){
+    align-items:center ;
+   }
 
 
    .maitre-sub
@@ -149,25 +226,42 @@
      height: 42px;
      margin: 8px; 
      margin-left: 30px;
+     @include responsive(laptope){
+      height: 30px;
+     } 
+     @include responsive(smart-tablette){
+      height: 23px;
+     }
+    
      @include responsive(mini-phone){
      height: 21px;    
      } 
-     @include responsive(big-phone){
-     height: 21px; 
+     @include responsive(mobile){
+      height: 12px;
      }
+     
    }
 
     .mtraitD  
    {
-     height: 50px;
-     margin: 8px; 
+    height: 42px;
+     margin: 8px;  
      margin-right: 30px;
+     transform: rotateY(180deg);
+     @include responsive(laptope){
+      height: 30px;
+     } 
+     @include responsive(smart-tablette){
+      height: 23px;
+     }
+    
      @include responsive(mini-phone){
       height: 25px;    
       } 
-     @include responsive(big-phone){
-      height: 25px; 
-      }
+      @include responsive(mobile){
+        height: 12px;
+       }
+     
    }
 }
 
@@ -177,6 +271,12 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
+  @include responsive(smart-tablette){
+    align-items:baseline ;
+   }
+  @include responsive(mobile){
+    flex-wrap: wrap;
+    }
 }
 
 .parmentier
@@ -185,6 +285,12 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  @include responsive(smart-tablette){
+    align-items:baseline ;
+   }
+  @include responsive(mobile){
+    flex-wrap: wrap;
+    }
 }
 
 .turbot
@@ -193,6 +299,9 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  @include responsive(mobile){
+    flex-wrap: wrap;
+    }
 }
 
 #sommet
@@ -207,6 +316,18 @@
   display: flex;
   justify-content: space-around;
   margin-top: 70px;
+  text-align: center;
+  align-items: center;
+ 
+  @include responsive(laptope){
+    align-items: center;
+   } 
+  @include responsive(smart-tablette){
+    align-items:center ;
+   }
+  @include responsive(mobile){
+    align-items:center ;
+   }
 
     .sommet-sub
    {
@@ -219,25 +340,42 @@
      height: 42px;
      margin: 8px; 
      margin-left: 30px;
+     @include responsive(laptope){
+      height: 30px;
+     } 
+     @include responsive(smart-tablette){
+      height: 23px;
+     }
+    
      @include responsive(mini-phone){
       height: 21px;    
      } 
-     @include responsive(big-phone){
-      height: 21px; 
+     @include responsive(mobile){
+      height: 12px;
      }
+     
    }
 
     .arttraitD
    {
-     height: 50px;
-     margin: 8px; 
+    height: 42px;
+    margin: 8px; 
      margin-right: 30px;
+     transform: rotateY(180deg);
+     @include responsive(laptope){
+      height: 30px;
+     } 
+     @include responsive(smart-tablette){
+      height: 23px;
+     }
+    
      @include responsive(mini-phone){
       height: 25px;    
      } 
-     @include responsive(big-phone){
-      height: 25px; 
-    }
+     @include responsive(mobile){
+      height: 12px;
+     }
+    
    }
 }
 
@@ -247,6 +385,9 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
+  @include responsive(mobile){
+    flex-wrap: wrap;
+    }
 }
 
 .chocolat
@@ -255,6 +396,9 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  @include responsive(mobile){
+    flex-wrap: wrap;
+    }
 }
 
 .mousse
@@ -264,4 +408,7 @@
   align-items: center;
   margin-top: 10px;
   margin-bottom: 40px;  
+  @include responsive(mobile){
+    flex-wrap: wrap;
+    }
 }
