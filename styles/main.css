@@ -41,13 +41,6 @@ footer {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
     @if $breakpoint == big-phone {
       @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
@@ -70,6 +63,9 @@ footer {
         
     }
     */ }
+    @media only screen and (max-width: 480px) {
+      footer .legale a {
+        font-size: 15px; } }
   footer .legale:hover {
     animation: shake 1s; }
   footer .contact {
@@ -86,13 +82,6 @@ footer {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
     @if $breakpoint == big-phone {
       @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
@@ -115,6 +104,9 @@ footer {
         
     }
     */ }
+    @media only screen and (max-width: 480px) {
+      footer a {
+        font-size: 15px; } }
   footer .contact:hover {
     animation: shake 1s; }
 
@@ -160,13 +152,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -203,13 +188,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -234,13 +212,6 @@ body {
   */
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -305,13 +276,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -336,13 +300,6 @@ body {
   */
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -389,13 +346,6 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
     @if $breakpoint == big-phone {
       @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
@@ -438,13 +388,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -469,13 +412,6 @@ body {
   */
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -540,13 +476,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -571,13 +500,6 @@ body {
   */
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -623,13 +545,6 @@ body {
     /* RESPONSIVE*/
     /* PALETTE RESPONSIVE */
     /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
     
     
     @if $breakpoint == big-phone {
@@ -743,13 +658,6 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
     @if $breakpoint == big-phone {
       @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
@@ -794,13 +702,6 @@ body {
   /* RESPONSIVE*/
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -859,13 +760,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -904,13 +798,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -944,13 +831,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -977,13 +857,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -1008,13 +881,6 @@ body {
   */
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -1051,13 +917,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -1084,13 +943,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -1115,13 +967,6 @@ body {
   */
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -1160,13 +1005,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -1202,13 +1040,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -1233,13 +1064,6 @@ body {
   */
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -1280,13 +1104,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -1311,13 +1128,6 @@ body {
   */
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -1358,13 +1168,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -1400,13 +1203,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -1440,13 +1236,6 @@ body {
   margin-top: 10px;
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -1497,13 +1286,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -1550,13 +1332,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -1581,13 +1356,6 @@ body {
   */
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -1623,13 +1391,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -1654,13 +1415,6 @@ body {
   */
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -1699,13 +1453,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -1741,13 +1488,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -1781,13 +1521,6 @@ body {
   margin-top: 10px;
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -1837,13 +1570,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -1890,13 +1616,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -1921,13 +1640,6 @@ body {
   */
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -1963,13 +1675,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -1994,13 +1699,6 @@ body {
   */
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -2058,13 +1756,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -2099,13 +1790,6 @@ body {
   color: #3d1319;
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -2156,13 +1840,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -2187,13 +1864,6 @@ body {
   */
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -2256,13 +1926,6 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
     @if $breakpoint == big-phone {
       @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
@@ -2309,13 +1972,6 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
     @if $breakpoint == big-phone {
       @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
@@ -2340,13 +1996,6 @@ body {
     */
     /* PALETTE RESPONSIVE */
     /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
     
     
     @if $breakpoint == big-phone {
@@ -2381,13 +2030,6 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
     @if $breakpoint == big-phone {
       @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
@@ -2412,13 +2054,6 @@ body {
     */
     /* PALETTE RESPONSIVE */
     /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
     
     
     @if $breakpoint == big-phone {
@@ -2463,13 +2098,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -2503,13 +2131,6 @@ body {
   color: #c77412;
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -2568,13 +2189,6 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
     @if $breakpoint == big-phone {
       @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
@@ -2599,13 +2213,6 @@ body {
     */
     /* PALETTE RESPONSIVE */
     /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
     
     
     @if $breakpoint == big-phone {
@@ -2641,13 +2248,6 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
     @if $breakpoint == big-phone {
       @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
@@ -2672,13 +2272,6 @@ body {
     */
     /* PALETTE RESPONSIVE */
     /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
     
     
     @if $breakpoint == big-phone {
@@ -2740,13 +2333,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -2780,13 +2366,6 @@ body {
   color: #a56799;
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -2875,13 +2454,6 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
     @if $breakpoint == big-phone {
       @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
@@ -2906,13 +2478,6 @@ body {
     */
     /* PALETTE RESPONSIVE */
     /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
     
     
     @if $breakpoint == big-phone {
@@ -2947,13 +2512,6 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
     @if $breakpoint == big-phone {
       @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
@@ -2978,13 +2536,6 @@ body {
     */
     /* PALETTE RESPONSIVE */
     /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
     
     
     @if $breakpoint == big-phone {
@@ -3024,13 +2575,6 @@ body {
   margin-left: 80px;
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -3091,13 +2635,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -3122,13 +2659,6 @@ body {
   */
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -3207,13 +2737,6 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
     @if $breakpoint == big-phone {
       @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
@@ -3238,13 +2761,6 @@ body {
     */
     /* PALETTE RESPONSIVE */
     /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
     
     
     @if $breakpoint == big-phone {
@@ -3279,13 +2795,6 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
     @if $breakpoint == big-phone {
       @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
@@ -3310,13 +2819,6 @@ body {
     */
     /* PALETTE RESPONSIVE */
     /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
     
     
     @if $breakpoint == big-phone {
@@ -3360,13 +2862,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -3400,13 +2895,6 @@ body {
   font-weight: 400;
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -3485,13 +2973,6 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
     @if $breakpoint == big-phone {
       @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
@@ -3516,13 +2997,6 @@ body {
     */
     /* PALETTE RESPONSIVE */
     /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
     
     
     @if $breakpoint == big-phone {
@@ -3557,13 +3031,6 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
     @if $breakpoint == big-phone {
       @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
@@ -3588,13 +3055,6 @@ body {
     */
     /* PALETTE RESPONSIVE */
     /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
     
     
     @if $breakpoint == big-phone {
@@ -3679,13 +3139,6 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
     @if $breakpoint == big-phone {
       @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
@@ -3710,13 +3163,6 @@ body {
     */
     /* PALETTE RESPONSIVE */
     /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
     
     
     @if $breakpoint == big-phone {
@@ -3751,13 +3197,6 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
     @if $breakpoint == big-phone {
       @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
@@ -3782,13 +3221,6 @@ body {
     */
     /* PALETTE RESPONSIVE */
     /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
     
     
     @if $breakpoint == big-phone {
@@ -3858,13 +3290,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -3907,13 +3332,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -3953,13 +3371,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -3986,13 +3397,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -4017,13 +3421,6 @@ body {
   */
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -4085,11 +3482,30 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
+    @if $breakpoint == big-phone {
+      @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
     
+        @if $breakpoint == phone {
+            @media only screen and (max-width:670px) {@content};
+        }
+    
+        @if $breakpoint == chic-tablette {
+          @media only screen and (max-width:780px) {@content};
+        }
+    
+        
+        @if $breakpoint == tablette{
+            @media only screen and (max-width:800px) {@content};
+        }
+    
+        @if $breakpoint == lap-top {
+            @media only screen and (max-width:992px) {@content}
+        
+    }
+    */
+    /* PALETTE RESPONSIVE */
+    /*
     
     
     @if $breakpoint == big-phone {
@@ -4118,13 +3534,6 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
     @if $breakpoint == big-phone {
       @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
@@ -4149,46 +3558,6 @@ body {
     */
     /* PALETTE RESPONSIVE */
     /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
-    @if $breakpoint == big-phone {
-      @media only screen and (min-width:588px) and (max-width:768px) {@content};
-    }
-    
-        @if $breakpoint == phone {
-            @media only screen and (max-width:670px) {@content};
-        }
-    
-        @if $breakpoint == chic-tablette {
-          @media only screen and (max-width:780px) {@content};
-        }
-    
-        
-        @if $breakpoint == tablette{
-            @media only screen and (max-width:800px) {@content};
-        }
-    
-        @if $breakpoint == lap-top {
-            @media only screen and (max-width:992px) {@content}
-        
-    }
-    */
-    /* PALETTE RESPONSIVE */
-    /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
     
     
     @if $breakpoint == big-phone {
@@ -4233,11 +3602,30 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
+    @if $breakpoint == big-phone {
+      @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
     
+        @if $breakpoint == phone {
+            @media only screen and (max-width:670px) {@content};
+        }
+    
+        @if $breakpoint == chic-tablette {
+          @media only screen and (max-width:780px) {@content};
+        }
+    
+        
+        @if $breakpoint == tablette{
+            @media only screen and (max-width:800px) {@content};
+        }
+    
+        @if $breakpoint == lap-top {
+            @media only screen and (max-width:992px) {@content}
+        
+    }
+    */
+    /* PALETTE RESPONSIVE */
+    /*
     
     
     @if $breakpoint == big-phone {
@@ -4266,13 +3654,6 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
     @if $breakpoint == big-phone {
       @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
@@ -4297,46 +3678,6 @@ body {
     */
     /* PALETTE RESPONSIVE */
     /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
-    @if $breakpoint == big-phone {
-      @media only screen and (min-width:588px) and (max-width:768px) {@content};
-    }
-    
-        @if $breakpoint == phone {
-            @media only screen and (max-width:670px) {@content};
-        }
-    
-        @if $breakpoint == chic-tablette {
-          @media only screen and (max-width:780px) {@content};
-        }
-    
-        
-        @if $breakpoint == tablette{
-            @media only screen and (max-width:800px) {@content};
-        }
-    
-        @if $breakpoint == lap-top {
-            @media only screen and (max-width:992px) {@content}
-        
-    }
-    */
-    /* PALETTE RESPONSIVE */
-    /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
     
     
     @if $breakpoint == big-phone {
@@ -4383,13 +3724,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -4425,11 +3759,30 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
+  @if $breakpoint == big-phone {
+    @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
   
+      @if $breakpoint == phone {
+          @media only screen and (max-width:670px) {@content};
+      }
+  
+      @if $breakpoint == chic-tablette {
+        @media only screen and (max-width:780px) {@content};
+      }
+  
+      
+      @if $breakpoint == tablette{
+          @media only screen and (max-width:800px) {@content};
+      }
+  
+      @if $breakpoint == lap-top {
+          @media only screen and (max-width:992px) {@content}
+      
+  }
+  */
+  /* PALETTE RESPONSIVE */
+  /*
   
   
   @if $breakpoint == big-phone {
@@ -4458,13 +3811,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -4489,46 +3835,6 @@ body {
   */
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
-  @if $breakpoint == big-phone {
-    @media only screen and (min-width:588px) and (max-width:768px) {@content};
-  }
-  
-      @if $breakpoint == phone {
-          @media only screen and (max-width:670px) {@content};
-      }
-  
-      @if $breakpoint == chic-tablette {
-        @media only screen and (max-width:780px) {@content};
-      }
-  
-      
-      @if $breakpoint == tablette{
-          @media only screen and (max-width:800px) {@content};
-      }
-  
-      @if $breakpoint == lap-top {
-          @media only screen and (max-width:992px) {@content}
-      
-  }
-  */
-  /* PALETTE RESPONSIVE */
-  /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -4576,11 +3882,30 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
+  @if $breakpoint == big-phone {
+    @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
   
+      @if $breakpoint == phone {
+          @media only screen and (max-width:670px) {@content};
+      }
+  
+      @if $breakpoint == chic-tablette {
+        @media only screen and (max-width:780px) {@content};
+      }
+  
+      
+      @if $breakpoint == tablette{
+          @media only screen and (max-width:800px) {@content};
+      }
+  
+      @if $breakpoint == lap-top {
+          @media only screen and (max-width:992px) {@content}
+      
+  }
+  */
+  /* PALETTE RESPONSIVE */
+  /*
   
   
   @if $breakpoint == big-phone {
@@ -4609,13 +3934,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -4640,46 +3958,6 @@ body {
   */
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
-  @if $breakpoint == big-phone {
-    @media only screen and (min-width:588px) and (max-width:768px) {@content};
-  }
-  
-      @if $breakpoint == phone {
-          @media only screen and (max-width:670px) {@content};
-      }
-  
-      @if $breakpoint == chic-tablette {
-        @media only screen and (max-width:780px) {@content};
-      }
-  
-      
-      @if $breakpoint == tablette{
-          @media only screen and (max-width:800px) {@content};
-      }
-  
-      @if $breakpoint == lap-top {
-          @media only screen and (max-width:992px) {@content}
-      
-  }
-  */
-  /* PALETTE RESPONSIVE */
-  /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -4728,13 +4006,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -4768,13 +4039,6 @@ body {
   margin-top: 10px;
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -4817,13 +4081,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -4850,13 +4107,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -4881,13 +4131,6 @@ body {
   */
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -4950,11 +4193,30 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
+    @if $breakpoint == big-phone {
+      @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
     
+        @if $breakpoint == phone {
+            @media only screen and (max-width:670px) {@content};
+        }
+    
+        @if $breakpoint == chic-tablette {
+          @media only screen and (max-width:780px) {@content};
+        }
+    
+        
+        @if $breakpoint == tablette{
+            @media only screen and (max-width:800px) {@content};
+        }
+    
+        @if $breakpoint == lap-top {
+            @media only screen and (max-width:992px) {@content}
+        
+    }
+    */
+    /* PALETTE RESPONSIVE */
+    /*
     
     
     @if $breakpoint == big-phone {
@@ -4983,13 +4245,6 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
     @if $breakpoint == big-phone {
       @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
@@ -5014,46 +4269,6 @@ body {
     */
     /* PALETTE RESPONSIVE */
     /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
-    @if $breakpoint == big-phone {
-      @media only screen and (min-width:588px) and (max-width:768px) {@content};
-    }
-    
-        @if $breakpoint == phone {
-            @media only screen and (max-width:670px) {@content};
-        }
-    
-        @if $breakpoint == chic-tablette {
-          @media only screen and (max-width:780px) {@content};
-        }
-    
-        
-        @if $breakpoint == tablette{
-            @media only screen and (max-width:800px) {@content};
-        }
-    
-        @if $breakpoint == lap-top {
-            @media only screen and (max-width:992px) {@content}
-        
-    }
-    */
-    /* PALETTE RESPONSIVE */
-    /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
     
     
     @if $breakpoint == big-phone {
@@ -5099,11 +4314,30 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
+    @if $breakpoint == big-phone {
+      @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
     
+        @if $breakpoint == phone {
+            @media only screen and (max-width:670px) {@content};
+        }
+    
+        @if $breakpoint == chic-tablette {
+          @media only screen and (max-width:780px) {@content};
+        }
+    
+        
+        @if $breakpoint == tablette{
+            @media only screen and (max-width:800px) {@content};
+        }
+    
+        @if $breakpoint == lap-top {
+            @media only screen and (max-width:992px) {@content}
+        
+    }
+    */
+    /* PALETTE RESPONSIVE */
+    /*
     
     
     @if $breakpoint == big-phone {
@@ -5132,13 +4366,6 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
     @if $breakpoint == big-phone {
       @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
@@ -5163,46 +4390,6 @@ body {
     */
     /* PALETTE RESPONSIVE */
     /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
-    @if $breakpoint == big-phone {
-      @media only screen and (min-width:588px) and (max-width:768px) {@content};
-    }
-    
-        @if $breakpoint == phone {
-            @media only screen and (max-width:670px) {@content};
-        }
-    
-        @if $breakpoint == chic-tablette {
-          @media only screen and (max-width:780px) {@content};
-        }
-    
-        
-        @if $breakpoint == tablette{
-            @media only screen and (max-width:800px) {@content};
-        }
-    
-        @if $breakpoint == lap-top {
-            @media only screen and (max-width:992px) {@content}
-        
-    }
-    */
-    /* PALETTE RESPONSIVE */
-    /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
     
     
     @if $breakpoint == big-phone {
@@ -5249,13 +4436,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -5280,13 +4460,6 @@ body {
   */
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -5327,13 +4500,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -5358,13 +4524,6 @@ body {
   */
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -5403,13 +4562,6 @@ body {
   margin-top: 10px;
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -5453,13 +4605,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -5486,13 +4631,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -5517,13 +4655,6 @@ body {
   */
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -5586,11 +4717,30 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
+    @if $breakpoint == big-phone {
+      @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
     
+        @if $breakpoint == phone {
+            @media only screen and (max-width:670px) {@content};
+        }
+    
+        @if $breakpoint == chic-tablette {
+          @media only screen and (max-width:780px) {@content};
+        }
+    
+        
+        @if $breakpoint == tablette{
+            @media only screen and (max-width:800px) {@content};
+        }
+    
+        @if $breakpoint == lap-top {
+            @media only screen and (max-width:992px) {@content}
+        
+    }
+    */
+    /* PALETTE RESPONSIVE */
+    /*
     
     
     @if $breakpoint == big-phone {
@@ -5619,13 +4769,6 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
     @if $breakpoint == big-phone {
       @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
@@ -5650,46 +4793,6 @@ body {
     */
     /* PALETTE RESPONSIVE */
     /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
-    @if $breakpoint == big-phone {
-      @media only screen and (min-width:588px) and (max-width:768px) {@content};
-    }
-    
-        @if $breakpoint == phone {
-            @media only screen and (max-width:670px) {@content};
-        }
-    
-        @if $breakpoint == chic-tablette {
-          @media only screen and (max-width:780px) {@content};
-        }
-    
-        
-        @if $breakpoint == tablette{
-            @media only screen and (max-width:800px) {@content};
-        }
-    
-        @if $breakpoint == lap-top {
-            @media only screen and (max-width:992px) {@content}
-        
-    }
-    */
-    /* PALETTE RESPONSIVE */
-    /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
     
     
     @if $breakpoint == big-phone {
@@ -5735,11 +4838,30 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
+    @if $breakpoint == big-phone {
+      @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
     
+        @if $breakpoint == phone {
+            @media only screen and (max-width:670px) {@content};
+        }
+    
+        @if $breakpoint == chic-tablette {
+          @media only screen and (max-width:780px) {@content};
+        }
+    
+        
+        @if $breakpoint == tablette{
+            @media only screen and (max-width:800px) {@content};
+        }
+    
+        @if $breakpoint == lap-top {
+            @media only screen and (max-width:992px) {@content}
+        
+    }
+    */
+    /* PALETTE RESPONSIVE */
+    /*
     
     
     @if $breakpoint == big-phone {
@@ -5768,13 +4890,6 @@ body {
     /*
     
     
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
     @if $breakpoint == big-phone {
       @media only screen and (min-width:588px) and (max-width:768px) {@content};
     }
@@ -5799,46 +4914,6 @@ body {
     */
     /* PALETTE RESPONSIVE */
     /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
-    
-    
-    @if $breakpoint == big-phone {
-      @media only screen and (min-width:588px) and (max-width:768px) {@content};
-    }
-    
-        @if $breakpoint == phone {
-            @media only screen and (max-width:670px) {@content};
-        }
-    
-        @if $breakpoint == chic-tablette {
-          @media only screen and (max-width:780px) {@content};
-        }
-    
-        
-        @if $breakpoint == tablette{
-            @media only screen and (max-width:800px) {@content};
-        }
-    
-        @if $breakpoint == lap-top {
-            @media only screen and (max-width:992px) {@content}
-        
-    }
-    */
-    /* PALETTE RESPONSIVE */
-    /*
-    
-    
-     @if $breakpoint == little-phone {
-             @media only screen and (max-width:480px) {@content};
-             
-    }
-    
     
     
     @if $breakpoint == big-phone {
@@ -5885,13 +4960,6 @@ body {
   /*
   
   
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
-  
-  
   @if $breakpoint == big-phone {
     @media only screen and (min-width:588px) and (max-width:768px) {@content};
   }
@@ -5925,13 +4993,6 @@ body {
   margin-top: 10px;
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {
@@ -5968,13 +5029,6 @@ body {
   margin-bottom: 40px;
   /* PALETTE RESPONSIVE */
   /*
-  
-  
-   @if $breakpoint == little-phone {
-           @media only screen and (max-width:480px) {@content};
-           
-  }
-  
   
   
   @if $breakpoint == big-phone {

@@ -170,7 +170,7 @@ text-decoration: $texteDecoration;
     @media only screen and (max-width:600px) {@content};
   }
 
-/*
+
 
 
  @if $breakpoint == little-phone {
@@ -178,6 +178,7 @@ text-decoration: $texteDecoration;
          
 }
 
+/*
 
 
 @if $breakpoint == big-phone {
