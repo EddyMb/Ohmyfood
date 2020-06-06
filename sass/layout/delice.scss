@@ -7,21 +7,21 @@
 
 .delice-menu1
 {
-  @include menuSecondTitle;   
+  @include menuSecondTitle; 
+  @include responsive(mobile){
+    font-size: 28px;
+    }  
 }
 
 .delice-container
 {
   background-color:#f9f9f9;
   @include container;
-  @include responsive(mini-phone){
+  @include responsive(mobile){
     margin-right: 20px;
     margin-left: 20px;    
   }
-  @include responsive(big-phone){
-    margin-right: 26px;
-    margin-left: 26px;
-  }
+  
 }
 
 .delice-title2
@@ -31,6 +31,9 @@
   padding: 50px;
   text-align: center;
   font-family: 'Dancing Script', cursive;
+  @include responsive(mobile){
+    font-size: 34px;
+    }
   @include linear-gradient(160deg, $color-one:#0886fbbb, $color-two:#0229dd);  
 }
 
@@ -45,6 +48,7 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
+  align-items: center;
    
     .delice-sub
    {
@@ -57,25 +61,40 @@
    {
      height: 40px;
      margin: 8px;  
-
-     @include responsive(mini-phone){
-      height: 21px;    
+     @include responsive(laptope){
+      height: 30px;
      } 
-     @include responsive(big-phone){
-      height: 21px;  
+
+     @include responsive(smart-tablette){
+      height: 13px;
      }
+     @include responsive(mobile){
+      height: 12px;    
+     } 
+
+    
+
+    
+    
    }
 
     .delicetraitD
    {
-     height: 26px;
-     margin: 15px; 
-     @include responsive(mini-phone){
-      height: 15px;    
-     }  
-     @include responsive(big-phone){
-      height: 15px;  
+    height: 40px;
+    margin: 8px;
+    transform: rotateY(180deg);
+    @include responsive(laptope){
+      height: 30px;
+     } 
+    @include responsive(smart-tablette){
+      height: 13px;
      }
+     @include responsive(mobile){
+      height: 12px;    
+     }  
+   
+     
+     
    }
 }
 
@@ -85,6 +104,10 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  @include responsive(mobile){
+    flex-wrap: wrap;
+  }
+  
 }
 
 .food-delice
@@ -93,9 +116,17 @@
   font-weight: 300;
   font-size:20px ;
   margin-left: 80px;
-  @include responsive(mini-phone){
-    margin-left: 22px;    
-   } 
+  @include responsive(smart-tablette){
+    margin-left:43px ;
+   }
+  @include responsive(mobile){
+    width: 100%;
+    text-align: center;
+    margin-right: 60px;
+    }
+   
+ 
+  
 }
 .price-delice
 {
@@ -103,9 +134,19 @@
   font-size:20px ;
   margin-right: 90px;
   font-weight: 400;
-  @include responsive(mini-phone){
-    margin-right: 33px;    
-   } 
+
+  @include responsive(smart-tablette){
+    margin-right: 42px;
+   }
+  @include responsive(mobile){
+    width: 100%;
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 5px;
+    }
+    
+ 
+   
 }
 
 .bouchee
@@ -114,6 +155,9 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  @include responsive(mobile){
+    flex-wrap: wrap;
+  }
 }
 
 .cepes
@@ -122,6 +166,9 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  @include responsive(mobile){
+    flex-wrap: wrap;
+  }
 }
 
 #continuer
@@ -136,6 +183,7 @@
   justify-content: space-around;
   margin-top: 70px;
   text-align: center;
+  align-items: center;
 
     .continuer-sub
    {
@@ -146,26 +194,41 @@
 
     .light-traitG
    {
-     height: 44px;
-     margin: 8px;
-     @include responsive(mini-phone){
-      height: 25px;    
+    height: 44px;
+    margin: 8px;
+    @include responsive(laptope){
+      height: 35px;
      } 
-     @include responsive(big-phone){
-      height: 25px;  
+
+    @include responsive(smart-tablette){
+      height: 15px;
      }
+     
+
+     @include responsive(mobile){
+      height: 13px;    
+     } 
+     
+    
    }
 
     .light-traitD
    {
-     height: 32px;
-     margin: 16px;
-     @include responsive(mini-phone){
-      height: 19px;    
+    height: 44px;
+    margin: 8px;
+    @include responsive(laptope){
+      height: 35px;
      } 
-     @include responsive(big-phone){
-      height: 19px;  
+    transform: rotateY(180deg);
+    @include responsive(smart-tablette){
+      height: 15px;
      }
+     @include responsive(mobile){
+      height: 13px;    
+     } 
+    
+     
+     
    }
 }
 
@@ -175,6 +238,9 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
+  @include responsive(mobile){
+    flex-wrap: wrap;
+  }
 }
 
 .roti
@@ -183,6 +249,9 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  @include responsive(mobile){
+    flex-wrap: wrap;
+  }
 }
 
 .boeuf
@@ -191,6 +260,9 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  @include responsive(mobile){
+    flex-wrap: wrap;
+  }
 }
 
 #terminer
@@ -205,6 +277,8 @@
   display: flex;
   justify-content: space-around;
   margin-top: 70px;
+  text-align: center;
+  align-items: center;
 
     .terminer-sub
    {
@@ -215,26 +289,39 @@
 
     .blue-traitG
    {
-     height: 38px;
-     margin: 8px;
-     @include responsive(mini-phone){
-      height: 24px;    
+    height: 40px;
+    margin: 8px;
+    @include responsive(laptope){
+      height: 30px;
      } 
-     @include responsive(big-phone){
-      height: 24px;  
+    @include responsive(smart-tablette){
+      height: 15px;
      }
+     @include responsive(mobile){
+      height: 13px;    
+     } 
+     
+    
+     
    }
 
     .blue-traitD
    {
-     height: 30px;
-     margin: 13px;
-     @include responsive(mini-phone){
-      height: 18px;    
+    height: 40px;
+    margin: 8px;
+    transform: rotateY(180deg);
+    @include responsive(laptope){
+      height: 30px;
      } 
-     @include responsive(big-phone){
-      height: 18px;  
+    @include responsive(smart-tablette){
+      height: 15px;
      }
+     @include responsive(mobile){
+      height: 13px;    
+     } 
+     
+    
+    
    }
 }
 
@@ -244,6 +331,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @include responsive(mobile){
+    flex-wrap: wrap;
+  }
 }
 
 .créme
@@ -252,6 +342,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @include responsive(mobile){
+    flex-wrap: wrap;
+  }
 }
 
 .tiramisu
@@ -261,4 +354,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;  
+  @include responsive(mobile){
+    flex-wrap: wrap;
+  }
 }

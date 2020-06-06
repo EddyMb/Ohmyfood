@@ -2622,15 +2622,7 @@ body {
   text-align: center;
   margin-top: 35px;
   margin-bottom: 25px;
-  letter-spacing: 2px; }
-
-.delice-container {
-  background-color: #f9f9f9;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 50px;
-  margin-bottom: 120px;
-  box-shadow: 3px 3px 14px gray;
+  letter-spacing: 2px;
   /* PALETTE RESPONSIVE */
   /*
   
@@ -2656,7 +2648,18 @@ body {
           @media only screen and (max-width:992px) {@content}
       
   }
-  */
+  */ }
+  @media only screen and (max-width: 600px) {
+    .delice-menu1 {
+      font-size: 28px; } }
+
+.delice-container {
+  background-color: #f9f9f9;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 120px;
+  box-shadow: 3px 3px 14px gray;
   /* PALETTE RESPONSIVE */
   /*
   
@@ -2694,11 +2697,40 @@ body {
   padding: 50px;
   text-align: center;
   font-family: 'Dancing Script', cursive;
+  /* PALETTE RESPONSIVE */
+  /*
+  
+  
+  @if $breakpoint == big-phone {
+    @media only screen and (min-width:588px) and (max-width:768px) {@content};
+  }
+  
+      @if $breakpoint == phone {
+          @media only screen and (max-width:670px) {@content};
+      }
+  
+      @if $breakpoint == chic-tablette {
+        @media only screen and (max-width:780px) {@content};
+      }
+  
+      
+      @if $breakpoint == tablette{
+          @media only screen and (max-width:800px) {@content};
+      }
+  
+      @if $breakpoint == lap-top {
+          @media only screen and (max-width:992px) {@content}
+      
+  }
+  */
   color: #0886fbbb;
   color: #0229dd;
   background: -webkit-linear-gradient(160deg, #0886fbbb 0%, #0229dd 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text; }
+  @media only screen and (max-width: 600px) {
+    .delice-title2 {
+      font-size: 34px; } }
 
 #commencer {
   width: 100%;
@@ -2707,7 +2739,8 @@ body {
 .delice-trait {
   display: flex;
   justify-content: space-around;
-  text-align: center; }
+  text-align: center;
+  align-items: center; }
   .delice-trait .delice-sub {
     font-family: 'Kalam', cursive;
     font-family: 'Kalam', cursive;
@@ -2784,13 +2817,72 @@ body {
             @media only screen and (max-width:992px) {@content}
         
     }
+    */
+    /* PALETTE RESPONSIVE */
+    /*
+    
+    
+    @if $breakpoint == big-phone {
+      @media only screen and (min-width:588px) and (max-width:768px) {@content};
+    }
+    
+        @if $breakpoint == phone {
+            @media only screen and (max-width:670px) {@content};
+        }
+    
+        @if $breakpoint == chic-tablette {
+          @media only screen and (max-width:780px) {@content};
+        }
+    
+        
+        @if $breakpoint == tablette{
+            @media only screen and (max-width:800px) {@content};
+        }
+    
+        @if $breakpoint == lap-top {
+            @media only screen and (max-width:992px) {@content}
+        
+    }
     */ }
+    @media only screen and (max-width: 1040px) {
+      .delice-trait .delicetraitG {
+        height: 30px; } }
+    @media only screen and (max-width: 768px) {
+      .delice-trait .delicetraitG {
+        height: 13px; } }
     @media only screen and (max-width: 600px) {
       .delice-trait .delicetraitG {
-        height: 21px; } }
+        height: 12px; } }
   .delice-trait .delicetraitD {
-    height: 26px;
-    margin: 15px;
+    height: 40px;
+    margin: 8px;
+    transform: rotateY(180deg);
+    /* PALETTE RESPONSIVE */
+    /*
+    
+    
+    @if $breakpoint == big-phone {
+      @media only screen and (min-width:588px) and (max-width:768px) {@content};
+    }
+    
+        @if $breakpoint == phone {
+            @media only screen and (max-width:670px) {@content};
+        }
+    
+        @if $breakpoint == chic-tablette {
+          @media only screen and (max-width:780px) {@content};
+        }
+    
+        
+        @if $breakpoint == tablette{
+            @media only screen and (max-width:800px) {@content};
+        }
+    
+        @if $breakpoint == lap-top {
+            @media only screen and (max-width:992px) {@content}
+        
+    }
+    */
     /* PALETTE RESPONSIVE */
     /*
     
@@ -2843,15 +2935,50 @@ body {
         
     }
     */ }
+    @media only screen and (max-width: 1040px) {
+      .delice-trait .delicetraitD {
+        height: 30px; } }
+    @media only screen and (max-width: 768px) {
+      .delice-trait .delicetraitD {
+        height: 13px; } }
     @media only screen and (max-width: 600px) {
       .delice-trait .delicetraitD {
-        height: 15px; } }
+        height: 12px; } }
 
 .repas-thon {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px; }
+  margin-top: 10px;
+  /* PALETTE RESPONSIVE */
+  /*
+  
+  
+  @if $breakpoint == big-phone {
+    @media only screen and (min-width:588px) and (max-width:768px) {@content};
+  }
+  
+      @if $breakpoint == phone {
+          @media only screen and (max-width:670px) {@content};
+      }
+  
+      @if $breakpoint == chic-tablette {
+        @media only screen and (max-width:780px) {@content};
+      }
+  
+      
+      @if $breakpoint == tablette{
+          @media only screen and (max-width:800px) {@content};
+      }
+  
+      @if $breakpoint == lap-top {
+          @media only screen and (max-width:992px) {@content}
+      
+  }
+  */ }
+  @media only screen and (max-width: 600px) {
+    .repas-thon {
+      flex-wrap: wrap; } }
 
 .food-delice {
   font-family: 'Kalam', cursive;
@@ -2883,10 +3010,41 @@ body {
           @media only screen and (max-width:992px) {@content}
       
   }
+  */
+  /* PALETTE RESPONSIVE */
+  /*
+  
+  
+  @if $breakpoint == big-phone {
+    @media only screen and (min-width:588px) and (max-width:768px) {@content};
+  }
+  
+      @if $breakpoint == phone {
+          @media only screen and (max-width:670px) {@content};
+      }
+  
+      @if $breakpoint == chic-tablette {
+        @media only screen and (max-width:780px) {@content};
+      }
+  
+      
+      @if $breakpoint == tablette{
+          @media only screen and (max-width:800px) {@content};
+      }
+  
+      @if $breakpoint == lap-top {
+          @media only screen and (max-width:992px) {@content}
+      
+  }
   */ }
+  @media only screen and (max-width: 768px) {
+    .food-delice {
+      margin-left: 43px; } }
   @media only screen and (max-width: 600px) {
     .food-delice {
-      margin-left: 22px; } }
+      width: 100%;
+      text-align: center;
+      margin-right: 60px; } }
 
 .price-delice {
   font-family: 'Kalam', cursive;
@@ -2918,22 +3076,112 @@ body {
           @media only screen and (max-width:992px) {@content}
       
   }
+  */
+  /* PALETTE RESPONSIVE */
+  /*
+  
+  
+  @if $breakpoint == big-phone {
+    @media only screen and (min-width:588px) and (max-width:768px) {@content};
+  }
+  
+      @if $breakpoint == phone {
+          @media only screen and (max-width:670px) {@content};
+      }
+  
+      @if $breakpoint == chic-tablette {
+        @media only screen and (max-width:780px) {@content};
+      }
+  
+      
+      @if $breakpoint == tablette{
+          @media only screen and (max-width:800px) {@content};
+      }
+  
+      @if $breakpoint == lap-top {
+          @media only screen and (max-width:992px) {@content}
+      
+  }
   */ }
+  @media only screen and (max-width: 768px) {
+    .price-delice {
+      margin-right: 42px; } }
   @media only screen and (max-width: 600px) {
     .price-delice {
-      margin-right: 33px; } }
+      width: 100%;
+      text-align: center;
+      margin-right: 5px;
+      margin-top: 5px; } }
 
 .bouchee {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px; }
+  margin-top: 10px;
+  /* PALETTE RESPONSIVE */
+  /*
+  
+  
+  @if $breakpoint == big-phone {
+    @media only screen and (min-width:588px) and (max-width:768px) {@content};
+  }
+  
+      @if $breakpoint == phone {
+          @media only screen and (max-width:670px) {@content};
+      }
+  
+      @if $breakpoint == chic-tablette {
+        @media only screen and (max-width:780px) {@content};
+      }
+  
+      
+      @if $breakpoint == tablette{
+          @media only screen and (max-width:800px) {@content};
+      }
+  
+      @if $breakpoint == lap-top {
+          @media only screen and (max-width:992px) {@content}
+      
+  }
+  */ }
+  @media only screen and (max-width: 600px) {
+    .bouchee {
+      flex-wrap: wrap; } }
 
 .cepes {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px; }
+  margin-top: 10px;
+  /* PALETTE RESPONSIVE */
+  /*
+  
+  
+  @if $breakpoint == big-phone {
+    @media only screen and (min-width:588px) and (max-width:768px) {@content};
+  }
+  
+      @if $breakpoint == phone {
+          @media only screen and (max-width:670px) {@content};
+      }
+  
+      @if $breakpoint == chic-tablette {
+        @media only screen and (max-width:780px) {@content};
+      }
+  
+      
+      @if $breakpoint == tablette{
+          @media only screen and (max-width:800px) {@content};
+      }
+  
+      @if $breakpoint == lap-top {
+          @media only screen and (max-width:992px) {@content}
+      
+  }
+  */ }
+  @media only screen and (max-width: 600px) {
+    .cepes {
+      flex-wrap: wrap; } }
 
 #continuer {
   width: 100%;
@@ -2943,7 +3191,8 @@ body {
   display: flex;
   justify-content: space-around;
   margin-top: 70px;
-  text-align: center; }
+  text-align: center;
+  align-items: center; }
   .continuer-trait .continuer-sub {
     font-family: 'Kalam', cursive;
     font-family: 'Kalam', cursive;
@@ -3020,13 +3269,72 @@ body {
             @media only screen and (max-width:992px) {@content}
         
     }
+    */
+    /* PALETTE RESPONSIVE */
+    /*
+    
+    
+    @if $breakpoint == big-phone {
+      @media only screen and (min-width:588px) and (max-width:768px) {@content};
+    }
+    
+        @if $breakpoint == phone {
+            @media only screen and (max-width:670px) {@content};
+        }
+    
+        @if $breakpoint == chic-tablette {
+          @media only screen and (max-width:780px) {@content};
+        }
+    
+        
+        @if $breakpoint == tablette{
+            @media only screen and (max-width:800px) {@content};
+        }
+    
+        @if $breakpoint == lap-top {
+            @media only screen and (max-width:992px) {@content}
+        
+    }
     */ }
+    @media only screen and (max-width: 1040px) {
+      .continuer-trait .light-traitG {
+        height: 35px; } }
+    @media only screen and (max-width: 768px) {
+      .continuer-trait .light-traitG {
+        height: 15px; } }
     @media only screen and (max-width: 600px) {
       .continuer-trait .light-traitG {
-        height: 25px; } }
+        height: 13px; } }
   .continuer-trait .light-traitD {
-    height: 32px;
-    margin: 16px;
+    height: 44px;
+    margin: 8px;
+    /* PALETTE RESPONSIVE */
+    /*
+    
+    
+    @if $breakpoint == big-phone {
+      @media only screen and (min-width:588px) and (max-width:768px) {@content};
+    }
+    
+        @if $breakpoint == phone {
+            @media only screen and (max-width:670px) {@content};
+        }
+    
+        @if $breakpoint == chic-tablette {
+          @media only screen and (max-width:780px) {@content};
+        }
+    
+        
+        @if $breakpoint == tablette{
+            @media only screen and (max-width:800px) {@content};
+        }
+    
+        @if $breakpoint == lap-top {
+            @media only screen and (max-width:992px) {@content}
+        
+    }
+    */
+    transform: rotateY(180deg);
     /* PALETTE RESPONSIVE */
     /*
     
@@ -3079,27 +3387,120 @@ body {
         
     }
     */ }
+    @media only screen and (max-width: 1040px) {
+      .continuer-trait .light-traitD {
+        height: 35px; } }
+    @media only screen and (max-width: 768px) {
+      .continuer-trait .light-traitD {
+        height: 15px; } }
     @media only screen and (max-width: 600px) {
       .continuer-trait .light-traitD {
-        height: 19px; } }
+        height: 13px; } }
 
 .repas-poulet {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px; }
+  margin-top: 20px;
+  /* PALETTE RESPONSIVE */
+  /*
+  
+  
+  @if $breakpoint == big-phone {
+    @media only screen and (min-width:588px) and (max-width:768px) {@content};
+  }
+  
+      @if $breakpoint == phone {
+          @media only screen and (max-width:670px) {@content};
+      }
+  
+      @if $breakpoint == chic-tablette {
+        @media only screen and (max-width:780px) {@content};
+      }
+  
+      
+      @if $breakpoint == tablette{
+          @media only screen and (max-width:800px) {@content};
+      }
+  
+      @if $breakpoint == lap-top {
+          @media only screen and (max-width:992px) {@content}
+      
+  }
+  */ }
+  @media only screen and (max-width: 600px) {
+    .repas-poulet {
+      flex-wrap: wrap; } }
 
 .roti {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px; }
+  margin-top: 10px;
+  /* PALETTE RESPONSIVE */
+  /*
+  
+  
+  @if $breakpoint == big-phone {
+    @media only screen and (min-width:588px) and (max-width:768px) {@content};
+  }
+  
+      @if $breakpoint == phone {
+          @media only screen and (max-width:670px) {@content};
+      }
+  
+      @if $breakpoint == chic-tablette {
+        @media only screen and (max-width:780px) {@content};
+      }
+  
+      
+      @if $breakpoint == tablette{
+          @media only screen and (max-width:800px) {@content};
+      }
+  
+      @if $breakpoint == lap-top {
+          @media only screen and (max-width:992px) {@content}
+      
+  }
+  */ }
+  @media only screen and (max-width: 600px) {
+    .roti {
+      flex-wrap: wrap; } }
 
 .boeuf {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px; }
+  margin-top: 10px;
+  /* PALETTE RESPONSIVE */
+  /*
+  
+  
+  @if $breakpoint == big-phone {
+    @media only screen and (min-width:588px) and (max-width:768px) {@content};
+  }
+  
+      @if $breakpoint == phone {
+          @media only screen and (max-width:670px) {@content};
+      }
+  
+      @if $breakpoint == chic-tablette {
+        @media only screen and (max-width:780px) {@content};
+      }
+  
+      
+      @if $breakpoint == tablette{
+          @media only screen and (max-width:800px) {@content};
+      }
+  
+      @if $breakpoint == lap-top {
+          @media only screen and (max-width:992px) {@content}
+      
+  }
+  */ }
+  @media only screen and (max-width: 600px) {
+    .boeuf {
+      flex-wrap: wrap; } }
 
 #terminer {
   width: 100%;
@@ -3109,7 +3510,9 @@ body {
 .terminer-trait {
   display: flex;
   justify-content: space-around;
-  margin-top: 70px; }
+  margin-top: 70px;
+  text-align: center;
+  align-items: center; }
   .terminer-trait .terminer-sub {
     font-family: 'Kalam', cursive;
     font-family: 'Kalam', cursive;
@@ -3133,7 +3536,7 @@ body {
     .terminer-trait .terminer-sub:hover::after {
       transform: scaleX(1); }
   .terminer-trait .blue-traitG {
-    height: 38px;
+    height: 40px;
     margin: 8px;
     /* PALETTE RESPONSIVE */
     /*
@@ -3186,13 +3589,72 @@ body {
             @media only screen and (max-width:992px) {@content}
         
     }
+    */
+    /* PALETTE RESPONSIVE */
+    /*
+    
+    
+    @if $breakpoint == big-phone {
+      @media only screen and (min-width:588px) and (max-width:768px) {@content};
+    }
+    
+        @if $breakpoint == phone {
+            @media only screen and (max-width:670px) {@content};
+        }
+    
+        @if $breakpoint == chic-tablette {
+          @media only screen and (max-width:780px) {@content};
+        }
+    
+        
+        @if $breakpoint == tablette{
+            @media only screen and (max-width:800px) {@content};
+        }
+    
+        @if $breakpoint == lap-top {
+            @media only screen and (max-width:992px) {@content}
+        
+    }
     */ }
+    @media only screen and (max-width: 1040px) {
+      .terminer-trait .blue-traitG {
+        height: 30px; } }
+    @media only screen and (max-width: 768px) {
+      .terminer-trait .blue-traitG {
+        height: 15px; } }
     @media only screen and (max-width: 600px) {
       .terminer-trait .blue-traitG {
-        height: 24px; } }
+        height: 13px; } }
   .terminer-trait .blue-traitD {
-    height: 30px;
-    margin: 13px;
+    height: 40px;
+    margin: 8px;
+    transform: rotateY(180deg);
+    /* PALETTE RESPONSIVE */
+    /*
+    
+    
+    @if $breakpoint == big-phone {
+      @media only screen and (min-width:588px) and (max-width:768px) {@content};
+    }
+    
+        @if $breakpoint == phone {
+            @media only screen and (max-width:670px) {@content};
+        }
+    
+        @if $breakpoint == chic-tablette {
+          @media only screen and (max-width:780px) {@content};
+        }
+    
+        
+        @if $breakpoint == tablette{
+            @media only screen and (max-width:800px) {@content};
+        }
+    
+        @if $breakpoint == lap-top {
+            @media only screen and (max-width:992px) {@content}
+        
+    }
+    */
     /* PALETTE RESPONSIVE */
     /*
     
@@ -3245,28 +3707,121 @@ body {
         
     }
     */ }
+    @media only screen and (max-width: 1040px) {
+      .terminer-trait .blue-traitD {
+        height: 30px; } }
+    @media only screen and (max-width: 768px) {
+      .terminer-trait .blue-traitD {
+        height: 15px; } }
     @media only screen and (max-width: 600px) {
       .terminer-trait .blue-traitD {
-        height: 18px; } }
+        height: 13px; } }
 
 .repas-desserts {
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  /* PALETTE RESPONSIVE */
+  /*
+  
+  
+  @if $breakpoint == big-phone {
+    @media only screen and (min-width:588px) and (max-width:768px) {@content};
+  }
+  
+      @if $breakpoint == phone {
+          @media only screen and (max-width:670px) {@content};
+      }
+  
+      @if $breakpoint == chic-tablette {
+        @media only screen and (max-width:780px) {@content};
+      }
+  
+      
+      @if $breakpoint == tablette{
+          @media only screen and (max-width:800px) {@content};
+      }
+  
+      @if $breakpoint == lap-top {
+          @media only screen and (max-width:992px) {@content}
+      
+  }
+  */ }
+  @media only screen and (max-width: 600px) {
+    .repas-desserts {
+      flex-wrap: wrap; } }
 
 .créme {
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  /* PALETTE RESPONSIVE */
+  /*
+  
+  
+  @if $breakpoint == big-phone {
+    @media only screen and (min-width:588px) and (max-width:768px) {@content};
+  }
+  
+      @if $breakpoint == phone {
+          @media only screen and (max-width:670px) {@content};
+      }
+  
+      @if $breakpoint == chic-tablette {
+        @media only screen and (max-width:780px) {@content};
+      }
+  
+      
+      @if $breakpoint == tablette{
+          @media only screen and (max-width:800px) {@content};
+      }
+  
+      @if $breakpoint == lap-top {
+          @media only screen and (max-width:992px) {@content}
+      
+  }
+  */ }
+  @media only screen and (max-width: 600px) {
+    .créme {
+      flex-wrap: wrap; } }
 
 .tiramisu {
   margin-top: 10px;
   margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  /* PALETTE RESPONSIVE */
+  /*
+  
+  
+  @if $breakpoint == big-phone {
+    @media only screen and (min-width:588px) and (max-width:768px) {@content};
+  }
+  
+      @if $breakpoint == phone {
+          @media only screen and (max-width:670px) {@content};
+      }
+  
+      @if $breakpoint == chic-tablette {
+        @media only screen and (max-width:780px) {@content};
+      }
+  
+      
+      @if $breakpoint == tablette{
+          @media only screen and (max-width:800px) {@content};
+      }
+  
+      @if $breakpoint == lap-top {
+          @media only screen and (max-width:992px) {@content}
+      
+  }
+  */ }
+  @media only screen and (max-width: 600px) {
+    .tiramisu {
+      flex-wrap: wrap; } }
 
 .main-bloc {
   background-color: white;
