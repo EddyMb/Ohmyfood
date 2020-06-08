@@ -158,6 +158,10 @@ text-decoration: $texteDecoration;
     @media only screen and (max-width:768px) {@content};
   }
 
+  @if $breakpoint == ecran {
+    @media only screen and (max-width:836px) {@content};
+  }
+
   @if $breakpoint == laptope {
     @media only screen and (max-width:1040px) {@content};
   }
@@ -178,7 +182,7 @@ text-decoration: $texteDecoration;
          
 }
 
-/*
+
 
 
 @if $breakpoint == big-phone {
@@ -202,7 +206,7 @@ text-decoration: $texteDecoration;
         @media only screen and (max-width:992px) {@content}
     
 }
-*/
+
 
 }
 
