@@ -4,10 +4,12 @@
   @include mainBloc;
 }
 
-.chic-menu1
+.main-title
 {
   @include menuSecondTitle; 
-  @include responsive(mobile){
+
+  /*RESPONSIVE*/
+    @include responsive(mobile){
     font-size: 25px;
   }  
 }
@@ -17,14 +19,16 @@
   background-color:#fff5fe;
 
   @include container;
-  @include responsive(mobile){
+
+  /*RESPONSIVE*/
+
+    @include responsive(mobile){
     margin-right: 20px;
     margin-left: 20px;    
-  }
-  
+  }  
 }
 
-.chic-title2 
+.chic-title 
 {
   font-size:28px;
   font-family: 'Croissant One', cursive;
@@ -42,403 +46,372 @@
 {
   width: 100%;
   align-items: center;
-}
 
-.chic-trait
-{
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  align-items: center;
 
-     .appetit-sub
+     .chic-trait
     {
-      color:#c77412;
+      @include chicTraitTitle;
 
-      @include chicSecondTitle;
-      @include underline;
+           .appetit-sub
+          {
+             color:#c77412;
+
+             @include chicSecondTitle;
+             @include underline;
+             
+            /*RESPONSIVE*/
+             @include responsive(mobile){
+            font-size: 14px;   
+            } 
+          }
+          
+           /*DESCRIPTION TRAIT GAUCHE*/
+           .chictraitD
+          {
+            @include chicTrait1;
+            transform: rotateY(180deg);
+            
+            /*RESPONSIVE*/
+              @include responsive(smart-tablette){
+              height: 13px;
+              }
+
+              @include responsive(mobile){
+              height: 9px;    
+             }    
+          }
+
+          /*DESCRIPTION TRAIT DROITE*/
+          .chictraitG
+         {
+             @include chicTrait1;
+          
+           /*RESPONSIVE*/
+             @include responsive(smart-tablette){
+             height: 13px;
+             }
+
+            @include responsive(mobile){
+            height: 9px;    
+            }  
+         }  
+    }
+
+      /*MENU APPETIT*/
+     .repas-tartare
+   {
+      @include chicRepas(#c77412);
+      margin-top: 29px;
       
-      @include responsive(mobile){
-        font-size: 14px;   
-       } 
-    }
-     .chictraitD
-   {
-      height: 25px;
-      margin: 8px; 
-      transform: rotateY(180deg);
-
+      
+      /*RESPONSIVE*/
       @include responsive(smart-tablette){
-        height: 13px;
-       }
+      flex-wrap: wrap;
+      }
       @include responsive(mobile){
-       height: 9px;    
-      } 
-     
-
-       
+      flex-wrap: wrap;
+      }
    }
-    .chictraitG
-   {
-      height: 25px;
-      margin: 8px; 
 
+    .food-chic
+   {
+      @include chicFood;
+     /*RESPONSIVE*/
       @include responsive(smart-tablette){
-        height: 13px;
-       }
+      width: 100%;
+      text-align: center;
+      margin-right: 43px;
+      }
+
       @include responsive(mobile){
-        height: 9px;    
-       } 
-     
+      width: 100%;
+      text-align: center;
+      font-size: 12px;
+      margin-right: 70px;
+      }
+   }
+
+    .price-chic
+   {
+      @include chicPrice;
+      
+      /*RESPONSIVE*/
+      @include responsive(smart-tablette){
+      width: 100%;
+      text-align: center;
+      margin-top: 10px;
+      margin-right: 5px;
+      }
+
+      @include responsive(mobile){
+      width: 100%;
+      text-align: center;
+      margin-top: 10px;
+      margin-right: 5px;
+      font-size: 12px;
+      }  
+   }
+
+
+    .veloute
+   {
+    @include chicRepas(#c77412);
+      margin-top: 20px;
+
+      /*RESPONSIVE*/
+      @include responsive(smart-tablette){
+      flex-wrap: wrap;
+      }
+      @include responsive(mobile){
+      flex-wrap: wrap;
+      }
    }  
-}
 
-
-.repas-tartare
-{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 29px;
-  color:#c77412;
-  @include responsive(smart-tablette){
-    flex-wrap: wrap;
+    .soupe
+   {
+      @include chicRepas(#c77412);
+      margin-top: 20px;
+      
+      /*RESPONSIVE*/
+      @include responsive(smart-tablette){
+      flex-wrap: wrap;
+      }
+      @include responsive(mobile){
+      flex-wrap: wrap;
+      }
    }
-  @include responsive(mobile){
-    flex-wrap: wrap;
-  }
-}
-.food-chic
-{
-  font-family: 'Merriweather', cursive;
-  font-weight: 200;
-  margin-left: 80px;
-  font-size:17px ;
-  color:#c77412;
- 
-
-  @include responsive(smart-tablette){
-    width: 100%;
-    text-align: center;
-    margin-right: 43px;
-   }
-
-  @include responsive(mobile){
-    width: 100%;
-    text-align: center;
-    font-size: 12px;
-    margin-right: 70px;
-    }
-    
-    
- 
-}
-.price-chic
-{
-  font-family: 'Merriweather', cursive;
-  font-size:17px ;
-  margin-right: 90px;
-  color:#c77412;
- 
-
-  @include responsive(smart-tablette){
-    width: 100%;
-    text-align: center;
-    margin-top: 10px;
-    margin-right: 5px;
-   }
-
-  @include responsive(mobile){
-    width: 100%;
-    text-align: center;
-    margin-top: 10px;
-    margin-right: 5px;
-    font-size: 12px;
-   
-    }
-    
-  
 }
 
-.veloute
-{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-  color:#c77412;
-  @include responsive(smart-tablette){
-    flex-wrap: wrap;
-   }
-  @include responsive(mobile){
-    flex-wrap: wrap;
-  }
-}
-
-.soupe
-{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-  color:#c77412;
-  @include responsive(smart-tablette){
-    flex-wrap: wrap;
-   }
-  @include responsive(mobile){
-    flex-wrap: wrap;
-  }
-}
-
+/*MENU PLAISIR*/
 #plaisir
 {
   width: 100%;
   align-items: center;
   
-}
-
-.plaisir-trait
-{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 70px;
-  text-align: center;
-  align-items: center;
+  .plaisir-trait
+ {
+    @include chicTraitTitle;
+    margin-top: 70px;
+    
   
-    .plaisir-chictraitG
-   {
-    height: 22px;
-      margin: 8px; 
-      @include responsive(smart-tablette){
+      .plaisir-chictraitG
+     {
+       @include chicTrait2;
+
+       /*RESPONSIVE*/
+       @include responsive(smart-tablette){
         height: 13px;
        }
-     @include responsive(mobile){
-      height: 8px;    
-     }  
-        
-   }
-    
-    .plaisir-chictraitD
-   {
-    height: 22px;
-    margin: 8px; 
-    margin-left: 30px;
-    transform: rotateY(180deg);
-    @include responsive(smart-tablette){
-      height: 13px;
+       @include responsive(mobile){
+       height: 8px;    
+       }        
      }
-     @include responsive(mobile){
-      height: 8px;    
-     } 
     
-   }
+      .plaisir-chictraitD
+     {
+       @include chicTrait2;
+       margin-left: 30px;
+       transform: rotateY(180deg);
 
-    .plaisir-sub
+       /*RESPONSIVE*/
+       @include responsive(smart-tablette){
+       height: 13px;
+       }
+       @include responsive(mobile){
+       height: 8px;    
+       }  
+     }
+
+      .plaisir-sub
+     {
+       color:#a56799;
+       margin-left: 15px;
+       @include chicSecondTitle;
+       @include underline;
+
+       /*RESPONSIVE*/
+       @include responsive(mobile){
+       font-size: 14px;   
+       } 
+      }
+  }
+
+
+    .food-plaisir
    {
-    color:#a56799;
-    margin-left: 15px;
-    @include chicSecondTitle;
-    @include underline;
-    @include responsive(mobile){
-      font-size: 14px;   
-     } 
+    @include chicFood;
+     
+     /*RESPONSIVE*/
+      @include responsive(smart-tablette){
+      width: 100%;
+      text-align: center;
+      margin-right: 91px;
+      }
+      @include responsive(mobile){
+      width: 100%;
+      text-align: center;
+      font-size: 12px;
+      margin-right: 70px;
+      } 
+   }
+
+    .price-plaisir
+   {
+    @include chicPrice;
     
+    /*RESPONSIVE*/
+      @include responsive(smart-tablette){
+      width: 100%;
+      text-align: center;
+      margin-top: 10px;
+      margin-right: 5px;
+      }
+      @include responsive(mobile){
+      width: 100%;
+      text-align: center;
+      margin-top: 10px;
+      font-size: 12px;
+      margin-right: 5px;
+      }
+   }
+
+    .repas-coquille
+   {
+    @include chicRepas(#a56799);
+     margin-top: 20px;
+      
+     /*RESPONSIVE*/
+      @include responsive(smart-tablette){
+      flex-wrap: wrap;
+      }
+      @include responsive(mobile){
+      flex-wrap: wrap;
+      }
+   }
+
+    .magret
+   {
+    @include chicRepas(#a56799);
+     margin-top: 20px;
+     
+     /*RESPONSIVE*/
+      @include responsive(smart-tablette){
+      flex-wrap: wrap;
+      }
+      @include responsive(mobile){
+      flex-wrap: wrap;
+     }
+   }
+
+    .pigeon
+   {
+     @include chicRepas(#a56799);
+     margin-top: 20px;
+     
+     /*RESPONSIVE*/
+       @include responsive(smart-tablette){
+       flex-wrap: wrap;
+       }
+       @include responsive(mobile){
+       flex-wrap: wrap;
+       }
    }
 }
 
-.food-plaisir
-{
-  font-family: 'Merriweather', cursive;
-  font-weight: 200;
-  font-size:17px ;
-  margin-left: 80px;
-  color:#a56799;
-  @include responsive(smart-tablette){
-    width: 100%;
-    text-align: center;
-    margin-right: 91px;
-   }
 
-  @include responsive(mobile){
-    width: 100%;
-    text-align: center;
-    font-size: 12px;
-    margin-right: 70px;
-    }
- 
-}
-.price-plaisir
-{
-  font-family: 'Merriweather', cursive;
-  font-size:17px ;
-  margin-right: 90px;
-  color:#a56799;
-  
-
-  @include responsive(smart-tablette){
-    width: 100%;
-    text-align: center;
-    margin-top: 10px;
-    margin-right: 5px;
-   }
-  @include responsive(mobile){
-    width: 100%;
-    text-align: center;
-    margin-top: 10px;
-    font-size: 12px;
-    margin-right: 5px;
-   
-    }
-}
-
-.repas-coquille
-{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-  color:#a56799;  
-  @include responsive(smart-tablette){
-    flex-wrap: wrap;
-   }
-  @include responsive(mobile){
-    flex-wrap: wrap;
-  }
-}
-
-.magret
-{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-  color:#a56799;
-  @include responsive(smart-tablette){
-    flex-wrap: wrap;
-   }
-  @include responsive(mobile){
-    flex-wrap: wrap;
-  }
-}
-
-.pigeon
-{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-  color:#a56799;
-  @include responsive(smart-tablette){
-    flex-wrap: wrap;
-   }
-  @include responsive(mobile){
-    flex-wrap: wrap;
-  }
-}
-
+/*MENU GOURMANDISE*/
 #gourmandise
 {
   width: 100%;
   align-items: center;
   padding-bottom: 3px;   
-}
 
-.gourmandise-trait
-{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 70px;
 
-      .gourmandise-sub
-     {
-       color:#6e4ccc;
-       @include chicSecondTitle; 
-       @include underline;
-       @include responsive(mobile){
-        font-size: 14px;   
-       } 
+    .gourmandise-trait
+   {
+      @include chicTraitTitle;
+      margin-top: 70px;
+
+         .gourmandise-sub
+        {
+          color:#6e4ccc;
+          @include chicSecondTitle; 
+          @include underline;
+        
+          /*RESPONSIVE*/
+          @include responsive(mobile){
+           font-size: 14px;   
+          } 
+        }
+
+         .gourmandise-chictraitG
+        {
+          @include chicTrait3;
+
+          /*RESPONSIVE*/
+          @include responsive(smart-tablette){
+          height: 19px;
+          }
+          @include responsive(mobile){
+           height: 12px;    
+          }  
+        }
+
+         .gourmandise-chictraitD
+        {
+          @include chicTrait3;
+          transform: rotateY(180deg);
+
+          /*RESPONSIVE*/
+          @include responsive(smart-tablette){
+           height: 19px;
+          }
+          @include responsive(mobile){
+          height: 12px;    
+          }   
+        }
     }
 
-      .gourmandise-chictraitG
-    {
-       height: 32px;
-       margin: 8px;
+    .repas-petale
+  {
+    margin-top: 20px;
+    @include chicRepas(#6e4ccc);
+  }
 
-       @include responsive(smart-tablette){
-        height: 19px;
-       }
-       @include responsive(mobile){
-        height: 12px;    
-       } 
-      
-    }
-
-      .gourmandise-chictraitD
-    {
-      height: 32px;
-      margin: 8px;
-      transform: rotateY(180deg);
-      @include responsive(smart-tablette){
-        height: 19px;
-       }
-       @include responsive(mobile){
-        height: 12px;    
-       } 
-       
-    }
-
-}
-
-.repas-petale
-{
-  
-  margin-top: 20px;
-  color:#6e4ccc; 
-  display: flex;
-  justify-content: space-between;
-
-  
-  
-}
-
- .food-petale
-{
-  font-family: 'Merriweather', cursive;
-  font-weight: 200;
-  font-size:17px ;
-  margin-left: 80px;
-  @include responsive(smart-tablette){
+    .food-petale
+  {
+    @include chicFood;
+    
+    /*RESPONSIVE*/
+    @include responsive(smart-tablette){
     width: 100%;
     text-align: center;
     margin-right: 86px;
-   }
- 
+    }
 
-  @include responsive(mobile){
+    @include responsive(mobile){
     width: 100%;
     text-align: center;
     font-size: 12px;
     margin-right: 70px;
     } 
-}
+  }
 
-.fondant
-{
-  
-  margin-top: 20px;
-  color:#6e4ccc;
-  font-family: 'Merriweather', cursive;
-  display: flex;
-  justify-content: space-between;
-}
+   .fondant
+  {
+    @include chicRepas(#6e4ccc);
+    margin-top: 20px;
+    font-family: 'Merriweather', cursive;
+    
+  }
 
-.millefeuille
-{
-  
-  margin-top: 20px;
-  margin-bottom: 40px;
-  color:#6e4ccc; 
-  display: flex; 
-  justify-content: space-between;
+   .millefeuille
+  {
+    @include chicRepas(#6e4ccc);
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Merriweather', cursive;
+    
+  }
+
 }

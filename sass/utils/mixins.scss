@@ -1,4 +1,51 @@
 
+
+
+
+@mixin chicRepas($colorValue) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $colorValue;
+}
+
+@mixin chicFood{
+  font-family: 'Merriweather', cursive;
+  font-weight: 200;
+  font-size:17px ;
+  margin-left: 80px;
+}
+
+@mixin chicPrice{
+  font-family: 'Merriweather', cursive;
+  font-size:17px ;
+  margin-right: 90px;
+}
+ 
+@mixin chicTraitTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+}
+
+@mixin chicTrait3{
+  height: 32px;
+   margin: 8px;
+}
+
+
+@mixin chicTrait2{
+  height: 22px;
+  margin: 8px; 
+
+}
+@mixin chicTrait1{
+  height: 25px;
+  margin: 8px; 
+}
+
+
 @mixin chicSecondTitle{
   font-family: 'Merriweather', cursive;
   font-size: 21px;
