@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* NOTE*/
 /*DELICE*/
 /*PALETTE*/
 /* CHIC*/
@@ -418,391 +419,477 @@ body {
     margin-bottom: 35px;
     color: #3d1319; }
 
+/* MENU PRELUDE*/
 #prelude {
   width: 100%;
   align-items: center; }
-
-.prelude-trait {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  align-items: center; }
-
-.prelude-title {
-  font-family: 'Kalam', cursive;
-  font-weight: 400;
-  font-size: 28px;
-  text-align: center;
-  margin-right: 15px;
-  position: relative;
-  text-decoration: none;
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 600px) {
-    .prelude-title {
-      font-size: 20px; } }
-
-.traitD {
-  height: 27px;
-  margin: 8px;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 836px) {
-    .traitD {
-      height: 16px;
-      margin-left: 21px; } }
-  @media only screen and (max-width: 768px) {
-    .traitD {
-      height: 13px; } }
-  @media only screen and (max-width: 600px) {
-    .traitD {
-      height: 7px;
-      margin: 12px; } }
-
-.traitG {
-  height: 27px;
-  margin: 8px;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 836px) {
-    .traitG {
-      height: 16px; } }
-  @media only screen and (max-width: 768px) {
-    .traitG {
-      height: 13px; } }
-  @media only screen and (max-width: 600px) {
-    .traitG {
-      height: 7px;
-      margin: 12px; } }
-
-.repas-raviole {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 768px) {
-    .repas-raviole {
-      flex-wrap: wrap; } }
-  @media only screen and (max-width: 600px) {
-    .repas-raviole {
-      flex-wrap: wrap; } }
-
-.food {
-  font-family: 'Kalam', cursive;
-  font-weight: 300;
-  font-size: 20px;
-  margin-left: 60px;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 1200px) {
-    .food {
-      margin-right: 87px; } }
-  @media only screen and (max-width: 836px) {
-    .food {
-      margin-right: 52px; } }
-  @media only screen and (max-width: 768px) {
-    .food {
+  #prelude .prelude-trait {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center; }
+    #prelude .prelude-trait .prelude-title {
+      font-family: 'Kalam', cursive;
+      font-weight: 400;
+      font-size: 28px;
       text-align: center;
-      margin-right: 60px;
-      width: 100%;
-      font-size: 24px; } }
-  @media only screen and (max-width: 600px) {
-    .food {
-      text-align: center;
-      margin-right: 60px;
-      width: 100%;
-      font-size: 20px; } }
+      margin-right: 15px;
+      position: relative;
+      text-decoration: none;
+      /*RESPONSIVE*/
+      /* PALETTE RESPONSIVE */ }
+      @media only screen and (max-width: 600px) {
+        #prelude .prelude-trait .prelude-title {
+          font-size: 20px; } }
+    #prelude .prelude-trait .traitD {
+      height: 27px;
+      margin: 8px;
+      /*RESPONSIVE*/
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */ }
+      @media only screen and (max-width: 836px) {
+        #prelude .prelude-trait .traitD {
+          height: 16px;
+          margin-left: 21px; } }
+      @media only screen and (max-width: 768px) {
+        #prelude .prelude-trait .traitD {
+          height: 13px; } }
+      @media only screen and (max-width: 600px) {
+        #prelude .prelude-trait .traitD {
+          height: 7px;
+          margin: 12px; } }
+    #prelude .prelude-trait .traitG {
+      height: 27px;
+      margin: 8px;
+      /*RESPONSIVE*/
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */ }
+      @media only screen and (max-width: 836px) {
+        #prelude .prelude-trait .traitG {
+          height: 16px; } }
+      @media only screen and (max-width: 768px) {
+        #prelude .prelude-trait .traitG {
+          height: 13px; } }
+      @media only screen and (max-width: 600px) {
+        #prelude .prelude-trait .traitG {
+          height: 7px;
+          margin: 12px; } }
+  #prelude .repas-raviole {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 768px) {
+      #prelude .repas-raviole {
+        flex-wrap: wrap; } }
+    @media only screen and (max-width: 600px) {
+      #prelude .repas-raviole {
+        flex-wrap: wrap; } }
+  #prelude .food {
+    font-family: 'Kalam', cursive;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 60px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 1200px) {
+      #prelude .food {
+        margin-right: 87px; } }
+    @media only screen and (max-width: 836px) {
+      #prelude .food {
+        margin-right: 52px; } }
+    @media only screen and (max-width: 768px) {
+      #prelude .food {
+        text-align: center;
+        margin-right: 60px;
+        width: 100%;
+        font-size: 24px; } }
+    @media only screen and (max-width: 600px) {
+      #prelude .food {
+        text-align: center;
+        margin-right: 60px;
+        width: 100%;
+        font-size: 20px; } }
+  #prelude .price {
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    margin-right: 75px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 1200px) {
+      #prelude .price {
+        margin-right: 107px; } }
+    @media only screen and (max-width: 768px) {
+      #prelude .price {
+        width: 100%;
+        text-align: center;
+        margin-right: 5px;
+        margin-top: 6px;
+        font-size: 23px; } }
+    @media only screen and (max-width: 600px) {
+      #prelude .price {
+        width: 100%;
+        text-align: center;
+        margin-right: 5px;
+        margin-top: 6px; } }
+  #prelude .caviar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 768px) {
+      #prelude .caviar {
+        flex-wrap: wrap; } }
+    @media only screen and (max-width: 600px) {
+      #prelude .caviar {
+        flex-wrap: wrap; } }
+  #prelude .homard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 768px) {
+      #prelude .homard {
+        flex-wrap: wrap; } }
+    @media only screen and (max-width: 600px) {
+      #prelude .homard {
+        flex-wrap: wrap; } }
+  #prelude .foie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 768px) {
+      #prelude .foie {
+        flex-wrap: wrap; } }
+    @media only screen and (max-width: 600px) {
+      #prelude .foie {
+        flex-wrap: wrap; } }
 
-.price {
-  font-family: 'Kalam', cursive;
-  font-size: 20px;
-  margin-right: 75px;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 1200px) {
-    .price {
-      margin-right: 107px; } }
-  @media only screen and (max-width: 768px) {
-    .price {
-      width: 100%;
-      text-align: center;
-      margin-right: 5px;
-      margin-top: 6px;
-      font-size: 23px; } }
-  @media only screen and (max-width: 600px) {
-    .price {
-      width: 100%;
-      text-align: center;
-      margin-right: 5px;
-      margin-top: 6px; } }
-
-.caviar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 768px) {
-    .caviar {
-      flex-wrap: wrap; } }
-  @media only screen and (max-width: 600px) {
-    .caviar {
-      flex-wrap: wrap; } }
-
-.homard {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 768px) {
-    .homard {
-      flex-wrap: wrap; } }
-  @media only screen and (max-width: 600px) {
-    .homard {
-      flex-wrap: wrap; } }
-
-.foie {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 768px) {
-    .foie {
-      flex-wrap: wrap; } }
-  @media only screen and (max-width: 600px) {
-    .foie {
-      flex-wrap: wrap; } }
-
+/* MENU ORGUE*/
 #orgue {
   width: 100%;
-  align-items: center; }
-
-.pont-orgue {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 70px;
-  text-align: center;
   align-items: center;
-  width: 100%; }
-
-.orgue-sub {
-  font-family: 'Kalam', cursive;
-  font-weight: 400;
-  font-size: 28px;
-  text-align: center;
-  margin-right: 15px;
-  position: relative;
-  text-decoration: none;
-  /* PALETTE RESPONSIVE */ }
-  .orgue-sub::after {
-    content: "";
+  /*REPAS ORGUE*/ }
+  #orgue .pont-orgue {
     display: flex;
-    position: absolute;
-    left: 5;
-    bottom: 5;
-    height: 2px;
-    width: 100%;
-    background: black;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 250ms ease-in; }
-  .orgue-sub:hover::after {
-    transform: scaleX(1); }
-  @media only screen and (max-width: 600px) {
-    .orgue-sub {
-      font-size: 20px; } }
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 70px;
+    width: 100%; }
+    #orgue .pont-orgue .orgue-sub {
+      font-family: 'Kalam', cursive;
+      font-weight: 400;
+      font-size: 28px;
+      text-align: center;
+      margin-right: 15px;
+      position: relative;
+      text-decoration: none;
+      /*RESPONSIVE*/
+      /* PALETTE RESPONSIVE */ }
+      #orgue .pont-orgue .orgue-sub::after {
+        content: "";
+        display: flex;
+        position: absolute;
+        left: 5px;
+        bottom: 5px;
+        height: 2px;
+        width: 100%;
+        background: black;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 250ms ease-in; }
+      #orgue .pont-orgue .orgue-sub:hover::after {
+        transform: scaleX(1); }
+      @media only screen and (max-width: 600px) {
+        #orgue .pont-orgue .orgue-sub {
+          font-size: 20px; } }
+    #orgue .pont-orgue .orgue-traitG {
+      height: 27px;
+      margin: 8px;
+      /*RESPONSIVE*/
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */ }
+      @media only screen and (max-width: 836px) {
+        #orgue .pont-orgue .orgue-traitG {
+          height: 16px;
+          margin-left: 24px; } }
+      @media only screen and (max-width: 768px) {
+        #orgue .pont-orgue .orgue-traitG {
+          height: 13px; } }
+      @media only screen and (max-width: 600px) {
+        #orgue .pont-orgue .orgue-traitG {
+          height: 7px;
+          margin: 12px; } }
+    #orgue .pont-orgue .orgue-traitD {
+      height: 27px;
+      margin: 8px;
+      /*RESPONSIVE*/
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */ }
+      @media only screen and (max-width: 836px) {
+        #orgue .pont-orgue .orgue-traitD {
+          height: 16px;
+          margin-left: 21px; } }
+      @media only screen and (max-width: 768px) {
+        #orgue .pont-orgue .orgue-traitD {
+          height: 13px; } }
+      @media only screen and (max-width: 600px) {
+        #orgue .pont-orgue .orgue-traitD {
+          height: 7px;
+          margin: 12px; } }
+  #orgue .food {
+    font-family: 'Kalam', cursive;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 60px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 1200px) {
+      #orgue .food {
+        margin-right: 87px; } }
+    @media only screen and (max-width: 836px) {
+      #orgue .food {
+        margin-right: 52px; } }
+    @media only screen and (max-width: 768px) {
+      #orgue .food {
+        text-align: center;
+        margin-right: 60px;
+        width: 100%;
+        font-size: 24px; } }
+    @media only screen and (max-width: 600px) {
+      #orgue .food {
+        text-align: center;
+        margin-right: 60px;
+        width: 100%;
+        font-size: 20px; } }
+  #orgue .price {
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    margin-right: 75px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 1200px) {
+      #orgue .price {
+        margin-right: 107px; } }
+    @media only screen and (max-width: 768px) {
+      #orgue .price {
+        width: 100%;
+        text-align: center;
+        margin-right: 5px;
+        margin-top: 6px;
+        font-size: 23px; } }
+    @media only screen and (max-width: 600px) {
+      #orgue .price {
+        width: 100%;
+        text-align: center;
+        margin-right: 5px;
+        margin-top: 6px; } }
+  #orgue .repas-noix {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-top: 20px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 768px) {
+      #orgue .repas-noix {
+        flex-wrap: wrap; } }
+    @media only screen and (max-width: 600px) {
+      #orgue .repas-noix {
+        flex-wrap: wrap; } }
+  #orgue .langouste {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 768px) {
+      #orgue .langouste {
+        flex-wrap: wrap; } }
+    @media only screen and (max-width: 600px) {
+      #orgue .langouste {
+        flex-wrap: wrap; } }
+  #orgue .mijote {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 768px) {
+      #orgue .mijote {
+        flex-wrap: wrap; } }
+    @media only screen and (max-width: 600px) {
+      #orgue .mijote {
+        flex-wrap: wrap; } }
 
-.orgue-traitG {
-  height: 27px;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 836px) {
-    .orgue-traitG {
-      height: 16px;
-      margin-left: 24px; } }
-  @media only screen and (max-width: 768px) {
-    .orgue-traitG {
-      height: 13px; } }
-  @media only screen and (max-width: 600px) {
-    .orgue-traitG {
-      height: 7px;
-      margin: 12px; } }
-
-.orgue-traitD {
-  height: 27px;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 836px) {
-    .orgue-traitD {
-      height: 16px;
-      margin-left: 21px; } }
-  @media only screen and (max-width: 768px) {
-    .orgue-traitD {
-      height: 13px; } }
-  @media only screen and (max-width: 600px) {
-    .orgue-traitD {
-      height: 7px;
-      margin: 12px; } }
-
-.repas-noix {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 768px) {
-    .repas-noix {
-      flex-wrap: wrap; } }
-  @media only screen and (max-width: 600px) {
-    .repas-noix {
-      flex-wrap: wrap; } }
-
-.langouste {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 768px) {
-    .langouste {
-      flex-wrap: wrap; } }
-  @media only screen and (max-width: 600px) {
-    .langouste {
-      flex-wrap: wrap; } }
-
-.mijote {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 768px) {
-    .mijote {
-      flex-wrap: wrap; } }
-  @media only screen and (max-width: 600px) {
-    .mijote {
-      flex-wrap: wrap; } }
-
+/*MENU MOUVEMENT*/
 #mouvement {
   width: 100%;
   align-items: center; }
-
-.mouvement-main {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 70px;
-  align-items: center;
-  text-align: center; }
-
-.mouvement-title {
-  font-family: 'Kalam', cursive;
-  font-weight: 400;
-  font-size: 28px;
-  text-align: center;
-  margin-right: 15px;
-  position: relative;
-  text-decoration: none;
-  /* PALETTE RESPONSIVE */ }
-  .mouvement-title::after {
-    content: "";
+  #mouvement .mouvement-main {
     display: flex;
-    position: absolute;
-    left: 5;
-    bottom: 5;
-    height: 2px;
-    width: 100%;
-    background: black;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 250ms ease-in; }
-  .mouvement-title:hover::after {
-    transform: scaleX(1); }
-  @media only screen and (max-width: 600px) {
-    .mouvement-title {
-      font-size: 20px; } }
-
-.mouvement-traitG {
-  height: 27px;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 836px) {
-    .mouvement-traitG {
-      height: 16px;
-      margin-left: 23px; } }
-  @media only screen and (max-width: 768px) {
-    .mouvement-traitG {
-      height: 13px; } }
-  @media only screen and (max-width: 600px) {
-    .mouvement-traitG {
-      height: 7px;
-      margin: 28px; } }
-
-.mouvement-traitD {
-  height: 27px;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 836px) {
-    .mouvement-traitD {
-      height: 16px; } }
-  @media only screen and (max-width: 768px) {
-    .mouvement-traitD {
-      height: 13px; } }
-  @media only screen and (max-width: 600px) {
-    .mouvement-traitD {
-      height: 7px;
-      margin: 28px; } }
-
-.repas-macaron {
-  margin-top: 20px;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 768px) {
-    .repas-macaron {
-      display: flex; } }
-  @media only screen and (max-width: 600px) {
-    .repas-macaron {
-      display: flex; } }
-
-.baba {
-  margin-top: 10px;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 768px) {
-    .baba {
-      display: flex; } }
-  @media only screen and (max-width: 600px) {
-    .baba {
-      display: flex; } }
-
-.tarte {
-  margin-top: 10px;
-  margin-bottom: 50px;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 768px) {
-    .tarte {
-      display: flex; } }
-  @media only screen and (max-width: 600px) {
-    .tarte {
-      display: flex; } }
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 70px; }
+    #mouvement .mouvement-main .mouvement-title {
+      font-family: 'Kalam', cursive;
+      font-weight: 400;
+      font-size: 28px;
+      text-align: center;
+      margin-right: 15px;
+      position: relative;
+      text-decoration: none;
+      /*RESPONSIVE*/
+      /* PALETTE RESPONSIVE */ }
+      #mouvement .mouvement-main .mouvement-title::after {
+        content: "";
+        display: flex;
+        position: absolute;
+        left: 5px;
+        bottom: 5px;
+        height: 2px;
+        width: 100%;
+        background: black;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 250ms ease-in; }
+      #mouvement .mouvement-main .mouvement-title:hover::after {
+        transform: scaleX(1); }
+      @media only screen and (max-width: 600px) {
+        #mouvement .mouvement-main .mouvement-title {
+          font-size: 20px; } }
+    #mouvement .mouvement-main .mouvement-traitG {
+      height: 27px;
+      margin: 8px;
+      /*RESPONSIVE*/
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */ }
+      @media only screen and (max-width: 836px) {
+        #mouvement .mouvement-main .mouvement-traitG {
+          height: 16px;
+          margin-left: 23px; } }
+      @media only screen and (max-width: 768px) {
+        #mouvement .mouvement-main .mouvement-traitG {
+          height: 13px; } }
+      @media only screen and (max-width: 600px) {
+        #mouvement .mouvement-main .mouvement-traitG {
+          height: 7px;
+          margin: 12px; } }
+    #mouvement .mouvement-main .mouvement-traitD {
+      height: 27px;
+      margin: 8px;
+      /*RESPONSIVE*/
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */ }
+      @media only screen and (max-width: 836px) {
+        #mouvement .mouvement-main .mouvement-traitD {
+          height: 16px; } }
+      @media only screen and (max-width: 768px) {
+        #mouvement .mouvement-main .mouvement-traitD {
+          height: 13px; } }
+      @media only screen and (max-width: 600px) {
+        #mouvement .mouvement-main .mouvement-traitD {
+          height: 7px;
+          margin: 12px; } }
+  #mouvement .food {
+    font-family: 'Kalam', cursive;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 60px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 1200px) {
+      #mouvement .food {
+        margin-right: 87px; } }
+    @media only screen and (max-width: 836px) {
+      #mouvement .food {
+        margin-right: 52px; } }
+    @media only screen and (max-width: 768px) {
+      #mouvement .food {
+        text-align: center;
+        margin-right: 60px;
+        width: 100%;
+        font-size: 24px; } }
+    @media only screen and (max-width: 600px) {
+      #mouvement .food {
+        text-align: center;
+        margin-right: 60px;
+        width: 100%;
+        font-size: 20px; } }
+  #mouvement .repas-macaron {
+    margin-top: 20px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 768px) {
+      #mouvement .repas-macaron {
+        display: flex; } }
+    @media only screen and (max-width: 600px) {
+      #mouvement .repas-macaron {
+        display: flex; } }
+  #mouvement .baba {
+    margin-top: 10px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 768px) {
+      #mouvement .baba {
+        display: flex; } }
+    @media only screen and (max-width: 600px) {
+      #mouvement .baba {
+        display: flex; } }
+  #mouvement .tarte {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 768px) {
+      #mouvement .tarte {
+        display: flex; } }
+    @media only screen and (max-width: 600px) {
+      #mouvement .tarte {
+        display: flex; } }
 
 #return {
   margin-bottom: 90px;
@@ -818,6 +905,7 @@ body {
   background: -webkit-linear-gradient(190deg, #f6916a 0%, #f13639 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  /*RESPONSIVE*/
   /* PALETTE RESPONSIVE */ }
   @media only screen and (max-width: 600px) {
     .fa-music {
@@ -829,6 +917,7 @@ body {
   margin-left: 13px;
   font-weight: 300;
   color: #3d1319;
+  /*RESPONSIVE*/
   /* PALETTE RESPONSIVE */ }
   @media only screen and (max-width: 600px) {
     .principal1 {
@@ -906,8 +995,8 @@ body {
         content: "";
         display: flex;
         position: absolute;
-        left: 5;
-        bottom: 5;
+        left: 5px;
+        bottom: 5px;
         height: 2px;
         width: 100%;
         background: black;
@@ -1081,8 +1170,8 @@ body {
         content: "";
         display: flex;
         position: absolute;
-        left: 5;
-        bottom: 5;
+        left: 5px;
+        bottom: 5px;
         height: 2px;
         width: 100%;
         background: black;
@@ -1205,8 +1294,8 @@ body {
         content: "";
         display: flex;
         position: absolute;
-        left: 5;
-        bottom: 5;
+        left: 5px;
+        bottom: 5px;
         height: 2px;
         width: 100%;
         background: black;
@@ -1351,8 +1440,8 @@ body {
         content: "";
         display: flex;
         position: absolute;
-        left: 5;
-        bottom: 5;
+        left: 5px;
+        bottom: 5px;
         height: 2px;
         width: 100%;
         background: black;
@@ -1480,8 +1569,8 @@ body {
         content: "";
         display: flex;
         position: absolute;
-        left: 5;
-        bottom: 5;
+        left: 5px;
+        bottom: 5px;
         height: 2px;
         width: 100%;
         background: black;
@@ -1612,8 +1701,8 @@ body {
         content: "";
         display: flex;
         position: absolute;
-        left: 5;
-        bottom: 5;
+        left: 5px;
+        bottom: 5px;
         height: 2px;
         width: 100%;
         background: black;
@@ -1798,8 +1887,8 @@ body {
         content: "";
         display: flex;
         position: absolute;
-        left: 5;
-        bottom: 5;
+        left: 5px;
+        bottom: 5px;
         height: 2px;
         width: 100%;
         background: black;
@@ -1962,8 +2051,8 @@ body {
         content: "";
         display: flex;
         position: absolute;
-        left: 5;
-        bottom: 5;
+        left: 5px;
+        bottom: 5px;
         height: 2px;
         width: 100%;
         background: black;
@@ -2130,8 +2219,8 @@ body {
         content: "";
         display: flex;
         position: absolute;
-        left: 5;
-        bottom: 5;
+        left: 5px;
+        bottom: 5px;
         height: 2px;
         width: 100%;
         background: black;

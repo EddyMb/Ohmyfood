@@ -1,4 +1,39 @@
 
+
+/* NOTE*/
+@mixin noteTraitTitle{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+@mixin noteRepas{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+@mixin noteFood{
+  font-family: 'Kalam', cursive;
+  font-weight: 300;
+  font-size:20px ;
+  margin-left: 60px;
+}
+
+@mixin notePrice {
+  font-family: 'Kalam', cursive;
+  font-size:20px ;
+  margin-right: 75px;
+}
+
+@mixin noteTrait{
+  height: 27px;
+  margin: 8px;
+}
+
+
 /*DELICE*/
 @mixin deliceTrait3{
   height: 40px;
@@ -159,8 +194,8 @@
   content: "";
   display: flex;
   position: absolute;
-  left: 5;
-  bottom: 5;
+  left: 5px;
+  bottom: 5px;
   height: 2px;
   width:100%;
   background: black;
