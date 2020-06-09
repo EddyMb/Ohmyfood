@@ -1,4 +1,7 @@
 @charset "UTF-8";
+/*DELICE*/
+/*PALETTE*/
+/* CHIC*/
 /* HEADER */
 header {
   height: 90px;
@@ -861,7 +864,7 @@ body {
       margin-right: 20px;
       margin-left: 20px; } }
 
-.chic-title {
+.chic-title2 {
   font-size: 28px;
   font-family: 'Croissant One', cursive;
   margin-bottom: 35px;
@@ -874,7 +877,7 @@ body {
   -webkit-background-clip: text;
   /* PALETTE RESPONSIVE */ }
   @media only screen and (max-width: 600px) {
-    .chic-title {
+    .chic-title2 {
       font-size: 20px; } }
 
 #appetit {
@@ -1315,6 +1318,7 @@ body {
   padding: 50px;
   text-align: center;
   font-family: 'Dancing Script', cursive;
+  /*RESPONSIVE*/
   /* PALETTE RESPONSIVE */
   color: #0886fbbb;
   color: #0229dd;
@@ -1325,321 +1329,397 @@ body {
     .delice-title2 {
       font-size: 34px; } }
 
+/*MENU COMMENCER*/
 #commencer {
   width: 100%;
   align-items: center; }
-
-.delice-trait {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  align-items: center; }
-  .delice-trait .delice-sub {
-    font-family: 'Kalam', cursive;
+  #commencer .delice-trait {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    /*DESCRIPTION TRAIT*/ }
+    #commencer .delice-trait .delice-sub {
+      font-family: 'Kalam', cursive;
+      font-family: 'Kalam', cursive;
+      font-weight: 300;
+      text-align: center;
+      font-size: 25px;
+      position: relative;
+      text-decoration: none; }
+      #commencer .delice-trait .delice-sub::after {
+        content: "";
+        display: flex;
+        position: absolute;
+        left: 5;
+        bottom: 5;
+        height: 2px;
+        width: 100%;
+        background: black;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 250ms ease-in; }
+      #commencer .delice-trait .delice-sub:hover::after {
+        transform: scaleX(1); }
+    #commencer .delice-trait .delicetraitG {
+      height: 40px;
+      margin: 8px;
+      /*RESPONSIVE*/
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */ }
+      @media only screen and (max-width: 1040px) {
+        #commencer .delice-trait .delicetraitG {
+          height: 30px; } }
+      @media only screen and (max-width: 768px) {
+        #commencer .delice-trait .delicetraitG {
+          height: 13px; } }
+      @media only screen and (max-width: 600px) {
+        #commencer .delice-trait .delicetraitG {
+          height: 12px; } }
+    #commencer .delice-trait .delicetraitD {
+      height: 40px;
+      margin: 8px;
+      transform: rotateY(180deg);
+      /*RESPONSIVE*/
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */ }
+      @media only screen and (max-width: 1040px) {
+        #commencer .delice-trait .delicetraitD {
+          height: 30px; } }
+      @media only screen and (max-width: 768px) {
+        #commencer .delice-trait .delicetraitD {
+          height: 13px; } }
+      @media only screen and (max-width: 600px) {
+        #commencer .delice-trait .delicetraitD {
+          height: 12px; } }
+  #commencer .repas-thon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 600px) {
+      #commencer .repas-thon {
+        flex-wrap: wrap; } }
+  #commencer .food-delice {
     font-family: 'Kalam', cursive;
     font-weight: 300;
-    text-align: center;
-    font-size: 25px;
-    position: relative;
-    text-decoration: none; }
-    .delice-trait .delice-sub::after {
-      content: "";
-      display: flex;
-      position: absolute;
-      left: 5;
-      bottom: 5;
-      height: 2px;
-      width: 100%;
-      background: black;
-      transform: scaleX(0);
-      transform-origin: left;
-      transition: transform 250ms ease-in; }
-    .delice-trait .delice-sub:hover::after {
-      transform: scaleX(1); }
-  .delice-trait .delicetraitG {
-    height: 40px;
-    margin: 8px;
-    /* PALETTE RESPONSIVE */
+    font-size: 20px;
+    margin-left: 80px;
+    /*RESPONSIVE*/
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */ }
-    @media only screen and (max-width: 1040px) {
-      .delice-trait .delicetraitG {
-        height: 30px; } }
     @media only screen and (max-width: 768px) {
-      .delice-trait .delicetraitG {
-        height: 13px; } }
+      #commencer .food-delice {
+        margin-left: 43px; } }
     @media only screen and (max-width: 600px) {
-      .delice-trait .delicetraitG {
-        height: 12px; } }
-  .delice-trait .delicetraitD {
-    height: 40px;
-    margin: 8px;
-    transform: rotateY(180deg);
-    /* PALETTE RESPONSIVE */
+      #commencer .food-delice {
+        width: 100%;
+        text-align: center;
+        margin-right: 60px; } }
+  #commencer .price-delice {
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    margin-right: 90px;
+    font-weight: 400;
+    /*RESPONSIVE*/
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */ }
-    @media only screen and (max-width: 1040px) {
-      .delice-trait .delicetraitD {
-        height: 30px; } }
     @media only screen and (max-width: 768px) {
-      .delice-trait .delicetraitD {
-        height: 13px; } }
+      #commencer .price-delice {
+        margin-right: 42px; } }
     @media only screen and (max-width: 600px) {
-      .delice-trait .delicetraitD {
-        height: 12px; } }
+      #commencer .price-delice {
+        width: 100%;
+        text-align: center;
+        margin-right: 5px;
+        margin-top: 5px; } }
+  #commencer .bouchee {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 600px) {
+      #commencer .bouchee {
+        flex-wrap: wrap; } }
+  #commencer .cepes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 600px) {
+      #commencer .cepes {
+        flex-wrap: wrap; } }
 
-.repas-thon {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 600px) {
-    .repas-thon {
-      flex-wrap: wrap; } }
-
-.food-delice {
-  font-family: 'Kalam', cursive;
-  font-weight: 300;
-  font-size: 20px;
-  margin-left: 80px;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 768px) {
-    .food-delice {
-      margin-left: 43px; } }
-  @media only screen and (max-width: 600px) {
-    .food-delice {
-      width: 100%;
-      text-align: center;
-      margin-right: 60px; } }
-
-.price-delice {
-  font-family: 'Kalam', cursive;
-  font-size: 20px;
-  margin-right: 90px;
-  font-weight: 400;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 768px) {
-    .price-delice {
-      margin-right: 42px; } }
-  @media only screen and (max-width: 600px) {
-    .price-delice {
-      width: 100%;
-      text-align: center;
-      margin-right: 5px;
-      margin-top: 5px; } }
-
-.bouchee {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 600px) {
-    .bouchee {
-      flex-wrap: wrap; } }
-
-.cepes {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 600px) {
-    .cepes {
-      flex-wrap: wrap; } }
-
+/*MENU CONTINUER*/
 #continuer {
   width: 100%;
   align-items: center; }
-
-.continuer-trait {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 70px;
-  text-align: center;
-  align-items: center; }
-  .continuer-trait .continuer-sub {
-    font-family: 'Kalam', cursive;
+  #continuer .continuer-trait {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-top: 70px; }
+    #continuer .continuer-trait .continuer-sub {
+      font-family: 'Kalam', cursive;
+      font-family: 'Kalam', cursive;
+      font-weight: 300;
+      text-align: center;
+      font-size: 25px;
+      position: relative;
+      text-decoration: none; }
+      #continuer .continuer-trait .continuer-sub::after {
+        content: "";
+        display: flex;
+        position: absolute;
+        left: 5;
+        bottom: 5;
+        height: 2px;
+        width: 100%;
+        background: black;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 250ms ease-in; }
+      #continuer .continuer-trait .continuer-sub:hover::after {
+        transform: scaleX(1); }
+    #continuer .continuer-trait .light-traitG {
+      height: 44px;
+      margin: 8px;
+      /*RESPONSIVE*/
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */ }
+      @media only screen and (max-width: 1040px) {
+        #continuer .continuer-trait .light-traitG {
+          height: 35px; } }
+      @media only screen and (max-width: 768px) {
+        #continuer .continuer-trait .light-traitG {
+          height: 15px; } }
+      @media only screen and (max-width: 600px) {
+        #continuer .continuer-trait .light-traitG {
+          height: 13px; } }
+    #continuer .continuer-trait .light-traitD {
+      height: 44px;
+      margin: 8px;
+      transform: rotateY(180deg);
+      /*RESPONSIVE*/
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */ }
+      @media only screen and (max-width: 1040px) {
+        #continuer .continuer-trait .light-traitD {
+          height: 35px; } }
+      @media only screen and (max-width: 768px) {
+        #continuer .continuer-trait .light-traitD {
+          height: 15px; } }
+      @media only screen and (max-width: 600px) {
+        #continuer .continuer-trait .light-traitD {
+          height: 13px; } }
+  #continuer .food-continue {
     font-family: 'Kalam', cursive;
     font-weight: 300;
-    text-align: center;
-    font-size: 25px;
-    position: relative;
-    text-decoration: none; }
-    .continuer-trait .continuer-sub::after {
-      content: "";
-      display: flex;
-      position: absolute;
-      left: 5;
-      bottom: 5;
-      height: 2px;
-      width: 100%;
-      background: black;
-      transform: scaleX(0);
-      transform-origin: left;
-      transition: transform 250ms ease-in; }
-    .continuer-trait .continuer-sub:hover::after {
-      transform: scaleX(1); }
-  .continuer-trait .light-traitG {
-    height: 44px;
-    margin: 8px;
-    /* PALETTE RESPONSIVE */
+    font-size: 20px;
+    margin-left: 80px;
+    /*RESPONSIVE*/
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */ }
-    @media only screen and (max-width: 1040px) {
-      .continuer-trait .light-traitG {
-        height: 35px; } }
     @media only screen and (max-width: 768px) {
-      .continuer-trait .light-traitG {
-        height: 15px; } }
+      #continuer .food-continue {
+        margin-left: 43px; } }
     @media only screen and (max-width: 600px) {
-      .continuer-trait .light-traitG {
-        height: 13px; } }
-  .continuer-trait .light-traitD {
-    height: 44px;
-    margin: 8px;
-    /* PALETTE RESPONSIVE */
-    transform: rotateY(180deg);
+      #continuer .food-continue {
+        width: 100%;
+        text-align: center;
+        margin-right: 60px; } }
+  #continuer .price-continue {
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    margin-right: 90px;
+    font-weight: 400;
+    /*RESPONSIVE*/
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */ }
-    @media only screen and (max-width: 1040px) {
-      .continuer-trait .light-traitD {
-        height: 35px; } }
     @media only screen and (max-width: 768px) {
-      .continuer-trait .light-traitD {
-        height: 15px; } }
+      #continuer .price-continue {
+        margin-right: 42px; } }
     @media only screen and (max-width: 600px) {
-      .continuer-trait .light-traitD {
-        height: 13px; } }
+      #continuer .price-continue {
+        width: 100%;
+        text-align: center;
+        margin-right: 5px;
+        margin-top: 5px; } }
+  #continuer .repas-poulet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-top: 20px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 600px) {
+      #continuer .repas-poulet {
+        flex-wrap: wrap; } }
+  #continuer .roti {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-top: 10px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 600px) {
+      #continuer .roti {
+        flex-wrap: wrap; } }
+  #continuer .boeuf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 600px) {
+      #continuer .boeuf {
+        flex-wrap: wrap; } }
 
-.repas-poulet {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 600px) {
-    .repas-poulet {
-      flex-wrap: wrap; } }
-
-.roti {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 600px) {
-    .roti {
-      flex-wrap: wrap; } }
-
-.boeuf {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 600px) {
-    .boeuf {
-      flex-wrap: wrap; } }
-
+/*MENU TERMINER*/
 #terminer {
   width: 100%;
   align-items: center;
   padding-bottom: 3px; }
-
-.terminer-trait {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 70px;
-  text-align: center;
-  align-items: center; }
-  .terminer-trait .terminer-sub {
-    font-family: 'Kalam', cursive;
+  #terminer .terminer-trait {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-top: 70px; }
+    #terminer .terminer-trait .terminer-sub {
+      font-family: 'Kalam', cursive;
+      font-family: 'Kalam', cursive;
+      font-weight: 300;
+      text-align: center;
+      font-size: 25px;
+      position: relative;
+      text-decoration: none; }
+      #terminer .terminer-trait .terminer-sub::after {
+        content: "";
+        display: flex;
+        position: absolute;
+        left: 5;
+        bottom: 5;
+        height: 2px;
+        width: 100%;
+        background: black;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 250ms ease-in; }
+      #terminer .terminer-trait .terminer-sub:hover::after {
+        transform: scaleX(1); }
+    #terminer .terminer-trait .blue-traitG {
+      height: 40px;
+      margin: 8px;
+      /*RESPONSIVE*/
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */ }
+      @media only screen and (max-width: 1040px) {
+        #terminer .terminer-trait .blue-traitG {
+          height: 30px; } }
+      @media only screen and (max-width: 768px) {
+        #terminer .terminer-trait .blue-traitG {
+          height: 15px; } }
+      @media only screen and (max-width: 600px) {
+        #terminer .terminer-trait .blue-traitG {
+          height: 13px; } }
+    #terminer .terminer-trait .blue-traitD {
+      height: 40px;
+      margin: 8px;
+      transform: rotateY(180deg);
+      /*RESPONSIVE*/
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */ }
+      @media only screen and (max-width: 1040px) {
+        #terminer .terminer-trait .blue-traitD {
+          height: 30px; } }
+      @media only screen and (max-width: 768px) {
+        #terminer .terminer-trait .blue-traitD {
+          height: 15px; } }
+      @media only screen and (max-width: 600px) {
+        #terminer .terminer-trait .blue-traitD {
+          height: 13px; } }
+  #terminer .food-termine {
     font-family: 'Kalam', cursive;
     font-weight: 300;
-    text-align: center;
-    font-size: 25px;
-    position: relative;
-    text-decoration: none; }
-    .terminer-trait .terminer-sub::after {
-      content: "";
-      display: flex;
-      position: absolute;
-      left: 5;
-      bottom: 5;
-      height: 2px;
-      width: 100%;
-      background: black;
-      transform: scaleX(0);
-      transform-origin: left;
-      transition: transform 250ms ease-in; }
-    .terminer-trait .terminer-sub:hover::after {
-      transform: scaleX(1); }
-  .terminer-trait .blue-traitG {
-    height: 40px;
-    margin: 8px;
-    /* PALETTE RESPONSIVE */
+    font-size: 20px;
+    margin-left: 80px;
+    /*RESPONSIVE*/
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */ }
-    @media only screen and (max-width: 1040px) {
-      .terminer-trait .blue-traitG {
-        height: 30px; } }
     @media only screen and (max-width: 768px) {
-      .terminer-trait .blue-traitG {
-        height: 15px; } }
+      #terminer .food-termine {
+        margin-left: 43px; } }
     @media only screen and (max-width: 600px) {
-      .terminer-trait .blue-traitG {
-        height: 13px; } }
-  .terminer-trait .blue-traitD {
-    height: 40px;
-    margin: 8px;
-    transform: rotateY(180deg);
-    /* PALETTE RESPONSIVE */
+      #terminer .food-termine {
+        width: 100%;
+        text-align: center;
+        margin-right: 60px; } }
+  #terminer .price-termine {
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    margin-right: 90px;
+    font-weight: 400;
+    /*RESPONSIVE*/
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */ }
-    @media only screen and (max-width: 1040px) {
-      .terminer-trait .blue-traitD {
-        height: 30px; } }
     @media only screen and (max-width: 768px) {
-      .terminer-trait .blue-traitD {
-        height: 15px; } }
+      #terminer .price-termine {
+        margin-right: 42px; } }
     @media only screen and (max-width: 600px) {
-      .terminer-trait .blue-traitD {
-        height: 13px; } }
-
-.repas-desserts {
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 600px) {
-    .repas-desserts {
-      flex-wrap: wrap; } }
-
-.créme {
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 600px) {
-    .créme {
-      flex-wrap: wrap; } }
-
-.tiramisu {
-  margin-top: 10px;
-  margin-bottom: 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 600px) {
-    .tiramisu {
-      flex-wrap: wrap; } }
+      #terminer .price-termine {
+        width: 100%;
+        text-align: center;
+        margin-right: 5px;
+        margin-top: 5px; } }
+  #terminer .repas-desserts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-top: 20px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 600px) {
+      #terminer .repas-desserts {
+        flex-wrap: wrap; } }
+  #terminer .créme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 600px) {
+      #terminer .créme {
+        flex-wrap: wrap; } }
+  #terminer .tiramisu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 600px) {
+      #terminer .tiramisu {
+        flex-wrap: wrap; } }
 
 .main-bloc {
   background-color: white;
@@ -1659,6 +1739,7 @@ body {
   margin-top: 50px;
   margin-bottom: 120px;
   box-shadow: 3px 3px 14px gray;
+  /*RESPONSIVE*/
   /* PALETTE RESPONSIVE */ }
   @media only screen and (max-width: 600px) {
     .palette-container {
@@ -1671,413 +1752,513 @@ body {
   padding: 50px;
   text-align: center;
   font-family: 'kaushan script', cursive;
+  /*GRADIENT*/
   color: #beff7f;
   color: #4ea043;
   background: -webkit-linear-gradient(190deg, #beff7f 0%, #4ea043 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  /*RESPONSIVE*/
   /* PALETTE RESPONSIVE */ }
   @media only screen and (max-width: 600px) {
     .palette-title2 {
       font-size: 29px; } }
 
+/*MENU ESQUISSE*/
 #esquisse {
   width: 100%;
-  align-items: center; }
-
-.esquisse-trait {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
   align-items: center;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 1040px) {
-    .esquisse-trait {
-      align-items: center; } }
-  @media only screen and (max-width: 768px) {
-    .esquisse-trait {
-      align-items: center; } }
-  @media only screen and (max-width: 600px) {
-    .esquisse-trait {
-      align-items: center; } }
-  .esquisse-trait .esquisse-sub {
+  /*REPAS ESQUISSE*/ }
+  #esquisse .esquisse-trait {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 1040px) {
+      #esquisse .esquisse-trait {
+        align-items: center; } }
+    @media only screen and (max-width: 768px) {
+      #esquisse .esquisse-trait {
+        align-items: center; } }
+    @media only screen and (max-width: 600px) {
+      #esquisse .esquisse-trait {
+        align-items: center; } }
+    #esquisse .esquisse-trait .esquisse-sub {
+      font-family: 'Kalam', cursive;
+      font-weight: 300;
+      text-align: center;
+      font-size: 25px;
+      position: relative;
+      text-decoration: none; }
+      #esquisse .esquisse-trait .esquisse-sub::after {
+        content: "";
+        display: flex;
+        position: absolute;
+        left: 5;
+        bottom: 5;
+        height: 2px;
+        width: 100%;
+        background: black;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 250ms ease-in; }
+      #esquisse .esquisse-trait .esquisse-sub:hover::after {
+        transform: scaleX(1); }
+    #esquisse .esquisse-trait .paletteraitG {
+      height: 42px;
+      margin: 8px;
+      /*RESPONSIVE*/
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */ }
+      @media only screen and (max-width: 1040px) {
+        #esquisse .esquisse-trait .paletteraitG {
+          height: 30px; } }
+      @media only screen and (max-width: 768px) {
+        #esquisse .esquisse-trait .paletteraitG {
+          height: 23px; } }
+      @media only screen and (max-width: 600px) {
+        #esquisse .esquisse-trait .paletteraitG {
+          height: 21px; } }
+      @media only screen and (max-width: 600px) {
+        #esquisse .esquisse-trait .paletteraitG {
+          height: 12px; } }
+    #esquisse .esquisse-trait .paletteraitD {
+      height: 42px;
+      margin: 8px;
+      transform: rotateY(180deg);
+      /*RESPONSIVE*/
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */ }
+      @media only screen and (max-width: 1040px) {
+        #esquisse .esquisse-trait .paletteraitD {
+          height: 30px; } }
+      @media only screen and (max-width: 768px) {
+        #esquisse .esquisse-trait .paletteraitD {
+          height: 23px; } }
+      @media only screen and (max-width: 600px) {
+        #esquisse .esquisse-trait .paletteraitD {
+          height: 25px; } }
+      @media only screen and (max-width: 600px) {
+        #esquisse .esquisse-trait .paletteraitD {
+          height: 12px; } }
+  #esquisse .repas-fricasse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 600px) {
+      #esquisse .repas-fricasse {
+        flex-wrap: wrap; } }
+  #esquisse .food-palette {
     font-family: 'Kalam', cursive;
     font-weight: 300;
-    text-align: center;
-    font-size: 25px;
-    position: relative;
-    text-decoration: none; }
-    .esquisse-trait .esquisse-sub::after {
-      content: "";
-      display: flex;
-      position: absolute;
-      left: 5;
-      bottom: 5;
-      height: 2px;
-      width: 100%;
-      background: black;
-      transform: scaleX(0);
-      transform-origin: left;
-      transition: transform 250ms ease-in; }
-    .esquisse-trait .esquisse-sub:hover::after {
-      transform: scaleX(1); }
-  .esquisse-trait .paletteraitG {
-    height: 42px;
-    margin: 8px;
+    font-size: 20px;
+    margin-left: 80px;
+    /*RESPONSIVE*/
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */ }
-    @media only screen and (max-width: 1040px) {
-      .esquisse-trait .paletteraitG {
-        height: 30px; } }
     @media only screen and (max-width: 768px) {
-      .esquisse-trait .paletteraitG {
-        height: 23px; } }
+      #esquisse .food-palette {
+        margin-left: 43px; } }
     @media only screen and (max-width: 600px) {
-      .esquisse-trait .paletteraitG {
-        height: 21px; } }
+      #esquisse .food-palette {
+        margin-left: 20px; } }
     @media only screen and (max-width: 600px) {
-      .esquisse-trait .paletteraitG {
-        height: 12px; } }
-  .esquisse-trait .paletteraitD {
-    height: 42px;
-    margin: 8px;
-    transform: rotateY(180deg);
+      #esquisse .food-palette {
+        width: 100%;
+        text-align: center;
+        margin-right: 30px; } }
+    @media only screen and (max-width: 600px) {
+      #esquisse .food-palette {
+        align-items: center; } }
+  #esquisse .price-palette {
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    margin-right: 90px;
+    /*RESPONSIVE*/
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */ }
-    @media only screen and (max-width: 1040px) {
-      .esquisse-trait .paletteraitD {
-        height: 30px; } }
     @media only screen and (max-width: 768px) {
-      .esquisse-trait .paletteraitD {
-        height: 23px; } }
+      #esquisse .price-palette {
+        margin-right: 42px; } }
     @media only screen and (max-width: 600px) {
-      .esquisse-trait .paletteraitD {
-        height: 25px; } }
+      #esquisse .price-palette {
+        margin-right: 13px; } }
     @media only screen and (max-width: 600px) {
-      .esquisse-trait .paletteraitD {
-        height: 12px; } }
+      #esquisse .price-palette {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px; } }
+    @media only screen and (max-width: 600px) {
+      #esquisse .price-palette {
+        align-items: center; } }
+  #esquisse .oeuf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 600px) {
+      #esquisse .oeuf {
+        flex-wrap: wrap; } }
+  #esquisse .canard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 600px) {
+      #esquisse .canard {
+        flex-wrap: wrap; } }
 
-.repas-fricasse {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 600px) {
-    .repas-fricasse {
-      flex-wrap: wrap; } }
-
-.food-palette {
-  font-family: 'Kalam', cursive;
-  font-weight: 300;
-  font-size: 20px;
-  margin-left: 80px;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 768px) {
-    .food-palette {
-      margin-left: 43px; } }
-  @media only screen and (max-width: 600px) {
-    .food-palette {
-      margin-left: 20px; } }
-  @media only screen and (max-width: 600px) {
-    .food-palette {
-      width: 100%;
-      text-align: center;
-      margin-right: 30px; } }
-  @media only screen and (max-width: 600px) {
-    .food-palette {
-      align-items: center; } }
-
-.price-palette {
-  font-family: 'Kalam', cursive;
-  font-size: 20px;
-  margin-right: 90px;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 768px) {
-    .price-palette {
-      margin-right: 42px; } }
-  @media only screen and (max-width: 600px) {
-    .price-palette {
-      margin-right: 13px; } }
-  @media only screen and (max-width: 600px) {
-    .price-palette {
-      width: 100%;
-      text-align: center;
-      margin-top: 10px; } }
-  @media only screen and (max-width: 600px) {
-    .price-palette {
-      align-items: center; } }
-
-.oeuf {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 600px) {
-    .oeuf {
-      flex-wrap: wrap; } }
-
-.canard {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 600px) {
-    .canard {
-      flex-wrap: wrap; } }
-
+/*MENU MAITRE*/
 #maitre {
   width: 100%;
-  align-items: center; }
-
-.maitre-trait {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 70px;
-  text-align: center;
   align-items: center;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 1040px) {
-    .maitre-trait {
-      align-items: center; } }
-  @media only screen and (max-width: 768px) {
-    .maitre-trait {
-      align-items: center; } }
-  @media only screen and (max-width: 600px) {
-    .maitre-trait {
-      align-items: center; } }
-  .maitre-trait .maitre-sub {
+  /*REPAS MAITRE*/ }
+  #maitre .maitre-trait {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 70px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 1040px) {
+      #maitre .maitre-trait {
+        align-items: center; } }
+    @media only screen and (max-width: 768px) {
+      #maitre .maitre-trait {
+        align-items: center; } }
+    @media only screen and (max-width: 600px) {
+      #maitre .maitre-trait {
+        align-items: center; } }
+    #maitre .maitre-trait .maitre-sub {
+      font-family: 'Kalam', cursive;
+      font-weight: 300;
+      text-align: center;
+      font-size: 25px;
+      position: relative;
+      text-decoration: none; }
+      #maitre .maitre-trait .maitre-sub::after {
+        content: "";
+        display: flex;
+        position: absolute;
+        left: 5;
+        bottom: 5;
+        height: 2px;
+        width: 100%;
+        background: black;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 250ms ease-in; }
+      #maitre .maitre-trait .maitre-sub:hover::after {
+        transform: scaleX(1); }
+    #maitre .maitre-trait .mtraitG {
+      height: 42px;
+      margin: 8px;
+      /*RESPONSIVE*/
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */ }
+      @media only screen and (max-width: 1040px) {
+        #maitre .maitre-trait .mtraitG {
+          height: 30px; } }
+      @media only screen and (max-width: 768px) {
+        #maitre .maitre-trait .mtraitG {
+          height: 23px; } }
+      @media only screen and (max-width: 600px) {
+        #maitre .maitre-trait .mtraitG {
+          height: 12px; } }
+    #maitre .maitre-trait .mtraitD {
+      height: 42px;
+      margin: 8px;
+      transform: rotateY(180deg);
+      /*RESPONSIVE*/
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */ }
+      @media only screen and (max-width: 1040px) {
+        #maitre .maitre-trait .mtraitD {
+          height: 30px; } }
+      @media only screen and (max-width: 768px) {
+        #maitre .maitre-trait .mtraitD {
+          height: 23px; } }
+      @media only screen and (max-width: 600px) {
+        #maitre .maitre-trait .mtraitD {
+          height: 12px; } }
+  #maitre .food-maitre {
     font-family: 'Kalam', cursive;
     font-weight: 300;
-    text-align: center;
-    font-size: 25px;
-    position: relative;
-    text-decoration: none; }
-    .maitre-trait .maitre-sub::after {
-      content: "";
-      display: flex;
-      position: absolute;
-      left: 5;
-      bottom: 5;
-      height: 2px;
-      width: 100%;
-      background: black;
-      transform: scaleX(0);
-      transform-origin: left;
-      transition: transform 250ms ease-in; }
-    .maitre-trait .maitre-sub:hover::after {
-      transform: scaleX(1); }
-  .maitre-trait .mtraitG {
-    height: 42px;
-    margin: 8px;
-    margin-left: 30px;
+    font-size: 20px;
+    margin-left: 80px;
+    /*RESPONSIVE*/
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */ }
-    @media only screen and (max-width: 1040px) {
-      .maitre-trait .mtraitG {
-        height: 30px; } }
     @media only screen and (max-width: 768px) {
-      .maitre-trait .mtraitG {
-        height: 23px; } }
+      #maitre .food-maitre {
+        margin-left: 43px; } }
     @media only screen and (max-width: 600px) {
-      .maitre-trait .mtraitG {
-        height: 21px; } }
+      #maitre .food-maitre {
+        margin-left: 20px; } }
     @media only screen and (max-width: 600px) {
-      .maitre-trait .mtraitG {
-        height: 12px; } }
-  .maitre-trait .mtraitD {
-    height: 42px;
-    margin: 8px;
-    margin-right: 30px;
-    transform: rotateY(180deg);
+      #maitre .food-maitre {
+        width: 100%;
+        text-align: center;
+        margin-right: 30px; } }
+    @media only screen and (max-width: 600px) {
+      #maitre .food-maitre {
+        align-items: center; } }
+  #maitre .price-maitre {
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    margin-right: 90px;
+    /*RESPONSIVE*/
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */ }
-    @media only screen and (max-width: 1040px) {
-      .maitre-trait .mtraitD {
-        height: 30px; } }
     @media only screen and (max-width: 768px) {
-      .maitre-trait .mtraitD {
-        height: 23px; } }
+      #maitre .price-maitre {
+        margin-right: 42px; } }
     @media only screen and (max-width: 600px) {
-      .maitre-trait .mtraitD {
-        height: 25px; } }
+      #maitre .price-maitre {
+        margin-right: 13px; } }
     @media only screen and (max-width: 600px) {
-      .maitre-trait .mtraitD {
-        height: 12px; } }
+      #maitre .price-maitre {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px; } }
+    @media only screen and (max-width: 600px) {
+      #maitre .price-maitre {
+        align-items: center; } }
+  #maitre .repas-filet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-top: 20px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 768px) {
+      #maitre .repas-filet {
+        align-items: baseline; } }
+    @media only screen and (max-width: 600px) {
+      #maitre .repas-filet {
+        flex-wrap: wrap; } }
+  #maitre .parmentier {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 768px) {
+      #maitre .parmentier {
+        align-items: baseline; } }
+    @media only screen and (max-width: 600px) {
+      #maitre .parmentier {
+        flex-wrap: wrap; } }
+  #maitre .turbot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 600px) {
+      #maitre .turbot {
+        flex-wrap: wrap; } }
 
-.repas-filet {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 768px) {
-    .repas-filet {
-      align-items: baseline; } }
-  @media only screen and (max-width: 600px) {
-    .repas-filet {
-      flex-wrap: wrap; } }
-
-.parmentier {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 768px) {
-    .parmentier {
-      align-items: baseline; } }
-  @media only screen and (max-width: 600px) {
-    .parmentier {
-      flex-wrap: wrap; } }
-
-.turbot {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 600px) {
-    .turbot {
-      flex-wrap: wrap; } }
-
+/*MENU SOMMET*/
 #sommet {
   width: 100%;
   align-items: center;
-  padding-bottom: 3px; }
-
-.sommet-trait {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 70px;
-  text-align: center;
-  align-items: center;
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 1040px) {
-    .sommet-trait {
-      align-items: center; } }
-  @media only screen and (max-width: 768px) {
-    .sommet-trait {
-      align-items: center; } }
-  @media only screen and (max-width: 600px) {
-    .sommet-trait {
-      align-items: center; } }
-  .sommet-trait .sommet-sub {
+  padding-bottom: 3px;
+  /*REPAS SOMMET*/ }
+  #sommet .sommet-trait {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 70px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */
+    /* PALETTE RESPONSIVE */
+    /*DESCRIPTION TRAIT GAUCHE*/
+    /*DESCRIPTION TRAIT DROITE*/ }
+    @media only screen and (max-width: 1040px) {
+      #sommet .sommet-trait {
+        align-items: center; } }
+    @media only screen and (max-width: 768px) {
+      #sommet .sommet-trait {
+        align-items: center; } }
+    @media only screen and (max-width: 600px) {
+      #sommet .sommet-trait {
+        align-items: center; } }
+    #sommet .sommet-trait .sommet-sub {
+      font-family: 'Kalam', cursive;
+      font-weight: 300;
+      text-align: center;
+      font-size: 25px;
+      position: relative;
+      text-decoration: none; }
+      #sommet .sommet-trait .sommet-sub::after {
+        content: "";
+        display: flex;
+        position: absolute;
+        left: 5;
+        bottom: 5;
+        height: 2px;
+        width: 100%;
+        background: black;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 250ms ease-in; }
+      #sommet .sommet-trait .sommet-sub:hover::after {
+        transform: scaleX(1); }
+    #sommet .sommet-trait .arttraitG {
+      height: 42px;
+      margin: 8px;
+      /*RESPONSIVE*/
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */ }
+      @media only screen and (max-width: 1040px) {
+        #sommet .sommet-trait .arttraitG {
+          height: 30px; } }
+      @media only screen and (max-width: 768px) {
+        #sommet .sommet-trait .arttraitG {
+          height: 23px; } }
+      @media only screen and (max-width: 600px) {
+        #sommet .sommet-trait .arttraitG {
+          height: 21px; } }
+      @media only screen and (max-width: 600px) {
+        #sommet .sommet-trait .arttraitG {
+          height: 12px; } }
+    #sommet .sommet-trait .arttraitD {
+      height: 42px;
+      margin: 8px;
+      transform: rotateY(180deg);
+      /*RESPONSIVE*/
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */
+      /* PALETTE RESPONSIVE */ }
+      @media only screen and (max-width: 1040px) {
+        #sommet .sommet-trait .arttraitD {
+          height: 30px; } }
+      @media only screen and (max-width: 768px) {
+        #sommet .sommet-trait .arttraitD {
+          height: 23px; } }
+      @media only screen and (max-width: 600px) {
+        #sommet .sommet-trait .arttraitD {
+          height: 25px; } }
+      @media only screen and (max-width: 600px) {
+        #sommet .sommet-trait .arttraitD {
+          height: 12px; } }
+  #sommet .food-sommet {
     font-family: 'Kalam', cursive;
     font-weight: 300;
-    text-align: center;
-    font-size: 25px;
-    position: relative;
-    text-decoration: none; }
-    .sommet-trait .sommet-sub::after {
-      content: "";
-      display: flex;
-      position: absolute;
-      left: 5;
-      bottom: 5;
-      height: 2px;
-      width: 100%;
-      background: black;
-      transform: scaleX(0);
-      transform-origin: left;
-      transition: transform 250ms ease-in; }
-    .sommet-trait .sommet-sub:hover::after {
-      transform: scaleX(1); }
-  .sommet-trait .arttraitG {
-    height: 42px;
-    margin: 8px;
-    margin-left: 30px;
+    font-size: 20px;
+    margin-left: 80px;
+    /*RESPONSIVE*/
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */ }
-    @media only screen and (max-width: 1040px) {
-      .sommet-trait .arttraitG {
-        height: 30px; } }
     @media only screen and (max-width: 768px) {
-      .sommet-trait .arttraitG {
-        height: 23px; } }
+      #sommet .food-sommet {
+        margin-left: 43px; } }
     @media only screen and (max-width: 600px) {
-      .sommet-trait .arttraitG {
-        height: 21px; } }
+      #sommet .food-sommet {
+        margin-left: 20px; } }
     @media only screen and (max-width: 600px) {
-      .sommet-trait .arttraitG {
-        height: 12px; } }
-  .sommet-trait .arttraitD {
-    height: 42px;
-    margin: 8px;
-    margin-right: 30px;
-    transform: rotateY(180deg);
+      #sommet .food-sommet {
+        width: 100%;
+        text-align: center;
+        margin-right: 30px; } }
+    @media only screen and (max-width: 600px) {
+      #sommet .food-sommet {
+        align-items: center; } }
+  #sommet .price-sommet {
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    margin-right: 90px;
+    /*RESPONSIVE*/
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */
     /* PALETTE RESPONSIVE */ }
-    @media only screen and (max-width: 1040px) {
-      .sommet-trait .arttraitD {
-        height: 30px; } }
     @media only screen and (max-width: 768px) {
-      .sommet-trait .arttraitD {
-        height: 23px; } }
+      #sommet .price-sommet {
+        margin-right: 42px; } }
     @media only screen and (max-width: 600px) {
-      .sommet-trait .arttraitD {
-        height: 25px; } }
+      #sommet .price-sommet {
+        margin-right: 13px; } }
     @media only screen and (max-width: 600px) {
-      .sommet-trait .arttraitD {
-        height: 12px; } }
-
-.repas-paris {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 600px) {
-    .repas-paris {
-      flex-wrap: wrap; } }
-
-.chocolat {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 600px) {
-    .chocolat {
-      flex-wrap: wrap; } }
-
-.mousse {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  margin-bottom: 40px;
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 600px) {
-    .mousse {
-      flex-wrap: wrap; } }
+      #sommet .price-sommet {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px; } }
+    @media only screen and (max-width: 600px) {
+      #sommet .price-sommet {
+        align-items: center; } }
+  #sommet .repas-paris {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-top: 20px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 600px) {
+      #sommet .repas-paris {
+        flex-wrap: wrap; } }
+  #sommet .chocolat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 600px) {
+      #sommet .chocolat {
+        flex-wrap: wrap; } }
+  #sommet .mousse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    /*RESPONSIVE*/
+    /* PALETTE RESPONSIVE */ }
+    @media only screen and (max-width: 600px) {
+      #sommet .mousse {
+        flex-wrap: wrap; } }
 
 /*# sourceMappingURL=main.css.map */

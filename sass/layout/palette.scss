@@ -15,12 +15,12 @@
 {
   background-color:#fdfffd;
   @include container;
-
+  
+  /*RESPONSIVE*/
   @include responsive(mini-phone){
     margin-right: 20px;
     margin-left: 20px;    
-  }
-   
+  }   
 }
 
 .palette-title2
@@ -31,135 +31,415 @@
   text-align: center;
   font-family:'kaushan script', cursive;
 
+     /*GRADIENT*/
     @include linear-gradient( 190deg, $color-one:#beff7f, $color-two:#4ea043);
+
+    /*RESPONSIVE*/
     @include responsive(mobile){
       font-size: 29px;
-      }
-    
+      }    
 }
 
+/*MENU ESQUISSE*/
 #esquisse
 {
   width: 100%;
   align-items: center;
-}
 
-.esquisse-trait
-{
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  align-items: center;
-  @include responsive(laptope){
-    align-items: center;
-   } 
-  @include responsive(smart-tablette){
-    align-items:center ;
-   }
-  @include responsive(mobile){
-    align-items:center ;
-   }
-
-    .esquisse-sub
+     .esquisse-trait
     {
-      @include paletteSecondTitle;
-      @include underline;
-    }
+      @include paletteTraitTitle;
 
-    .paletteraitG
-    {
-      height: 42px;
-      margin: 8px;
+      /*RESPONSIVE*/
       @include responsive(laptope){
-        height: 30px;
-       }  
-
+      align-items: center;
+      } 
       @include responsive(smart-tablette){
-        height: 23px;
+      align-items:center ;
+      }
+      @include responsive(mobile){
+      align-items:center ;
+      }
+
+        .esquisse-sub
+       {
+         @include paletteSecondTitle;
+         @include underline;
        }
+
+        .paletteraitG
+       {
+         @include paletteTrait;
+        
+         /*RESPONSIVE*/
+         @include responsive(laptope){
+         height: 30px;
+         }  
+         @include responsive(smart-tablette){
+         height: 23px;
+         }
+         @include responsive(mini-phone){
+         height: 21px;    
+         } 
+         @include responsive(mobile){
+         height: 12px;
+         }
+       }
+
+        .paletteraitD
+       {
+         @include paletteTrait;
+         transform: rotateY(180deg);
+
+         /*RESPONSIVE*/
+         @include responsive(laptope){
+         height: 30px;
+         } 
+         @include responsive(smart-tablette){
+         height: 23px;
+         }
+         @include responsive(mini-phone){
+         height: 25px;    
+         }  
+         @include responsive(mobile){
+         height: 12px;
+         } 
+       }
+    }    
+
+     /*REPAS ESQUISSE*/   
+     .repas-fricasse
+    {
+      @include paletteRepas;
+
+      /*RESPONSIVE*/
+      @include responsive(mobile){
+      flex-wrap: wrap;
+      }
+    }
+      
+     .food-palette
+    {
+       @include paletteFood;
+
+      /*RESPONSIVE*/
+      @include responsive(smart-tablette){
+       margin-left:43px ;
+      }
       @include responsive(mini-phone){
-      height: 21px;    
+      margin-left: 20px;    
       } 
       @include responsive(mobile){
-        height: 12px;
-       }
-
-       
-
-      
-    }
-
-    .paletteraitD
-    {
-      height: 42px;
-      margin: 8px;
-
-      transform: rotateY(180deg);
-      @include responsive(laptope){
-        height: 30px;
-       } 
-     
-      @include responsive(smart-tablette){
-        height: 23px;
-       }
-      @include responsive(mini-phone){
-      height: 25px;    
-      }  
+      width: 100%;
+      text-align: center;
+      margin-right: 30px;
+      }
       @include responsive(mobile){
-        height: 12px;
-       }
-      
-      
+      align-items:center ;
+      }
     }
-}
 
-.repas-fricasse
-{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  @include responsive(mobile){
-   flex-wrap: wrap;
+    .price-palette
+   {
+    @include palettePrice;
+
+    /*RESPONSIVE*/
+     @include responsive(smart-tablette){
+     margin-right: 42px;
+     }
+     @include responsive(mini-phone){
+     margin-right: 13px;    
+     } 
+     @include responsive(mobile){
+     width: 100%;
+     text-align: center;
+     margin-top: 10px;
+     }
+     @include responsive(mobile){
+     align-items:center ;
+    }
    }
-}
-.food-palette
-{
- font-family: 'Kalam', cursive;
- font-weight: 300;
- font-size:20px ;
- margin-left: 80px;
 
- 
- @include responsive(smart-tablette){
-  margin-left:43px ;
- }
- @include responsive(mini-phone){
-  margin-left: 20px;    
- } 
- @include responsive(mobile){
+    .oeuf
+   {
+    @include paletteRepas;
+
+     /*RESPONSIVE*/
+      @include responsive(mobile){
+      flex-wrap: wrap;
+      }
+   }
+
+    .canard
+   {
+    @include paletteRepas;
+
+     /*RESPONSIVE*/
+     @include responsive(mobile){
+     flex-wrap: wrap;
+     }
+   }
+
+}
+
+
+/*MENU MAITRE*/
+#maitre
+{
   width: 100%;
-  text-align: center;
-  margin-right: 30px;
-  }
+  align-items: center;
 
-  @include responsive(mobile){
-    align-items:center ;
+     .maitre-trait
+    {
+      @include paletteTraitTitle;
+      margin-top: 70px;
+      
+      /*RESPONSIVE*/
+      @include responsive(laptope){
+      align-items: center;
+      } 
+      @include responsive(smart-tablette){
+      align-items:center ;
+      }
+      @include responsive(mobile){
+      align-items:center ;
+      }
+
+
+       .maitre-sub
+      {
+        @include paletteSecondTitle;
+        @include underline;
+      }
+
+       .mtraitG
+      {
+        @include paletteTrait; 
+      
+      /*RESPONSIVE*/
+       @include responsive(laptope){
+       height: 30px;
+       } 
+       @include responsive(smart-tablette){
+       height: 23px;
+       }
+       @include responsive(mobile){
+       height: 12px;
+       } 
+      }
+
+      .mtraitD  
+     {
+       @include paletteTrait;  
+       transform: rotateY(180deg);
+
+      /*RESPONSIVE*/
+       @include responsive(laptope){
+       height: 30px;
+       } 
+       @include responsive(smart-tablette){
+       height: 23px;
+       }
+       @include responsive(mobile){
+       height: 12px;
+       } 
+     }
    }
+
+    .food-maitre
+   {
+    @include paletteFood;
+
+    /*RESPONSIVE*/
+     @include responsive(smart-tablette){
+     margin-left:43px ;
+     }
+     @include responsive(mini-phone){
+     margin-left: 20px;    
+     } 
+     @include responsive(mobile){
+     width: 100%;
+     text-align: center;
+     margin-right: 30px;
+     }
+
+     @include responsive(mobile){
+     align-items:center ;
+     }
+   }
+
+    .price-maitre
+   {
+     @include palettePrice;
+     
+     /*RESPONSIVE*/
+     @include responsive(smart-tablette){
+     margin-right: 42px;
+     }
+     @include responsive(mini-phone){
+     margin-right: 13px;    
+     } 
+     @include responsive(mobile){
+     width: 100%;
+     text-align: center;
+     margin-top: 10px;
+     }
+     @include responsive(mobile){
+     align-items:center ;
+     }
+   }
+
+    /*REPAS MAITRE*/
+    .repas-filet
+   {
+    @include paletteRepas;
+     margin-top: 20px;
+
+     /*RESPONSIVE*/
+     @include responsive(smart-tablette){
+     align-items:baseline ;
+     }
+     @include responsive(mobile){
+     flex-wrap: wrap;
+     }
+   }
+
+    .parmentier
+   {
+    @include paletteRepas;
+
+     /*RESPONSIVE*/
+     @include responsive(smart-tablette){
+     align-items:baseline ;
+     }
+     @include responsive(mobile){
+     flex-wrap: wrap;
+     }
+   }
+
+    .turbot
+   {
+    @include paletteRepas;
+
+     /*RESPONSIVE*/
+     @include responsive(mobile){
+    flex-wrap: wrap;
+    }
+   }
+
 }
-.price-palette
+
+
+
+/*MENU SOMMET*/
+#sommet
 {
-  font-family: 'Kalam', cursive;
-  font-size:20px ;
-  margin-right: 90px;
- 
-  @include responsive(smart-tablette){
-    margin-right: 42px;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 3px;   
+
+
+     .sommet-trait
+    {
+      @include paletteTraitTitle;
+      margin-top: 70px;
+     
+      
+      /*RESPONSIVE*/
+      @include responsive(laptope){
+      align-items: center;
+      } 
+      @include responsive(smart-tablette){
+      align-items:center ;
+      }
+      @include responsive(mobile){
+      align-items:center ;
+      }
+
+       .sommet-sub
+      {
+        @include paletteSecondTitle;
+        @include underline;
+      }
+      
+      /*DESCRIPTION TRAIT GAUCHE*/
+       .arttraitG
+      {
+        @include paletteTrait; 
+        
+        /*RESPONSIVE*/
+        @include responsive(laptope){
+        height: 30px;
+        } 
+        @include responsive(smart-tablette){
+        height: 23px;
+        }
+    
+        @include responsive(mini-phone){
+        height: 21px;    
+        } 
+        @include responsive(mobile){
+        height: 12px;
+        } 
+      }
+       
+      /*DESCRIPTION TRAIT DROITE*/
+      .arttraitD
+     {
+       @include paletteTrait;
+       transform: rotateY(180deg);
+
+       /*RESPONSIVE*/
+       @include responsive(laptope){
+       height: 30px;
+       } 
+       @include responsive(smart-tablette){
+       height: 23px;
+       }
+    
+       @include responsive(mini-phone){
+       height: 25px;    
+       } 
+       @include responsive(mobile){
+       height: 12px;
+       }
+     }
    }
-  @include responsive(mini-phone){
+
+    .food-sommet
+   {
+    @include paletteFood;
+
+    /*RESPONSIVE*/
+     @include responsive(smart-tablette){
+     margin-left:43px ;
+     }
+     @include responsive(mini-phone){
+     margin-left: 20px;    
+     } 
+     @include responsive(mobile){
+     width: 100%;
+     text-align: center;
+     margin-right: 30px;
+     }
+
+     @include responsive(mobile){
+     align-items:center ;
+     }
+   }
+
+   .price-sommet
+  {
+    @include palettePrice;
+    
+    /*RESPONSIVE*/
+    @include responsive(smart-tablette){
+    margin-right: 42px;
+    }
+    @include responsive(mini-phone){
     margin-right: 13px;    
-   } 
-   @include responsive(mobile){
+    } 
+    @include responsive(mobile){
     width: 100%;
     text-align: center;
     margin-top: 10px;
@@ -167,248 +447,40 @@
     @include responsive(mobile){
     align-items:center ;
    }
-}
+  }
 
-.oeuf
-{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  @include responsive(mobile){
+   /*REPAS SOMMET*/
+   .repas-paris
+  {
+    @include paletteRepas;
+    margin-top: 20px;
+
+    /*RESPONSIVE*/
+    @include responsive(mobile){
     flex-wrap: wrap;
     }
-}
+  }
 
-.canard
-{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  @include responsive(mobile){
+   .chocolat
+  {
+    @include paletteRepas;
+
+    /*RESPONSIVE*/
+    @include responsive(mobile){
     flex-wrap: wrap;
     }
-}
+  }
 
-#maitre
-{
-  width: 100%;
-  align-items: center;
-}
+   .mousse
+  {
+    @include paletteRepas;
+    margin-bottom: 40px; 
 
-.maitre-trait
-{
-  display: flex;
-  justify-content: space-around;
-  margin-top: 70px;
-  text-align: center;
-  align-items: center;
-  @include responsive(laptope){
-    align-items: center;
-   } 
-  @include responsive(smart-tablette){
-    align-items:center ;
-   }
-  @include responsive(mobile){
-    align-items:center ;
-   }
-
-
-   .maitre-sub
-   {
-     @include paletteSecondTitle;
-     @include underline;
-   }
-
-   .mtraitG
-   {
-     height: 42px;
-     margin: 8px; 
-     margin-left: 30px;
-     @include responsive(laptope){
-      height: 30px;
-     } 
-     @include responsive(smart-tablette){
-      height: 23px;
-     }
-    
-     @include responsive(mini-phone){
-     height: 21px;    
-     } 
-     @include responsive(mobile){
-      height: 12px;
-     }
-     
-   }
-
-    .mtraitD  
-   {
-    height: 42px;
-     margin: 8px;  
-     margin-right: 30px;
-     transform: rotateY(180deg);
-     @include responsive(laptope){
-      height: 30px;
-     } 
-     @include responsive(smart-tablette){
-      height: 23px;
-     }
-    
-     @include responsive(mini-phone){
-      height: 25px;    
-      } 
-      @include responsive(mobile){
-        height: 12px;
-       }
-     
-   }
-}
-
-.repas-filet
-{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-  @include responsive(smart-tablette){
-    align-items:baseline ;
-   }
-  @include responsive(mobile){
+    /*RESPONSIVE*/ 
+    @include responsive(mobile){
     flex-wrap: wrap;
     }
-}
+  }
 
-.parmentier
-{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  @include responsive(smart-tablette){
-    align-items:baseline ;
-   }
-  @include responsive(mobile){
-    flex-wrap: wrap;
-    }
-}
 
-.turbot
-{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  @include responsive(mobile){
-    flex-wrap: wrap;
-    }
-}
-
-#sommet
-{
-  width: 100%;
-  align-items: center;
-  padding-bottom: 3px;   
-}
-
-.sommet-trait
-{
-  display: flex;
-  justify-content: space-around;
-  margin-top: 70px;
-  text-align: center;
-  align-items: center;
- 
-  @include responsive(laptope){
-    align-items: center;
-   } 
-  @include responsive(smart-tablette){
-    align-items:center ;
-   }
-  @include responsive(mobile){
-    align-items:center ;
-   }
-
-    .sommet-sub
-   {
-     @include paletteSecondTitle;
-     @include underline;
-   }
-
-    .arttraitG
-   {
-     height: 42px;
-     margin: 8px; 
-     margin-left: 30px;
-     @include responsive(laptope){
-      height: 30px;
-     } 
-     @include responsive(smart-tablette){
-      height: 23px;
-     }
-    
-     @include responsive(mini-phone){
-      height: 21px;    
-     } 
-     @include responsive(mobile){
-      height: 12px;
-     }
-     
-   }
-
-    .arttraitD
-   {
-    height: 42px;
-    margin: 8px; 
-     margin-right: 30px;
-     transform: rotateY(180deg);
-     @include responsive(laptope){
-      height: 30px;
-     } 
-     @include responsive(smart-tablette){
-      height: 23px;
-     }
-    
-     @include responsive(mini-phone){
-      height: 25px;    
-     } 
-     @include responsive(mobile){
-      height: 12px;
-     }
-    
-   }
-}
-
-.repas-paris
-{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-  @include responsive(mobile){
-    flex-wrap: wrap;
-    }
-}
-
-.chocolat
-{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  @include responsive(mobile){
-    flex-wrap: wrap;
-    }
-}
-
-.mousse
-{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-  margin-bottom: 40px;  
-  @include responsive(mobile){
-    flex-wrap: wrap;
-    }
 }

@@ -1,7 +1,75 @@
 
+/*DELICE*/
+@mixin deliceTrait3{
+  height: 40px;
+  margin: 8px;
+}
+@mixin deliceTrait2{
+  height: 44px;
+  margin: 8px;
+}
+@mixin deliceTrait1{
+  height: 40px;
+  margin: 8px; 
+}
+@mixin delicePrice{
+  font-family: 'Kalam', cursive;
+  font-size:20px ;
+  margin-right: 90px;
+  font-weight: 400;
+}
+@mixin deliceFood{
+  font-family: 'Kalam', cursive;
+  font-weight: 300;
+  font-size:20px ;
+  margin-left: 80px;
+}
+@mixin deliceTraitTitle{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+@mixin deliceRepas{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
 
 
+/*PALETTE*/
 
+@mixin paletteTrait {
+  height: 42px;
+  margin: 8px;
+}
+@mixin palettePrice{
+  font-family: 'Kalam', cursive;
+  font-size:20px ;
+  margin-right: 90px;
+}
+@mixin paletteFood{
+  font-family: 'Kalam', cursive;
+  font-weight: 300;
+  font-size:20px ;
+  margin-left: 80px;
+}
+@mixin paletteRepas{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   margin-top: 10px;
+}
+@mixin paletteTraitTitle{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+/* CHIC*/
 @mixin chicRepas($colorValue) {
   display: flex;
   justify-content: space-between;
