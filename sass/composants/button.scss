@@ -12,14 +12,15 @@
     font-weight: 300;
     letter-spacing: 2px; 
     padding: 9px;
+
+     /*RESPONSIVE*/
+     @include responsive(little-phone){
+     font-size: 22px;
+    }
+     
    }
     span
    {
-       /*height: 8px;
-       width: 8px;
-       background:#fdcb46;
-       margin-left: 5px;
-       border-radius:100%;*/
        font-size: 40px;
        display:inline-block;
        animation: dots 1.4s linear infinite alternate;  
@@ -47,12 +48,7 @@
 }
 
 @keyframes dots {
-   /*from{
-        transform: scale(0);
-    }
-    to{
-        transform: scale(1);
-    }*/
+   
     0%{
         opacity: .2;
     }

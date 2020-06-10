@@ -9,6 +9,10 @@
 .palette-menu1
 {
   @include menuSecondTitle; 
+
+  @include responsive(mobile){
+    font-size: 28px;
+  } 
 }
 
 .palette-container
@@ -17,7 +21,7 @@
   @include container;
   
   /*RESPONSIVE*/
-  @include responsive(mini-phone){
+  @include responsive(mobile){
     margin-right: 20px;
     margin-left: 20px;    
   }   
@@ -84,6 +88,7 @@
          @include responsive(mobile){
          height: 12px;
          }
+         
        }
 
         .paletteraitD

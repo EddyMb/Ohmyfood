@@ -61,7 +61,7 @@
 }
 @mixin deliceTraitTitle{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
   align-items: center;
 }
@@ -133,19 +133,17 @@
 }
 
 @mixin chicTrait3{
-  height: 32px;
-   margin: 8px;
+  height: 32px;   
 }
 
 
 @mixin chicTrait2{
   height: 22px;
-  margin: 8px; 
+  
 
 }
 @mixin chicTrait1{
-  height: 25px;
-  margin: 8px; 
+  height: 25px; 
 }
 
 
@@ -194,8 +192,8 @@
   content: "";
   display: flex;
   position: absolute;
-  left: 5px;
-  bottom: 5px;
+  left: 0px;
+  bottom: 0px;
   height: 2px;
   width:100%;
   background: black;
@@ -296,10 +294,14 @@ text-decoration: $texteDecoration;
   }
   
 
+  /* MEDIA RESPONSIVE MENU*/
   
 @mixin responsive($breakpoint) {
 
-    /* PALETTE RESPONSIVE */
+  @if $breakpoint == little-phone {
+    @media only screen and (max-width:480px) {@content};         
+  }
+
     @if $breakpoint == mobile {
     @media only screen and (max-width:600px) {@content};
   }
@@ -327,35 +329,22 @@ text-decoration: $texteDecoration;
 
 
 
- @if $breakpoint == little-phone {
-         @media only screen and (max-width:480px) {@content};
-         
-}
+/* MAIN MENU RESPONSIVE*/
 
 
 
-
-@if $breakpoint == big-phone {
-  @media only screen and (min-width:588px) and (max-width:768px) {@content};
-}
 
     @if $breakpoint == phone {
-        @media only screen and (max-width:670px) {@content};
+        @media only screen and (max-width:760px) {@content};
     }
 
-    @if $breakpoint == chic-tablette {
-      @media only screen and (max-width:780px) {@content};
-    }
 
     
     @if $breakpoint == tablette{
         @media only screen and (max-width:800px) {@content};
     }
 
-    @if $breakpoint == lap-top {
-        @media only screen and (max-width:992px) {@content}
-    
-}
+ 
 
 
 }

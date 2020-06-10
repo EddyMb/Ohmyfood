@@ -9,8 +9,8 @@
 {
   @include menuSecondTitle; 
   @include responsive(mobile){
-    font-size: 28px;
-    }  
+    font-size: 25px;
+  } 
 }
 
 .delice-container
@@ -31,12 +31,12 @@
   padding: 50px;
   text-align: center;
   font-family: 'Dancing Script', cursive;
-
+  @include linear-gradient(160deg, $color-one:#0886fbbb, $color-two:#0229dd); 
   /*RESPONSIVE*/
   @include responsive(mobile){
-    font-size: 34px;
+    font-size: 29px;
     }
-  @include linear-gradient(160deg, $color-one:#0886fbbb, $color-two:#0229dd);  
+   
 }
 
 /*MENU COMMENCER*/

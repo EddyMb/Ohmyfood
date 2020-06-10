@@ -2,21 +2,21 @@
 
 *
 {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body
 {
-    background-color: #fff;
+  background-color: #fff;
 }
 .container
 {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%;
 
     /* RESPONSIVE*/
     @include responsive(phone){
@@ -101,7 +101,7 @@ body
     font-family: 'Croissant One', cursive;
     @include linear-gradient(190deg, $color-one:#8f5aff, $color-two:#dc8527);
     @include responsive(tablette){
-        font-size: 21px;    
+        font-size: 23px;    
     } 
    }
 
@@ -138,6 +138,9 @@ body
     text-align: center;
     margin-top:180px; 
     @include zoomeffect;
+     @include responsive(tablette){
+        margin-top: 193px;    
+    }
    }
     h4
    {
@@ -145,6 +148,10 @@ body
     font-family: 'Dancing Script', cursive;
     margin-bottom: 10px;
     @include linear-gradient(160deg, $color-one:#0886fbbb, $color-two:#0229dd);
+     /* RESPONSIVE*/
+    @include responsive(tablette){
+    font-size: 31px;    
+    }
    }
     h3 a
    {
@@ -180,6 +187,9 @@ body
     text-align: center;
     margin-top:180px;
     @include zoomeffect;
+    @include responsive(tablette){
+        margin-top: 193px;    
+    }
    }
     h4
    {
@@ -191,7 +201,7 @@ body
 
     /* RESPONSIVE*/
     @include responsive(tablette){
-        font-size: 21px;    
+        font-size: 28px;    
     }
    
    }

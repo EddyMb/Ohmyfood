@@ -3,6 +3,7 @@
 /*DELICE*/
 /*PALETTE*/
 /* CHIC*/
+/* MEDIA RESPONSIVE MENU*/
 /* HEADER */
 header {
   height: 90px;
@@ -41,7 +42,7 @@ footer {
     font-size: 20px;
     cursor: pointer;
     /* RESPONSIVE MOBILE*/
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 480px) {
       footer .legale a {
         font-size: 15px; } }
@@ -57,7 +58,7 @@ footer {
     font-weight: 200;
     color: #fdcb46;
     /* RESPONSIVE MOBILE*/
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 480px) {
       footer a {
         font-size: 15px; } }
@@ -102,8 +103,8 @@ body {
   margin-top: 50px;
   width: 100%;
   /* RESPONSIVE*/
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 670px) {
+  /* MAIN MENU RESPONSIVE*/ }
+  @media only screen and (max-width: 760px) {
     .container {
       flex-wrap: wrap; } }
 
@@ -116,9 +117,9 @@ body {
   box-shadow: 3px 3px 14px gray;
   background-color: #fcdfdb;
   /* RESPONSIVE*/
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 670px) {
+  /* MAIN MENU RESPONSIVE*/
+  /* MAIN MENU RESPONSIVE*/ }
+  @media only screen and (max-width: 760px) {
     .note {
       margin-left: 40px;
       margin-right: 40px;
@@ -162,9 +163,9 @@ body {
   height: 500px;
   box-shadow: 3px 3px 14px gray;
   /* RESPONSIVE */
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 670px) {
+  /* MAIN MENU RESPONSIVE*/
+  /* MAIN MENU RESPONSIVE*/ }
+  @media only screen and (max-width: 760px) {
     .chic {
       margin-left: 40px;
       margin-right: 30px; } }
@@ -189,10 +190,10 @@ body {
     background: -webkit-linear-gradient(190deg, #8f5aff 0%, #dc8527 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 800px) {
       .chic h4 {
-        font-size: 21px; } }
+        font-size: 23px; } }
   .chic h3 a {
     font-size: 38px;
     font-weight: 600;
@@ -209,9 +210,9 @@ body {
   box-shadow: 3px 3px 14px gray;
   background-color: #f9f9f9;
   /* RESPONSIVE */
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 670px) {
+  /* MAIN MENU RESPONSIVE*/
+  /* MAIN MENU RESPONSIVE*/ }
+  @media only screen and (max-width: 760px) {
     .delice {
       margin-left: 40px;
       margin-right: 40px;
@@ -224,10 +225,14 @@ body {
     margin-top: 180px;
     transform: scale(1);
     transition: transform 400ms;
-    opacity: 1; }
+    opacity: 1;
+    /* MAIN MENU RESPONSIVE*/ }
     .delice .delice-title:hover {
       transform: scale(1.12);
       opacity: 0.6; }
+    @media only screen and (max-width: 800px) {
+      .delice .delice-title {
+        margin-top: 193px; } }
   .delice h4 {
     font-size: 35px;
     font-family: 'Dancing Script', cursive;
@@ -236,7 +241,12 @@ body {
     color: #0229dd;
     background: -webkit-linear-gradient(160deg, #0886fbbb 0%, #0229dd 100%);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text; }
+    -webkit-background-clip: text;
+    /* RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 800px) {
+      .delice h4 {
+        font-size: 31px; } }
   .delice h3 a {
     font-size: 45px;
     margin-top: 30px;
@@ -255,9 +265,9 @@ body {
   box-shadow: 3px 3px 14px gray;
   background-color: #f9f9f9;
   /* RESPONSIVE*/
-  /* PALETTE RESPONSIVE */
-  /* PALETTE RESPONSIVE */ }
-  @media only screen and (max-width: 670px) {
+  /* MAIN MENU RESPONSIVE*/
+  /* MAIN MENU RESPONSIVE*/ }
+  @media only screen and (max-width: 760px) {
     .palette {
       margin-left: 40px;
       margin-right: 30px; } }
@@ -269,10 +279,14 @@ body {
     margin-top: 180px;
     transform: scale(1);
     transition: transform 400ms;
-    opacity: 1; }
+    opacity: 1;
+    /* MAIN MENU RESPONSIVE*/ }
     .palette .palette-title:hover {
       transform: scale(1.12);
       opacity: 0.6; }
+    @media only screen and (max-width: 800px) {
+      .palette .palette-title {
+        margin-top: 193px; } }
   .palette h4 {
     font-size: 30px;
     font-family: 'kaushan script', cursive;
@@ -283,10 +297,10 @@ body {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     /* RESPONSIVE*/
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 800px) {
       .palette h4 {
-        font-size: 21px; } }
+        font-size: 28px; } }
   .palette h3 a {
     font-size: 45px;
     font-weight: 300;
@@ -305,13 +319,13 @@ body {
     font-size: 30px;
     font-weight: 300;
     letter-spacing: 2px;
-    padding: 9px; }
+    padding: 9px;
+    /*RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 480px) {
+      .prochainement h3 a {
+        font-size: 22px; } }
   .prochainement span {
-    /*height: 8px;
-    width: 8px;
-    background:#fdcb46;
-    margin-left: 5px;
-    border-radius:100%;*/
     font-size: 40px;
     display: inline-block;
     animation: dots 1.4s linear infinite alternate;
@@ -329,12 +343,6 @@ body {
     background-color: #579c87; }
 
 @keyframes dots {
-  /*from{
-       transform: scale(0);
-   }
-   to{
-       transform: scale(1);
-   }*/
   0% {
     opacity: .2; }
   20% {
@@ -372,8 +380,8 @@ body {
   .conditions p {
     font-size: 16px;
     /* RESPONSIVE MOBILE*/
-    /* PALETTE RESPONSIVE */ }
-    @media only screen and (max-width: 670px) {
+    /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 760px) {
       .conditions p {
         margin: 20px; } }
 
@@ -386,7 +394,11 @@ body {
   text-align: center;
   margin-top: 35px;
   margin-bottom: 25px;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  /* MAIN MENU RESPONSIVE*/ }
+  @media only screen and (max-width: 600px) {
+    .note-menu1 {
+      font-size: 25px; } }
 
 .note-container {
   background-color: #fcdfdb;
@@ -396,7 +408,7 @@ body {
   margin-bottom: 120px;
   box-shadow: 3px 3px 14px gray;
   /* RESPONSIVE*/
-  /* PALETTE RESPONSIVE */ }
+  /* MAIN MENU RESPONSIVE*/ }
   @media only screen and (max-width: 600px) {
     .note-container {
       margin-right: 20px;
@@ -411,13 +423,21 @@ body {
     color: #f13639;
     background: -webkit-linear-gradient(190deg, #f6916a 0%, #f13639 100%);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text; }
+    -webkit-background-clip: text;
+    /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 600px) {
+      .note-title .fa-music {
+        font-size: 47px; } }
   .note-title .principal {
     font-size: 40px;
     font-family: 'Devonshire', cursive;
     font-weight: 300;
     margin-bottom: 35px;
-    color: #3d1319; }
+    color: #3d1319;
+    /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 600px) {
+      .note-title .principal {
+        font-size: 32px; } }
 
 /* MENU PRELUDE*/
 #prelude {
@@ -437,7 +457,21 @@ body {
       position: relative;
       text-decoration: none;
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/ }
+      #prelude .prelude-trait .prelude-title::after {
+        content: "";
+        display: flex;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        height: 2px;
+        width: 100%;
+        background: black;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 250ms ease-in; }
+      #prelude .prelude-trait .prelude-title:hover::after {
+        transform: scaleX(1); }
       @media only screen and (max-width: 600px) {
         #prelude .prelude-trait .prelude-title {
           font-size: 20px; } }
@@ -445,9 +479,9 @@ body {
       height: 27px;
       margin: 8px;
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 836px) {
         #prelude .prelude-trait .traitD {
           height: 16px;
@@ -463,9 +497,9 @@ body {
       height: 27px;
       margin: 8px;
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 836px) {
         #prelude .prelude-trait .traitG {
           height: 16px; } }
@@ -482,8 +516,8 @@ body {
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #prelude .repas-raviole {
         flex-wrap: wrap; } }
@@ -496,10 +530,10 @@ body {
     font-size: 20px;
     margin-left: 60px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 1200px) {
       #prelude .food {
         margin-right: 87px; } }
@@ -523,9 +557,9 @@ body {
     font-size: 20px;
     margin-right: 75px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 1200px) {
       #prelude .price {
         margin-right: 107px; } }
@@ -548,8 +582,8 @@ body {
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #prelude .caviar {
         flex-wrap: wrap; } }
@@ -562,8 +596,8 @@ body {
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #prelude .homard {
         flex-wrap: wrap; } }
@@ -576,8 +610,8 @@ body {
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #prelude .foie {
         flex-wrap: wrap; } }
@@ -606,13 +640,13 @@ body {
       position: relative;
       text-decoration: none;
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/ }
       #orgue .pont-orgue .orgue-sub::after {
         content: "";
         display: flex;
         position: absolute;
-        left: 5px;
-        bottom: 5px;
+        left: 0px;
+        bottom: 0px;
         height: 2px;
         width: 100%;
         background: black;
@@ -628,9 +662,9 @@ body {
       height: 27px;
       margin: 8px;
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 836px) {
         #orgue .pont-orgue .orgue-traitG {
           height: 16px;
@@ -646,9 +680,9 @@ body {
       height: 27px;
       margin: 8px;
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 836px) {
         #orgue .pont-orgue .orgue-traitD {
           height: 16px;
@@ -666,10 +700,10 @@ body {
     font-size: 20px;
     margin-left: 60px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 1200px) {
       #orgue .food {
         margin-right: 87px; } }
@@ -693,9 +727,9 @@ body {
     font-size: 20px;
     margin-right: 75px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 1200px) {
       #orgue .price {
         margin-right: 107px; } }
@@ -719,8 +753,8 @@ body {
     margin-top: 10px;
     margin-top: 20px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #orgue .repas-noix {
         flex-wrap: wrap; } }
@@ -733,8 +767,8 @@ body {
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #orgue .langouste {
         flex-wrap: wrap; } }
@@ -747,8 +781,8 @@ body {
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #orgue .mijote {
         flex-wrap: wrap; } }
@@ -775,13 +809,13 @@ body {
       position: relative;
       text-decoration: none;
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/ }
       #mouvement .mouvement-main .mouvement-title::after {
         content: "";
         display: flex;
         position: absolute;
-        left: 5px;
-        bottom: 5px;
+        left: 0px;
+        bottom: 0px;
         height: 2px;
         width: 100%;
         background: black;
@@ -797,9 +831,9 @@ body {
       height: 27px;
       margin: 8px;
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 836px) {
         #mouvement .mouvement-main .mouvement-traitG {
           height: 16px;
@@ -815,9 +849,9 @@ body {
       height: 27px;
       margin: 8px;
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 836px) {
         #mouvement .mouvement-main .mouvement-traitD {
           height: 16px; } }
@@ -834,10 +868,10 @@ body {
     font-size: 20px;
     margin-left: 60px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 1200px) {
       #mouvement .food {
         margin-right: 87px; } }
@@ -859,8 +893,8 @@ body {
   #mouvement .repas-macaron {
     margin-top: 20px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #mouvement .repas-macaron {
         display: flex; } }
@@ -870,8 +904,8 @@ body {
   #mouvement .baba {
     margin-top: 10px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #mouvement .baba {
         display: flex; } }
@@ -882,8 +916,8 @@ body {
     margin-top: 10px;
     margin-bottom: 50px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #mouvement .tarte {
         display: flex; } }
@@ -906,7 +940,7 @@ body {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   /*RESPONSIVE*/
-  /* PALETTE RESPONSIVE */ }
+  /* MAIN MENU RESPONSIVE*/ }
   @media only screen and (max-width: 600px) {
     .fa-music {
       font-size: 40px; } }
@@ -918,7 +952,7 @@ body {
   font-weight: 300;
   color: #3d1319;
   /*RESPONSIVE*/
-  /* PALETTE RESPONSIVE */ }
+  /* MAIN MENU RESPONSIVE*/ }
   @media only screen and (max-width: 600px) {
     .principal1 {
       font-size: 25px; } }
@@ -934,7 +968,7 @@ body {
   margin-bottom: 25px;
   letter-spacing: 2px;
   /*RESPONSIVE*/
-  /* PALETTE RESPONSIVE */ }
+  /* MAIN MENU RESPONSIVE*/ }
   @media only screen and (max-width: 600px) {
     .main-title {
       font-size: 25px; } }
@@ -947,7 +981,7 @@ body {
   margin-bottom: 120px;
   box-shadow: 3px 3px 14px gray;
   /*RESPONSIVE*/
-  /* PALETTE RESPONSIVE */ }
+  /* MAIN MENU RESPONSIVE*/ }
   @media only screen and (max-width: 600px) {
     .chic-container {
       margin-right: 20px;
@@ -964,7 +998,7 @@ body {
   background: -webkit-linear-gradient(190deg, #8f5aff 0%, #dc8527 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  /* PALETTE RESPONSIVE */ }
+  /* MAIN MENU RESPONSIVE*/ }
   @media only screen and (max-width: 600px) {
     .chic-title2 {
       font-size: 20px; } }
@@ -990,13 +1024,13 @@ body {
       position: relative;
       text-decoration: none;
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/ }
       #appetit .chic-trait .appetit-sub::after {
         content: "";
         display: flex;
         position: absolute;
-        left: 5px;
-        bottom: 5px;
+        left: 0px;
+        bottom: 0px;
         height: 2px;
         width: 100%;
         background: black;
@@ -1010,11 +1044,10 @@ body {
           font-size: 14px; } }
     #appetit .chic-trait .chictraitD {
       height: 25px;
-      margin: 8px;
       transform: rotateY(180deg);
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 768px) {
         #appetit .chic-trait .chictraitD {
           height: 13px; } }
@@ -1023,10 +1056,9 @@ body {
           height: 9px; } }
     #appetit .chic-trait .chictraitG {
       height: 25px;
-      margin: 8px;
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 768px) {
         #appetit .chic-trait .chictraitG {
           height: 13px; } }
@@ -1040,8 +1072,8 @@ body {
     color: #c77412;
     margin-top: 29px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #appetit .repas-tartare {
         flex-wrap: wrap; } }
@@ -1054,8 +1086,8 @@ body {
     font-size: 17px;
     margin-left: 80px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #appetit .food-chic {
         width: 100%;
@@ -1072,8 +1104,8 @@ body {
     font-size: 17px;
     margin-right: 90px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #appetit .price-chic {
         width: 100%;
@@ -1094,8 +1126,8 @@ body {
     color: #c77412;
     margin-top: 20px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #appetit .veloute {
         flex-wrap: wrap; } }
@@ -1109,8 +1141,8 @@ body {
     color: #c77412;
     margin-top: 20px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #appetit .soupe {
         flex-wrap: wrap; } }
@@ -1130,10 +1162,9 @@ body {
     margin-top: 70px; }
     #plaisir .plaisir-trait .plaisir-chictraitG {
       height: 22px;
-      margin: 8px;
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 768px) {
         #plaisir .plaisir-trait .plaisir-chictraitG {
           height: 13px; } }
@@ -1142,12 +1173,11 @@ body {
           height: 8px; } }
     #plaisir .plaisir-trait .plaisir-chictraitD {
       height: 22px;
-      margin: 8px;
       margin-left: 30px;
       transform: rotateY(180deg);
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 768px) {
         #plaisir .plaisir-trait .plaisir-chictraitD {
           height: 13px; } }
@@ -1165,13 +1195,13 @@ body {
       position: relative;
       text-decoration: none;
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/ }
       #plaisir .plaisir-trait .plaisir-sub::after {
         content: "";
         display: flex;
         position: absolute;
-        left: 5px;
-        bottom: 5px;
+        left: 0px;
+        bottom: 0px;
         height: 2px;
         width: 100%;
         background: black;
@@ -1189,8 +1219,8 @@ body {
     font-size: 17px;
     margin-left: 80px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #plaisir .food-plaisir {
         width: 100%;
@@ -1207,8 +1237,8 @@ body {
     font-size: 17px;
     margin-right: 90px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #plaisir .price-plaisir {
         width: 100%;
@@ -1229,8 +1259,8 @@ body {
     color: #a56799;
     margin-top: 20px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #plaisir .repas-coquille {
         flex-wrap: wrap; } }
@@ -1244,8 +1274,8 @@ body {
     color: #a56799;
     margin-top: 20px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #plaisir .magret {
         flex-wrap: wrap; } }
@@ -1259,8 +1289,8 @@ body {
     color: #a56799;
     margin-top: 20px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #plaisir .pigeon {
         flex-wrap: wrap; } }
@@ -1289,13 +1319,13 @@ body {
       position: relative;
       text-decoration: none;
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/ }
       #gourmandise .gourmandise-trait .gourmandise-sub::after {
         content: "";
         display: flex;
         position: absolute;
-        left: 5px;
-        bottom: 5px;
+        left: 0px;
+        bottom: 0px;
         height: 2px;
         width: 100%;
         background: black;
@@ -1309,10 +1339,9 @@ body {
           font-size: 14px; } }
     #gourmandise .gourmandise-trait .gourmandise-chictraitG {
       height: 32px;
-      margin: 8px;
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 768px) {
         #gourmandise .gourmandise-trait .gourmandise-chictraitG {
           height: 19px; } }
@@ -1321,11 +1350,10 @@ body {
           height: 12px; } }
     #gourmandise .gourmandise-trait .gourmandise-chictraitD {
       height: 32px;
-      margin: 8px;
       transform: rotateY(180deg);
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 768px) {
         #gourmandise .gourmandise-trait .gourmandise-chictraitD {
           height: 19px; } }
@@ -1344,8 +1372,8 @@ body {
     font-size: 17px;
     margin-left: 80px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #gourmandise .food-petale {
         width: 100%;
@@ -1383,10 +1411,10 @@ body {
   margin-top: 35px;
   margin-bottom: 25px;
   letter-spacing: 2px;
-  /* PALETTE RESPONSIVE */ }
+  /* MAIN MENU RESPONSIVE*/ }
   @media only screen and (max-width: 600px) {
     .delice-menu1 {
-      font-size: 28px; } }
+      font-size: 25px; } }
 
 .delice-container {
   background-color: #f9f9f9;
@@ -1395,7 +1423,7 @@ body {
   margin-top: 50px;
   margin-bottom: 120px;
   box-shadow: 3px 3px 14px gray;
-  /* PALETTE RESPONSIVE */ }
+  /* MAIN MENU RESPONSIVE*/ }
   @media only screen and (max-width: 600px) {
     .delice-container {
       margin-right: 20px;
@@ -1407,16 +1435,16 @@ body {
   padding: 50px;
   text-align: center;
   font-family: 'Dancing Script', cursive;
-  /*RESPONSIVE*/
-  /* PALETTE RESPONSIVE */
   color: #0886fbbb;
   color: #0229dd;
   background: -webkit-linear-gradient(160deg, #0886fbbb 0%, #0229dd 100%);
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text; }
+  -webkit-background-clip: text;
+  /*RESPONSIVE*/
+  /* MAIN MENU RESPONSIVE*/ }
   @media only screen and (max-width: 600px) {
     .delice-title2 {
-      font-size: 34px; } }
+      font-size: 29px; } }
 
 /*MENU COMMENCER*/
 #commencer {
@@ -1424,7 +1452,7 @@ body {
   align-items: center; }
   #commencer .delice-trait {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     align-items: center;
     /*DESCRIPTION TRAIT*/ }
@@ -1440,8 +1468,8 @@ body {
         content: "";
         display: flex;
         position: absolute;
-        left: 5px;
-        bottom: 5px;
+        left: 0px;
+        bottom: 0px;
         height: 2px;
         width: 100%;
         background: black;
@@ -1454,9 +1482,9 @@ body {
       height: 40px;
       margin: 8px;
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 1040px) {
         #commencer .delice-trait .delicetraitG {
           height: 30px; } }
@@ -1471,9 +1499,9 @@ body {
       margin: 8px;
       transform: rotateY(180deg);
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 1040px) {
         #commencer .delice-trait .delicetraitD {
           height: 30px; } }
@@ -1489,7 +1517,7 @@ body {
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 600px) {
       #commencer .repas-thon {
         flex-wrap: wrap; } }
@@ -1499,8 +1527,8 @@ body {
     font-size: 20px;
     margin-left: 80px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #commencer .food-delice {
         margin-left: 43px; } }
@@ -1515,8 +1543,8 @@ body {
     margin-right: 90px;
     font-weight: 400;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #commencer .price-delice {
         margin-right: 42px; } }
@@ -1532,7 +1560,7 @@ body {
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 600px) {
       #commencer .bouchee {
         flex-wrap: wrap; } }
@@ -1542,7 +1570,7 @@ body {
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 600px) {
       #commencer .cepes {
         flex-wrap: wrap; } }
@@ -1553,7 +1581,7 @@ body {
   align-items: center; }
   #continuer .continuer-trait {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     align-items: center;
     margin-top: 70px; }
@@ -1569,8 +1597,8 @@ body {
         content: "";
         display: flex;
         position: absolute;
-        left: 5px;
-        bottom: 5px;
+        left: 0px;
+        bottom: 0px;
         height: 2px;
         width: 100%;
         background: black;
@@ -1583,9 +1611,9 @@ body {
       height: 44px;
       margin: 8px;
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 1040px) {
         #continuer .continuer-trait .light-traitG {
           height: 35px; } }
@@ -1600,9 +1628,9 @@ body {
       margin: 8px;
       transform: rotateY(180deg);
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 1040px) {
         #continuer .continuer-trait .light-traitD {
           height: 35px; } }
@@ -1618,8 +1646,8 @@ body {
     font-size: 20px;
     margin-left: 80px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #continuer .food-continue {
         margin-left: 43px; } }
@@ -1634,8 +1662,8 @@ body {
     margin-right: 90px;
     font-weight: 400;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #continuer .price-continue {
         margin-right: 42px; } }
@@ -1652,7 +1680,7 @@ body {
     margin-top: 10px;
     margin-top: 20px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 600px) {
       #continuer .repas-poulet {
         flex-wrap: wrap; } }
@@ -1663,7 +1691,7 @@ body {
     margin-top: 10px;
     margin-top: 10px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 600px) {
       #continuer .roti {
         flex-wrap: wrap; } }
@@ -1673,7 +1701,7 @@ body {
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 600px) {
       #continuer .boeuf {
         flex-wrap: wrap; } }
@@ -1685,7 +1713,7 @@ body {
   padding-bottom: 3px; }
   #terminer .terminer-trait {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     align-items: center;
     margin-top: 70px; }
@@ -1701,8 +1729,8 @@ body {
         content: "";
         display: flex;
         position: absolute;
-        left: 5px;
-        bottom: 5px;
+        left: 0px;
+        bottom: 0px;
         height: 2px;
         width: 100%;
         background: black;
@@ -1715,9 +1743,9 @@ body {
       height: 40px;
       margin: 8px;
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 1040px) {
         #terminer .terminer-trait .blue-traitG {
           height: 30px; } }
@@ -1732,9 +1760,9 @@ body {
       margin: 8px;
       transform: rotateY(180deg);
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 1040px) {
         #terminer .terminer-trait .blue-traitD {
           height: 30px; } }
@@ -1750,8 +1778,8 @@ body {
     font-size: 20px;
     margin-left: 80px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #terminer .food-termine {
         margin-left: 43px; } }
@@ -1766,8 +1794,8 @@ body {
     margin-right: 90px;
     font-weight: 400;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #terminer .price-termine {
         margin-right: 42px; } }
@@ -1784,7 +1812,7 @@ body {
     margin-top: 10px;
     margin-top: 20px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 600px) {
       #terminer .repas-desserts {
         flex-wrap: wrap; } }
@@ -1794,7 +1822,7 @@ body {
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 600px) {
       #terminer .créme {
         flex-wrap: wrap; } }
@@ -1805,7 +1833,7 @@ body {
     margin-top: 10px;
     margin-bottom: 40px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 600px) {
       #terminer .tiramisu {
         flex-wrap: wrap; } }
@@ -1819,7 +1847,11 @@ body {
   text-align: center;
   margin-top: 35px;
   margin-bottom: 25px;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  /* MAIN MENU RESPONSIVE*/ }
+  @media only screen and (max-width: 600px) {
+    .palette-menu1 {
+      font-size: 28px; } }
 
 .palette-container {
   background-color: #fdfffd;
@@ -1829,7 +1861,7 @@ body {
   margin-bottom: 120px;
   box-shadow: 3px 3px 14px gray;
   /*RESPONSIVE*/
-  /* PALETTE RESPONSIVE */ }
+  /* MAIN MENU RESPONSIVE*/ }
   @media only screen and (max-width: 600px) {
     .palette-container {
       margin-right: 20px;
@@ -1848,7 +1880,7 @@ body {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   /*RESPONSIVE*/
-  /* PALETTE RESPONSIVE */ }
+  /* MAIN MENU RESPONSIVE*/ }
   @media only screen and (max-width: 600px) {
     .palette-title2 {
       font-size: 29px; } }
@@ -1864,9 +1896,9 @@ body {
     text-align: center;
     align-items: center;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 1040px) {
       #esquisse .esquisse-trait {
         align-items: center; } }
@@ -1887,8 +1919,8 @@ body {
         content: "";
         display: flex;
         position: absolute;
-        left: 5px;
-        bottom: 5px;
+        left: 0px;
+        bottom: 0px;
         height: 2px;
         width: 100%;
         background: black;
@@ -1901,10 +1933,10 @@ body {
       height: 42px;
       margin: 8px;
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 1040px) {
         #esquisse .esquisse-trait .paletteraitG {
           height: 30px; } }
@@ -1922,10 +1954,10 @@ body {
       margin: 8px;
       transform: rotateY(180deg);
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 1040px) {
         #esquisse .esquisse-trait .paletteraitD {
           height: 30px; } }
@@ -1944,7 +1976,7 @@ body {
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 600px) {
       #esquisse .repas-fricasse {
         flex-wrap: wrap; } }
@@ -1954,10 +1986,10 @@ body {
     font-size: 20px;
     margin-left: 80px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #esquisse .food-palette {
         margin-left: 43px; } }
@@ -1977,10 +2009,10 @@ body {
     font-size: 20px;
     margin-right: 90px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #esquisse .price-palette {
         margin-right: 42px; } }
@@ -2001,7 +2033,7 @@ body {
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 600px) {
       #esquisse .oeuf {
         flex-wrap: wrap; } }
@@ -2011,7 +2043,7 @@ body {
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 600px) {
       #esquisse .canard {
         flex-wrap: wrap; } }
@@ -2028,9 +2060,9 @@ body {
     align-items: center;
     margin-top: 70px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 1040px) {
       #maitre .maitre-trait {
         align-items: center; } }
@@ -2051,8 +2083,8 @@ body {
         content: "";
         display: flex;
         position: absolute;
-        left: 5px;
-        bottom: 5px;
+        left: 0px;
+        bottom: 0px;
         height: 2px;
         width: 100%;
         background: black;
@@ -2065,9 +2097,9 @@ body {
       height: 42px;
       margin: 8px;
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 1040px) {
         #maitre .maitre-trait .mtraitG {
           height: 30px; } }
@@ -2082,9 +2114,9 @@ body {
       margin: 8px;
       transform: rotateY(180deg);
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 1040px) {
         #maitre .maitre-trait .mtraitD {
           height: 30px; } }
@@ -2100,10 +2132,10 @@ body {
     font-size: 20px;
     margin-left: 80px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #maitre .food-maitre {
         margin-left: 43px; } }
@@ -2123,10 +2155,10 @@ body {
     font-size: 20px;
     margin-right: 90px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #maitre .price-maitre {
         margin-right: 42px; } }
@@ -2148,8 +2180,8 @@ body {
     margin-top: 10px;
     margin-top: 20px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #maitre .repas-filet {
         align-items: baseline; } }
@@ -2162,8 +2194,8 @@ body {
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #maitre .parmentier {
         align-items: baseline; } }
@@ -2176,7 +2208,7 @@ body {
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 600px) {
       #maitre .turbot {
         flex-wrap: wrap; } }
@@ -2194,9 +2226,9 @@ body {
     align-items: center;
     margin-top: 70px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
     /*DESCRIPTION TRAIT GAUCHE*/
     /*DESCRIPTION TRAIT DROITE*/ }
     @media only screen and (max-width: 1040px) {
@@ -2219,8 +2251,8 @@ body {
         content: "";
         display: flex;
         position: absolute;
-        left: 5px;
-        bottom: 5px;
+        left: 0px;
+        bottom: 0px;
         height: 2px;
         width: 100%;
         background: black;
@@ -2233,10 +2265,10 @@ body {
       height: 42px;
       margin: 8px;
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 1040px) {
         #sommet .sommet-trait .arttraitG {
           height: 30px; } }
@@ -2254,10 +2286,10 @@ body {
       margin: 8px;
       transform: rotateY(180deg);
       /*RESPONSIVE*/
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */
-      /* PALETTE RESPONSIVE */ }
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 1040px) {
         #sommet .sommet-trait .arttraitD {
           height: 30px; } }
@@ -2276,10 +2308,10 @@ body {
     font-size: 20px;
     margin-left: 80px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #sommet .food-sommet {
         margin-left: 43px; } }
@@ -2299,10 +2331,10 @@ body {
     font-size: 20px;
     margin-right: 90px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #sommet .price-sommet {
         margin-right: 42px; } }
@@ -2324,7 +2356,7 @@ body {
     margin-top: 10px;
     margin-top: 20px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 600px) {
       #sommet .repas-paris {
         flex-wrap: wrap; } }
@@ -2334,7 +2366,7 @@ body {
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 600px) {
       #sommet .chocolat {
         flex-wrap: wrap; } }
@@ -2345,7 +2377,7 @@ body {
     margin-top: 10px;
     margin-bottom: 40px;
     /*RESPONSIVE*/
-    /* PALETTE RESPONSIVE */ }
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 600px) {
       #sommet .mousse {
         flex-wrap: wrap; } }
