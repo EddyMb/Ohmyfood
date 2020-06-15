@@ -1,106 +1,102 @@
 /* FOOTER*/
-footer 
-{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 60px;
-    height: 60px;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0; 
-    background-color: $fondVert;
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: $fondVert;
 
-/* MENTION LEGALE*/
-  .legale 
-  {
-    margin-top: 20px; 
-   
+  /* MENTION LEGALE*/
+  .legale {
+    margin-top: 20px;
   }
-  .legale a
-  {
+  .legale a {
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 200;
     color: #fdcb46;
     margin: 25px;
     font-size: 20px;
-    cursor: pointer; 
+    cursor: pointer;
 
-  /* RESPONSIVE MOBILE*/
-    @include responsive(little-phone){
-        font-size: 15px;
+    /* RESPONSIVE MOBILE*/
+    @include responsive(little-phone) {
+      font-size: 15px;
+    }
+    @include responsive(mini-mobile) {
+     font-size:14px
     }
   }
 
-  .legale:hover
-  {
+  .legale:hover {
     animation: shake 1s;
   }
 
   /* CONTACT*/
-  .contact 
-  {
-    
+  .contact {
     margin-right: 25px;
     margin-top: 20px;
   }
 
-  a 
-  {
+  a {
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: 200;
-    color: #fdcb46; 
-  
-  /* RESPONSIVE MOBILE*/
-    @include responsive(little-phone){
-      font-size: 15px;
-  }
+    color: #fdcb46;
 
+    /* RESPONSIVE MOBILE*/
+    @include responsive(little-phone) {
+      font-size: 15px;
+    }
+    @include responsive(mini-mobile) {
+      font-size:14px
+     }
   }
-  .contact:hover{
+  .contact:hover {
     animation: shake 1s;
   }
 }
 
 /* ANIMATION*/
 
-@keyframes shake{
-  0%{
-    transform:translate(5px, 5px);
+@keyframes shake {
+  0% {
+    transform: translate(5px, 5px);
   }
-  10%{
-    transform:translate(-5px, -5px);
+  10% {
+    transform: translate(-5px, -5px);
   }
-  20%{
-    transform:translate(5px, 5px);
+  20% {
+    transform: translate(5px, 5px);
   }
-  30%{
-    transform:translate(-5px, -5px);
+  30% {
+    transform: translate(-5px, -5px);
   }
-  40%{
-    transform:translate(5px, 5px);
+  40% {
+    transform: translate(5px, 5px);
   }
-  50%{
-    transform:translate(-5px, -5px);
+  50% {
+    transform: translate(-5px, -5px);
   }
-  60%{
-    transform:translate(5px, 5px);
+  60% {
+    transform: translate(5px, 5px);
   }
-  70%{
-    transform:translate(-5px, -5px);
+  70% {
+    transform: translate(-5px, -5px);
   }
-  80%{
-    transform:translate(5px, 5px);
+  80% {
+    transform: translate(5px, 5px);
   }
-  90%{
-    transform:translate(-5px, -5px);
+  90% {
+    transform: translate(-5px, -5px);
   }
-  100%{
-    transform:translate(5px, 5px);
+  100% {
+    transform: translate(5px, 5px);
   }
 }
-

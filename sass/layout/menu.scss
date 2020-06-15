@@ -1,217 +1,217 @@
-
-
-*
-{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body
-{
+body {
   background-color: #fff;
 }
-.container
-{
+.container {
   display: flex;
   justify-content: center;
   margin-top: 50px;
   width: 100%;
 
-    /* RESPONSIVE*/
-    @include responsive(phone){
-        flex-wrap: wrap;
-    }
+  /* RESPONSIVE*/
+  @include responsive(phone) {
+    flex-wrap: wrap;
+  }
 }
 
- /* LA NOTE ENCHANTEE*/
-.note
-{  
-    background-color: #fcdfdb;
-    margin-right: 30px;
-    @include cadremenu($colorNote);
+/* LA NOTE ENCHANTEE*/
+.note {
+  background-color: #fcdfdb;
+  margin-right: 30px;
+  @include cadremenu($colorNote);
 
-    /* RESPONSIVE*/
-    @include responsive(phone){
-     margin-left: 40px;   
-     margin-right: 40px;
-     margin-bottom: 70px;
-    }
-    @include responsive(tablette){
-        margin-left: 40px;
-    }
- 
-    .note-title
-   {
-    text-align: center;
-    margin-top:130px;
-    @include zoomeffect;
-   }
-    .fa-music
-   {
-    font-size: 30px;
-    @include linear-gradient(190deg, $color-one:#f6916a, $color-two:#f13639);
-   }
-    h3 a
-   {
-    font-size: 35px;
-    color:#3d1319;
-    font-family: 'Itim', cursive;
-    font-weight: 300;
+  /* RESPONSIVE*/
+  @include responsive(phone) {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 70px;
+  }
+  @include responsive(tablette) {
+    margin-left: 40px;
+  }
+  a {
     @include lien;
-    
-   }
-    h4
-   {
-    font-size: 35px; 
-    color:#3d1319;
-    font-family: 'devonshire', cursive;
-    font-weight: 300;
-   }
+
+    .note-title {
+      text-align: center;
+      margin-top: 130px;
+      @include zoomeffect;
+    }
+    .fa-music {
+      font-size: 45px;
+      @include linear-gradient(
+        190deg,
+        $color-one: #f6916a,
+        $color-two: #f13639
+      );
+    }
+    h3 {
+      font-size: 35px;
+      color: #3d1319;
+      font-family: "Itim", cursive;
+      font-weight: 300;
+    }
+    h4 {
+      font-size: 35px;
+      color: #3d1319;
+      font-family: "devonshire", cursive;
+      font-weight: 300;
+    }
+  }
 }
 
 /* LE CHIC A LA FRANCAISE */
-.chic
-{  
-    background-color:#fff5fe; 
-    margin-left: 30px;
-    width:$widthMenu;
-    height:$heightMenu;
-    box-shadow:$shadow;
+.chic {
+  background-color: #fff5fe;
+  margin-left: 30px;
+  width: $widthMenu;
+  height: $heightMenu;
+  box-shadow: $shadow;
 
-    /* RESPONSIVE */
-   @include responsive(phone){
-        margin-left: 40px;   
-        margin-right: 30px;
-       }
-       @include responsive(tablette){
-        margin-right: 40px;    
+  /* RESPONSIVE */
+  @include responsive(phone) {
+    margin-left: 40px;
+    margin-right: 30px;
+  }
+  @include responsive(tablette) {
+    margin-right: 40px;
+  }
+  a {
+    @include lien;
+
+    .chic-title {
+      text-align: center;
+      margin-top: 200px;
+      @include zoomeffect;
+    }
+    h4 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      font-family: "Croissant One", cursive;
+      @include linear-gradient(
+        190deg,
+        $color-one: #8f5aff,
+        $color-two: #dc8527
+      );
+      @include responsive(tablette) {
+        font-size: 23px;
+      }
     }
 
-    .chic-title
-   {
-    text-align: center;
-    margin-top:200px;
-    @include zoomeffect;
-   }
-    h4
-   {
-    font-size: 24px;
-    margin-bottom: 10px; 
-    font-family: 'Croissant One', cursive;
-    @include linear-gradient(190deg, $color-one:#8f5aff, $color-two:#dc8527);
-    @include responsive(tablette){
-        font-size: 23px;    
-    } 
-   }
-
-    h3 a
-   {
-    font-size: 38px;
-    font-weight: 600;
-    color: #c77412;
-    @include lien;
-   }
+    h3 {
+      font-size: 38px;
+      font-weight: 600;
+      color: #c77412;
+    }
+  }
 }
 
 /* DELICE DES PAPILLES */
-.delice
-{
-    background-color:#f9f9f9;
-    margin-right: 30px;
-    margin-top: 15px;
-    @include cadremenu($colorDelice);  
-    
-    /* RESPONSIVE */
-    @include responsive(phone){
-        margin-left: 40px;   
-        margin-right: 40px;
-        margin-bottom: 60px;
-       }
+.delice {
+  background-color: #f9f9f9;
+  margin-right: 30px;
+  margin-top: 15px;
+  @include cadremenu($colorDelice);
 
-    @include responsive(tablette){
-        margin-left: 40px;
-    }
+  /* RESPONSIVE */
+  @include responsive(phone) {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+  }
 
-    .delice-title
-   {
-    text-align: center;
-    margin-top:180px; 
-    @include zoomeffect;
-     @include responsive(tablette){
-        margin-top: 193px;    
-    }
-   }
-    h4
-   {
-    font-size: 35px;
-    font-family: 'Dancing Script', cursive;
-    margin-bottom: 10px;
-    @include linear-gradient(160deg, $color-one:#0886fbbb, $color-two:#0229dd);
-     /* RESPONSIVE*/
-    @include responsive(tablette){
-    font-size: 31px;    
-    }
-   }
-    h3 a
-   {
-    font-size: 45px;
-    margin-top: 30px;
-    color: #0887fb;  
-    font-family: 'Caveat', cursive;
-    font-weight: 300;
+  @include responsive(tablette) {
+    margin-left: 40px;
+  }
+  a {
     @include lien;
-   }
+
+    .delice-title {
+      text-align: center;
+      margin-top: 180px;
+      @include zoomeffect;
+      @include responsive(tablette) {
+        margin-top: 193px;
+      }
+    }
+    h4 {
+      font-size: 35px;
+      font-family: "Dancing Script", cursive;
+      margin-bottom: 10px;
+      @include linear-gradient(
+        160deg,
+        $color-one: #0886fbbb,
+        $color-two: #0229dd
+      );
+      /* RESPONSIVE*/
+      @include responsive(tablette) {
+        font-size: 31px;
+      }
+    }
+    h3 {
+      font-size: 45px;
+      margin-top: 10px;
+      color: #0887fb;
+      font-family: "Caveat", cursive;
+      font-weight: 300;
+    }
+  }
 }
 
 /* LA PALETTE DU GOUT*/
-.palette
-{
-    background-color: #fdfffd;
-    margin-left: 30px;
-    margin-top: 15px;
-    @include cadremenu($colorDelice); 
+.palette {
+  background-color: #fdfffd;
+  margin-left: 30px;
+  margin-top: 15px;
+  @include cadremenu($colorDelice);
 
-    /* RESPONSIVE*/
-    @include responsive(phone){
-        margin-left: 40px;   
-        margin-right: 30px;
-       }
+  /* RESPONSIVE*/
+  @include responsive(phone) {
+    margin-left: 40px;
+    margin-right: 30px;
+  }
 
-    @include responsive(tablette){
-        margin-right: 40px;    
-    }
-   
-    .palette-title
-   {
-    text-align: center;
-    margin-top:180px;
-    @include zoomeffect;
-    @include responsive(tablette){
-        margin-top: 193px;    
-    }
-   }
-    h4
-   {
-    font-size: 30px;
-    font-family:'kaushan script', cursive;
-    margin-bottom: 10px;
-
-    @include linear-gradient( 145deg, $color-one:#beff7f, $color-two:#4ea043);
-
-    /* RESPONSIVE*/
-    @include responsive(tablette){
-        font-size: 28px;    
-    }
-   
-   }
-    h3 a
-   {
-    font-size: 45px; 
-    font-weight: 300;
-    color: #72bf56; 
-    font-family: 'Caveat', cursive;
-    margin-top: 30px;
+  @include responsive(tablette) {
+    margin-right: 40px;
+  }
+  a {
     @include lien;
-   }
+
+    .palette-title {
+      text-align: center;
+      margin-top: 180px;
+      @include zoomeffect;
+      @include responsive(tablette) {
+        margin-top: 193px;
+      }
+    }
+    h4 {
+      font-size: 30px;
+      font-family: "kaushan script", cursive;
+      margin-bottom: 10px;
+
+      @include linear-gradient(
+        145deg,
+        $color-one: #beff7f,
+        $color-two: #4ea043
+      );
+
+      /* RESPONSIVE*/
+      @include responsive(tablette) {
+        font-size: 28px;
+      }
+    }
+    h3 {
+      font-size: 45px;
+      font-weight: 300;
+      color: #72bf56;
+      font-family: "Caveat", cursive;
+      margin-top: 10px;
+    }
+  }
 }

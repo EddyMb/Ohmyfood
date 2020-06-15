@@ -1,103 +1,102 @@
-
-
 /* NOTE*/
-@mixin noteTraitTitle{
+@mixin noteTraitTitle {
   display: flex;
   justify-content: space-between;
   text-align: center;
   align-items: center;
 }
 
-@mixin noteRepas{
+@mixin noteRepas {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-top: 10px;
 }
 
-@mixin noteFood{
-  font-family: 'Kalam', cursive;
+@mixin noteFood {
+  font-family: "Kalam", cursive;
   font-weight: 300;
-  font-size:20px ;
+  font-size: 20px;
   margin-left: 60px;
 }
 
 @mixin notePrice {
-  font-family: 'Kalam', cursive;
-  font-size:20px ;
+  font-family: "Kalam", cursive;
+  font-size: 20px;
   margin-right: 75px;
 }
 
-@mixin noteTrait{
-  height: 27px;
-  margin: 8px;
+@mixin noteTrait {
+  width: 41%;
+  height: 25px;
 }
-
 
 /*DELICE*/
-@mixin deliceTrait3{
-  height: 40px;
+@mixin deliceTrait3 {
+  width: 36%;
+  height: 30px;
   margin: 8px;
 }
-@mixin deliceTrait2{
-  height: 44px;
+@mixin deliceTrait2 {
+  width: 36%;
+  height: 30px;
   margin: 8px;
 }
-@mixin deliceTrait1{
-  height: 40px;
-  margin: 8px; 
+@mixin deliceTrait1 {
+  width: 35%;
+  height: 30px;
+  margin: 8px;
 }
-@mixin delicePrice{
-  font-family: 'Kalam', cursive;
-  font-size:20px ;
+@mixin delicePrice {
+  font-family: "Kalam", cursive;
+  font-size: 20px;
   margin-right: 90px;
   font-weight: 400;
 }
-@mixin deliceFood{
-  font-family: 'Kalam', cursive;
+@mixin deliceFood {
+  font-family: "Kalam", cursive;
   font-weight: 300;
-  font-size:20px ;
+  font-size: 20px;
   margin-left: 80px;
 }
-@mixin deliceTraitTitle{
+@mixin deliceTraitTitle {
   display: flex;
   justify-content: space-between;
   text-align: center;
   align-items: center;
 }
 
-@mixin deliceRepas{
+@mixin deliceRepas {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
 }
 
-
 /*PALETTE*/
 
 @mixin paletteTrait {
-  height: 42px;
+  height: 35px;
+  width: 40%;
   margin: 8px;
 }
-@mixin palettePrice{
-  font-family: 'Kalam', cursive;
-  font-size:20px ;
+@mixin palettePrice {
+  font-family: "Kalam", cursive;
+  font-size: 20px;
   margin-right: 90px;
 }
-@mixin paletteFood{
-  font-family: 'Kalam', cursive;
+@mixin paletteFood {
+  font-family: "Kalam", cursive;
   font-weight: 300;
-  font-size:20px ;
+  font-size: 20px;
   margin-left: 80px;
 }
-@mixin paletteRepas{
+@mixin paletteRepas {
   display: flex;
   justify-content: space-between;
   align-items: center;
-   margin-top: 10px;
+  margin-top: 10px;
 }
-@mixin paletteTraitTitle{
+@mixin paletteTraitTitle {
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -112,19 +111,19 @@
   color: $colorValue;
 }
 
-@mixin chicFood{
-  font-family: 'Merriweather', cursive;
+@mixin chicFood {
+  font-family: "Merriweather", cursive;
   font-weight: 200;
-  font-size:17px ;
+  font-size: 17px;
   margin-left: 80px;
 }
 
-@mixin chicPrice{
-  font-family: 'Merriweather', cursive;
-  font-size:17px ;
+@mixin chicPrice {
+  font-family: "Merriweather", cursive;
+  font-size: 17px;
   margin-right: 90px;
 }
- 
+
 @mixin chicTraitTitle {
   display: flex;
   justify-content: space-between;
@@ -132,23 +131,22 @@
   align-items: center;
 }
 
-@mixin chicTrait3{
-  height: 32px;   
+@mixin chicTrait3 {
+ width: 37%;
+ height: 21px;
 }
 
-
-@mixin chicTrait2{
-  height: 22px;
-  
-
+@mixin chicTrait2 {
+  width: 37%;
+  height: 21px;
 }
-@mixin chicTrait1{
-  height: 25px; 
+@mixin chicTrait1 {
+  width: 37%;
+  height: 21px;
 }
 
-
-@mixin chicSecondTitle{
-  font-family: 'Merriweather', cursive;
+@mixin chicSecondTitle {
+  font-family: "Merriweather", cursive;
   font-size: 21px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -157,18 +155,16 @@
   text-decoration: none;
 }
 
-
-@mixin noteSecondTitle{
-  font-family: 'Kalam', cursive;
+@mixin noteSecondTitle {
+  font-family: "Kalam", cursive;
   font-weight: 400;
   font-size: 28px;
   text-align: center;
-  margin-right: 15px; 
   position: relative;
   text-decoration: none;
 }
-@mixin paletteSecondTitle{
-  font-family: 'Kalam', cursive;
+@mixin paletteSecondTitle {
+  font-family: "Kalam", cursive;
   font-weight: 300;
   text-align: center;
   font-size: 25px;
@@ -176,48 +172,44 @@
   text-decoration: none;
 }
 
-
-@mixin menuSecondTitle{
+@mixin menuSecondTitle {
   font-size: 35px;
   text-align: center;
   margin-top: 35px;
-  margin-bottom:25px;
+  margin-bottom: 25px;
   letter-spacing: 2px;
 }
 
-
 @mixin underline {
-  &::after
-{
-  content: "";
-  display: flex;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  height: 2px;
-  width:100%;
-  background: black;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 250ms ease-in;
-}
-&:hover{
   &::after {
-      transform:scaleX(1);   
+    content: "";
+    display: flex;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 2px;
+    width: 100%;
+    background: black;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 250ms ease-in;
   }
-}
-  
+  &:hover {
+    &::after {
+      transform: scaleX(1);
+    }
+  }
 }
 
 @mixin container {
   margin-left: 50px;
-  margin-right: 50px; 
+  margin-right: 50px;
   margin-top: 50px;
   margin-bottom: 120px;
-  box-shadow:$shadow;  
+  box-shadow: $shadow;
 }
 
-@mixin mentionCenter{
+@mixin mentionCenter {
   text-align: center;
   margin-top: 100px;
 }
@@ -233,119 +225,127 @@
 }
 
 @mixin mentionList {
-  font-size: 20px; 
+  font-size: 20px;
 }
 
 @mixin cadremenu($colorValue) {
-  width:$widthMenu;
-  height:$heightMenu;
-  box-shadow:$shadow;  
-  background-color: $colorValue; 
+  width: $widthMenu;
+  height: $heightMenu;
+  box-shadow: $shadow;
+  background-color: $colorValue;
 }
 
 @mixin lien {
-text-decoration: $texteDecoration;
+  text-decoration: $texteDecoration;
 }
 
-@mixin policemenu{
+@mixin policemenu {
   font-family: $fontChic;
 }
 
 @mixin zoomeffect {
-  transform:scale(1);
+  transform: scale(1);
   transition: transform 400ms;
-  opacity:1;
-  &:hover{
-    transform:scale(1.12);
+  opacity: 1;
+  &:hover {
+    transform: scale(1.12);
     opacity: 0.6;
   }
 }
 
-@mixin linear-gradient($degrees, $color-one:#4ea043, $color-two:#beff7f) {
-    color: $color-one;
-    color: $color-two;
-    background: -webkit-linear-gradient($degrees, $color-one 0%, $color-two 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;  
-  }
+@mixin linear-gradient($degrees, $color-one: #4ea043, $color-two: #beff7f) {
+  color: $color-one;
+  color: $color-two;
+  background: -webkit-linear-gradient($degrees, $color-one 0%, $color-two 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 
-  @mixin linear-gradient($degrees, $color-one:#0b73f4, $color-two:#0229dd) {
-    color: $color-one;
-    color: $color-two;
-    background: -webkit-linear-gradient($degrees, $color-one 0%, $color-two 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;  
-  }
+@mixin linear-gradient($degrees, $color-one: #0b73f4, $color-two: #0229dd) {
+  color: $color-one;
+  color: $color-two;
+  background: -webkit-linear-gradient($degrees, $color-one 0%, $color-two 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 
-  @mixin linear-gradient($degrees, $color-one:#8f5aff, $color-two:#dc8527) {
-    color: $color-one;
-    color: $color-two;
-    background: -webkit-linear-gradient($degrees, $color-one 0%, $color-two 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;  
-  }
+@mixin linear-gradient($degrees, $color-one: #8f5aff, $color-two: #dc8527) {
+  color: $color-one;
+  color: $color-two;
+  background: -webkit-linear-gradient($degrees, $color-one 0%, $color-two 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 
-  @mixin linear-gradient($degrees, $color-one:#f6916a, $color-two:#f13639) {
-    color: $color-one;
-    color: $color-two;
-    background: -webkit-linear-gradient($degrees, $color-one 0%, $color-two 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;  
-  }
-  
+@mixin linear-gradient($degrees, $color-one: #f6916a, $color-two: #f13639) {
+  color: $color-one;
+  color: $color-two;
+  background: -webkit-linear-gradient($degrees, $color-one 0%, $color-two 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 
-  /* MEDIA RESPONSIVE MENU*/
-  
+/* MEDIA RESPONSIVE MENU*/
+
 @mixin responsive($breakpoint) {
-
   @if $breakpoint == little-phone {
-    @media only screen and (max-width:480px) {@content};         
+    @media only screen and (max-width: 480px) {
+      @content;
+    }
   }
 
-    @if $breakpoint == mobile {
-    @media only screen and (max-width:600px) {@content};
+  @if $breakpoint == mobile {
+    @media only screen and (max-width: 600px) {
+      @content;
+    }
   }
 
   @if $breakpoint == smart-tablette {
-    @media only screen and (max-width:768px) {@content};
+    @media only screen and (max-width: 768px) {
+      @content;
+    }
   }
 
   @if $breakpoint == ecran {
-    @media only screen and (max-width:836px) {@content};
+    @media only screen and (max-width: 836px) {
+      @content;
+    }
   }
 
   @if $breakpoint == laptope {
-    @media only screen and (max-width:1040px) {@content};
+    @media only screen and (max-width: 1040px) {
+      @content;
+    }
   }
 
   @if $breakpoint == big-screen {
-    @media only screen and (max-width:1200px) {@content};
+    @media only screen and (max-width: 1400px) {
+      @content;
+    }
   }
 
   @if $breakpoint == mini-phone {
-    @media only screen and (max-width:600px) {@content};
+    @media only screen and (max-width: 600px) {
+      @content;
+    }
   }
 
-
-
-
-/* MAIN MENU RESPONSIVE*/
-
-
-
-
-    @if $breakpoint == phone {
-        @media only screen and (max-width:760px) {@content};
+  @if $breakpoint == mini-mobile {
+    @media only screen and (max-width: 400px) {
+      @content;
     }
+  }
 
+  /* MAIN MENU RESPONSIVE*/
 
-    
-    @if $breakpoint == tablette{
-        @media only screen and (max-width:800px) {@content};
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 760px) {
+      @content;
     }
-
- 
-
-
+  }
+  @if $breakpoint == tablette {
+    @media only screen and (max-width: 800px) {
+      @content;
+    }
+  }
 }
-

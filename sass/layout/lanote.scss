@@ -1,544 +1,528 @@
-
-
-
-.main-bloc
-{
+.main-bloc {
   @include mainBloc;
 }
 
-.note-menu1
-{
-  @include menuSecondTitle; 
-  @include responsive(mobile){
+.note-menu1 {
+  @include menuSecondTitle;
+  @include responsive(mobile) {
     font-size: 25px;
-  }  
-}
-
-.note-container
-{
-  background-color:#fcdfdb;
-  @include container;
-
-  /* RESPONSIVE*/
-  @include responsive(mobile){
-    margin-right: 20px;
-    margin-left: 20px;    
   }
 }
 
-.note-title
-{
-  text-align: center;
-  
-   .fa-music
-   {
-     font-size: 60px;
-     margin-top: 40px; 
-     @include linear-gradient(190deg, $color-one:#f6916a, $color-two:#f13639);
-     @include responsive(mobile){
-      font-size: 47px;
-    }  
-   } 
+.note-container {
+  background-color: #fcdfdb;
+  @include container;
 
-  .principal
-   {
-     font-size:40px;
-     font-family: 'Devonshire', cursive;
-     font-weight: 300;
-     margin-bottom: 35px;
-     color:#3d1319;  
-     @include responsive(mobile){
+  /* RESPONSIVE*/
+  @include responsive(mobile) {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+.note-title {
+  text-align: center;
+
+  .fa-music {
+    font-size: 60px;
+    margin-top: 40px;
+    @include linear-gradient(190deg, $color-one: #f6916a, $color-two: #f13639);
+    @include responsive(mobile) {
+      font-size: 47px;
+    }
+  }
+
+  .principal {
+    font-size: 40px;
+    font-family: "Devonshire", cursive;
+    font-weight: 300;
+    margin-bottom: 35px;
+    color: #3d1319;
+    @include responsive(mobile) {
       font-size: 32px;
-    }  
-   }
+    }
+  }
 }
 
 /* MENU PRELUDE*/
-#prelude
-{
+#prelude {
   width: 100%;
   align-items: center;
-
-
-   .prelude-trait
-  {
+ 
+  .prelude-trait {
     @include noteTraitTitle;
 
-     .prelude-title 
-    {
+    .prelude-title {
+      margin-right: 15px;
       @include noteSecondTitle;
       @include underline;
 
       /*RESPONSIVE*/
-      @include responsive(mobile){
-      font-size:20px ;
+      @include responsive(mobile) {
+        font-size: 20px;
       }
     }
 
-     .traitD
-    {
-      @include noteTrait; 
+    .traitD {
+      @include noteTrait;
 
       /*RESPONSIVE*/
-      @include responsive(ecran){
-      height: 16px;
-      margin-left: 21px;
+      @include responsive(ecran) {
+       width: 43%;
       }
-      @include responsive(smart-tablette){
-      height: 13px;
+      @include responsive(smart-tablette) {
+        width: 31%;
+        height: 18px;
       }
-      @include responsive(mobile){
-      height: 7px;
-      margin: 12px;
+      @include responsive(mobile) {
+       width: 30%;
+       height: 15px;
+       margin: 12px;
       }
- 
+      @include responsive(mini-mobile) {
+        height: 10px;
+        width: 25%;
+        margin: 12px;
+      }
     }
 
-     .traitG
-    {
-      @include noteTrait; 
+    .traitG {
+      @include noteTrait;
 
       /*RESPONSIVE*/
-      @include responsive(ecran){
-      height: 16px;
+      @include responsive(ecran) {
+        width: 43%;
       }
-      @include responsive(smart-tablette){
-      height: 13px;
+      @include responsive(smart-tablette) {
+        width: 31%;
+        height: 18px;
       }
-      @include responsive(mobile){
-      height: 7px;
-      margin: 12px;
-      }  
+      @include responsive(mobile) {
+        width: 30%;
+        height: 15px;
+        margin: 12px;
+      }
+      @include responsive(mini-mobile) {
+        height: 10px;
+        width: 25%;
+        margin: 12px;
+      }
     }
   }
 
-     .repas-raviole
-    {
-      @include noteRepas;
+  .repas-raviole {
+    @include noteRepas;
 
-     /*RESPONSIVE*/ 
-       @include responsive(smart-tablette){
-       flex-wrap: wrap;
-       }
-       @include responsive(mobile){
-       flex-wrap: wrap;
-     }     
+    /*RESPONSIVE*/
+    @include responsive(smart-tablette) {
+      flex-wrap: wrap;
+    }
+    @include responsive(mobile) {
+      flex-wrap: wrap;
+    }
+  }
+
+  .food {
+    @include noteFood;
+
+    /*RESPONSIVE*/
+    @include responsive(big-screen) {
+      margin-right: 87px;
+    }
+    @include responsive(ecran) {
+      margin-right: 52px;
     }
 
-     .food
-    {
-      @include noteFood;
-      
-      /*RESPONSIVE*/
-      @include responsive(big-screen){
-       margin-right: 87px;
-      }
-      @include responsive(ecran){
-       margin-right: 52px;
-      }
-
-      @include responsive(smart-tablette){
-       text-align: center;
-       margin-right: 60px;
-       width: 100%;
-       font-size: 24px;
-      }
-
-      @include responsive(mobile){
-       text-align: center;
-       margin-right: 60px;
-       width: 100%;
-       font-size: 20px;
-      }
+    @include responsive(smart-tablette) {
+      text-align: center;
+      margin-right: 60px;
+      width: 100%;
+      font-size: 24px;
     }
 
-     .price
-    {
-      @include notePrice;
+    @include responsive(mobile) {
+      text-align: center;
+      margin-right: 60px;
+      width: 100%;
+      font-size: 20px;
+    }
+  }
 
-      /*RESPONSIVE*/
-      @include responsive(big-screen){
+  .price {
+    @include notePrice;
+
+    /*RESPONSIVE*/
+    @include responsive(big-screen) {
       margin-right: 107px;
-      }
-  
-      @include responsive(smart-tablette){
+    }
+
+    @include responsive(smart-tablette) {
       width: 100%;
       text-align: center;
       margin-right: 5px;
       margin-top: 6px;
       font-size: 23px;
-      }
-  
-      @include responsive(mobile){
+    }
+
+    @include responsive(mobile) {
       width: 100%;
       text-align: center;
       margin-right: 5px;
       margin-top: 6px;
-      }
     }
-
-    .caviar
-   {
-     @include noteRepas;
-
-     /*RESPONSIVE*/
-     @include responsive(smart-tablette){
-     flex-wrap: wrap;
-     }
-     @include responsive(mobile){  
-     flex-wrap: wrap;
-     }    
-   }
-
-    .homard
-   {
-     @include noteRepas;
-
-     /*RESPONSIVE*/
-     @include responsive(smart-tablette){
-     flex-wrap: wrap;
-     }
-     @include responsive(mobile){
-     flex-wrap: wrap;
-     } 
-   }
-
-    .foie
-   {
-     @include noteRepas;
-
-     /*RESPONSIVE*/
-     @include responsive(smart-tablette){
-     flex-wrap: wrap;
-    }
-    @include responsive(mobile){
-    flex-wrap: wrap;
-    }
-   }
   }
 
+  .caviar {
+    @include noteRepas;
+
+    /*RESPONSIVE*/
+    @include responsive(smart-tablette) {
+      flex-wrap: wrap;
+    }
+    @include responsive(mobile) {
+      flex-wrap: wrap;
+    }
+  }
+
+  .homard {
+    @include noteRepas;
+
+    /*RESPONSIVE*/
+    @include responsive(smart-tablette) {
+      flex-wrap: wrap;
+    }
+    @include responsive(mobile) {
+      flex-wrap: wrap;
+    }
+  }
+
+  .foie {
+    @include noteRepas;
+
+    /*RESPONSIVE*/
+    @include responsive(smart-tablette) {
+      flex-wrap: wrap;
+    }
+    @include responsive(mobile) {
+      flex-wrap: wrap;
+    }
+  }
+}
 
 /* MENU ORGUE*/
-#orgue
-{
+#orgue {
   width: 100%;
   align-items: center;
+  
+  .pont-orgue {
+    @include noteTraitTitle;
+    margin-top: 70px;
+    width: 100%;
 
-    .pont-orgue
-   {
-     
-     @include noteTraitTitle;
-     margin-top: 70px;
-     width: 100%;
- 
-        .orgue-sub
-       {
-         @include noteSecondTitle;
-         @include underline;
-           
-         /*RESPONSIVE*/
-         @include responsive(mobile){
-         font-size:20px ;
-         }
-       }
+    .orgue-sub {
+      @include noteSecondTitle;
+      @include underline;
 
-        .orgue-traitG
-       {
-        @include noteTrait; 
- 
-         /*RESPONSIVE*/
-         @include responsive(ecran){
-         height: 16px;
-         margin-left: 24px;
-         }  
-    
-         @include responsive(smart-tablette){
-         height: 13px;
-         }
-         @include responsive(mobile){
-         height: 7px;
-         margin: 12px;
-         }      
-       }
-
-        .orgue-traitD
-       {
-        @include noteTrait; 
-
-        /*RESPONSIVE*/
-         @include responsive(ecran){
-         height: 16px;
-         margin-left: 21px;
-        }  
-       
-        @include responsive(smart-tablette){
-        height: 13px;
-        }
-        @include responsive(mobile){
-        height: 7px;
-        margin: 12px;
-        }
+      /*RESPONSIVE*/
+      @include responsive(mobile) {
+        font-size: 20px;
       }
     }
 
-       .food
-      {
-        @include noteFood;
-        
-        /*RESPONSIVE*/
-        @include responsive(big-screen){
-        margin-right: 87px;
-        }
-        @include responsive(ecran){
-        margin-right: 52px;
-        }
-        @include responsive(smart-tablette){
-        text-align: center;
-        margin-right: 60px;
-        width: 100%;
-        font-size: 24px;
-        }
-        @include responsive(mobile){
-        text-align: center;
-        margin-right: 60px;
-        width: 100%;
-        font-size: 20px;
-        }
+    .orgue-traitG {
+      @include noteTrait;
 
+      /*RESPONSIVE*/
+      @include responsive(ecran) {
+        width: 43%;
+        margin-left: 24px;
       }
 
-       .price
-      {
-        @include notePrice;
-        /*RESPONSIVE*/
-        @include responsive(big-screen){
-        margin-right: 107px;
-        }
-        @include responsive(smart-tablette){
-        width: 100%;
-        text-align: center;
-        margin-right: 5px;
-        margin-top: 6px;
-        font-size: 23px;
-        }
-        @include responsive(mobile){
-        width: 100%;
-        text-align: center;
-        margin-right: 5px;
-        margin-top: 6px;
-        }
-   
+      @include responsive(smart-tablette) {
+        width: 31%;
+        height: 18px;
       }
-      
-       /*REPAS ORGUE*/
-       .repas-noix
-      {
-        @include noteRepas;
-        margin-top: 20px;
+      @include responsive(mobile) {
+        width: 30%;
+        margin: 12px;
+        height: 15px;
+      }
+      @include responsive(mini-mobile) {
+        height: 10px;
+        width: 25%;
+      }
+    }
 
-        /*RESPONSIVE*/
-        @include responsive(smart-tablette){
-        flex-wrap: wrap;
-        }
-        @include responsive(mobile){
-        flex-wrap: wrap;
-        }
+    .orgue-traitD {
+      @include noteTrait;
+
+      /*RESPONSIVE*/
+      @include responsive(ecran) {
+        width: 43%;
+        margin-left: 21px;
       }
 
-       .langouste
-      {
-        @include noteRepas;
-
-        /*RESPONSIVE*/
-        @include responsive(smart-tablette){
-        flex-wrap: wrap;
-        }
-        @include responsive(mobile){
-        flex-wrap: wrap;
-        }    
+      @include responsive(smart-tablette) {
+        width: 31%;
+        height: 18px;
       }
+      @include responsive(mobile) {
+        width: 30%;
+        margin: 12px;
+        height: 15px;
+      }
+      @include responsive(mini-mobile) {
+        height: 10px;
+        width: 25%;
+      }
+    }
+  }
 
-      .mijote
-     {
-      @include noteRepas;
+  .food {
+    @include noteFood;
 
-       /*RESPONSIVE*/
-       @include responsive(smart-tablette){
-       flex-wrap: wrap;
-       }
-       @include responsive(mobile){
-       flex-wrap: wrap;
-       }
-     }
+    /*RESPONSIVE*/
+    @include responsive(big-screen) {
+      margin-right: 87px;
+    }
+    @include responsive(ecran) {
+      margin-right: 52px;
+    }
+    @include responsive(smart-tablette) {
+      text-align: center;
+      margin-right: 60px;
+      width: 100%;
+      font-size: 24px;
+    }
+    @include responsive(mobile) {
+      text-align: center;
+      margin-right: 60px;
+      width: 100%;
+      font-size: 20px;
+    }
+  }
 
+  .price {
+    @include notePrice;
+    /*RESPONSIVE*/
+    @include responsive(big-screen) {
+      margin-right: 107px;
+    }
+    @include responsive(smart-tablette) {
+      width: 100%;
+      text-align: center;
+      margin-right: 5px;
+      margin-top: 6px;
+      font-size: 23px;
+    }
+    @include responsive(mobile) {
+      width: 100%;
+      text-align: center;
+      margin-right: 5px;
+      margin-top: 6px;
+    }
+  }
+
+  /*REPAS ORGUE*/
+  .repas-noix {
+    @include noteRepas;
+    margin-top: 20px;
+
+    /*RESPONSIVE*/
+    @include responsive(smart-tablette) {
+      flex-wrap: wrap;
+    }
+    @include responsive(mobile) {
+      flex-wrap: wrap;
+    }
+  }
+
+  .langouste {
+    @include noteRepas;
+
+    /*RESPONSIVE*/
+    @include responsive(smart-tablette) {
+      flex-wrap: wrap;
+    }
+    @include responsive(mobile) {
+      flex-wrap: wrap;
+    }
+  }
+
+  .mijote {
+    @include noteRepas;
+
+    /*RESPONSIVE*/
+    @include responsive(smart-tablette) {
+      flex-wrap: wrap;
+    }
+    @include responsive(mobile) {
+      flex-wrap: wrap;
+    }
+  }
 }
 
 /*MENU MOUVEMENT*/
 
-#mouvement
-{
+#mouvement {
   width: 100%;
-  align-items: center;  
+  align-items: center;
   
-     .mouvement-main
-    {
-      @include noteTraitTitle;
-      margin-top: 70px;
-     
-  
-         .mouvement-title
-        {
-          @include noteSecondTitle;
-          @include underline;
 
-          /*RESPONSIVE*/
-          @include responsive(mobile){
-          font-size:20px ;
-          }
-        }
+  .mouvement-main {
+    @include noteTraitTitle;
+    margin-top: 70px;
 
-         .mouvement-traitG
-        {
-          @include noteTrait; 
+    .mouvement-title {
+      @include noteSecondTitle;
+      @include underline;
 
-          /*RESPONSIVE*/
-          @include responsive(ecran){
-          height: 16px;
-          margin-left: 23px;
-          }  
-  
-          @include responsive(smart-tablette){
-          height: 13px;
-          }
-          @include responsive(mobile){
-          height: 7px;
-          margin: 12px;
-          }
-        }
-        .mouvement-traitD
-       {
-        @include noteTrait; 
-
-         /*RESPONSIVE*/
-         @include responsive(ecran){
-         height: 16px;
-         }  
-  
-         @include responsive(smart-tablette){
-         height: 13px;
-         }
-         @include responsive(mobile){
-         height: 7px;
-         margin: 12px;
-         } 
-       }
+      /*RESPONSIVE*/
+      @include responsive(mobile) {
+        font-size: 20px;
+      }
     }
 
-        .food
-       {
-         @include noteFood;
-         
-         /*RESPONSIVE*/
-         @include responsive(big-screen){
-         margin-right: 87px;
-         }
+    .mouvement-traitG {
+      @include noteTrait;
 
-         @include responsive(ecran){
-         margin-right: 52px;
-         }
+      /*RESPONSIVE*/
+      @include responsive(ecran) {
+        width: 43%;
+        margin-left: 23px;
+      }
 
-         @include responsive(smart-tablette){
-         text-align: center;
-         margin-right: 60px;
-         width: 100%;
-         font-size: 24px;
-         }
+      @include responsive(smart-tablette) {
+        width: 31%;
+        height: 18px;
+      }
+      @include responsive(mobile) {
+        width: 30%;
+        margin: 12px;
+        height: 15px;
+      }
+      @include responsive(mini-mobile) {
+        height: 10px;
+        width: 25%;
+      }
+      
+    }
+    .mouvement-traitD {
+      @include noteTrait;
 
-         @include responsive(mobile){
-         text-align: center;
-         margin-right: 60px;
-         width: 100%;
-         font-size: 20px;
-         }
-       }
+      /*RESPONSIVE*/
+      @include responsive(ecran) {
+        width: 43%;
+      }
 
-      .repas-macaron
-     {
-       margin-top: 20px;
+      @include responsive(smart-tablette) {
+        width: 31%;
+        height: 18px;
+      }
+      @include responsive(mobile) {
+        width: 30%;
+        margin: 12px;
+        height: 15px;
+      }
+      @include responsive(mini-mobile) {
+        height: 10px;
+        width: 25%;  
+      }
+    }
+  }
 
-       /*RESPONSIVE*/
-       @include responsive(smart-tablette){
-       display: flex;
-       }
-       @include responsive(mobile){
-       display: flex;
-       }
-     }
+  .food {
+    @include noteFood;
 
-      .baba
-     {
-       margin-top: 10px;
+    /*RESPONSIVE*/
+    @include responsive(big-screen) {
+      margin-right: 87px;
+    }
 
-       /*RESPONSIVE*/
-       @include responsive(smart-tablette){
-       display: flex;
-       }
-       @include responsive(mobile){
-       display: flex;
-       } 
-     }
+    @include responsive(ecran) {
+      margin-right: 52px;
+    }
 
-      .tarte
-     {
-       margin-top: 10px;
-       margin-bottom: 50px;
+    @include responsive(smart-tablette) {
+      text-align: center;
+      margin-right: 60px;
+      width: 100%;
+      font-size: 24px;
+    }
 
-       /*RESPONSIVE*/
-       @include responsive(smart-tablette){
-       display: flex;
-       }
-       @include responsive(mobile){
-       display: flex;
-       }  
-     }
+    @include responsive(mobile) {
+      text-align: center;
+      margin-right: 60px;
+      width: 100%;
+      font-size: 20px;
+    }
+  }
 
+  .repas-macaron {
+    margin-top: 20px;
+
+    /*RESPONSIVE*/
+    @include responsive(smart-tablette) {
+      display: flex;
+    }
+    @include responsive(mobile) {
+      display: flex;
+    }
+  }
+
+  .baba {
+    margin-top: 10px;
+
+    /*RESPONSIVE*/
+    @include responsive(smart-tablette) {
+      display: flex;
+    }
+    @include responsive(mobile) {
+      display: flex;
+    }
+  }
+
+  .tarte {
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+    /*RESPONSIVE*/
+    @include responsive(smart-tablette) {
+      display: flex;
+    }
+    @include responsive(mobile) {
+      display: flex;
+    }
+  }
 }
 
-
-#return
-{
+#return {
   margin-bottom: 90px;
   padding: 40px;
   display: flex;
-  justify-content: center;    
+  justify-content: center;
 }
-  
-.fa-music
-{
+
+.fa-music {
   font-size: 50px;
   margin-left: 15px;
-  @include linear-gradient(190deg, $color-one:#f6916a, $color-two:#f13639);
+  @include linear-gradient(190deg, $color-one: #f6916a, $color-two: #f13639);
 
   /*RESPONSIVE*/
-  @include responsive(mobile){
+  @include responsive(mobile) {
     font-size: 40px;
-  } 
+  }
 }
 
-.principal1
-{
+.principal1 {
   font-size: 35px;
-  font-family: 'Devonshire', cursive;
+  font-family: "Devonshire", cursive;
   margin-left: 13px;
   font-weight: 300;
-  color:#3d1319;
+  color: #3d1319;
 
   /*RESPONSIVE*/
-  @include responsive(mobile){
+  @include responsive(mobile) {
     font-size: 25px;
-  } 
+  }
 }
-
-
-
-

@@ -1,19 +1,17 @@
-
 /* HEADER */
 
-header
-{
-    height: 90px;
-    background-color: $fondVert;
+header {
+  height: 90px;
+  background-color: $fondVert;
 
-  h1,a
-   {
+  h1,
+  a {
     text-align: center;
     font-size: 53px;
     padding-top: 10px;
     color: #fdcb46;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     letter-spacing: -2px;
     text-decoration: none;
-   }     
+  }
 }

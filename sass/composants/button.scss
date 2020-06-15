@@ -1,62 +1,55 @@
-.prochainement
-{
-    text-align: center;
-    margin-top: 50px;  
-    margin-bottom: 100px;  
-  
-    h3 a
-   {
+.prochainement {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+   a {
     color: #fdcb46;
     text-decoration: none;
     font-size: 30px;
     font-weight: 300;
-    letter-spacing: 2px; 
+    letter-spacing: 2px;
     padding: 9px;
 
-     /*RESPONSIVE*/
-     @include responsive(little-phone){
-     font-size: 22px;
+    /*RESPONSIVE*/
+    @include responsive(little-phone) {
+      font-size: 22px;
     }
-     
-   }
-    span
-   {
-       font-size: 40px;
-       display:inline-block;
-       animation: dots 1.4s linear infinite alternate;  
-       animation-fill-mode: both;  
-   }
+  }
 
-    span:nth-child(2)
-   {
-       animation-delay: .2s;
-       margin-left: 1px;
-   }
+  /*ANIMATION*/
+  span {
+    font-size: 40px;
+    display: inline-block;
+    animation: dots 1.4s linear infinite alternate;
+    animation-fill-mode: both;
+  }
 
-    span:nth-child(3)
-   {
-       animation-delay: .4s;
-       margin-left: 1px;
-   }
-   .btn
-   {
-       padding-left: 40px;
-       padding-right: 40px;
-       border-radius: 10px;
-       background-color:$fondVert;
-   }
+  span:nth-child(2) {
+    animation-delay: 0.2s;
+    margin-left: 1px;
+  }
+
+  span:nth-child(3) {
+    animation-delay: 0.4s;
+    margin-left: 1px;
+  }
+  .btn {
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    background-color: $fondVert;
+  }
 }
 
 @keyframes dots {
-   
-    0%{
-        opacity: .2;
-    }
-    20%{
-        opacity:1;
-    }
-    100%{
-        opacity: .2;
-    }
+  0% {
+    opacity: 0.2;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
 }
-    
