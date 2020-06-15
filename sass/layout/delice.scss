@@ -99,6 +99,7 @@
     /*RESPONSIVE*/
     @include responsive(smart-tablette) {
       margin-left: 43px;
+      
     }
     @include responsive(mobile) {
       width: 100%;
