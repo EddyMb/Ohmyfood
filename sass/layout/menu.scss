@@ -44,23 +44,33 @@ body {
     }
     .fa-music {
       font-size: 45px;
+      margin-right: 30px;
       @include linear-gradient(
         190deg,
         $color-one: #f6916a,
         $color-two: #f13639
       );
+      @include responsive(mini-mobile) {
+        margin-right: 25px;
+      }
     }
     h3 {
       font-size: 35px;
       color: #3d1319;
       font-family: "Itim", cursive;
       font-weight: 300;
+      @include responsive(mini-mobile) {
+        font-size: 33px;
+      }
     }
     h4 {
       font-size: 35px;
       color: #3d1319;
       font-family: "devonshire", cursive;
       font-weight: 300;
+      @include responsive(mini-mobile) {
+        font-size: 28px;
+      }
     }
   }
 }
@@ -101,12 +111,18 @@ body {
       @include responsive(tablette) {
         font-size: 23px;
       }
+      @include responsive(mini-mobile) {
+        font-size: 17px;
+      }
     }
 
     h3 {
       font-size: 38px;
       font-weight: 600;
       color: #c77412;
+      @include responsive(mini-mobile) {
+        font-size: 33px;
+      }
     }
   }
 }
@@ -133,7 +149,7 @@ body {
 
     .delice-title {
       text-align: center;
-      margin-top: 180px;
+      margin-top: 190px;
       @include zoomeffect;
       @include responsive(tablette) {
         margin-top: 193px;
@@ -152,6 +168,9 @@ body {
       @include responsive(tablette) {
         font-size: 31px;
       }
+      @include responsive(mini-mobile) {
+        font-size: 25px;
+      }
     }
     h3 {
       font-size: 45px;
@@ -159,6 +178,9 @@ body {
       color: #0887fb;
       font-family: "Caveat", cursive;
       font-weight: 300;
+      @include responsive(mini-mobile) {
+        font-size: 42px;
+      }
     }
   }
 }
@@ -184,7 +206,7 @@ body {
 
     .palette-title {
       text-align: center;
-      margin-top: 180px;
+      margin-top: 190px;
       @include zoomeffect;
       @include responsive(tablette) {
         margin-top: 193px;
@@ -205,6 +227,9 @@ body {
       @include responsive(tablette) {
         font-size: 28px;
       }
+      @include responsive(mini-mobile) {
+        font-size: 25px;
+      }
     }
     h3 {
       font-size: 45px;
@@ -212,6 +237,9 @@ body {
       color: #72bf56;
       font-family: "Caveat", cursive;
       margin-top: 10px;
+      @include responsive(mini-mobile) {
+        font-size: 42px;
+      }
     }
   }
 }

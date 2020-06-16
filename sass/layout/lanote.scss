@@ -26,6 +26,7 @@
   .fa-music {
     font-size: 60px;
     margin-top: 40px;
+    margin-right: 30px;
     @include linear-gradient(190deg, $color-one: #f6916a, $color-two: #f13639);
     @include responsive(mobile) {
       font-size: 47px;
@@ -64,15 +65,17 @@
     }
 
     .traitD {
+      margin-left: 60px;
       @include noteTrait;
 
       /*RESPONSIVE*/
-      @include responsive(ecran) {
-       width: 43%;
-      }
+      /*@include responsive(ecran) {
+       width: 37%;
+      }*/
       @include responsive(smart-tablette) {
-        width: 31%;
+        width: 30%;
         height: 18px;
+        margin-left: 50px;
       }
       @include responsive(mobile) {
        width: 30%;
@@ -87,15 +90,17 @@
     }
 
     .traitG {
+      margin-right: 40px;
       @include noteTrait;
 
       /*RESPONSIVE*/
-      @include responsive(ecran) {
-        width: 43%;
-      }
+      /*@include responsive(ecran) {
+        width: 37%;
+      }*/
       @include responsive(smart-tablette) {
-        width: 31%;
+        width: 30%;
         height: 18px;
+        margin-right: 35px;
       }
       @include responsive(mobile) {
         width: 30%;
@@ -126,12 +131,12 @@
     @include noteFood;
 
     /*RESPONSIVE*/
-    @include responsive(big-screen) {
+    /*@include responsive(big-screen) {
       margin-right: 87px;
     }
     @include responsive(ecran) {
       margin-right: 52px;
-    }
+    }*/
 
     @include responsive(smart-tablette) {
       text-align: center;
@@ -152,9 +157,9 @@
     @include notePrice;
 
     /*RESPONSIVE*/
-    @include responsive(big-screen) {
+    /*@include responsive(big-screen) {
       margin-right: 107px;
-    }
+    }*/
 
     @include responsive(smart-tablette) {
       width: 100%;
@@ -230,17 +235,19 @@
     }
 
     .orgue-traitG {
+      margin-left: 60px;
       @include noteTrait;
 
       /*RESPONSIVE*/
-      @include responsive(ecran) {
-        width: 43%;
+      /*@include responsive(ecran) {
+        width: 37%;
         margin-left: 24px;
-      }
+      }*/
 
       @include responsive(smart-tablette) {
-        width: 31%;
+        width: 30%;
         height: 18px;
+        margin-left: 50px;
       }
       @include responsive(mobile) {
         width: 30%;
@@ -254,17 +261,19 @@
     }
 
     .orgue-traitD {
+      margin-right: 40px;
       @include noteTrait;
 
       /*RESPONSIVE*/
-      @include responsive(ecran) {
-        width: 43%;
+      /*@include responsive(ecran) {
+        width: 37%;
         margin-left: 21px;
-      }
+      }*/
 
       @include responsive(smart-tablette) {
-        width: 31%;
+        width: 30%;
         height: 18px;
+        margin-right: 35px;
       }
       @include responsive(mobile) {
         width: 30%;
@@ -282,12 +291,12 @@
     @include noteFood;
 
     /*RESPONSIVE*/
-    @include responsive(big-screen) {
+    /*@include responsive(big-screen) {
       margin-right: 87px;
     }
     @include responsive(ecran) {
       margin-right: 52px;
-    }
+    }*/
     @include responsive(smart-tablette) {
       text-align: center;
       margin-right: 60px;
@@ -305,9 +314,9 @@
   .price {
     @include notePrice;
     /*RESPONSIVE*/
-    @include responsive(big-screen) {
+    /*@include responsive(big-screen) {
       margin-right: 107px;
-    }
+    }*/
     @include responsive(smart-tablette) {
       width: 100%;
       text-align: center;
@@ -384,17 +393,19 @@
     }
 
     .mouvement-traitG {
+      margin-left: 60px;
       @include noteTrait;
 
       /*RESPONSIVE*/
-      @include responsive(ecran) {
-        width: 43%;
+      /*@include responsive(ecran) {
+        width: 37%;
         margin-left: 23px;
-      }
+      }*/
 
       @include responsive(smart-tablette) {
-        width: 31%;
+        width: 30%;
         height: 18px;
+        margin-left: 50px;
       }
       @include responsive(mobile) {
         width: 30%;
@@ -408,16 +419,18 @@
       
     }
     .mouvement-traitD {
+      margin-right: 40px;
       @include noteTrait;
 
       /*RESPONSIVE*/
-      @include responsive(ecran) {
-        width: 43%;
-      }
+      /*@include responsive(ecran) {
+        width: 37%;
+      }*/
 
       @include responsive(smart-tablette) {
-        width: 31%;
+        width: 30%;
         height: 18px;
+        margin-right: 35px;
       }
       @include responsive(mobile) {
         width: 30%;
@@ -511,6 +524,9 @@
   /*RESPONSIVE*/
   @include responsive(mobile) {
     font-size: 40px;
+  }@include responsive(mini-mobile) {
+   font-size: 35px;
+    
   }
 }
 
@@ -524,5 +540,8 @@
   /*RESPONSIVE*/
   @include responsive(mobile) {
     font-size: 25px;
+  }
+  @include responsive(mini-mobile) {
+    font-size: 23px;
   }
 }

@@ -149,21 +149,34 @@ body {
         opacity: 0.6; }
     .note a .fa-music {
       font-size: 45px;
+      margin-right: 30px;
       color: #f6916a;
       color: #f13639;
       background: -webkit-linear-gradient(190deg, #f6916a 0%, #f13639 100%);
       -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text; }
+      -webkit-background-clip: text;
+      /* MAIN MENU RESPONSIVE*/ }
+      @media only screen and (max-width: 400px) {
+        .note a .fa-music {
+          margin-right: 25px; } }
     .note a h3 {
       font-size: 35px;
       color: #3d1319;
       font-family: "Itim", cursive;
-      font-weight: 300; }
+      font-weight: 300;
+      /* MAIN MENU RESPONSIVE*/ }
+      @media only screen and (max-width: 400px) {
+        .note a h3 {
+          font-size: 33px; } }
     .note a h4 {
       font-size: 35px;
       color: #3d1319;
       font-family: "devonshire", cursive;
-      font-weight: 300; }
+      font-weight: 300;
+      /* MAIN MENU RESPONSIVE*/ }
+      @media only screen and (max-width: 400px) {
+        .note a h4 {
+          font-size: 28px; } }
 
 /* LE CHIC A LA FRANCAISE */
 .chic {
@@ -202,14 +215,22 @@ body {
       background: -webkit-linear-gradient(190deg, #8f5aff 0%, #dc8527 100%);
       -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
+      /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 800px) {
         .chic a h4 {
           font-size: 23px; } }
+      @media only screen and (max-width: 400px) {
+        .chic a h4 {
+          font-size: 17px; } }
     .chic a h3 {
       font-size: 38px;
       font-weight: 600;
-      color: #c77412; }
+      color: #c77412;
+      /* MAIN MENU RESPONSIVE*/ }
+      @media only screen and (max-width: 400px) {
+        .chic a h3 {
+          font-size: 33px; } }
 
 /* DELICE DES PAPILLES */
 .delice {
@@ -235,7 +256,7 @@ body {
     text-decoration: none; }
     .delice a .delice-title {
       text-align: center;
-      margin-top: 180px;
+      margin-top: 190px;
       transform: scale(1);
       transition: transform 400ms;
       opacity: 1;
@@ -256,16 +277,24 @@ body {
       -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
       /* RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 800px) {
         .delice a h4 {
           font-size: 31px; } }
+      @media only screen and (max-width: 400px) {
+        .delice a h4 {
+          font-size: 25px; } }
     .delice a h3 {
       font-size: 45px;
       margin-top: 10px;
       color: #0887fb;
       font-family: "Caveat", cursive;
-      font-weight: 300; }
+      font-weight: 300;
+      /* MAIN MENU RESPONSIVE*/ }
+      @media only screen and (max-width: 400px) {
+        .delice a h3 {
+          font-size: 42px; } }
 
 /* LA PALETTE DU GOUT*/
 .palette {
@@ -290,7 +319,7 @@ body {
     text-decoration: none; }
     .palette a .palette-title {
       text-align: center;
-      margin-top: 180px;
+      margin-top: 190px;
       transform: scale(1);
       transition: transform 400ms;
       opacity: 1;
@@ -311,16 +340,24 @@ body {
       -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
       /* RESPONSIVE*/
+      /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 800px) {
         .palette a h4 {
           font-size: 28px; } }
+      @media only screen and (max-width: 400px) {
+        .palette a h4 {
+          font-size: 25px; } }
     .palette a h3 {
       font-size: 45px;
       font-weight: 300;
       color: #72bf56;
       font-family: "Caveat", cursive;
-      margin-top: 10px; }
+      margin-top: 10px;
+      /* MAIN MENU RESPONSIVE*/ }
+      @media only screen and (max-width: 400px) {
+        .palette a h3 {
+          font-size: 42px; } }
 
 .prochainement {
   text-align: center;
@@ -433,6 +470,7 @@ body {
   .note-title .fa-music {
     font-size: 60px;
     margin-top: 40px;
+    margin-right: 30px;
     color: #f6916a;
     color: #f13639;
     background: -webkit-linear-gradient(190deg, #f6916a 0%, #f13639 100%);
@@ -490,20 +528,21 @@ body {
         #prelude .prelude-trait .prelude-title {
           font-size: 20px; } }
     #prelude .prelude-trait .traitD {
-      width: 41%;
+      margin-left: 60px;
+      width: 30%;
       height: 25px;
       /*RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
+      /*@include responsive(ecran) {
+       width: 37%;
+      }*/
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
-      @media only screen and (max-width: 836px) {
-        #prelude .prelude-trait .traitD {
-          width: 43%; } }
       @media only screen and (max-width: 768px) {
         #prelude .prelude-trait .traitD {
-          width: 31%;
-          height: 18px; } }
+          width: 30%;
+          height: 18px;
+          margin-left: 50px; } }
       @media only screen and (max-width: 600px) {
         #prelude .prelude-trait .traitD {
           width: 30%;
@@ -515,20 +554,21 @@ body {
           width: 25%;
           margin: 12px; } }
     #prelude .prelude-trait .traitG {
-      width: 41%;
+      margin-right: 40px;
+      width: 30%;
       height: 25px;
       /*RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
+      /*@include responsive(ecran) {
+        width: 37%;
+      }*/
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
-      @media only screen and (max-width: 836px) {
-        #prelude .prelude-trait .traitG {
-          width: 43%; } }
       @media only screen and (max-width: 768px) {
         #prelude .prelude-trait .traitG {
-          width: 31%;
-          height: 18px; } }
+          width: 30%;
+          height: 18px;
+          margin-right: 35px; } }
       @media only screen and (max-width: 600px) {
         #prelude .prelude-trait .traitG {
           width: 30%;
@@ -556,18 +596,16 @@ body {
     font-family: "Kalam", cursive;
     font-weight: 300;
     font-size: 20px;
-    margin-left: 60px;
+    margin-left: 75px;
     /*RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
+    /*@include responsive(big-screen) {
+      margin-right: 87px;
+    }
+    @include responsive(ecran) {
+      margin-right: 52px;
+    }*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
-    @media only screen and (max-width: 1400px) {
-      #prelude .food {
-        margin-right: 87px; } }
-    @media only screen and (max-width: 836px) {
-      #prelude .food {
-        margin-right: 52px; } }
     @media only screen and (max-width: 768px) {
       #prelude .food {
         text-align: center;
@@ -585,12 +623,11 @@ body {
     font-size: 20px;
     margin-right: 75px;
     /*RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
+    /*@include responsive(big-screen) {
+      margin-right: 107px;
+    }*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
-    @media only screen and (max-width: 1400px) {
-      #prelude .price {
-        margin-right: 107px; } }
     @media only screen and (max-width: 768px) {
       #prelude .price {
         width: 100%;
@@ -683,21 +720,22 @@ body {
         #orgue .pont-orgue .orgue-sub {
           font-size: 20px; } }
     #orgue .pont-orgue .orgue-traitG {
-      width: 41%;
+      margin-left: 60px;
+      width: 30%;
       height: 25px;
       /*RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
+      /*@include responsive(ecran) {
+        width: 37%;
+        margin-left: 24px;
+      }*/
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
-      @media only screen and (max-width: 836px) {
-        #orgue .pont-orgue .orgue-traitG {
-          width: 43%;
-          margin-left: 24px; } }
       @media only screen and (max-width: 768px) {
         #orgue .pont-orgue .orgue-traitG {
-          width: 31%;
-          height: 18px; } }
+          width: 30%;
+          height: 18px;
+          margin-left: 50px; } }
       @media only screen and (max-width: 600px) {
         #orgue .pont-orgue .orgue-traitG {
           width: 30%;
@@ -708,21 +746,22 @@ body {
           height: 10px;
           width: 25%; } }
     #orgue .pont-orgue .orgue-traitD {
-      width: 41%;
+      margin-right: 40px;
+      width: 30%;
       height: 25px;
       /*RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
+      /*@include responsive(ecran) {
+        width: 37%;
+        margin-left: 21px;
+      }*/
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
-      @media only screen and (max-width: 836px) {
-        #orgue .pont-orgue .orgue-traitD {
-          width: 43%;
-          margin-left: 21px; } }
       @media only screen and (max-width: 768px) {
         #orgue .pont-orgue .orgue-traitD {
-          width: 31%;
-          height: 18px; } }
+          width: 30%;
+          height: 18px;
+          margin-right: 35px; } }
       @media only screen and (max-width: 600px) {
         #orgue .pont-orgue .orgue-traitD {
           width: 30%;
@@ -736,18 +775,16 @@ body {
     font-family: "Kalam", cursive;
     font-weight: 300;
     font-size: 20px;
-    margin-left: 60px;
+    margin-left: 75px;
     /*RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
+    /*@include responsive(big-screen) {
+      margin-right: 87px;
+    }
+    @include responsive(ecran) {
+      margin-right: 52px;
+    }*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
-    @media only screen and (max-width: 1400px) {
-      #orgue .food {
-        margin-right: 87px; } }
-    @media only screen and (max-width: 836px) {
-      #orgue .food {
-        margin-right: 52px; } }
     @media only screen and (max-width: 768px) {
       #orgue .food {
         text-align: center;
@@ -765,12 +802,11 @@ body {
     font-size: 20px;
     margin-right: 75px;
     /*RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
+    /*@include responsive(big-screen) {
+      margin-right: 107px;
+    }*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
-    @media only screen and (max-width: 1400px) {
-      #orgue .price {
-        margin-right: 107px; } }
     @media only screen and (max-width: 768px) {
       #orgue .price {
         width: 100%;
@@ -862,21 +898,22 @@ body {
         #mouvement .mouvement-main .mouvement-title {
           font-size: 20px; } }
     #mouvement .mouvement-main .mouvement-traitG {
-      width: 41%;
+      margin-left: 60px;
+      width: 30%;
       height: 25px;
       /*RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
+      /*@include responsive(ecran) {
+        width: 37%;
+        margin-left: 23px;
+      }*/
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
-      @media only screen and (max-width: 836px) {
-        #mouvement .mouvement-main .mouvement-traitG {
-          width: 43%;
-          margin-left: 23px; } }
       @media only screen and (max-width: 768px) {
         #mouvement .mouvement-main .mouvement-traitG {
-          width: 31%;
-          height: 18px; } }
+          width: 30%;
+          height: 18px;
+          margin-left: 50px; } }
       @media only screen and (max-width: 600px) {
         #mouvement .mouvement-main .mouvement-traitG {
           width: 30%;
@@ -887,20 +924,21 @@ body {
           height: 10px;
           width: 25%; } }
     #mouvement .mouvement-main .mouvement-traitD {
-      width: 41%;
+      margin-right: 40px;
+      width: 30%;
       height: 25px;
       /*RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
+      /*@include responsive(ecran) {
+        width: 37%;
+      }*/
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
-      @media only screen and (max-width: 836px) {
-        #mouvement .mouvement-main .mouvement-traitD {
-          width: 43%; } }
       @media only screen and (max-width: 768px) {
         #mouvement .mouvement-main .mouvement-traitD {
-          width: 31%;
-          height: 18px; } }
+          width: 30%;
+          height: 18px;
+          margin-right: 35px; } }
       @media only screen and (max-width: 600px) {
         #mouvement .mouvement-main .mouvement-traitD {
           width: 30%;
@@ -914,7 +952,7 @@ body {
     font-family: "Kalam", cursive;
     font-weight: 300;
     font-size: 20px;
-    margin-left: 60px;
+    margin-left: 75px;
     /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
@@ -988,10 +1026,14 @@ body {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   /*RESPONSIVE*/
+  /* MAIN MENU RESPONSIVE*/
   /* MAIN MENU RESPONSIVE*/ }
   @media only screen and (max-width: 600px) {
     .fa-music {
       font-size: 40px; } }
+  @media only screen and (max-width: 400px) {
+    .fa-music {
+      font-size: 35px; } }
 
 .principal1 {
   font-size: 35px;
@@ -1000,10 +1042,14 @@ body {
   font-weight: 300;
   color: #3d1319;
   /*RESPONSIVE*/
+  /* MAIN MENU RESPONSIVE*/
   /* MAIN MENU RESPONSIVE*/ }
   @media only screen and (max-width: 600px) {
     .principal1 {
       font-size: 25px; } }
+  @media only screen and (max-width: 400px) {
+    .principal1 {
+      font-size: 23px; } }
 
 .main-bloc {
   background-color: white;
