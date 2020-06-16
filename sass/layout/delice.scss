@@ -27,7 +27,7 @@
   @include linear-gradient(160deg, $color-one: #0886fbbb, $color-two: #0229dd);
   /*RESPONSIVE*/
   @include responsive(mobile) {
-    font-size: 29px;
+    font-size: 29px; 
   }
 }
 
@@ -35,6 +35,7 @@
 #commencer {
   width: 100%;
   align-items: center;
+ 
 
   .delice-trait {
     @include deliceTraitTitle;
