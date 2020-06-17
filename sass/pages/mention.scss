@@ -1,56 +1,44 @@
-.editeur
-{
-    @include mentionCenter;
+.editeur {
+  @include mentionCenter;
 
-    h3
-    {
-        @include mentionTitle; 
-    }
-    h4
-    {   
-        font-size:20px ;
-        margin-bottom: 15px;
-    }
-    ul li
-    {
-        @include mentionList;
-    }
-    
+  h3 {
+    @include mentionTitle;
+  }
+  h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  ul li {
+    @include mentionList;
+  }
 }
 
-.hebergement
-{
-    @include mentionCenter;
+.hebergement {
+  @include mentionCenter;
 
-    h3
-    {
-        @include mentionTitle;
-    }
+  h3 {
+    @include mentionTitle;
+  }
 
-    ul li
-    {
-        @include mentionList;
-    }
+  ul li {
+    @include mentionList;
+  }
 }
 
-.conditions
-{
-    @include mentionCenter;
-    margin-bottom: 100px;
+.conditions {
+  @include mentionCenter;
+  margin-bottom: 100px;
 
-    h3
-    {
-        @include mentionTitle;  
+  h3 {
+    @include mentionTitle;
+  }
+
+  p {
+    font-size: 16px;
+
+    /* RESPONSIVE MOBILE*/
+    @include responsive(phone) {
+      margin: 20px;
     }
-
-    p
-    {
-       font-size: 16px; 
-
-       /* RESPONSIVE MOBILE*/
-       @include responsive(phone){
-        margin: 20px;
-        }
-    }
-
+  }
 }

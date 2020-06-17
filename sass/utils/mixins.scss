@@ -43,7 +43,7 @@
 }
 @mixin deliceTrait1 {
   width: 35%;
-  height: 30px;
+  height: 26px;
   margin: 8px;
 }
 @mixin delicePrice {
@@ -133,16 +133,16 @@
 
 @mixin chicTrait3 {
  width: 37%;
- height: 21px;
+ height: 37px;
 }
 
 @mixin chicTrait2 {
   width: 37%;
-  height: 21px;
+  height: 24px;
 }
 @mixin chicTrait1 {
   width: 37%;
-  height: 21px;
+  height: 26px;
 }
 
 @mixin chicSecondTitle {
@@ -312,14 +312,14 @@
     }
   }
 
-  @if $breakpoint == laptope {
+  @if $breakpoint == laptop {
     @media only screen and (max-width: 1040px) {
       @content;
     }
   }
 
   @if $breakpoint == big-screen {
-    @media only screen and (max-width: 1400px) {
+    @media only screen and (max-width: 1200px) {
       @content;
     }
   }

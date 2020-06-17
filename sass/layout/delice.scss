@@ -5,7 +5,7 @@
 .delice-menu1 {
   @include menuSecondTitle;
   @include responsive(mobile) {
-    font-size: 25px;
+    font-size: 23px;
   }
 }
 
@@ -46,11 +46,12 @@
     }
     /*DESCRIPTION TRAIT*/
     .delicetraitG {
+      margin-left: 15px;
       @include deliceTrait1;
 
       /*RESPONSIVE*/
       
-      @include responsive(laptope) {
+      @include responsive(laptop) {
         width: 37%;
       }
       @include responsive(smart-tablette) {
@@ -70,7 +71,7 @@
 
       /*RESPONSIVE*/
    
-      @include responsive(laptope) {
+      @include responsive(laptop) {
         width: 37%;
         
       }
@@ -164,7 +165,7 @@
 
       /*RESPONSIVE*/
       
-      @include responsive(laptope) {
+      @include responsive(laptop) {
         width: 37%;
       }
       @include responsive(smart-tablette) {
@@ -184,7 +185,7 @@
 
       /*RESPONSIVE*/
      
-      @include responsive(laptope) {
+      @include responsive(laptop) {
         width: 37%;
       }
       @include responsive(smart-tablette) {
@@ -274,11 +275,12 @@
       @include underline;
     }
     .blue-traitG {
+      margin-left: 13px;
       @include deliceTrait3;
 
       /*RESPONSIVE*/
       
-      @include responsive(laptope) {
+      @include responsive(laptop) {
         width: 37%;
       }
       @include responsive(smart-tablette) {
@@ -297,7 +299,7 @@
 
       /*RESPONSIVE*/
      
-      @include responsive(laptope) {
+      @include responsive(laptop) {
         width: 37%;
       }
       @include responsive(smart-tablette) {

@@ -6,7 +6,10 @@
   @include menuSecondTitle;
 
   @include responsive(mobile) {
-    font-size: 28px;
+    font-size: 27px;
+  }
+  @include responsive(mini-mobile) {
+    font-size: 24px;
   }
 }
 
@@ -36,7 +39,7 @@
     font-size: 29px;
   }
   @include responsive(mini-mobile) {
-   font-size: 27px;
+    font-size: 27px;
   }
 }
 
@@ -49,7 +52,7 @@
     @include paletteTraitTitle;
 
     /*RESPONSIVE*/
-    @include responsive(laptope) {
+    @include responsive(laptop) {
       align-items: center;
     }
     @include responsive(smart-tablette) {
@@ -68,23 +71,23 @@
       @include paletteTrait;
 
       /*RESPONSIVE*/
-      @include responsive(laptope) {
-        width:35% ;
+      @include responsive(laptop) {
+        width: 35%;
         height: 25px;
       }
       @include responsive(smart-tablette) {
-        width:32% ;
+        width: 32%;
         height: 25px;
       }
-      
+
       @include responsive(mobile) {
-        width:35% ;
+        width: 35%;
         height: 20px;
       }
       @include responsive(mini-mobile) {
-        width:30% ;
+        width: 30%;
         height: 15px;
-       }
+      }
     }
 
     .paletteraitD {
@@ -92,21 +95,21 @@
       transform: rotateY(180deg);
 
       /*RESPONSIVE*/
-      @include responsive(laptope) {
-        width:35% ;
+      @include responsive(laptop) {
+        width: 35%;
         height: 25px;
       }
       @include responsive(smart-tablette) {
-        width:32% ;
+        width: 32%;
         height: 25px;
       }
-      
+
       @include responsive(mobile) {
         width: 35%;
         height: 20px;
       }
       @include responsive(mini-mobile) {
-        width:30% ;
+        width: 30%;
         height: 15px;
       }
     }
@@ -129,7 +132,7 @@
     @include responsive(smart-tablette) {
       margin-left: 43px;
     }
-    
+
     @include responsive(mobile) {
       width: 100%;
       text-align: center;
@@ -148,7 +151,7 @@
     @include responsive(smart-tablette) {
       margin-right: 42px;
     }
-    
+
     @include responsive(mobile) {
       width: 100%;
       text-align: center;
@@ -189,7 +192,7 @@
     margin-top: 70px;
 
     /*RESPONSIVE*/
-    @include responsive(laptope) {
+    @include responsive(laptop) {
       align-items: center;
     }
     @include responsive(smart-tablette) {
@@ -208,22 +211,22 @@
       @include paletteTrait;
 
       /*RESPONSIVE*/
-      @include responsive(laptope) {
-        width:35% ;
+      @include responsive(laptop) {
+        width: 35%;
         height: 25px;
       }
       @include responsive(smart-tablette) {
-        width:32% ;
+        width: 32%;
         height: 25px;
       }
       @include responsive(mobile) {
-        width:35% ;
+        width: 35%;
         height: 20px;
       }
       @include responsive(mini-mobile) {
-        width:30% ;
+        width: 30%;
         height: 15px;
-       }
+      }
     }
 
     .mtraitD {
@@ -231,20 +234,20 @@
       transform: rotateY(180deg);
 
       /*RESPONSIVE*/
-      @include responsive(laptope) {
-        width:35% ;
+      @include responsive(laptop) {
+        width: 35%;
         height: 25px;
       }
       @include responsive(smart-tablette) {
-        width:32% ;
+        width: 32%;
         height: 25px;
       }
       @include responsive(mobile) {
-        width:35% ;
+        width: 35%;
         height: 20px;
       }
       @include responsive(mini-mobile) {
-        width:30% ;
+        width: 30%;
         height: 15px;
       }
     }
@@ -257,7 +260,7 @@
     @include responsive(smart-tablette) {
       margin-left: 43px;
     }
-    
+
     @include responsive(mobile) {
       width: 100%;
       text-align: center;
@@ -337,7 +340,7 @@
     margin-top: 70px;
 
     /*RESPONSIVE*/
-    @include responsive(laptope) {
+    @include responsive(laptop) {
       align-items: center;
     }
     @include responsive(smart-tablette) {
@@ -357,21 +360,21 @@
       @include paletteTrait;
 
       /*RESPONSIVE*/
-      @include responsive(laptope) {
-        width:35% ;
+      @include responsive(laptop) {
+        width: 35%;
         height: 25px;
       }
       @include responsive(smart-tablette) {
-        width:32% ;
+        width: 32%;
         height: 25px;
       }
 
       @include responsive(mobile) {
-        width:35% ;
+        width: 35%;
         height: 20px;
       }
       @include responsive(mini-mobile) {
-        width:30% ;
+        width: 30%;
         height: 15px;
       }
     }
@@ -382,21 +385,21 @@
       transform: rotateY(180deg);
 
       /*RESPONSIVE*/
-      @include responsive(laptope) {
-        width:35% ;
+      @include responsive(laptop) {
+        width: 35%;
         height: 25px;
       }
       @include responsive(smart-tablette) {
-        width:32% ;
+        width: 32%;
         height: 25px;
       }
 
       @include responsive(mobile) {
-        width:35% ;
+        width: 35%;
         height: 20px;
       }
       @include responsive(mini-mobile) {
-        width:30% ;
+        width: 30%;
         height: 15px;
       }
     }

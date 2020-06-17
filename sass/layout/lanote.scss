@@ -69,9 +69,7 @@
       @include noteTrait;
 
       /*RESPONSIVE*/
-      /*@include responsive(ecran) {
-       width: 37%;
-      }*/
+      
       @include responsive(smart-tablette) {
         width: 30%;
         height: 18px;
@@ -94,9 +92,7 @@
       @include noteTrait;
 
       /*RESPONSIVE*/
-      /*@include responsive(ecran) {
-        width: 37%;
-      }*/
+     
       @include responsive(smart-tablette) {
         width: 30%;
         height: 18px;
@@ -131,13 +127,7 @@
     @include noteFood;
 
     /*RESPONSIVE*/
-    /*@include responsive(big-screen) {
-      margin-right: 87px;
-    }
-    @include responsive(ecran) {
-      margin-right: 52px;
-    }*/
-
+   
     @include responsive(smart-tablette) {
       text-align: center;
       margin-right: 60px;
@@ -157,10 +147,7 @@
     @include notePrice;
 
     /*RESPONSIVE*/
-    /*@include responsive(big-screen) {
-      margin-right: 107px;
-    }*/
-
+   
     @include responsive(smart-tablette) {
       width: 100%;
       text-align: center;
@@ -175,6 +162,7 @@
       margin-right: 5px;
       margin-top: 6px;
     }
+    
   }
 
   .caviar {
@@ -225,6 +213,7 @@
     width: 100%;
 
     .orgue-sub {
+      margin-right: 15px;
       @include noteSecondTitle;
       @include underline;
 
@@ -239,11 +228,7 @@
       @include noteTrait;
 
       /*RESPONSIVE*/
-      /*@include responsive(ecran) {
-        width: 37%;
-        margin-left: 24px;
-      }*/
-
+     
       @include responsive(smart-tablette) {
         width: 30%;
         height: 18px;
@@ -265,11 +250,7 @@
       @include noteTrait;
 
       /*RESPONSIVE*/
-      /*@include responsive(ecran) {
-        width: 37%;
-        margin-left: 21px;
-      }*/
-
+      
       @include responsive(smart-tablette) {
         width: 30%;
         height: 18px;
@@ -291,12 +272,7 @@
     @include noteFood;
 
     /*RESPONSIVE*/
-    /*@include responsive(big-screen) {
-      margin-right: 87px;
-    }
-    @include responsive(ecran) {
-      margin-right: 52px;
-    }*/
+   
     @include responsive(smart-tablette) {
       text-align: center;
       margin-right: 60px;
@@ -313,10 +289,9 @@
 
   .price {
     @include notePrice;
+
     /*RESPONSIVE*/
-    /*@include responsive(big-screen) {
-      margin-right: 107px;
-    }*/
+   
     @include responsive(smart-tablette) {
       width: 100%;
       text-align: center;
@@ -383,6 +358,7 @@
     margin-top: 70px;
 
     .mouvement-title {
+      margin-right: 15px;
       @include noteSecondTitle;
       @include underline;
 
@@ -509,8 +485,9 @@
   }
 }
 
-#return {
+#end {
   margin-bottom: 90px;
+  margin-right: 20px;
   padding: 40px;
   display: flex;
   justify-content: center;

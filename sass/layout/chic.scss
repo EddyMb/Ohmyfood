@@ -7,7 +7,7 @@
 
   /*RESPONSIVE*/
   @include responsive(mobile) {
-    font-size: 25px;
+    font-size: 23px;
   }
 }
 
@@ -63,13 +63,15 @@
       /*RESPONSIVE*/
       @include responsive(smart-tablette) {
         height: 13px;
+        width: 30%;
       }
 
       @include responsive(mobile) {
         height: 9px;
+        width: 25%;
       }
       @include responsive(mini-mobile) {
-        width:20% ;
+        width: 20%;
       }
     }
 
@@ -80,13 +82,15 @@
       /*RESPONSIVE*/
       @include responsive(smart-tablette) {
         height: 13px;
+        width: 30%;
       }
 
       @include responsive(mobile) {
         height: 9px;
+        width: 25%;
       }
       @include responsive(mini-mobile) {
-        width:20% ;
+        width: 20%;
       }
     }
   }
@@ -113,7 +117,6 @@
       text-align: center;
       margin-right: 43px;
     }
-
     @include responsive(mobile) {
       width: 100%;
       text-align: center;
@@ -132,7 +135,6 @@
       margin-top: 10px;
       margin-right: 5px;
     }
-
     @include responsive(mobile) {
       width: 100%;
       text-align: center;
@@ -184,12 +186,14 @@
       /*RESPONSIVE*/
       @include responsive(smart-tablette) {
         height: 13px;
+        width: 30%;
       }
       @include responsive(mobile) {
         height: 8px;
+        width: 25%;
       }
       @include responsive(mini-mobile) {
-        width:20% ;
+        width: 20%;
       }
     }
 
@@ -201,18 +205,20 @@
       /*RESPONSIVE*/
       @include responsive(smart-tablette) {
         height: 13px;
+        width: 30%;
       }
       @include responsive(mobile) {
         height: 8px;
+        width: 25%;
       }
       @include responsive(mini-mobile) {
-        width:20% ;
+        width: 20%;
       }
     }
 
     .plaisir-sub {
       color: #a56799;
-      margin-left: 15px;
+      margin-left: 20px;
       @include chicSecondTitle;
       @include underline;
 
@@ -326,12 +332,14 @@
       /*RESPONSIVE*/
       @include responsive(smart-tablette) {
         height: 19px;
+        width: 30%;
       }
       @include responsive(mobile) {
         height: 12px;
+        width: 25%;
       }
       @include responsive(mini-mobile) {
-        width:20% ;
+        width: 20%;
       }
     }
 
@@ -342,12 +350,14 @@
       /*RESPONSIVE*/
       @include responsive(smart-tablette) {
         height: 19px;
+        width: 30%;
       }
       @include responsive(mobile) {
         height: 12px;
+        width: 25%;
       }
       @include responsive(mini-mobile) {
-        width:20% ;
+        width: 20%;
       }
     }
   }
