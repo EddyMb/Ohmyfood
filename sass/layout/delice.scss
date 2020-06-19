@@ -4,6 +4,7 @@
 
 .delice-menu1 {
   @include menuSecondTitle;
+  /*RESPONSIVE*/
   @include responsive(mobile) {
     font-size: 23px;
   }
@@ -12,6 +13,7 @@
 .delice-container {
   background-color: #f9f9f9;
   @include container;
+  /*RESPONSIVE*/
   @include responsive(mobile) {
     margin-right: 20px;
     margin-left: 20px;
@@ -40,6 +42,7 @@
 
   .delice-trait {
     @include deliceTraitTitle;
+    /*RESPONSIVE*/
     @include responsive(smart-tablette) {
       justify-content: space-evenly;
     }
@@ -57,7 +60,6 @@
       @include deliceTrait1;
 
       /*RESPONSIVE*/
-
       @include responsive(smart-tablette) {
         width: 25%;
       }
@@ -71,7 +73,6 @@
       transform: rotateY(180deg);
 
       /*RESPONSIVE*/
-
       @include responsive(smart-tablette) {
         width: 25%;
       }
@@ -89,7 +90,6 @@
       flex-wrap: wrap;
       justify-content: center;
     }
-
     @include responsive(mobile) {
       flex-wrap: wrap;
       justify-content: center;
@@ -98,6 +98,7 @@
 
   .food-delice {
     @include deliceFood;
+    margin: 0 20px;
     /*RESPONSIVE*/
     @include responsive(smart-tablette) {
       width: 100%;
@@ -111,8 +112,6 @@
 
   .price-delice {
     @include delicePrice;
-
-    /*RESPONSIVE*/
   }
 
   .bouchee {
@@ -122,11 +121,10 @@
       flex-wrap: wrap;
       justify-content: center;
     }
-
     @include responsive(mobile) {
       flex-wrap: wrap;
+      justify-content: center;
     }
-    justify-content: center;
   }
 
   .cepes {
@@ -171,7 +169,6 @@
       @include deliceTrait2;
 
       /*RESPONSIVE*/
-
       @include responsive(smart-tablette) {
         width: 27%;
       }
@@ -197,6 +194,7 @@
 
   .food-continue {
     @include deliceFood;
+    margin: 0 20px;
     /*RESPONSIVE*/
     @include responsive(smart-tablette) {
       width: 100%;
@@ -311,6 +309,7 @@
 
   .food-termine {
     @include deliceFood;
+    margin: 0 20px;
 
     /*RESPONSIVE*/
     @include responsive(smart-tablette) {

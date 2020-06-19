@@ -53,8 +53,10 @@
 
     .appetit-sub {
       color: #c77412;
+      padding: 5px;
       @include chicSecondTitle;
       @include underline;
+      
 
       /*RESPONSIVE*/
       @include responsive(mobile) {
@@ -204,7 +206,7 @@
 
     .plaisir-chictraitD {
       @include chicTrait2;
-      margin-left: 30px;
+
       transform: rotateY(180deg);
 
       /*RESPONSIVE*/
@@ -221,9 +223,10 @@
 
     .plaisir-sub {
       color: #a56799;
-      margin-left: 20px;
+      padding: 5px;
       @include chicSecondTitle;
       @include underline;
+      
 
       /*RESPONSIVE*/
       @include responsive(mobile) {
@@ -253,7 +256,8 @@
     /*RESPONSIVE*/
 
     @include responsive(mobile) {
-      font-size: 20px;  
+      font-size: 20px; 
+      margin-top: 20px; 
     }
   }
 
@@ -323,8 +327,10 @@
 
     .gourmandise-sub {
       color: #6e4ccc;
+      padding: 5px;
       @include chicSecondTitle;
       @include underline;
+      
 
       /*RESPONSIVE*/
       @include responsive(mobile) {

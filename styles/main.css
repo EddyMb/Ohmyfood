@@ -155,6 +155,7 @@ body {
       background: -webkit-linear-gradient(190deg, #f6916a 0%, #f13639 100%);
       -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
+      /* RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 400px) {
         .note a .fa-music {
@@ -164,6 +165,7 @@ body {
       color: #3d1319;
       font-family: "Itim", cursive;
       font-weight: 300;
+      /* RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 400px) {
         .note a h4 {
@@ -173,6 +175,7 @@ body {
       color: #3d1319;
       font-family: "devonshire", cursive;
       font-weight: 300;
+      /* RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 400px) {
         .note a h3 {
@@ -215,6 +218,7 @@ body {
       background: -webkit-linear-gradient(190deg, #8f5aff 0%, #dc8527 100%);
       -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
+      /* RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 800px) {
@@ -227,6 +231,7 @@ body {
       font-size: 38px;
       font-weight: 600;
       color: #c77412;
+      /* RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 400px) {
         .chic a h4 {
@@ -260,6 +265,7 @@ body {
       transform: scale(1);
       transition: transform 400ms;
       opacity: 1;
+      /* RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       .delice a .delice-title:hover {
         transform: scale(1.12);
@@ -291,6 +297,7 @@ body {
       color: #0887fb;
       font-family: "Caveat", cursive;
       font-weight: 300;
+      /* RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 400px) {
         .delice a h4 {
@@ -323,6 +330,7 @@ body {
       transform: scale(1);
       transition: transform 400ms;
       opacity: 1;
+      /* RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       .palette a .palette-title:hover {
         transform: scale(1.12);
@@ -354,6 +362,7 @@ body {
       color: #72bf56;
       font-family: "Caveat", cursive;
       margin-top: 10px;
+      /* RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 400px) {
         .palette a h4 {
@@ -576,6 +585,7 @@ body {
     font-family: "Kalam", cursive;
     font-weight: 300;
     font-size: 20px;
+    margin: 0 9px;
     /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
@@ -708,6 +718,7 @@ body {
     font-family: "Kalam", cursive;
     font-weight: 300;
     font-size: 20px;
+    margin: 0 9px;
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
@@ -834,6 +845,7 @@ body {
           width: 20%;
           height: 10px; } }
   #mouvement .food {
+    margin: 0 9px;
     font-family: "Kalam", cursive;
     font-weight: 300;
     font-size: 20px;
@@ -995,6 +1007,7 @@ body {
         justify-content: space-evenly; } }
     #appetit .chic-trait .appetit-sub {
       color: #c77412;
+      padding: 5px;
       font-family: "Merriweather", cursive;
       font-size: 21px;
       font-weight: 600;
@@ -1162,7 +1175,6 @@ body {
     #plaisir .plaisir-trait .plaisir-chictraitD {
       width: 37%;
       height: 24px;
-      margin-left: 30px;
       transform: rotateY(180deg);
       /*RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
@@ -1177,7 +1189,7 @@ body {
           width: 25%; } }
     #plaisir .plaisir-trait .plaisir-sub {
       color: #a56799;
-      margin-left: 20px;
+      padding: 5px;
       font-family: "Merriweather", cursive;
       font-size: 21px;
       font-weight: 600;
@@ -1226,7 +1238,8 @@ body {
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 600px) {
       #plaisir .price-plaisir {
-        font-size: 20px; } }
+        font-size: 20px;
+        margin-top: 20px; } }
   #plaisir .repas-coquille {
     display: flex;
     justify-content: space-between;
@@ -1302,6 +1315,7 @@ body {
         justify-content: space-evenly; } }
     #gourmandise .gourmandise-trait .gourmandise-sub {
       color: #6e4ccc;
+      padding: 5px;
       font-family: "Merriweather", cursive;
       font-size: 21px;
       font-weight: 600;
@@ -1405,6 +1419,7 @@ body {
   margin-top: 35px;
   margin-bottom: 25px;
   letter-spacing: 2px;
+  /*RESPONSIVE*/
   /* MAIN MENU RESPONSIVE*/ }
   @media only screen and (max-width: 600px) {
     .delice-menu1 {
@@ -1417,6 +1432,7 @@ body {
   margin-top: 50px;
   margin-bottom: 120px;
   box-shadow: 3px 3px 14px gray;
+  /*RESPONSIVE*/
   /* MAIN MENU RESPONSIVE*/ }
   @media only screen and (max-width: 600px) {
     .delice-container {
@@ -1451,6 +1467,7 @@ body {
     justify-content: space-between;
     text-align: center;
     align-items: center;
+    /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /*DESCRIPTION TRAIT*/ }
@@ -1527,6 +1544,7 @@ body {
     font-family: "Kalam", cursive;
     font-weight: 300;
     font-size: 20px;
+    margin: 0 20px;
     /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
@@ -1541,8 +1559,7 @@ body {
   #commencer .price-delice {
     font-family: "Kalam", cursive;
     font-size: 20px;
-    font-weight: 400;
-    /*RESPONSIVE*/ }
+    font-weight: 400; }
   #commencer .bouchee {
     display: flex;
     justify-content: space-between;
@@ -1550,15 +1567,15 @@ body {
     margin-top: 10px;
     /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
-    justify-content: center; }
+    /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #commencer .bouchee {
         flex-wrap: wrap;
         justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #commencer .bouchee {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
   #commencer .cepes {
     display: flex;
     justify-content: space-between;
@@ -1648,6 +1665,7 @@ body {
     font-family: "Kalam", cursive;
     font-weight: 300;
     font-size: 20px;
+    margin: 0 20px;
     /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
@@ -1787,6 +1805,7 @@ body {
     font-family: "Kalam", cursive;
     font-weight: 300;
     font-size: 20px;
+    margin: 0 20px;
     /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
@@ -1925,10 +1944,10 @@ body {
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #esquisse .esquisse-trait {
-        justify-content: space-evenly; } }
+        justify-content: space-between; } }
     @media only screen and (max-width: 600px) {
       #esquisse .esquisse-trait {
-        justify-content: space-evenly; } }
+        justify-content: space-between; } }
     #esquisse .esquisse-trait .esquisse-sub {
       font-family: "Kalam", cursive;
       font-weight: 300;
@@ -2064,10 +2083,10 @@ body {
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #maitre .maitre-trait {
-        justify-content: space-evenly; } }
+        justify-content: space-between; } }
     @media only screen and (max-width: 600px) {
       #maitre .maitre-trait {
-        justify-content: space-evenly; } }
+        justify-content: space-between; } }
     #maitre .maitre-trait .maitre-sub {
       font-family: "Kalam", cursive;
       font-weight: 300;
@@ -2207,10 +2226,10 @@ body {
     /*DESCRIPTION TRAIT DROITE*/ }
     @media only screen and (max-width: 768px) {
       #sommet .sommet-trait {
-        justify-content: space-evenly; } }
+        justify-content: space-between; } }
     @media only screen and (max-width: 600px) {
       #sommet .sommet-trait {
-        justify-content: space-evenly; } }
+        justify-content: space-between; } }
     #sommet .sommet-trait .sommet-sub {
       font-family: "Kalam", cursive;
       font-weight: 300;
