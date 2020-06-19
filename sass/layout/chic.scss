@@ -1,4 +1,4 @@
-.main-bloc {
+main-bloc {
   @include mainBloc;
 }
 
@@ -56,7 +56,6 @@
       padding: 5px;
       @include chicSecondTitle;
       @include underline;
-      
 
       /*RESPONSIVE*/
       @include responsive(mobile) {
@@ -79,7 +78,6 @@
         height: 9px;
         width: 25%;
       }
-      
     }
 
     /*DESCRIPTION TRAIT DROITE*/
@@ -96,7 +94,6 @@
         height: 9px;
         width: 25%;
       }
-      
     }
   }
 
@@ -122,13 +119,10 @@
     @include responsive(smart-tablette) {
       width: 100%;
       text-align: center;
-     
     }
     @include responsive(mobile) {
       width: 100%;
       text-align: center;
-      
-     
     }
   }
 
@@ -137,7 +131,6 @@
     @include responsive(mobile) {
       margin-top: 20px;
     }
-
   }
 
   .veloute {
@@ -201,7 +194,6 @@
         height: 8px;
         width: 25%;
       }
-      
     }
 
     .plaisir-chictraitD {
@@ -218,7 +210,6 @@
         height: 8px;
         width: 25%;
       }
-      
     }
 
     .plaisir-sub {
@@ -226,7 +217,6 @@
       padding: 5px;
       @include chicSecondTitle;
       @include underline;
-      
 
       /*RESPONSIVE*/
       @include responsive(mobile) {
@@ -246,7 +236,6 @@
     @include responsive(mobile) {
       width: 100%;
       text-align: center;
-        
     }
   }
 
@@ -256,8 +245,8 @@
     /*RESPONSIVE*/
 
     @include responsive(mobile) {
-      font-size: 20px; 
-      margin-top: 20px; 
+      font-size: 20px;
+      margin-top: 20px;
     }
   }
 
@@ -330,7 +319,6 @@
       padding: 5px;
       @include chicSecondTitle;
       @include underline;
-      
 
       /*RESPONSIVE*/
       @include responsive(mobile) {
@@ -379,13 +367,13 @@
     /*RESPONSIVE*/
     @include responsive(smart-tablette) {
       width: 100%;
-      text-align: center;  
+      text-align: center;
     }
 
     @include responsive(mobile) {
       width: 100%;
       text-align: center;
-      font-size: 20px;  
+      font-size: 20px;
     }
   }
 

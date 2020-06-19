@@ -303,23 +303,7 @@
     }
   }
 
-  @if $breakpoint == ecran {
-    @media only screen and (max-width: 836px) {
-      @content;
-    }
-  }
-
-  @if $breakpoint == laptop {
-    @media only screen and (max-width: 1040px) {
-      @content;
-    }
-  }
-
-  @if $breakpoint == big-screen {
-    @media only screen and (max-width: 1200px) {
-      @content;
-    }
-  }
+ 
 
   @if $breakpoint == mini-phone {
     @media only screen and (max-width: 600px) {
