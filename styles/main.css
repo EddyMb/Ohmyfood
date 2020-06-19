@@ -4,20 +4,6 @@
 /*PALETTE*/
 /* CHIC*/
 /* MEDIA RESPONSIVE MENU*/
-/* HEADER */
-header {
-  height: 90px;
-  background-color: #579c87; }
-  header h1,
-  header a {
-    text-align: center;
-    font-size: 53px;
-    padding-top: 10px;
-    color: #fdcb46;
-    font-family: "Roboto", sans-serif;
-    letter-spacing: -2px;
-    text-decoration: none; }
-
 /* FOOTER*/
 footer {
   display: flex;
@@ -98,6 +84,20 @@ footer {
     transform: translate(-5px, -5px); }
   100% {
     transform: translate(5px, 5px); } }
+/* HEADER */
+header {
+  height: 90px;
+  background-color: #579c87; }
+  header h1,
+  header a {
+    text-align: center;
+    font-size: 53px;
+    padding-top: 10px;
+    color: #fdcb46;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: -2px;
+    text-decoration: none; }
+
 * {
   margin: 0;
   padding: 0;
@@ -493,23 +493,30 @@ body {
 
 /* MENU PRELUDE*/
 #prelude {
-  width: 100%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
   align-items: center; }
   #prelude .prelude-trait {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    align-items: center; }
+    align-items: center;
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 768px) {
+      #prelude .prelude-trait {
+        justify-content: space-evenly; } }
+    @media only screen and (max-width: 600px) {
+      #prelude .prelude-trait {
+        justify-content: space-evenly; } }
     #prelude .prelude-trait .prelude-title {
-      margin-right: 15px;
       font-family: "Kalam", cursive;
       font-weight: 400;
       font-size: 28px;
       text-align: center;
       position: relative;
-      text-decoration: none;
-      /*RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/ }
+      text-decoration: none; }
       #prelude .prelude-trait .prelude-title::after {
         content: "";
         display: flex;
@@ -524,171 +531,139 @@ body {
         transition: transform 250ms ease-in; }
       #prelude .prelude-trait .prelude-title:hover::after {
         transform: scaleX(1); }
-      @media only screen and (max-width: 600px) {
-        #prelude .prelude-trait .prelude-title {
-          font-size: 20px; } }
     #prelude .prelude-trait .traitD {
-      margin-left: 60px;
       width: 30%;
-      height: 25px;
-      /*RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
+      height: 15px;
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 768px) {
         #prelude .prelude-trait .traitD {
           width: 30%;
-          height: 18px;
-          margin-left: 50px; } }
+          height: 15px; } }
       @media only screen and (max-width: 600px) {
         #prelude .prelude-trait .traitD {
-          width: 30%;
-          height: 15px;
-          margin: 12px; } }
-      @media only screen and (max-width: 400px) {
-        #prelude .prelude-trait .traitD {
-          height: 10px;
-          width: 25%;
-          margin: 12px; } }
+          width: 20%;
+          height: 10px; } }
     #prelude .prelude-trait .traitG {
-      margin-right: 40px;
       width: 30%;
-      height: 25px;
-      /*RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
+      height: 15px;
+      transform: rotate(180deg);
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 768px) {
         #prelude .prelude-trait .traitG {
           width: 30%;
-          height: 18px;
-          margin-right: 35px; } }
+          height: 15px; } }
       @media only screen and (max-width: 600px) {
         #prelude .prelude-trait .traitG {
-          width: 30%;
-          height: 15px;
-          margin: 12px; } }
-      @media only screen and (max-width: 400px) {
-        #prelude .prelude-trait .traitG {
-          height: 10px;
-          width: 25%;
-          margin: 12px; } }
+          width: 20%;
+          height: 10px; } }
   #prelude .repas-raviole {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-    /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #prelude .repas-raviole {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #prelude .repas-raviole {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
   #prelude .food {
     font-family: "Kalam", cursive;
     font-weight: 300;
     font-size: 20px;
-    margin-left: 75px;
     /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #prelude .food {
         text-align: center;
-        margin-right: 60px;
-        width: 100%;
-        font-size: 24px; } }
+        width: 100%; } }
     @media only screen and (max-width: 600px) {
       #prelude .food {
         text-align: center;
-        margin-right: 60px;
-        width: 100%;
-        font-size: 20px; } }
+        width: 100%; } }
   #prelude .price {
     font-family: "Kalam", cursive;
-    font-size: 20px;
-    margin-right: 75px;
-    /*RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/ }
-    @media only screen and (max-width: 768px) {
-      #prelude .price {
-        width: 100%;
-        text-align: center;
-        margin-right: 5px;
-        margin-top: 6px;
-        font-size: 23px; } }
-    @media only screen and (max-width: 600px) {
-      #prelude .price {
-        width: 100%;
-        text-align: center;
-        margin-right: 5px;
-        margin-top: 6px; } }
+    font-size: 20px; }
   #prelude .caviar {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-    /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #prelude .caviar {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #prelude .caviar {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
   #prelude .homard {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-    /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #prelude .homard {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #prelude .homard {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
   #prelude .foie {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-    /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #prelude .foie {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #prelude .foie {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
 
 /* MENU ORGUE*/
 #orgue {
-  width: 100%;
   align-items: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
   /*REPAS ORGUE*/ }
-  #orgue .pont-orgue {
+  #orgue .prelude-trait {
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;
     margin-top: 70px;
-    width: 100%; }
-    #orgue .pont-orgue .orgue-sub {
-      margin-right: 15px;
+    width: 100%;
+    /*RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 768px) {
+      #orgue .prelude-trait {
+        justify-content: space-evenly; } }
+    @media only screen and (max-width: 600px) {
+      #orgue .prelude-trait {
+        justify-content: space-evenly; } }
+    #orgue .prelude-trait .orgue-sub {
       font-family: "Kalam", cursive;
       font-weight: 400;
       font-size: 28px;
       text-align: center;
       position: relative;
-      text-decoration: none;
-      /*RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/ }
-      #orgue .pont-orgue .orgue-sub::after {
+      text-decoration: none; }
+      #orgue .prelude-trait .orgue-sub::after {
         content: "";
         display: flex;
         position: absolute;
@@ -700,157 +675,124 @@ body {
         transform: scaleX(0);
         transform-origin: left;
         transition: transform 250ms ease-in; }
-      #orgue .pont-orgue .orgue-sub:hover::after {
+      #orgue .prelude-trait .orgue-sub:hover::after {
         transform: scaleX(1); }
-      @media only screen and (max-width: 600px) {
-        #orgue .pont-orgue .orgue-sub {
-          font-size: 20px; } }
-    #orgue .pont-orgue .orgue-traitG {
-      margin-left: 60px;
+    #orgue .prelude-trait .orgue-traitG {
       width: 30%;
-      height: 25px;
-      /*RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
+      height: 15px;
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 768px) {
-        #orgue .pont-orgue .orgue-traitG {
+        #orgue .prelude-trait .orgue-traitG {
           width: 30%;
-          height: 18px;
-          margin-left: 50px; } }
-      @media only screen and (max-width: 600px) {
-        #orgue .pont-orgue .orgue-traitG {
-          width: 30%;
-          margin: 12px;
           height: 15px; } }
-      @media only screen and (max-width: 400px) {
-        #orgue .pont-orgue .orgue-traitG {
-          height: 10px;
-          width: 25%; } }
-    #orgue .pont-orgue .orgue-traitD {
-      margin-right: 40px;
+      @media only screen and (max-width: 600px) {
+        #orgue .prelude-trait .orgue-traitG {
+          width: 20%;
+          height: 10px; } }
+    #orgue .prelude-trait .orgue-traitD {
       width: 30%;
-      height: 25px;
-      /*RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
+      height: 15px;
+      transform: rotate(180deg);
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 768px) {
-        #orgue .pont-orgue .orgue-traitD {
+        #orgue .prelude-trait .orgue-traitD {
           width: 30%;
-          height: 18px;
-          margin-right: 35px; } }
-      @media only screen and (max-width: 600px) {
-        #orgue .pont-orgue .orgue-traitD {
-          width: 30%;
-          margin: 12px;
           height: 15px; } }
-      @media only screen and (max-width: 400px) {
-        #orgue .pont-orgue .orgue-traitD {
-          height: 10px;
-          width: 25%; } }
+      @media only screen and (max-width: 600px) {
+        #orgue .prelude-trait .orgue-traitD {
+          width: 20%;
+          height: 10px; } }
   #orgue .food {
     font-family: "Kalam", cursive;
     font-weight: 300;
     font-size: 20px;
-    margin-left: 75px;
-    /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #orgue .food {
         text-align: center;
-        margin-right: 60px;
-        width: 100%;
-        font-size: 24px; } }
+        width: 100%; } }
     @media only screen and (max-width: 600px) {
       #orgue .food {
         text-align: center;
-        margin-right: 60px;
-        width: 100%;
-        font-size: 20px; } }
+        width: 100%; } }
   #orgue .price {
     font-family: "Kalam", cursive;
-    font-size: 20px;
-    margin-right: 75px;
-    /*RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/ }
-    @media only screen and (max-width: 768px) {
-      #orgue .price {
-        width: 100%;
-        text-align: center;
-        margin-right: 5px;
-        margin-top: 6px;
-        font-size: 23px; } }
-    @media only screen and (max-width: 600px) {
-      #orgue .price {
-        width: 100%;
-        text-align: center;
-        margin-right: 5px;
-        margin-top: 6px; } }
+    font-size: 20px; }
   #orgue .repas-noix {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
     margin-top: 20px;
-    /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #orgue .repas-noix {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #orgue .repas-noix {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
   #orgue .langouste {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-    /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #orgue .langouste {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #orgue .langouste {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
   #orgue .mijote {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-    /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #orgue .mijote {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #orgue .mijote {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
 
 /*MENU MOUVEMENT*/
 #mouvement {
-  width: 100%;
-  align-items: center; }
-  #mouvement .mouvement-main {
+  align-items: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
+  #mouvement .prelude-trait {
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    margin-top: 70px; }
-    #mouvement .mouvement-main .mouvement-title {
-      margin-right: 15px;
+    margin-top: 70px;
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 768px) {
+      #mouvement .prelude-trait {
+        justify-content: space-evenly; } }
+    @media only screen and (max-width: 600px) {
+      #mouvement .prelude-trait {
+        justify-content: space-evenly; } }
+    #mouvement .prelude-trait .mouvement-title {
       font-family: "Kalam", cursive;
       font-weight: 400;
       font-size: 28px;
       text-align: center;
       position: relative;
-      text-decoration: none;
-      /*RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/ }
-      #mouvement .mouvement-main .mouvement-title::after {
+      text-decoration: none; }
+      #mouvement .prelude-trait .mouvement-title::after {
         content: "";
         display: flex;
         position: absolute;
@@ -862,124 +804,86 @@ body {
         transform: scaleX(0);
         transform-origin: left;
         transition: transform 250ms ease-in; }
-      #mouvement .mouvement-main .mouvement-title:hover::after {
+      #mouvement .prelude-trait .mouvement-title:hover::after {
         transform: scaleX(1); }
-      @media only screen and (max-width: 600px) {
-        #mouvement .mouvement-main .mouvement-title {
-          font-size: 20px; } }
-    #mouvement .mouvement-main .mouvement-traitG {
-      margin-left: 60px;
+    #mouvement .prelude-trait .mouvement-traitG {
       width: 30%;
-      height: 25px;
-      /*RESPONSIVE*/
-      /*@include responsive(ecran) {
-        width: 37%;
-        margin-left: 23px;
-      }*/
-      /* MAIN MENU RESPONSIVE*/
+      height: 15px;
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 768px) {
-        #mouvement .mouvement-main .mouvement-traitG {
+        #mouvement .prelude-trait .mouvement-traitG {
           width: 30%;
-          height: 18px;
-          margin-left: 50px; } }
-      @media only screen and (max-width: 600px) {
-        #mouvement .mouvement-main .mouvement-traitG {
-          width: 30%;
-          margin: 12px;
           height: 15px; } }
-      @media only screen and (max-width: 400px) {
-        #mouvement .mouvement-main .mouvement-traitG {
-          height: 10px;
-          width: 25%; } }
-    #mouvement .mouvement-main .mouvement-traitD {
-      margin-right: 40px;
+      @media only screen and (max-width: 600px) {
+        #mouvement .prelude-trait .mouvement-traitG {
+          width: 20%;
+          height: 10px; } }
+    #mouvement .prelude-trait .mouvement-traitD {
       width: 30%;
-      height: 25px;
-      /*RESPONSIVE*/
-      /*@include responsive(ecran) {
-        width: 37%;
-      }*/
-      /* MAIN MENU RESPONSIVE*/
+      height: 15px;
+      transform: rotate(180deg);
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 768px) {
-        #mouvement .mouvement-main .mouvement-traitD {
+        #mouvement .prelude-trait .mouvement-traitD {
           width: 30%;
-          height: 18px;
-          margin-right: 35px; } }
-      @media only screen and (max-width: 600px) {
-        #mouvement .mouvement-main .mouvement-traitD {
-          width: 30%;
-          margin: 12px;
           height: 15px; } }
-      @media only screen and (max-width: 400px) {
-        #mouvement .mouvement-main .mouvement-traitD {
-          height: 10px;
-          width: 25%; } }
+      @media only screen and (max-width: 600px) {
+        #mouvement .prelude-trait .mouvement-traitD {
+          width: 20%;
+          height: 10px; } }
   #mouvement .food {
     font-family: "Kalam", cursive;
     font-weight: 300;
     font-size: 20px;
-    margin-left: 75px;
-    /*RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
-    @media only screen and (max-width: 1200px) {
-      #mouvement .food {
-        margin-right: 87px; } }
-    @media only screen and (max-width: 836px) {
-      #mouvement .food {
-        margin-right: 52px; } }
     @media only screen and (max-width: 768px) {
       #mouvement .food {
         text-align: center;
-        margin-right: 60px;
-        width: 100%;
-        font-size: 24px; } }
+        width: 100%; } }
     @media only screen and (max-width: 600px) {
       #mouvement .food {
         text-align: center;
-        margin-right: 60px;
-        width: 100%;
-        font-size: 20px; } }
+        width: 100%; } }
   #mouvement .repas-macaron {
     margin-top: 20px;
-    /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #mouvement .repas-macaron {
-        display: flex; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #mouvement .repas-macaron {
-        display: flex; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
   #mouvement .baba {
     margin-top: 10px;
-    /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #mouvement .baba {
-        display: flex; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #mouvement .baba {
-        display: flex; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
   #mouvement .tarte {
     margin-top: 10px;
     margin-bottom: 50px;
-    /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #mouvement .tarte {
-        display: flex; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #mouvement .tarte {
-        display: flex; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
 
 #end {
   margin-bottom: 90px;
@@ -1069,16 +973,26 @@ body {
       font-size: 20px; } }
 
 #appetit {
-  width: 100%;
+  width: 80%;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   /*MENU APPETIT*/ }
   #appetit .chic-trait {
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-items: center;
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
     /*DESCRIPTION TRAIT GAUCHE*/
     /*DESCRIPTION TRAIT DROITE*/ }
+    @media only screen and (max-width: 768px) {
+      #appetit .chic-trait {
+        justify-content: space-evenly; } }
+    @media only screen and (max-width: 600px) {
+      #appetit .chic-trait {
+        justify-content: space-evenly; } }
     #appetit .chic-trait .appetit-sub {
       color: #c77412;
       font-family: "Merriweather", cursive;
@@ -1106,14 +1020,13 @@ body {
         transform: scaleX(1); }
       @media only screen and (max-width: 600px) {
         #appetit .chic-trait .appetit-sub {
-          font-size: 14px; } }
+          font-size: 20px; } }
     #appetit .chic-trait .chictraitD {
       width: 37%;
       height: 26px;
       transform: rotateY(180deg);
       /*RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 768px) {
         #appetit .chic-trait .chictraitD {
@@ -1123,15 +1036,11 @@ body {
         #appetit .chic-trait .chictraitD {
           height: 9px;
           width: 25%; } }
-      @media only screen and (max-width: 400px) {
-        #appetit .chic-trait .chictraitD {
-          width: 20%; } }
     #appetit .chic-trait .chictraitG {
       width: 37%;
       height: 26px;
       /*RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 768px) {
         #appetit .chic-trait .chictraitG {
@@ -1141,9 +1050,6 @@ body {
         #appetit .chic-trait .chictraitG {
           height: 9px;
           width: 25%; } }
-      @media only screen and (max-width: 400px) {
-        #appetit .chic-trait .chictraitG {
-          width: 20%; } }
   #appetit .repas-tartare {
     display: flex;
     justify-content: space-between;
@@ -1155,49 +1061,34 @@ body {
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #appetit .repas-tartare {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #appetit .repas-tartare {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
   #appetit .food-chic {
     font-family: "Merriweather", cursive;
     font-weight: 200;
-    font-size: 17px;
-    margin-left: 80px;
+    font-size: 20px;
     /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #appetit .food-chic {
         width: 100%;
-        text-align: center;
-        margin-right: 43px; } }
+        text-align: center; } }
     @media only screen and (max-width: 600px) {
       #appetit .food-chic {
         width: 100%;
-        text-align: center;
-        font-size: 12px;
-        margin-right: 70px; } }
+        text-align: center; } }
   #appetit .price-chic {
     font-family: "Merriweather", cursive;
-    font-size: 17px;
-    margin-right: 90px;
-    /*RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
+    font-size: 20px;
     /* MAIN MENU RESPONSIVE*/ }
-    @media only screen and (max-width: 768px) {
-      #appetit .price-chic {
-        width: 100%;
-        text-align: center;
-        margin-top: 10px;
-        margin-right: 5px; } }
     @media only screen and (max-width: 600px) {
       #appetit .price-chic {
-        width: 100%;
-        text-align: center;
-        margin-top: 10px;
-        margin-right: 5px;
-        font-size: 12px; } }
+        margin-top: 20px; } }
   #appetit .veloute {
     display: flex;
     justify-content: space-between;
@@ -1209,10 +1100,12 @@ body {
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #appetit .veloute {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #appetit .veloute {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
   #appetit .soupe {
     display: flex;
     justify-content: space-between;
@@ -1224,26 +1117,38 @@ body {
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #appetit .soupe {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #appetit .soupe {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
 
 /*MENU PLAISIR*/
 #plaisir {
-  width: 100%;
-  align-items: center; }
+  width: 80%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto; }
   #plaisir .plaisir-trait {
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-items: center;
-    margin-top: 70px; }
+    margin-top: 70px;
+    /*RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 768px) {
+      #plaisir .plaisir-trait {
+        justify-content: space-evenly; } }
+    @media only screen and (max-width: 600px) {
+      #plaisir .plaisir-trait {
+        justify-content: space-evenly; } }
     #plaisir .plaisir-trait .plaisir-chictraitG {
       width: 37%;
       height: 24px;
       /*RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 768px) {
@@ -1254,9 +1159,6 @@ body {
         #plaisir .plaisir-trait .plaisir-chictraitG {
           height: 8px;
           width: 25%; } }
-      @media only screen and (max-width: 400px) {
-        #plaisir .plaisir-trait .plaisir-chictraitG {
-          width: 20%; } }
     #plaisir .plaisir-trait .plaisir-chictraitD {
       width: 37%;
       height: 24px;
@@ -1264,7 +1166,6 @@ body {
       transform: rotateY(180deg);
       /*RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 768px) {
         #plaisir .plaisir-trait .plaisir-chictraitD {
@@ -1274,9 +1175,6 @@ body {
         #plaisir .plaisir-trait .plaisir-chictraitD {
           height: 8px;
           width: 25%; } }
-      @media only screen and (max-width: 400px) {
-        #plaisir .plaisir-trait .plaisir-chictraitD {
-          width: 20%; } }
     #plaisir .plaisir-trait .plaisir-sub {
       color: #a56799;
       margin-left: 20px;
@@ -1305,46 +1203,30 @@ body {
         transform: scaleX(1); }
       @media only screen and (max-width: 600px) {
         #plaisir .plaisir-trait .plaisir-sub {
-          font-size: 14px; } }
+          font-size: 20px; } }
   #plaisir .food-plaisir {
     font-family: "Merriweather", cursive;
     font-weight: 200;
-    font-size: 17px;
-    margin-left: 80px;
+    font-size: 20px;
     /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #plaisir .food-plaisir {
         width: 100%;
-        text-align: center;
-        margin-right: 91px; } }
+        text-align: center; } }
     @media only screen and (max-width: 600px) {
       #plaisir .food-plaisir {
         width: 100%;
-        text-align: center;
-        font-size: 12px;
-        margin-right: 70px; } }
+        text-align: center; } }
   #plaisir .price-plaisir {
     font-family: "Merriweather", cursive;
-    font-size: 17px;
-    margin-right: 90px;
+    font-size: 20px;
     /*RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
-    @media only screen and (max-width: 768px) {
-      #plaisir .price-plaisir {
-        width: 100%;
-        text-align: center;
-        margin-top: 10px;
-        margin-right: 5px; } }
     @media only screen and (max-width: 600px) {
       #plaisir .price-plaisir {
-        width: 100%;
-        text-align: center;
-        margin-top: 10px;
-        font-size: 12px;
-        margin-right: 5px; } }
+        font-size: 20px; } }
   #plaisir .repas-coquille {
     display: flex;
     justify-content: space-between;
@@ -1356,10 +1238,12 @@ body {
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #plaisir .repas-coquille {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #plaisir .repas-coquille {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
   #plaisir .magret {
     display: flex;
     justify-content: space-between;
@@ -1371,10 +1255,12 @@ body {
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #plaisir .magret {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #plaisir .magret {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
   #plaisir .pigeon {
     display: flex;
     justify-content: space-between;
@@ -1386,22 +1272,34 @@ body {
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #plaisir .pigeon {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #plaisir .pigeon {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
 
 /*MENU GOURMANDISE*/
 #gourmandise {
-  width: 100%;
+  width: 80%;
   align-items: center;
-  padding-bottom: 3px; }
+  padding-bottom: 3px;
+  margin-left: auto;
+  margin-right: auto; }
   #gourmandise .gourmandise-trait {
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-items: center;
-    margin-top: 70px; }
+    margin-top: 70px;
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 768px) {
+      #gourmandise .gourmandise-trait {
+        justify-content: space-evenly; } }
+    @media only screen and (max-width: 600px) {
+      #gourmandise .gourmandise-trait {
+        justify-content: space-evenly; } }
     #gourmandise .gourmandise-trait .gourmandise-sub {
       color: #6e4ccc;
       font-family: "Merriweather", cursive;
@@ -1429,12 +1327,11 @@ body {
         transform: scaleX(1); }
       @media only screen and (max-width: 600px) {
         #gourmandise .gourmandise-trait .gourmandise-sub {
-          font-size: 14px; } }
+          font-size: 20px; } }
     #gourmandise .gourmandise-trait .gourmandise-chictraitG {
       width: 37%;
       height: 37px;
       /*RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 768px) {
@@ -1445,16 +1342,12 @@ body {
         #gourmandise .gourmandise-trait .gourmandise-chictraitG {
           height: 12px;
           width: 25%; } }
-      @media only screen and (max-width: 400px) {
-        #gourmandise .gourmandise-trait .gourmandise-chictraitG {
-          width: 20%; } }
     #gourmandise .gourmandise-trait .gourmandise-chictraitD {
       width: 37%;
       height: 37px;
       transform: rotateY(180deg);
       /*RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
       @media only screen and (max-width: 768px) {
         #gourmandise .gourmandise-trait .gourmandise-chictraitD {
@@ -1464,9 +1357,6 @@ body {
         #gourmandise .gourmandise-trait .gourmandise-chictraitD {
           height: 12px;
           width: 25%; } }
-      @media only screen and (max-width: 400px) {
-        #gourmandise .gourmandise-trait .gourmandise-chictraitD {
-          width: 20%; } }
   #gourmandise .repas-petale {
     margin-top: 20px;
     display: flex;
@@ -1476,22 +1366,19 @@ body {
   #gourmandise .food-petale {
     font-family: "Merriweather", cursive;
     font-weight: 200;
-    font-size: 17px;
-    margin-left: 80px;
+    font-size: 20px;
     /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #gourmandise .food-petale {
         width: 100%;
-        text-align: center;
-        margin-right: 86px; } }
+        text-align: center; } }
     @media only screen and (max-width: 600px) {
       #gourmandise .food-petale {
         width: 100%;
         text-align: center;
-        font-size: 12px;
-        margin-right: 70px; } }
+        font-size: 20px; } }
   #gourmandise .fondant {
     display: flex;
     justify-content: space-between;
@@ -1555,14 +1442,24 @@ body {
 
 /*MENU COMMENCER*/
 #commencer {
-  width: 100%;
-  align-items: center; }
+  width: 80%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto; }
   #commencer .delice-trait {
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
     /*DESCRIPTION TRAIT*/ }
+    @media only screen and (max-width: 768px) {
+      #commencer .delice-trait {
+        justify-content: space-evenly; } }
+    @media only screen and (max-width: 600px) {
+      #commencer .delice-trait {
+        justify-content: space-evenly; } }
     #commencer .delice-trait .delice-sub {
       font-family: "Kalam", cursive;
       font-family: "Kalam", cursive;
@@ -1586,99 +1483,79 @@ body {
       #commencer .delice-trait .delice-sub:hover::after {
         transform: scaleX(1); }
     #commencer .delice-trait .delicetraitG {
-      margin-left: 15px;
-      width: 35%;
+      width: 30%;
       height: 26px;
-      margin: 8px;
       /*RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
-      @media only screen and (max-width: 1040px) {
-        #commencer .delice-trait .delicetraitG {
-          width: 37%; } }
       @media only screen and (max-width: 768px) {
         #commencer .delice-trait .delicetraitG {
-          width: 35%; } }
+          width: 25%; } }
       @media only screen and (max-width: 600px) {
         #commencer .delice-trait .delicetraitG {
-          width: 30%; } }
-      @media only screen and (max-width: 400px) {
-        #commencer .delice-trait .delicetraitG {
-          width: 20%; } }
+          width: 25%; } }
     #commencer .delice-trait .delicetraitD {
-      width: 35%;
+      width: 30%;
       height: 26px;
-      margin: 8px;
       transform: rotateY(180deg);
       /*RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
-      @media only screen and (max-width: 1040px) {
-        #commencer .delice-trait .delicetraitD {
-          width: 37%; } }
       @media only screen and (max-width: 768px) {
         #commencer .delice-trait .delicetraitD {
-          width: 35%; } }
+          width: 25%; } }
       @media only screen and (max-width: 600px) {
         #commencer .delice-trait .delicetraitD {
-          width: 30%; } }
-      @media only screen and (max-width: 400px) {
-        #commencer .delice-trait .delicetraitD {
-          width: 20%; } }
+          width: 25%; } }
   #commencer .repas-thon {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 768px) {
+      #commencer .repas-thon {
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #commencer .repas-thon {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
   #commencer .food-delice {
     font-family: "Kalam", cursive;
     font-weight: 300;
     font-size: 20px;
-    margin-left: 80px;
     /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #commencer .food-delice {
-        margin-left: 43px; } }
+        width: 100%;
+        text-align: center; } }
     @media only screen and (max-width: 600px) {
       #commencer .food-delice {
         width: 100%;
-        text-align: center;
-        margin-right: 51px; } }
+        text-align: center; } }
   #commencer .price-delice {
     font-family: "Kalam", cursive;
     font-size: 20px;
-    margin-right: 90px;
     font-weight: 400;
-    /*RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/ }
-    @media only screen and (max-width: 768px) {
-      #commencer .price-delice {
-        margin-right: 42px; } }
-    @media only screen and (max-width: 600px) {
-      #commencer .price-delice {
-        width: 100%;
-        text-align: center;
-        margin-right: 5px;
-        margin-top: 5px; } }
+    /*RESPONSIVE*/ }
   #commencer .bouchee {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/ }
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    justify-content: center; }
+    @media only screen and (max-width: 768px) {
+      #commencer .bouchee {
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #commencer .bouchee {
         flex-wrap: wrap; } }
@@ -1688,21 +1565,38 @@ body {
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 768px) {
+      #commencer .cepes {
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #commencer .cepes {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
 
 /*MENU CONTINUER*/
 #continuer {
-  width: 100%;
-  align-items: center; }
+  width: 80%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto; }
   #continuer .continuer-trait {
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    margin-top: 70px; }
+    margin-top: 70px;
+    /*RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 768px) {
+      #continuer .continuer-trait {
+        justify-content: space-evenly; } }
+    @media only screen and (max-width: 600px) {
+      #continuer .continuer-trait {
+        justify-content: space-evenly; } }
     #continuer .continuer-trait .continuer-sub {
       font-family: "Kalam", cursive;
       font-family: "Kalam", cursive;
@@ -1726,81 +1620,49 @@ body {
       #continuer .continuer-trait .continuer-sub:hover::after {
         transform: scaleX(1); }
     #continuer .continuer-trait .light-traitG {
-      width: 36%;
+      width: 31%;
       height: 30px;
-      margin: 8px;
       /*RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
-      @media only screen and (max-width: 1040px) {
-        #continuer .continuer-trait .light-traitG {
-          width: 37%; } }
       @media only screen and (max-width: 768px) {
         #continuer .continuer-trait .light-traitG {
-          width: 35%; } }
+          width: 27%; } }
       @media only screen and (max-width: 600px) {
         #continuer .continuer-trait .light-traitG {
-          width: 30%; } }
-      @media only screen and (max-width: 400px) {
-        #continuer .continuer-trait .light-traitG {
-          width: 20%; } }
+          width: 27%; } }
     #continuer .continuer-trait .light-traitD {
-      width: 36%;
+      width: 31%;
       height: 30px;
-      margin: 8px;
       transform: rotateY(180deg);
       /*RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
-      @media only screen and (max-width: 1040px) {
-        #continuer .continuer-trait .light-traitD {
-          width: 37%; } }
       @media only screen and (max-width: 768px) {
         #continuer .continuer-trait .light-traitD {
-          width: 35%; } }
+          width: 27%; } }
       @media only screen and (max-width: 600px) {
         #continuer .continuer-trait .light-traitD {
-          width: 30%; } }
-      @media only screen and (max-width: 400px) {
-        #continuer .continuer-trait .light-traitD {
-          width: 20%; } }
+          width: 27%; } }
   #continuer .food-continue {
     font-family: "Kalam", cursive;
     font-weight: 300;
     font-size: 20px;
-    margin-left: 80px;
     /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #continuer .food-continue {
-        margin-left: 43px; } }
+        width: 100%;
+        text-align: center; } }
     @media only screen and (max-width: 600px) {
       #continuer .food-continue {
         width: 100%;
-        text-align: center;
-        margin-right: 43px; } }
+        text-align: center; } }
   #continuer .price-continue {
     font-family: "Kalam", cursive;
     font-size: 20px;
-    margin-right: 90px;
-    font-weight: 400;
-    /*RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/ }
-    @media only screen and (max-width: 768px) {
-      #continuer .price-continue {
-        margin-right: 42px; } }
-    @media only screen and (max-width: 600px) {
-      #continuer .price-continue {
-        width: 100%;
-        text-align: center;
-        margin-right: 5px;
-        margin-top: 5px; } }
+    font-weight: 400; }
   #continuer .repas-poulet {
     display: flex;
     justify-content: space-between;
@@ -1808,10 +1670,16 @@ body {
     margin-top: 10px;
     margin-top: 20px;
     /*RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 768px) {
+      #continuer .repas-poulet {
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #continuer .repas-poulet {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
   #continuer .roti {
     display: flex;
     justify-content: space-between;
@@ -1819,32 +1687,55 @@ body {
     margin-top: 10px;
     margin-top: 10px;
     /*RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 768px) {
+      #continuer .roti {
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #continuer .roti {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
   #continuer .boeuf {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 768px) {
+      #continuer .boeuf {
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #continuer .boeuf {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
 
 /*MENU TERMINER*/
 #terminer {
-  width: 100%;
+  width: 80%;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 3px; }
   #terminer .terminer-trait {
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    margin-top: 70px; }
+    margin-top: 70px;
+    /*RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 768px) {
+      #terminer .terminer-trait {
+        justify-content: space-evenly; } }
+    @media only screen and (max-width: 600px) {
+      #terminer .terminer-trait {
+        justify-content: space-evenly; } }
     #terminer .terminer-trait .terminer-sub {
       font-family: "Kalam", cursive;
       font-family: "Kalam", cursive;
@@ -1868,82 +1759,49 @@ body {
       #terminer .terminer-trait .terminer-sub:hover::after {
         transform: scaleX(1); }
     #terminer .terminer-trait .blue-traitG {
-      margin-left: 13px;
-      width: 36%;
+      width: 31%;
       height: 30px;
-      margin: 8px;
       /*RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
-      @media only screen and (max-width: 1040px) {
-        #terminer .terminer-trait .blue-traitG {
-          width: 37%; } }
       @media only screen and (max-width: 768px) {
         #terminer .terminer-trait .blue-traitG {
-          width: 35%; } }
+          width: 28%; } }
       @media only screen and (max-width: 600px) {
         #terminer .terminer-trait .blue-traitG {
-          width: 30%; } }
-      @media only screen and (max-width: 400px) {
-        #terminer .terminer-trait .blue-traitG {
-          width: 20%; } }
+          width: 28%; } }
     #terminer .terminer-trait .blue-traitD {
-      width: 36%;
+      width: 31%;
       height: 30px;
-      margin: 8px;
       transform: rotateY(180deg);
       /*RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
-      @media only screen and (max-width: 1040px) {
-        #terminer .terminer-trait .blue-traitD {
-          width: 37%; } }
       @media only screen and (max-width: 768px) {
         #terminer .terminer-trait .blue-traitD {
-          width: 35%; } }
+          width: 28%; } }
       @media only screen and (max-width: 600px) {
         #terminer .terminer-trait .blue-traitD {
-          width: 30%; } }
-      @media only screen and (max-width: 400px) {
-        #terminer .terminer-trait .blue-traitD {
-          width: 20%; } }
+          width: 28%; } }
   #terminer .food-termine {
     font-family: "Kalam", cursive;
     font-weight: 300;
     font-size: 20px;
-    margin-left: 80px;
     /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #terminer .food-termine {
-        margin-left: 43px; } }
+        width: 100%;
+        text-align: center; } }
     @media only screen and (max-width: 600px) {
       #terminer .food-termine {
         width: 100%;
-        text-align: center;
-        margin-right: 43px; } }
+        text-align: center; } }
   #terminer .price-termine {
     font-family: "Kalam", cursive;
     font-size: 20px;
-    margin-right: 90px;
-    font-weight: 400;
-    /*RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/ }
-    @media only screen and (max-width: 768px) {
-      #terminer .price-termine {
-        margin-right: 42px; } }
-    @media only screen and (max-width: 600px) {
-      #terminer .price-termine {
-        width: 100%;
-        text-align: center;
-        margin-right: 5px;
-        margin-top: 5px; } }
+    font-weight: 400; }
   #terminer .repas-desserts {
     display: flex;
     justify-content: space-between;
@@ -1951,20 +1809,32 @@ body {
     margin-top: 10px;
     margin-top: 20px;
     /*RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 768px) {
+      #terminer .repas-desserts {
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #terminer .repas-desserts {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
   #terminer .créme {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 768px) {
+      #terminer .créme {
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #terminer .créme {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
   #terminer .tiramisu {
     display: flex;
     justify-content: space-between;
@@ -1972,10 +1842,16 @@ body {
     margin-top: 10px;
     margin-bottom: 40px;
     /*RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 768px) {
+      #terminer .tiramisu {
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #terminer .tiramisu {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
 
 .main-bloc {
   background-color: white;
@@ -2034,7 +1910,9 @@ body {
 
 /*MENU ESQUISSE*/
 #esquisse {
-  width: 100%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
   align-items: center;
   /*REPAS ESQUISSE*/ }
   #esquisse .esquisse-trait {
@@ -2044,17 +1922,13 @@ body {
     align-items: center;
     /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
-    @media only screen and (max-width: 1040px) {
-      #esquisse .esquisse-trait {
-        align-items: center; } }
     @media only screen and (max-width: 768px) {
       #esquisse .esquisse-trait {
-        align-items: center; } }
+        justify-content: space-evenly; } }
     @media only screen and (max-width: 600px) {
       #esquisse .esquisse-trait {
-        align-items: center; } }
+        justify-content: space-evenly; } }
     #esquisse .esquisse-trait .esquisse-sub {
       font-family: "Kalam", cursive;
       font-weight: 300;
@@ -2079,130 +1953,105 @@ body {
     #esquisse .esquisse-trait .paletteraitG {
       height: 35px;
       width: 40%;
-      margin: 8px;
       /*RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
-      @media only screen and (max-width: 1040px) {
-        #esquisse .esquisse-trait .paletteraitG {
-          width: 35%;
-          height: 25px; } }
       @media only screen and (max-width: 768px) {
         #esquisse .esquisse-trait .paletteraitG {
-          width: 32%;
+          width: 25%;
           height: 25px; } }
       @media only screen and (max-width: 600px) {
         #esquisse .esquisse-trait .paletteraitG {
-          width: 35%;
+          width: 20%;
           height: 20px; } }
-      @media only screen and (max-width: 400px) {
-        #esquisse .esquisse-trait .paletteraitG {
-          width: 30%;
-          height: 15px; } }
     #esquisse .esquisse-trait .paletteraitD {
       height: 35px;
       width: 40%;
-      margin: 8px;
       transform: rotateY(180deg);
       /*RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
-      @media only screen and (max-width: 1040px) {
-        #esquisse .esquisse-trait .paletteraitD {
-          width: 35%;
-          height: 25px; } }
       @media only screen and (max-width: 768px) {
         #esquisse .esquisse-trait .paletteraitD {
-          width: 32%;
+          width: 25%;
           height: 25px; } }
       @media only screen and (max-width: 600px) {
         #esquisse .esquisse-trait .paletteraitD {
-          width: 35%;
+          width: 20%;
           height: 20px; } }
-      @media only screen and (max-width: 400px) {
-        #esquisse .esquisse-trait .paletteraitD {
-          width: 30%;
-          height: 15px; } }
   #esquisse .repas-fricasse {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 768px) {
+      #esquisse .repas-fricasse {
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #esquisse .repas-fricasse {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
   #esquisse .food-palette {
     font-family: "Kalam", cursive;
     font-weight: 300;
     font-size: 20px;
-    margin-left: 80px;
     /*RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #esquisse .food-palette {
-        margin-left: 43px; } }
+        text-align: center;
+        width: 100%; } }
     @media only screen and (max-width: 600px) {
       #esquisse .food-palette {
         width: 100%;
-        text-align: center;
-        margin-right: 30px;
-        margin-left: 20px; } }
-    @media only screen and (max-width: 600px) {
-      #esquisse .food-palette {
-        align-items: center; } }
+        text-align: center; } }
   #esquisse .price-palette {
     font-family: "Kalam", cursive;
-    font-size: 20px;
-    margin-right: 90px;
-    /*RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/ }
-    @media only screen and (max-width: 768px) {
-      #esquisse .price-palette {
-        margin-right: 42px; } }
-    @media only screen and (max-width: 600px) {
-      #esquisse .price-palette {
-        width: 100%;
-        text-align: center;
-        margin-top: 10px;
-        margin-right: 13px; } }
-    @media only screen and (max-width: 600px) {
-      #esquisse .price-palette {
-        align-items: center; } }
+    font-size: 20px; }
   #esquisse .oeuf {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 768px) {
+      #esquisse .oeuf {
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #esquisse .oeuf {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
   #esquisse .canard {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 768px) {
+      #esquisse .canard {
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #esquisse .canard {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
 
 /*MENU MAITRE*/
 #maitre {
-  width: 100%;
+  width: 80%;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   /*REPAS MAITRE*/ }
   #maitre .maitre-trait {
     display: flex;
@@ -2212,17 +2061,13 @@ body {
     margin-top: 70px;
     /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
-    @media only screen and (max-width: 1040px) {
-      #maitre .maitre-trait {
-        align-items: center; } }
     @media only screen and (max-width: 768px) {
       #maitre .maitre-trait {
-        align-items: center; } }
+        justify-content: space-evenly; } }
     @media only screen and (max-width: 600px) {
       #maitre .maitre-trait {
-        align-items: center; } }
+        justify-content: space-evenly; } }
     #maitre .maitre-trait .maitre-sub {
       font-family: "Kalam", cursive;
       font-weight: 300;
@@ -2247,98 +2092,50 @@ body {
     #maitre .maitre-trait .mtraitG {
       height: 35px;
       width: 40%;
-      margin: 8px;
       /*RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
-      @media only screen and (max-width: 1040px) {
-        #maitre .maitre-trait .mtraitG {
-          width: 35%;
-          height: 25px; } }
       @media only screen and (max-width: 768px) {
         #maitre .maitre-trait .mtraitG {
-          width: 32%;
+          width: 25%;
           height: 25px; } }
       @media only screen and (max-width: 600px) {
         #maitre .maitre-trait .mtraitG {
-          width: 35%;
+          width: 20%;
           height: 20px; } }
-      @media only screen and (max-width: 400px) {
-        #maitre .maitre-trait .mtraitG {
-          width: 30%;
-          height: 15px; } }
     #maitre .maitre-trait .mtraitD {
       height: 35px;
       width: 40%;
-      margin: 8px;
       transform: rotateY(180deg);
       /*RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
-      @media only screen and (max-width: 1040px) {
-        #maitre .maitre-trait .mtraitD {
-          width: 35%;
-          height: 25px; } }
       @media only screen and (max-width: 768px) {
         #maitre .maitre-trait .mtraitD {
-          width: 32%;
+          width: 25%;
           height: 25px; } }
       @media only screen and (max-width: 600px) {
         #maitre .maitre-trait .mtraitD {
-          width: 35%;
+          width: 20%;
           height: 20px; } }
-      @media only screen and (max-width: 400px) {
-        #maitre .maitre-trait .mtraitD {
-          width: 30%;
-          height: 15px; } }
   #maitre .food-maitre {
     font-family: "Kalam", cursive;
     font-weight: 300;
     font-size: 20px;
-    margin-left: 80px;
     /*RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #maitre .food-maitre {
-        margin-left: 43px; } }
+        text-align: center;
+        width: 100%; } }
     @media only screen and (max-width: 600px) {
       #maitre .food-maitre {
         width: 100%;
-        text-align: center;
-        margin-right: 30px;
-        margin-left: 20px; } }
-    @media only screen and (max-width: 600px) {
-      #maitre .food-maitre {
-        align-items: center; } }
+        text-align: center; } }
   #maitre .price-maitre {
     font-family: "Kalam", cursive;
-    font-size: 20px;
-    margin-right: 90px;
-    /*RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/ }
-    @media only screen and (max-width: 768px) {
-      #maitre .price-maitre {
-        margin-right: 42px; } }
-    @media only screen and (max-width: 600px) {
-      #maitre .price-maitre {
-        margin-right: 13px; } }
-    @media only screen and (max-width: 600px) {
-      #maitre .price-maitre {
-        width: 100%;
-        text-align: center;
-        margin-top: 10px; } }
-    @media only screen and (max-width: 600px) {
-      #maitre .price-maitre {
-        align-items: center; } }
+    font-size: 20px; }
   #maitre .repas-filet {
     display: flex;
     justify-content: space-between;
@@ -2350,10 +2147,12 @@ body {
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #maitre .repas-filet {
-        align-items: baseline; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #maitre .repas-filet {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
   #maitre .parmentier {
     display: flex;
     justify-content: space-between;
@@ -2364,26 +2163,36 @@ body {
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #maitre .parmentier {
-        align-items: baseline; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #maitre .parmentier {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
   #maitre .turbot {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 768px) {
+      #maitre .turbot {
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #maitre .turbot {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
 
 /*MENU SOMMET*/
 #sommet {
-  width: 100%;
+  width: 80%;
   align-items: center;
   padding-bottom: 3px;
+  margin-left: auto;
+  margin-right: auto;
   /*REPAS SOMMET*/ }
   #sommet .sommet-trait {
     display: flex;
@@ -2394,18 +2203,14 @@ body {
     /*RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
     /*DESCRIPTION TRAIT GAUCHE*/
     /*DESCRIPTION TRAIT DROITE*/ }
-    @media only screen and (max-width: 1040px) {
-      #sommet .sommet-trait {
-        align-items: center; } }
     @media only screen and (max-width: 768px) {
       #sommet .sommet-trait {
-        align-items: center; } }
+        justify-content: space-evenly; } }
     @media only screen and (max-width: 600px) {
       #sommet .sommet-trait {
-        align-items: center; } }
+        justify-content: space-evenly; } }
     #sommet .sommet-trait .sommet-sub {
       font-family: "Kalam", cursive;
       font-weight: 300;
@@ -2430,101 +2235,55 @@ body {
     #sommet .sommet-trait .arttraitG {
       height: 35px;
       width: 40%;
-      margin: 8px;
       /*RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
-      @media only screen and (max-width: 1040px) {
-        #sommet .sommet-trait .arttraitG {
-          width: 35%;
-          height: 25px; } }
       @media only screen and (max-width: 768px) {
         #sommet .sommet-trait .arttraitG {
-          width: 32%;
+          width: 25%;
           height: 25px; } }
       @media only screen and (max-width: 600px) {
         #sommet .sommet-trait .arttraitG {
-          width: 35%;
+          width: 20%;
           height: 20px; } }
-      @media only screen and (max-width: 400px) {
-        #sommet .sommet-trait .arttraitG {
-          width: 30%;
-          height: 15px; } }
     #sommet .sommet-trait .arttraitD {
       height: 35px;
       width: 40%;
-      margin: 8px;
       transform: rotateY(180deg);
       /*RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
-      /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
-      @media only screen and (max-width: 1040px) {
-        #sommet .sommet-trait .arttraitD {
-          width: 35%;
-          height: 25px; } }
       @media only screen and (max-width: 768px) {
         #sommet .sommet-trait .arttraitD {
-          width: 32%;
+          width: 25%;
           height: 25px; } }
       @media only screen and (max-width: 600px) {
         #sommet .sommet-trait .arttraitD {
-          width: 35%;
+          width: 20%;
           height: 20px; } }
-      @media only screen and (max-width: 400px) {
-        #sommet .sommet-trait .arttraitD {
-          width: 30%;
-          height: 15px; } }
   #sommet .food-sommet {
     font-family: "Kalam", cursive;
     font-weight: 300;
     font-size: 20px;
-    margin-left: 80px;
     /*RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
     @media only screen and (max-width: 768px) {
       #sommet .food-sommet {
-        margin-left: 43px; } }
-    @media only screen and (max-width: 600px) {
-      #sommet .food-sommet {
-        margin-left: 20px; } }
+        width: 100%;
+        text-align: center; } }
     @media only screen and (max-width: 600px) {
       #sommet .food-sommet {
         width: 100%;
-        text-align: center;
-        margin-right: 30px; } }
+        text-align: center; } }
     @media only screen and (max-width: 600px) {
       #sommet .food-sommet {
-        align-items: center; } }
+        width: 100%;
+        text-align: center; } }
   #sommet .price-sommet {
     font-family: "Kalam", cursive;
-    font-size: 20px;
-    margin-right: 90px;
-    /*RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/
-    /* MAIN MENU RESPONSIVE*/ }
-    @media only screen and (max-width: 768px) {
-      #sommet .price-sommet {
-        margin-right: 42px; } }
-    @media only screen and (max-width: 600px) {
-      #sommet .price-sommet {
-        margin-right: 13px; } }
-    @media only screen and (max-width: 600px) {
-      #sommet .price-sommet {
-        width: 100%;
-        text-align: center;
-        margin-top: 10px; } }
-    @media only screen and (max-width: 600px) {
-      #sommet .price-sommet {
-        align-items: center; } }
+    font-size: 20px; }
   #sommet .repas-paris {
     display: flex;
     justify-content: space-between;
@@ -2532,20 +2291,32 @@ body {
     margin-top: 10px;
     margin-top: 20px;
     /*RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 768px) {
+      #sommet .repas-paris {
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #sommet .repas-paris {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
   #sommet .chocolat {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
     /*RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 768px) {
+      #sommet .chocolat {
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #sommet .chocolat {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
   #sommet .mousse {
     display: flex;
     justify-content: space-between;
@@ -2553,9 +2324,15 @@ body {
     margin-top: 10px;
     margin-bottom: 40px;
     /*RESPONSIVE*/
+    /* MAIN MENU RESPONSIVE*/
     /* MAIN MENU RESPONSIVE*/ }
+    @media only screen and (max-width: 768px) {
+      #sommet .mousse {
+        flex-wrap: wrap;
+        justify-content: center; } }
     @media only screen and (max-width: 600px) {
       #sommet .mousse {
-        flex-wrap: wrap; } }
+        flex-wrap: wrap;
+        justify-content: center; } }
 
 /*# sourceMappingURL=main.css.map */

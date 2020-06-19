@@ -27,18 +27,26 @@
   @include linear-gradient(160deg, $color-one: #0886fbbb, $color-two: #0229dd);
   /*RESPONSIVE*/
   @include responsive(mobile) {
-    font-size: 29px; 
+    font-size: 29px;
   }
 }
 
 /*MENU COMMENCER*/
 #commencer {
-  width: 100%;
+  width: 80%;
   align-items: center;
- 
+  margin-left: auto;
+  margin-right: auto;
 
   .delice-trait {
     @include deliceTraitTitle;
+    @include responsive(smart-tablette) {
+      justify-content: space-evenly;
+    }
+    @include responsive(mobile) {
+      justify-content: space-evenly;
+    }
+
     .delice-sub {
       font-family: "Kalam", cursive;
       @include paletteSecondTitle;
@@ -46,23 +54,16 @@
     }
     /*DESCRIPTION TRAIT*/
     .delicetraitG {
-      margin-left: 15px;
       @include deliceTrait1;
 
       /*RESPONSIVE*/
-      
-      @include responsive(laptop) {
-        width: 37%;
-      }
+
       @include responsive(smart-tablette) {
-        width:35% ;
+        width: 25%;
       }
       @include responsive(mobile) {
-        width:30% ;
+        width: 25%;
       }
-      @include responsive(mini-mobile) {
-        width:20% ;
-       }
     }
 
     .delicetraitD {
@@ -70,31 +71,28 @@
       transform: rotateY(180deg);
 
       /*RESPONSIVE*/
-   
-      @include responsive(laptop) {
-        width: 37%;
-        
-      }
+
       @include responsive(smart-tablette) {
-        width:35% ;
+        width: 25%;
       }
       @include responsive(mobile) {
-        width:30% ;
+        width: 25%;
       }
-      @include responsive(mini-mobile) {
-        width:20% ;
-       }
     }
-   
   }
 
   .repas-thon {
     @include deliceRepas;
 
     /*RESPONSIVE*/
+    @include responsive(smart-tablette) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
     @include responsive(mobile) {
       flex-wrap: wrap;
-    
+      justify-content: center;
     }
   }
 
@@ -102,13 +100,12 @@
     @include deliceFood;
     /*RESPONSIVE*/
     @include responsive(smart-tablette) {
-      margin-left: 43px;
-      
+      width: 100%;
+      text-align: center;
     }
     @include responsive(mobile) {
       width: 100%;
       text-align: center;
-      margin-right: 51px;
     }
   }
 
@@ -116,44 +113,54 @@
     @include delicePrice;
 
     /*RESPONSIVE*/
-    @include responsive(smart-tablette) {
-      margin-right: 42px;
-    }
-    @include responsive(mobile) {
-      width: 100%;
-      text-align: center;
-      margin-right: 5px;
-      margin-top: 5px;
-    }
   }
 
   .bouchee {
     @include deliceRepas;
     /*RESPONSIVE*/
+    @include responsive(smart-tablette) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
     @include responsive(mobile) {
       flex-wrap: wrap;
     }
+    justify-content: center;
   }
 
   .cepes {
     @include deliceRepas;
     /*RESPONSIVE*/
+    @include responsive(smart-tablette) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
     @include responsive(mobile) {
       flex-wrap: wrap;
+      justify-content: center;
     }
   }
 }
 
 /*MENU CONTINUER*/
 #continuer {
-  width: 100%;
+  width: 80%;
   align-items: center;
-  
- 
+  margin-left: auto;
+  margin-right: auto;
 
   .continuer-trait {
     @include deliceTraitTitle;
     margin-top: 70px;
+    /*RESPONSIVE*/
+    @include responsive(smart-tablette) {
+      justify-content: space-evenly;
+    }
+    @include responsive(mobile) {
+      justify-content: space-evenly;
+    }
+
     .continuer-sub {
       font-family: "Kalam", cursive;
       @include paletteSecondTitle;
@@ -164,19 +171,13 @@
       @include deliceTrait2;
 
       /*RESPONSIVE*/
-      
-      @include responsive(laptop) {
-        width: 37%;
-      }
+
       @include responsive(smart-tablette) {
-        width:35% ;
+        width: 27%;
       }
       @include responsive(mobile) {
-        width:30% ;
+        width: 27%;
       }
-      @include responsive(mini-mobile) {
-        width:20% ;
-       }
     }
 
     .light-traitD {
@@ -184,19 +185,13 @@
       transform: rotateY(180deg);
 
       /*RESPONSIVE*/
-     
-      @include responsive(laptop) {
-        width: 37%;
-      }
+
       @include responsive(smart-tablette) {
-        width:35% ;
+        width: 27%;
       }
       @include responsive(mobile) {
-        width:30% ;
+        width: 27%;
       }
-      @include responsive(mini-mobile) {
-        width:20% ;
-       }
     }
   }
 
@@ -204,29 +199,17 @@
     @include deliceFood;
     /*RESPONSIVE*/
     @include responsive(smart-tablette) {
-      margin-left: 43px;
+      width: 100%;
+      text-align: center;
     }
     @include responsive(mobile) {
       width: 100%;
       text-align: center;
-      margin-right: 43px;
-      
     }
   }
 
   .price-continue {
     @include delicePrice;
-
-    /*RESPONSIVE*/
-    @include responsive(smart-tablette) {
-      margin-right: 42px;
-    }
-    @include responsive(mobile) {
-      width: 100%;
-      text-align: center;
-      margin-right: 5px;
-      margin-top: 5px;
-    }
   }
 
   .repas-poulet {
@@ -234,8 +217,13 @@
     margin-top: 20px;
 
     /*RESPONSIVE*/
+    @include responsive(smart-tablette) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
     @include responsive(mobile) {
       flex-wrap: wrap;
+      justify-content: center;
     }
   }
 
@@ -244,8 +232,14 @@
     margin-top: 10px;
 
     /*RESPONSIVE*/
+    @include responsive(smart-tablette) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
     @include responsive(mobile) {
       flex-wrap: wrap;
+      justify-content: center;
     }
   }
 
@@ -253,21 +247,35 @@
     @include deliceRepas;
 
     /*RESPONSIVE*/
+    @include responsive(smart-tablette) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
     @include responsive(mobile) {
       flex-wrap: wrap;
+      justify-content: center;
     }
   }
 }
 
 /*MENU TERMINER*/
 #terminer {
-  width: 100%;
+  width: 80%;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 3px;
 
   .terminer-trait {
     @include deliceTraitTitle;
     margin-top: 70px;
+    /*RESPONSIVE*/
+    @include responsive(smart-tablette) {
+      justify-content: space-evenly;
+    }
+    @include responsive(mobile) {
+      justify-content: space-evenly;
+    }
 
     .terminer-sub {
       font-family: "Kalam", cursive;
@@ -275,41 +283,28 @@
       @include underline;
     }
     .blue-traitG {
-      margin-left: 13px;
       @include deliceTrait3;
 
       /*RESPONSIVE*/
-      
-      @include responsive(laptop) {
-        width: 37%;
-      }
+
       @include responsive(smart-tablette) {
-        width:35% ;
+        width: 28%;
       }
       @include responsive(mobile) {
-        width:30% ;
+        width: 28%;
       }
-      @include responsive(mini-mobile) {
-        width:20% ;
-       }
     }
     .blue-traitD {
       @include deliceTrait3;
       transform: rotateY(180deg);
 
       /*RESPONSIVE*/
-     
-      @include responsive(laptop) {
-        width: 37%;
-      }
+
       @include responsive(smart-tablette) {
-        width:35% ;
+        width: 28%;
       }
       @include responsive(mobile) {
-        width:30% ;
-      }
-      @include responsive(mini-mobile) {
-        width:20% ;
+        width: 28%;
       }
     }
   }
@@ -319,28 +314,17 @@
 
     /*RESPONSIVE*/
     @include responsive(smart-tablette) {
-      margin-left: 43px;
+      width: 100%;
+      text-align: center;
     }
     @include responsive(mobile) {
       width: 100%;
       text-align: center;
-      margin-right: 43px;
     }
   }
 
   .price-termine {
     @include delicePrice;
-
-    /*RESPONSIVE*/
-    @include responsive(smart-tablette) {
-      margin-right: 42px;
-    }
-    @include responsive(mobile) {
-      width: 100%;
-      text-align: center;
-      margin-right: 5px;
-      margin-top: 5px;
-    }
   }
 
   .repas-desserts {
@@ -348,8 +332,14 @@
     margin-top: 20px;
 
     /*RESPONSIVE*/
+    @include responsive(smart-tablette) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
     @include responsive(mobile) {
       flex-wrap: wrap;
+      justify-content: center;
     }
   }
 
@@ -357,8 +347,14 @@
     @include deliceRepas;
 
     /*RESPONSIVE*/
+    @include responsive(smart-tablette) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
     @include responsive(mobile) {
       flex-wrap: wrap;
+      justify-content: center;
     }
   }
 
@@ -367,8 +363,14 @@
     margin-bottom: 40px;
 
     /*RESPONSIVE*/
+    @include responsive(smart-tablette) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
     @include responsive(mobile) {
       flex-wrap: wrap;
+      justify-content: center;
     }
   }
 }

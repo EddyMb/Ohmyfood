@@ -37,21 +37,28 @@
 }
 
 #appetit {
-  width: 100%;
+  width: 80%;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 
   .chic-trait {
     @include chicTraitTitle;
+    @include responsive(smart-tablette) {
+      justify-content: space-evenly;
+    }
+    @include responsive(mobile) {
+      justify-content: space-evenly;
+    }
 
     .appetit-sub {
       color: #c77412;
-
       @include chicSecondTitle;
       @include underline;
 
       /*RESPONSIVE*/
       @include responsive(mobile) {
-        font-size: 14px;
+        font-size: 20px;
       }
     }
 
@@ -70,9 +77,7 @@
         height: 9px;
         width: 25%;
       }
-      @include responsive(mini-mobile) {
-        width: 20%;
-      }
+      
     }
 
     /*DESCRIPTION TRAIT DROITE*/
@@ -89,9 +94,7 @@
         height: 9px;
         width: 25%;
       }
-      @include responsive(mini-mobile) {
-        width: 20%;
-      }
+      
     }
   }
 
@@ -103,9 +106,11 @@
     /*RESPONSIVE*/
     @include responsive(smart-tablette) {
       flex-wrap: wrap;
+      justify-content: center;
     }
     @include responsive(mobile) {
       flex-wrap: wrap;
+      justify-content: center;
     }
   }
 
@@ -115,33 +120,22 @@
     @include responsive(smart-tablette) {
       width: 100%;
       text-align: center;
-      margin-right: 43px;
+     
     }
     @include responsive(mobile) {
       width: 100%;
       text-align: center;
-      font-size: 12px;
-      margin-right: 70px;
+      
+     
     }
   }
 
   .price-chic {
     @include chicPrice;
-
-    /*RESPONSIVE*/
-    @include responsive(smart-tablette) {
-      width: 100%;
-      text-align: center;
-      margin-top: 10px;
-      margin-right: 5px;
-    }
     @include responsive(mobile) {
-      width: 100%;
-      text-align: center;
-      margin-top: 10px;
-      margin-right: 5px;
-      font-size: 12px;
+      margin-top: 20px;
     }
+
   }
 
   .veloute {
@@ -151,9 +145,11 @@
     /*RESPONSIVE*/
     @include responsive(smart-tablette) {
       flex-wrap: wrap;
+      justify-content: center;
     }
     @include responsive(mobile) {
       flex-wrap: wrap;
+      justify-content: center;
     }
   }
 
@@ -164,21 +160,32 @@
     /*RESPONSIVE*/
     @include responsive(smart-tablette) {
       flex-wrap: wrap;
+      justify-content: center;
     }
     @include responsive(mobile) {
       flex-wrap: wrap;
+      justify-content: center;
     }
   }
 }
 
 /*MENU PLAISIR*/
 #plaisir {
-  width: 100%;
+  width: 80%;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 
   .plaisir-trait {
     @include chicTraitTitle;
     margin-top: 70px;
+    /*RESPONSIVE*/
+    @include responsive(smart-tablette) {
+      justify-content: space-evenly;
+    }
+    @include responsive(mobile) {
+      justify-content: space-evenly;
+    }
 
     .plaisir-chictraitG {
       @include chicTrait2;
@@ -192,9 +199,7 @@
         height: 8px;
         width: 25%;
       }
-      @include responsive(mini-mobile) {
-        width: 20%;
-      }
+      
     }
 
     .plaisir-chictraitD {
@@ -211,9 +216,7 @@
         height: 8px;
         width: 25%;
       }
-      @include responsive(mini-mobile) {
-        width: 20%;
-      }
+      
     }
 
     .plaisir-sub {
@@ -224,7 +227,7 @@
 
       /*RESPONSIVE*/
       @include responsive(mobile) {
-        font-size: 14px;
+        font-size: 20px;
       }
     }
   }
@@ -236,13 +239,11 @@
     @include responsive(smart-tablette) {
       width: 100%;
       text-align: center;
-      margin-right: 91px;
     }
     @include responsive(mobile) {
       width: 100%;
       text-align: center;
-      font-size: 12px;
-      margin-right: 70px;
+        
     }
   }
 
@@ -250,18 +251,9 @@
     @include chicPrice;
 
     /*RESPONSIVE*/
-    @include responsive(smart-tablette) {
-      width: 100%;
-      text-align: center;
-      margin-top: 10px;
-      margin-right: 5px;
-    }
+
     @include responsive(mobile) {
-      width: 100%;
-      text-align: center;
-      margin-top: 10px;
-      font-size: 12px;
-      margin-right: 5px;
+      font-size: 20px;  
     }
   }
 
@@ -272,9 +264,11 @@
     /*RESPONSIVE*/
     @include responsive(smart-tablette) {
       flex-wrap: wrap;
+      justify-content: center;
     }
     @include responsive(mobile) {
       flex-wrap: wrap;
+      justify-content: center;
     }
   }
 
@@ -285,9 +279,11 @@
     /*RESPONSIVE*/
     @include responsive(smart-tablette) {
       flex-wrap: wrap;
+      justify-content: center;
     }
     @include responsive(mobile) {
       flex-wrap: wrap;
+      justify-content: center;
     }
   }
 
@@ -298,22 +294,32 @@
     /*RESPONSIVE*/
     @include responsive(smart-tablette) {
       flex-wrap: wrap;
+      justify-content: center;
     }
     @include responsive(mobile) {
       flex-wrap: wrap;
+      justify-content: center;
     }
   }
 }
 
 /*MENU GOURMANDISE*/
 #gourmandise {
-  width: 100%;
+  width: 80%;
   align-items: center;
   padding-bottom: 3px;
+  margin-left: auto;
+  margin-right: auto;
 
   .gourmandise-trait {
     @include chicTraitTitle;
     margin-top: 70px;
+    @include responsive(smart-tablette) {
+      justify-content: space-evenly;
+    }
+    @include responsive(mobile) {
+      justify-content: space-evenly;
+    }
 
     .gourmandise-sub {
       color: #6e4ccc;
@@ -322,7 +328,7 @@
 
       /*RESPONSIVE*/
       @include responsive(mobile) {
-        font-size: 14px;
+        font-size: 20px;
       }
     }
 
@@ -337,9 +343,6 @@
       @include responsive(mobile) {
         height: 12px;
         width: 25%;
-      }
-      @include responsive(mini-mobile) {
-        width: 20%;
       }
     }
 
@@ -356,9 +359,6 @@
         height: 12px;
         width: 25%;
       }
-      @include responsive(mini-mobile) {
-        width: 20%;
-      }
     }
   }
 
@@ -373,15 +373,13 @@
     /*RESPONSIVE*/
     @include responsive(smart-tablette) {
       width: 100%;
-      text-align: center;
-      margin-right: 86px;
+      text-align: center;  
     }
 
     @include responsive(mobile) {
       width: 100%;
       text-align: center;
-      font-size: 12px;
-      margin-right: 70px;
+      font-size: 20px;  
     }
   }
 
