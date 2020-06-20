@@ -103,6 +103,9 @@
 
   /*REPAS ESQUISSE*/
   .repas-fricasse {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     @include paletteRepas;
 
     /*RESPONSIVE*/
@@ -136,6 +139,9 @@
   }
 
   .oeuf {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     @include paletteRepas;
 
     /*RESPONSIVE*/
@@ -150,6 +156,9 @@
   }
 
   .canard {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     @include paletteRepas;
 
     /*RESPONSIVE*/
@@ -241,6 +250,9 @@
 
   /*REPAS MAITRE*/
   .repas-filet {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     @include paletteRepas;
     margin-top: 20px;
 
@@ -256,6 +268,9 @@
   }
 
   .parmentier {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     @include paletteRepas;
 
     /*RESPONSIVE*/
@@ -270,6 +285,9 @@
   }
 
   .turbot {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     @include paletteRepas;
 
     /*RESPONSIVE*/
@@ -369,6 +387,9 @@
 
   /*REPAS SOMMET*/
   .repas-paris {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     @include paletteRepas;
     margin-top: 20px;
 
@@ -384,6 +405,9 @@
   }
 
   .chocolat {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     @include paletteRepas;
 
     /*RESPONSIVE*/
@@ -398,6 +422,9 @@
   }
 
   .mousse {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     @include paletteRepas;
     margin-bottom: 40px;
 

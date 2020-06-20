@@ -84,6 +84,9 @@
 
   .repas-thon {
     @include deliceRepas;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 
     /*RESPONSIVE*/
     @include responsive(smart-tablette) {
@@ -116,6 +119,9 @@
 
   .bouchee {
     @include deliceRepas;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     /*RESPONSIVE*/
     @include responsive(smart-tablette) {
       flex-wrap: wrap;
@@ -129,6 +135,9 @@
 
   .cepes {
     @include deliceRepas;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     /*RESPONSIVE*/
     @include responsive(smart-tablette) {
       flex-wrap: wrap;
@@ -211,8 +220,11 @@
   }
 
   .repas-poulet {
-    @include deliceRepas;
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    @include deliceRepas;
 
     /*RESPONSIVE*/
     @include responsive(smart-tablette) {
@@ -226,8 +238,12 @@
   }
 
   .roti {
-    @include deliceRepas;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     margin-top: 10px;
+    @include deliceRepas;
+    
 
     /*RESPONSIVE*/
     @include responsive(smart-tablette) {
@@ -243,6 +259,10 @@
 
   .boeuf {
     @include deliceRepas;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 10px;
 
     /*RESPONSIVE*/
     @include responsive(smart-tablette) {
@@ -327,8 +347,12 @@
   }
 
   .repas-desserts {
-    @include deliceRepas;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     margin-top: 20px;
+    @include deliceRepas;
+    
 
     /*RESPONSIVE*/
     @include responsive(smart-tablette) {
@@ -343,6 +367,10 @@
   }
 
   .créme {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 10px;
     @include deliceRepas;
 
     /*RESPONSIVE*/
@@ -358,8 +386,13 @@
   }
 
   .tiramisu {
-    @include deliceRepas;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 10px;
     margin-bottom: 40px;
+    @include deliceRepas;
+   
 
     /*RESPONSIVE*/
     @include responsive(smart-tablette) {

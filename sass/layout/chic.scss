@@ -37,11 +37,8 @@ main-bloc {
 }
 
 #appetit {
-  width: 80%;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-
+ 
   .chic-trait {
     @include chicTraitTitle;
     @include responsive(smart-tablette) {
@@ -100,6 +97,9 @@ main-bloc {
   /*MENU APPETIT*/
   .repas-tartare {
     @include chicRepas(#c77412);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     margin-top: 29px;
 
     /*RESPONSIVE*/
@@ -134,6 +134,9 @@ main-bloc {
   }
 
   .veloute {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     @include chicRepas(#c77412);
     margin-top: 20px;
 
@@ -149,6 +152,9 @@ main-bloc {
   }
 
   .soupe {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     @include chicRepas(#c77412);
     margin-top: 20px;
 
@@ -166,10 +172,7 @@ main-bloc {
 
 /*MENU PLAISIR*/
 #plaisir {
-  width: 80%;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
 
   .plaisir-trait {
     @include chicTraitTitle;
@@ -245,12 +248,15 @@ main-bloc {
     /*RESPONSIVE*/
 
     @include responsive(mobile) {
-      font-size: 20px;
+      font-size: 17px;
       margin-top: 20px;
     }
   }
 
   .repas-coquille {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     @include chicRepas(#a56799);
     margin-top: 20px;
 
@@ -266,6 +272,9 @@ main-bloc {
   }
 
   .magret {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     @include chicRepas(#a56799);
     margin-top: 20px;
 
@@ -281,6 +290,9 @@ main-bloc {
   }
 
   .pigeon {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     @include chicRepas(#a56799);
     margin-top: 20px;
 
@@ -298,12 +310,10 @@ main-bloc {
 
 /*MENU GOURMANDISE*/
 #gourmandise {
-  width: 80%;
+  
   align-items: center;
   padding-bottom: 3px;
-  margin-left: auto;
-  margin-right: auto;
-
+ 
   .gourmandise-trait {
     @include chicTraitTitle;
     margin-top: 70px;
@@ -357,6 +367,9 @@ main-bloc {
   }
 
   .repas-petale {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     margin-top: 20px;
     @include chicRepas(#6e4ccc);
   }
@@ -373,17 +386,23 @@ main-bloc {
     @include responsive(mobile) {
       width: 100%;
       text-align: center;
-      font-size: 20px;
+      font-size: 17px;
     }
   }
 
   .fondant {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     @include chicRepas(#6e4ccc);
     margin-top: 20px;
     font-family: "Merriweather", cursive;
   }
 
   .millefeuille {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     @include chicRepas(#6e4ccc);
     margin-top: 20px;
     margin-bottom: 40px;

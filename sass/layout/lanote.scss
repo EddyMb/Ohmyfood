@@ -343,10 +343,12 @@
     @include responsive(smart-tablette) {
       flex-wrap: wrap;
       justify-content: center;
+      display: flex;
     }
     @include responsive(mobile) {
       flex-wrap: wrap;
       justify-content: center;
+      display: flex;
     }
   }
 
@@ -355,10 +357,12 @@
     @include responsive(smart-tablette) {
       flex-wrap: wrap;
       justify-content: center;
+      display: flex;
     }
     @include responsive(mobile) {
       flex-wrap: wrap;
       justify-content: center;
+      display: flex;
     }
   }
 
@@ -368,10 +372,12 @@
     @include responsive(smart-tablette) {
       flex-wrap: wrap;
       justify-content: center;
+      display: flex;
     }
     @include responsive(mobile) {
       flex-wrap: wrap;
       justify-content: center;
+      display: flex;
     }
   }
 }

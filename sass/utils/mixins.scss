@@ -113,12 +113,12 @@
 @mixin chicFood {
   font-family: "Merriweather", cursive;
   font-weight: 200;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 @mixin chicPrice {
   font-family: "Merriweather", cursive;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 @mixin chicTraitTitle {
@@ -129,16 +129,16 @@
 }
 
 @mixin chicTrait3 {
- width: 37%;
- height: 37px;
+ width: 28%;
+ height: 41px;
 }
 
 @mixin chicTrait2 {
-  width: 37%;
-  height: 24px;
+ width: 28%;
+ height: 26px;
 }
 @mixin chicTrait1 {
-  width: 37%;
+  width: 28%;
   height: 26px;
 }
 
@@ -302,8 +302,6 @@
       @content;
     }
   }
-
- 
 
   @if $breakpoint == mini-phone {
     @media only screen and (max-width: 600px) {
