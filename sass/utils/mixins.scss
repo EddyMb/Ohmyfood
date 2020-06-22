@@ -75,7 +75,7 @@
 
 @mixin paletteTrait {
   height: 35px;
-  width: 40%;
+  width: 30%;
   
 }
 @mixin palettePrice {
@@ -249,7 +249,7 @@
     opacity: 0.6;
   }
 }
-
+/*LINEAR GRADIENT*/
 @mixin linear-gradient($degrees, $color-one: #4ea043, $color-two: #beff7f) {
   color: $color-one;
   color: $color-two;

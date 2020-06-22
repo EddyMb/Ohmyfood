@@ -3,6 +3,7 @@
 /*DELICE*/
 /*PALETTE*/
 /* CHIC*/
+/*LINEAR GRADIENT*/
 /* MEDIA RESPONSIVE MENU*/
 /* FOOTER*/
 footer {
@@ -2025,7 +2026,7 @@ main-bloc {
         transform: scaleX(1); }
     #esquisse .esquisse-trait .paletteraitG {
       height: 35px;
-      width: 40%;
+      width: 30%;
       /*RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
@@ -2039,7 +2040,7 @@ main-bloc {
           height: 20px; } }
     #esquisse .esquisse-trait .paletteraitD {
       height: 35px;
-      width: 40%;
+      width: 30%;
       transform: rotateY(180deg);
       /*RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
@@ -2173,7 +2174,7 @@ main-bloc {
         transform: scaleX(1); }
     #maitre .maitre-trait .mtraitG {
       height: 35px;
-      width: 40%;
+      width: 30%;
       /*RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
@@ -2187,7 +2188,7 @@ main-bloc {
           height: 20px; } }
     #maitre .maitre-trait .mtraitD {
       height: 35px;
-      width: 40%;
+      width: 30%;
       transform: rotateY(180deg);
       /*RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
@@ -2325,7 +2326,7 @@ main-bloc {
         transform: scaleX(1); }
     #sommet .sommet-trait .arttraitG {
       height: 35px;
-      width: 40%;
+      width: 30%;
       /*RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/ }
@@ -2339,7 +2340,7 @@ main-bloc {
           height: 20px; } }
     #sommet .sommet-trait .arttraitD {
       height: 35px;
-      width: 40%;
+      width: 30%;
       transform: rotateY(180deg);
       /*RESPONSIVE*/
       /* MAIN MENU RESPONSIVE*/

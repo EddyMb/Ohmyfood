@@ -107,10 +107,9 @@
   .food {
     @include noteFood;
     margin: 0 9px;
-    
 
     /*RESPONSIVE*/
-    
+
     @include responsive(smart-tablette) {
       text-align: center;
       width: 100%;
@@ -123,7 +122,6 @@
 
   .price {
     @include notePrice;
-    
   }
 
   .caviar {
@@ -176,7 +174,7 @@
     @include noteTraitTitle;
     margin-top: 70px;
     width: 100%;
-     /*RESPONSIVE*/
+    /*RESPONSIVE*/
     @include responsive(smart-tablette) {
       justify-content: space-evenly;
     }
@@ -218,7 +216,7 @@
   .food {
     @include noteFood;
     margin: 0 9px;
-  
+
     @include responsive(smart-tablette) {
       text-align: center;
       width: 100%;
@@ -326,7 +324,7 @@
   .food {
     margin: 0 9px;
     @include noteFood;
-    
+
     @include responsive(smart-tablette) {
       text-align: center;
       width: 100%;
